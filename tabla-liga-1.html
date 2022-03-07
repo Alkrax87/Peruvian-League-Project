@@ -1,0 +1,1940 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Liga 1 Tabla</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Icono Pagina -->
+    <link rel="icon" href="https://api.sofascore.com/api/v1/unique-tournament/406/image">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">  
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/60436f8d4a.js" crossorigin="anonymous"></script>
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <header class="fixed-top">
+
+    <!-- Teams -->
+    <div class="row bg-light teamsnav">
+      <div class="col">
+        <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/406/image" class="logosheader brand" alt="liga1logo"></a>
+      </div>
+      <div class="col-9 headerlogoseffect">
+        <nav class="navbar navbar-light">
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/245083/image" alt="AcademiaCantolaologo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="images/adt.png" alt="ADTlogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/2307/image" alt="AlianzaAtleticologo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/2311/image" alt="AlianzaLimalogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/282538/image" alt="AtleticoGraulogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/33894/image" alt="AyacuchoFClogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/275839/image" alt="Binacionallogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/252245/image" alt="CarlosManuccilogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/335037/image" alt="CarlosSteinlogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/5281/image" alt="CesarVallegologo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/2301/image" alt="Ciencianologo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/7031/image" alt="DeportivoMunicipallogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="images/teams/fbcmelgar.png" alt="FBCMelgarlogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/5282/image" alt="SanMartinlogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/2312/image" alt="SportBoyslogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/33895/image" alt="SportHuancayologo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/2302/image" alt="SportingCristallogo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/2305/image" alt="Universitariologo" class="logos logosheader"></a>
+          <a class="nav-item nospace" href="#"><img src="https://api.sofascore.com/api/v1/team/87854/image" alt="UTCCajamarcalogo" class="logos logosheader"></a>
+        </nav>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg navstyle">
+      <div class="container-fluid">
+        <a class="navbar-brand navitems" href="index.html">PLP</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nv-pj" aria-controls="nv-pj" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nv-pj">
+          <ul class="navbar-nav">
+            <!-- Liga 1 -->
+            <li class="nav-item active px-3">
+              <a href="liga-1.html" class="nav-link navitems">
+                Liga 1
+              </a>
+              <div class="text-center">
+                <i class="fas fa-caret-up indicator"></i>
+              </div>
+            </li>
+            <!-- Liga 2 -->
+            <li class="nav-item active px-3">
+              <a href="liga-2.html" class="nav-link navitems">
+                Liga 2
+              </a>
+            </li>
+            <!-- Copa Perú -->
+            <li class="nav-item active px-3">
+              <a href="copa-peru.html" class="nav-link navitems">
+                Copa Perú
+              </a>
+            </li>
+            <!-- Eliminatorias -->
+            <li class="nav-item active px-3">
+              <a href="eliminatorias.html" class="nav-link navitems">
+                Eliminatorias Qatar 2022
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Options -->
+    <div class="bg-light navoptionsbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-1 col-md-2 pad0">               
+            <a class="navoptionstext" href="equipos-liga-1.html">
+              <div class="navoptions">Clubes</div>
+            </a>
+          </div>
+          <div class="col-lg-1 col-md-2 pad0">
+            <a class="navoptionstext" href="fixture-liga-1.html">
+              <div class="navoptions">Fixture</div>
+            </a>
+          </div>
+          <div class="col-lg-1 col-md-2 pad0">
+            <a class="navoptionstext" href="tabla-liga-1.html">
+              <div class="selected">Tabla</div>
+            </a>
+          </div>
+          <div class="col-lg-1 col-md-2 pad0">
+            <a class="navoptionstext" href="managers-liga-1.html">
+              <div class="navoptions">Técnicos</div>
+            </a>
+          </div>
+        </div>
+      </div>  
+    </div>  
+
+  </header>
+
+  <!-- Funcionalidad de Botones de Fase 1 / Fase 2 / Acumulado -->
+  <script>
+    function buttonsswitch(a) {
+      if (a == "apertura") {
+        $("#btnApertura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcheractive");
+        $("#btnClausura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
+        $("#btnAcumulado").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
+        $('#tablaApertura').show();
+        $('#tablaAcumulada').hide();
+        $('#tablaClausura').hide();
+        $(".foottable").hide();
+      } else if (a == "clausura") {
+        $("#btnApertura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
+        $("#btnClausura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcheractive");
+        $("#btnAcumulado").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
+        $('#tablaApertura').hide();
+        $('#tablaAcumulada').hide();
+        $('#tablaClausura').show();
+        $(".foottable").hide();
+      } else {
+        $("#btnApertura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
+        $("#btnClausura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
+        $("#btnAcumulado").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcheractive");
+        $('#tablaApertura').hide();
+        $('#tablaAcumulada').show();
+        $('#tablaClausura').hide();
+        $(".foottable").show();
+      }
+    }
+  </script>
+
+  <main>
+
+    <!-- Titulo -->
+    <div class="container-fluid divtitle divtitlemain">
+      <div class="row">
+        <div class="col-9">
+          <p><b>Tabla de Posiciones</b></p>
+        </div>
+        <div class="col-2">
+          <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+        </div>
+      </div>
+      <!-- Botones -->
+      <div class="divbuttons">
+        <ul class="nav">
+          <li>
+            <button id="btnAcumulado" class="btn btnswitch btnAcumulado btntableswitcheractive" onclick="buttonsswitch('acumulado')">Acumulado</button>
+          </li>
+          <li>
+            <button id="btnApertura" class="btn btnswitch btnFase1 btntableswitcherdisble" onclick="buttonsswitch('apertura')">Apertura</button>
+          </li>
+          <li>
+            <button id="btnClausura" class="btn btnswitch btnFase2 btntableswitcherdisble" onclick="buttonsswitch('clausura')">Clausura</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Descripcion-->
+    <div class="container-fluid bglight">
+      <div class="row text-end">
+        <div class="col"></div>
+        <div class="col-2 text-center">
+          <p class="notes">Temporada</p>
+          <p class="notes2"><b>2022</b></p>
+        </div>
+        <div class="col-2  text-center">
+          <p class="notes">Equipos</p>
+          <p class="notes2"><b>19</b></p>
+        </div>
+        <div class="col-2  text-center">
+          <p class="notes">Promoción</p>
+          <p class="notes2"><b>Campeón</b></p>
+        </div>
+        <div class="col-2  text-center">
+          <p class="notes">Categoría</p>
+          <p class="notes2 nospace"><b>1<sup>ra</sup> División</b></p>
+        </div>
+        <div class="col-3">
+          <img src="images/liga1fpf.png" alt="liga1logo" height="80px;">
+        </div>
+      </div>
+    </div>
+    <!-- Divisor -->
+    <div class="container-fluid bg-light divcut shadow-lg"></div>
+
+    <!-- Tabla Liga 1 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-xl-9 col-lg-11 col-md-12 my-4 topcorners bottomcorners bglight padtop2 text-center shadow-lg">
+
+          <!-- Apertura Tabla -->
+          <table id="tablaApertura" class="table table-responsive">
+            <thead>
+              <tr class="tableheader">
+                <th></th>
+                <th>#</th>
+                <th>Escudo</th>
+                <th class="text-start w-30">Nombre</th>
+                <th class="w-10">Puntos</th>
+                <th class="w-5">PJ</th>
+                <th class="w-5">PG</th>
+                <th class="w-5">PE</th>
+                <th class="w-5">PP</th>
+                <th class="w-5">GF</th>
+                <th class="w-5">GC</th>
+                <th class="w-5">DG</th>
+                <th class="nospace w-25">Ultimos 5</th>
+              </tr>
+            </thead>
+            <tbody id="table1">
+              <!-- 1 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">1</th>
+                <!-- Academia Cantolao -->
+                <td><img src="https://api.sofascore.com/api/v1/team/245083/image" alt="Cantolaologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Academia Cantolao</a></td>
+                <td class="fw-bold" id="apuntosTeam1">0</td>
+                <td id="apjTeam1">0</td>
+                <td id="apgTeam1">1</td>
+                <td id="apeTeam1">0</td>
+                <td id="appTeam1">4</td>
+                <td id="agfTeam1">4</td>
+                <td id="agcTeam1">14</td>
+                <td id="adgTeam1">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                </td>
+              </tr>
+              <!-- 2 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">2</th>
+                <!-- ADT -->
+                <td><img src="images/adt.png" alt="ADTlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">ADT</a></td>
+                <td class="fw-bold" id="apuntosTeam2">0</td>
+                <td id="apjTeam2">0</td>
+                <td id="apgTeam2">0</td>
+                <td id="apeTeam2">3</td>
+                <td id="appTeam2">1</td>
+                <td id="agfTeam2">2</td>
+                <td id="agcTeam2">3</td>
+                <td id="adgTeam2">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 3 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">3</th>
+                <!-- Alianza Atlético -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2307/image" alt="AlianzaAtleticologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Alianza Atlético</a></td>
+                <td class="fw-bold" id="apuntosTeam3">0</td>
+                <td id="apjTeam3">0</td>
+                <td id="apgTeam3">4</td>
+                <td id="apeTeam3">0</td>
+                <td id="appTeam3">0</td>
+                <td id="agfTeam3">9</td>
+                <td id="agcTeam3">3</td>
+                <td id="adgTeam3">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 4 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">4</th>
+                <!-- Alianza Lima -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2311/image" alt="AlianzaLimalogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Alianza Lima</a></td>
+                <td class="fw-bold" id="apuntosTeam4">0</td>
+                <td id="apjTeam4">0</td>
+                <td id="apgTeam4">1</td>
+                <td id="apeTeam4">2</td>
+                <td id="appTeam4">2</td>
+                <td id="agfTeam4">6</td>
+                <td id="agcTeam4">7</td>
+                <td id="adgTeam4">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 5 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">5</th>
+                <!-- Atletico Grau -->
+                <td><img src="https://api.sofascore.com/api/v1/team/282538/image" alt="AtleticoGraulogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Atlético Grau</a></td>
+                <td class="fw-bold" id="apuntosTeam5">0</td>
+                <td id="apjTeam5">0</td>
+                <td id="apgTeam5">1</td>
+                <td id="apeTeam5">2</td>
+                <td id="appTeam5">1</td>
+                <td id="agfTeam5">5</td>
+                <td id="agcTeam5">5</td>
+                <td id="adgTeam5">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 6 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">6</th>
+                <!-- Ayacucho FC -->
+                <td><img src="https://api.sofascore.com/api/v1/team/33894/image" alt="AyacuchoFClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Ayacucho FC</a></td>
+                <td class="fw-bold" id="apuntosTeam6">0</td>
+                <td id="apjTeam6">0</td>
+                <td id="apgTeam6">2</td>
+                <td id="apeTeam6">0</td>
+                <td id="appTeam6">3</td>
+                <td id="agfTeam6">11</td>
+                <td id="agcTeam6">9</td>
+                <td id="adgTeam6">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                </td>
+              </tr>
+              <!-- 7 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">7</th>
+                <!-- Binacional -->
+                <td><img src="https://api.sofascore.com/api/v1/team/275839/image" alt="Binacionallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Binacional</a></td>
+                <td class="fw-bold" id="apuntosTeam7">0</td>
+                <td id="apjTeam7">0</td>
+                <td id="apgTeam7">2</td>
+                <td id="apeTeam7">0</td>
+                <td id="appTeam7">1</td>
+                <td id="agfTeam7">8</td>
+                <td id="agcTeam7">3</td>
+                <td id="adgTeam7">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 8 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">8</th>
+                <!-- Carlos Manucci -->
+                <td><img src="https://api.sofascore.com/api/v1/team/252245/image" alt="CarlosManuccilogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Carlos Manucci</a></td>
+                <td class="fw-bold" id="apuntosTeam8">0</td>
+                <td id="apjTeam8">0</td>
+                <td id="apgTeam8">0</td>
+                <td id="apeTeam8">0</td>
+                <td id="appTeam8">4</td>
+                <td id="agfTeam8">3</td>
+                <td id="agcTeam8">8</td>
+                <td id="adgTeam8">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 9 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">9</th>
+                <!-- Carlos Stein -->
+                <td> <img src="https://api.sofascore.com/api/v1/team/335037/image" alt="CarlosSteinlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Carlos Stein</a></td>
+                <td class="fw-bold" id="apuntosTeam9">0</td>
+                <td id="apjTeam9">0</td>
+                <td id="apgTeam9">1</td>
+                <td id="apeTeam9">1</td>
+                <td id="appTeam9">3</td>
+                <td id="agfTeam9">4</td>
+                <td id="agcTeam9">6</td>
+                <td id="adgTeam9">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 10 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">10</th>
+                <!-- César Vallejo -->
+                <td><img src="https://api.sofascore.com/api/v1/team/5281/image" alt="CesarVallegologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">César Vallejo</a></td>
+                <td class="fw-bold" id="apuntosTeam10">0</td>
+                <td id="apjTeam10">0</td>
+                <td id="apgTeam10">1</td>
+                <td id="apeTeam10">3</td>
+                <td id="appTeam10">1</td>
+                <td id="agfTeam10">3</td>
+                <td id="agcTeam10">5</td>
+                <td id="adgTeam10">0</td>
+                <td class="nospace">
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 11 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">11</th>
+                <!-- Cienciano -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2301/image" alt="Ciencianologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Cienciano</a></td>
+                <td class="fw-bold" id="apuntosTeam11">0</td>
+                <td id="apjTeam11">0</td>
+                <td id="apgTeam11">2</td>
+                <td id="apeTeam11">2</td>
+                <td id="appTeam11">1</td>
+                <td id="agfTeam11">9</td>
+                <td id="agcTeam11">6</td>
+                <td id="adgTeam11">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 12 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">12</th>
+                <!-- Deportivo Minicipal -->
+                <td><img src="https://api.sofascore.com/api/v1/team/7031/image" alt="DeportivoMunicipallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Deportivo Municipal</a></td>
+                <td class="fw-bold" id="apuntosTeam12">0</td>
+                <td id="apjTeam12">0</td>
+                <td id="apgTeam12">4</td>
+                <td id="apeTeam12">0</td>
+                <td id="appTeam12">1</td>
+                <td id="agfTeam12">11</td>
+                <td id="agcTeam12">9</td>
+                <td id="adgTeam12">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                </td>
+              </tr>
+              <!-- 13 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">13</th>
+                <!-- FBC Melgar -->
+                <td><img src="images/teams/fbcmelgar.png" alt="FBCMelgarlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">FBC Melgar</a></td>
+                <td class="fw-bold" id="apuntosTeam13">0</td>
+                <td id="apjTeam13">0</td>
+                <td id="apgTeam13">1</td>
+                <td id="apeTeam13">1</td>
+                <td id="appTeam13">2</td>
+                <td id="agfTeam13">4</td>
+                <td id="agcTeam13">8</td>
+                <td id="adgTeam13">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 14 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">14</th>
+                <!-- San Martín -->
+                <td><img src="https://api.sofascore.com/api/v1/team/5282/image" alt="SantosFClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">San Martín</a></td>
+                <td class="fw-bold" id="apuntosTeam14">0</td>
+                <td id="apjTeam14">0</td>
+                <td id="apgTeam14">1</td>
+                <td id="apeTeam14">0</td>
+                <td id="appTeam14">2</td>
+                <td id="agfTeam14">2</td>
+                <td id="agcTeam14">8</td>
+                <td id="adgTeam14">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 15 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">15</th>
+                <!-- Sport Boys -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2312/image" alt="SportBoyslogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sport Boys</a></td>
+                <td class="fw-bold" id="apuntosTeam15">0</td>
+                <td id="apjTeam15">0</td>
+                <td id="apgTeam15">1</td>
+                <td id="apeTeam15">2 </td>
+                <td id="appTeam15">2</td>
+                <td id="agfTeam15">4</td>
+                <td id="agcTeam15">6</td>
+                <td id="adgTeam15">0</td>
+                <td class="nospace">
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                </td>
+              </tr>
+              <!-- 16 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">16</th>
+                <!-- Sport Huancayo -->
+                <td><img src="https://api.sofascore.com/api/v1/team/33895/image" alt="SportHuancayologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sport Huancayo</a></td>
+                <td class="fw-bold" id="apuntosTeam16">0</td>
+                <td id="apjTeam16">0</td>
+                <td id="apgTeam16">4</td>
+                <td id="apeTeam16">0</td>
+                <td id="appTeam16">0</td>
+                <td id="agfTeam16">9</td>
+                <td id="agcTeam16">3</td>
+                <td id="adgTeam16">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 17 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">17</th>
+                <!-- Sporting Cristal -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2302/image" alt="SportingCristallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sporting Cristal</a></td>
+                <td class="fw-bold" id="apuntosTeam17">0</td>
+                <td id="apjTeam17">0</td>
+                <td id="apgTeam17">2</td>
+                <td id="apeTeam17">1</td>
+                <td id="appTeam17">1</td>
+                <td id="agfTeam17">6</td>
+                <td id="agcTeam17">5</td>
+                <td id="adgTeam17">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 18 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">18</th>
+                <!-- Universitario -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2305/image" alt="Universitariologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Universitario</a></td>
+                <td class="fw-bold" id="apuntosTeam18">0</td>
+                <td id="apjTeam18">0</td>
+                <td id="apgTeam18">3</td>
+                <td id="apeTeam18">0</td>
+                <td id="appTeam18">2</td>
+                <td id="agfTeam18">11</td>
+                <td id="agcTeam18">4</td>
+                <td id="adgTeam18">0</td>
+                <td class="nospace">
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-check-circle win"></i>
+                </td>
+              </tr>
+              <!-- 19 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">19</th>
+                <!-- UTC -->
+                <td><img src="https://api.sofascore.com/api/v1/team/87854/image" alt="UTClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">UTC</a></td>
+                <td class="fw-bold" id="apuntosTeam19">0</td>
+                <td id="apjTeam19">0</td>
+                <td id="apgTeam19">2</td>
+                <td id="apeTeam19">1</td>
+                <td id="appTeam19">2</td>
+                <td id="agfTeam19">7</td>
+                <td id="agcTeam19">6</td>
+                <td id="adgTeam19">0</td>
+                <td class="nospace">
+                  <i class="fas fa-check-circle win"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-minus-circle draw"></i>
+                  <i class="fas fa-times-circle lose"></i>
+                  <i class="fas fa-check-circle win"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Clausura Tabla -->
+          <table id="tablaClausura" class="table table-responsive">
+            <thead>
+              <tr class="tableheader">
+                <th></th>
+                <th>#</th>
+                <th>Escudo</th>
+                <th class="text-start w-30">Nombre</th>
+                <th class="w-10">Puntos</th>
+                <th class="w-5">PJ</th>
+                <th class="w-5">PG</th>
+                <th class="w-5">PE</th>
+                <th class="w-5">PP</th>
+                <th class="w-5">GF</th>
+                <th class="w-5">GC</th>
+                <th class="w-5">DG</th>
+                <th class="nospace w-25">Ultimos 5</th>
+              </tr>
+            </thead>
+            <tbody id="table2">
+              <!-- 1 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">1</th>
+                <!-- Academia Cantolao -->
+                <td><img src="https://api.sofascore.com/api/v1/team/245083/image" alt="Cantolaologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Academia Cantolao</a></td>
+                <td class="fw-bold" id="cpuntosTeam1">0</td>
+                <td id="cpjTeam1">0</td>
+                <td id="cpgTeam1">0</td>
+                <td id="cpeTeam1">0</td>
+                <td id="cppTeam1">0</td>
+                <td id="cgfTeam1">0</td>
+                <td id="cgcTeam1">0</td>
+                <td id="cdgTeam1">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 2 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">2</th>
+                <!-- ADT -->
+                <td><img src="images/adt.png" alt="ADTlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">ADT</a></td>
+                <td class="fw-bold" id="cpuntosTeam2">0</td>
+                <td id="cpjTeam2">0</td>
+                <td id="cpgTeam2">0</td>
+                <td id="cpeTeam2">0</td>
+                <td id="cppTeam2">0</td>
+                <td id="cgfTeam2">0</td>
+                <td id="cgcTeam2">0</td>
+                <td id="cdgTeam2">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 3 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">3</th>
+                <!-- Alianza Atlético -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2307/image" alt="AlianzaAtleticologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Alianza Atlético</a></td>
+                <td class="fw-bold" id="cpuntosTeam3">0</td>
+                <td id="cpjTeam3">0</td>
+                <td id="cpgTeam3">0</td>
+                <td id="cpeTeam3">0</td>
+                <td id="cppTeam3">0</td>
+                <td id="cgfTeam3">0</td>
+                <td id="cgcTeam3">0</td>
+                <td id="cdgTeam3">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 4 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">4</th>
+                <!-- Alianza Lima -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2311/image" alt="AlianzaLimalogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Alianza Lima</a></td>
+                <td class="fw-bold" id="cpuntosTeam4">0</td>
+                <td id="cpjTeam4">0</td>
+                <td id="cpgTeam4">0</td>
+                <td id="cpeTeam4">0</td>
+                <td id="cppTeam4">0</td>
+                <td id="cgfTeam4">0</td>
+                <td id="cgcTeam4">0</td>
+                <td id="cdgTeam4">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 5 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">5</th>
+                <!-- Atletico Grau -->
+                <td><img src="https://api.sofascore.com/api/v1/team/282538/image" alt="AtleticoGraulogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Atlético Grau</a></td>
+                <td class="fw-bold" id="cpuntosTeam5">0</td>
+                <td id="cpjTeam5">0</td>
+                <td id="cpgTeam5">0</td>
+                <td id="cpeTeam5">0</td>
+                <td id="cppTeam5">0</td>
+                <td id="cgfTeam5">0</td>
+                <td id="cgcTeam5">0</td>
+                <td id="cdgTeam5">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 6 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">6</th>
+                <!-- Ayacucho FC -->
+                <td><img src="https://api.sofascore.com/api/v1/team/33894/image" alt="AyacuchoFClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Ayacucho FC</a></td>
+                <td class="fw-bold" id="cpuntosTeam6">0</td>
+                <td id="cpjTeam6">0</td>
+                <td id="cpgTeam6">0</td>
+                <td id="cpeTeam6">0</td>
+                <td id="cppTeam6">0</td>
+                <td id="cgfTeam6">0</td>
+                <td id="cgcTeam6">0</td>
+                <td id="cdgTeam6">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 7 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">7</th>
+                <!-- Binacional -->
+                <td><img src="https://api.sofascore.com/api/v1/team/275839/image" alt="Binacionallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Binacional</a></td>
+                <td class="fw-bold" id="cpuntosTeam7">0</td>
+                <td id="cpjTeam7">0</td>
+                <td id="cpgTeam7">0</td>
+                <td id="cpeTeam7">0</td>
+                <td id="cppTeam7">0</td>
+                <td id="cgfTeam7">0</td>
+                <td id="cgcTeam7">0</td>
+                <td id="cdgTeam7">0</td>
+                <td class="nospace">
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 8 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">8</th>
+                <!-- Carlos Manucci -->
+                <td><img src="https://api.sofascore.com/api/v1/team/252245/image" alt="CarlosManuccilogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Carlos Manucci</a></td>
+                <td class="fw-bold" id="cpuntosTeam8">0</td>
+                <td id="cpjTeam8">0</td>
+                <td id="cpgTeam8">0</td>
+                <td id="cpeTeam8">0</td>
+                <td id="cppTeam8">0</td>
+                <td id="cgfTeam8">0</td>
+                <td id="cgcTeam8">0</td>
+                <td id="cdgTeam8">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 9 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">9</th>
+                <!-- Carlos Stein -->
+                <td> <img src="https://api.sofascore.com/api/v1/team/335037/image" alt="CarlosSteinlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Carlos Stein</a></td>
+                <td class="fw-bold" id="cpuntosTeam9">0</td>
+                <td id="cpjTeam9">0</td>
+                <td id="cpgTeam9">0</td>
+                <td id="cpeTeam9">0</td>
+                <td id="cppTeam9">0</td>
+                <td id="cgfTeam9">0</td>
+                <td id="cgcTeam9">0</td>
+                <td id="cdgTeam9">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 10 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">10</th>
+                <!-- César Vallejo -->
+                <td><img src="https://api.sofascore.com/api/v1/team/5281/image" alt="CesarVallegologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">César Vallejo</a></td>
+                <td class="fw-bold" id="cpuntosTeam10">0</td>
+                <td id="cpjTeam10">0</td>
+                <td id="cpgTeam10">0</td>
+                <td id="cpeTeam10">0</td>
+                <td id="cppTeam10">0</td>
+                <td id="cgfTeam10">0</td>
+                <td id="cgcTeam10">0</td>
+                <td id="cdgTeam10">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 11 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">11</th>
+                <!-- Cienciano -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2301/image" alt="Ciencianologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Cienciano</a></td>
+                <td class="fw-bold" id="cpuntosTeam11">0</td>
+                <td id="cpjTeam11">0</td>
+                <td id="cpgTeam11">0</td>
+                <td id="cpeTeam11">0</td>
+                <td id="cppTeam11">0</td>
+                <td id="cgfTeam11">0</td>
+                <td id="cgcTeam11">0</td>
+                <td id="cdgTeam11">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 12 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">12</th>
+                <!-- Deportivo Minicipal -->
+                <td><img src="https://api.sofascore.com/api/v1/team/7031/image" alt="DeportivoMunicipallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Deportivo Municipal</a></td>
+                <td class="fw-bold" id="cpuntosTeam12">0</td>
+                <td id="cpjTeam12">0</td>
+                <td id="cpgTeam12">0</td>
+                <td id="cpeTeam12">0</td>
+                <td id="cppTeam12">0</td>
+                <td id="cgfTeam12">0</td>
+                <td id="cgcTeam12">0</td>
+                <td id="cdgTeam12">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 13 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">13</th>
+                <!-- FBC Melgar -->
+                <td><img src="images/teams/fbcmelgar.png" alt="FBCMelgarlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">FBC Melgar</a></td>
+                <td class="fw-bold" id="cpuntosTeam13">0</td>
+                <td id="cpjTeam13">0</td>
+                <td id="cpgTeam13">0</td>
+                <td id="cpeTeam13">0</td>
+                <td id="cppTeam13">0</td>
+                <td id="cgfTeam13">0</td>
+                <td id="cgcTeam13">0</td>
+                <td id="cdgTeam13">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 14 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">14</th>
+                <!-- San Martín -->
+                <td><img src="https://api.sofascore.com/api/v1/team/5282/image" alt="SantosFClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">San Martín</a></td>
+                <td class="fw-bold" id="cpuntosTeam14">0</td>
+                <td id="cpjTeam14">0</td>
+                <td id="cpgTeam14">0</td>
+                <td id="cpeTeam14">0</td>
+                <td id="cppTeam14">0</td>
+                <td id="cgfTeam14">0</td>
+                <td id="cgcTeam14">0</td>
+                <td id="cdgTeam14">0</td>
+                <td class="nospace">
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                    <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>             
+              <!-- 15 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">15</th>
+                <!-- Sport Boys -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2312/image" alt="SportBoyslogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sport Boys</a></td>
+                <td class="fw-bold" id="cpuntosTeam15">0</td>
+                <td id="cpjTeam15">0</td>
+                <td id="cpgTeam15">0</td>
+                <td id="cpeTeam15">0</td>
+                <td id="cppTeam15">0</td>
+                <td id="cgfTeam15">0</td>
+                <td id="cgcTeam15">0</td>
+                <td id="cdgTeam15">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 16 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">16</th>
+                <!-- Sport Huancayo -->
+                <td><img src="https://api.sofascore.com/api/v1/team/33895/image" alt="SportHancayologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sport Huancayo</a></td>
+                <td class="fw-bold" id="cpuntosTeam16">0</td>
+                <td id="cpjTeam16">0</td>
+                <td id="cpgTeam16">0</td>
+                <td id="cpeTeam16">0</td>
+                <td id="cppTeam16">0</td>
+                <td id="cgfTeam16">0</td>
+                <td id="cgcTeam16">0</td>
+                <td id="cdgTeam16">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 17 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">17</th>
+                <!-- Sporting Cristal -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2302/image" alt="SportingCristallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sporting Cristal</a></td>
+                <td class="fw-bold" id="cpuntosTeam17">0</td>
+                <td id="cpjTeam17">0</td>
+                <td id="cpgTeam17">0</td>
+                <td id="cpeTeam17">0</td>
+                <td id="cppTeam17">0</td>
+                <td id="cgfTeam17">0</td>
+                <td id="cgcTeam17">0</td>
+                <td id="cdgTeam17">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 18 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">18</th>
+                <!-- Universitario -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2305/image" alt="Universitariologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Universitario</a></td>
+                <td class="fw-bold" id="cpuntosTeam18">0</td>
+                <td id="cpjTeam18">0</td>
+                <td id="cpgTeam18">0</td>
+                <td id="cpeTeam18">0</td>
+                <td id="cppTeam18">0</td>
+                <td id="cgfTeam18">0</td>
+                <td id="cgcTeam18">0</td>
+                <td id="cdgTeam18">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 19 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">19</th>
+                <!-- UTC -->
+                <td><img src="https://api.sofascore.com/api/v1/team/87854/image" alt="UTClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">UTC</a></td>
+                <td class="fw-bold" id="cpuntosTeam19">0</td>
+                <td id="cpjTeam19">0</td>
+                <td id="cpgTeam19">0</td>
+                <td id="cpeTeam19">0</td>
+                <td id="cppTeam19">0</td>
+                <td id="cgfTeam19">0</td>
+                <td id="cgcTeam19">0</td>
+                <td id="cdgTeam19">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Acumulado Tabla -->
+          <table id="tablaAcumulada" class="table table-responsive">
+            <thead>
+              <tr class="tableheader">
+                <th></th>
+                <th>#</th>
+                <th>Escudo</th>
+                <th class="text-start w-30">Nombre</th>
+                <th class="w-10">Puntos</th>
+                <th class="w-5">PJ</th>
+                <th class="w-5">PG</th>
+                <th class="w-5">PE</th>
+                <th class="w-5">PP</th>
+                <th class="w-5">GF</th>
+                <th class="w-5">GC</th>
+                <th class="w-5">DG</th>
+                <th class="nospace w-25">Ultimos 5</th>
+              </tr>
+            </thead>
+            <tbody id="table3">
+              <!-- 1 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">1</th>
+                <!-- Academia Cantolao -->
+                <td><img src="https://api.sofascore.com/api/v1/team/245083/image" alt="Cantolaologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Academia Cantolao</a></td>
+                <td class="fw-bold" id="puntosTeam1">0</td>
+                <td id="pjTeam1">0</td>
+                <td id="pgTeam1">0</td>
+                <td id="peTeam1">0</td>
+                <td id="ppTeam1">0</td>
+                <td id="gfTeam1">0</td>
+                <td id="gcTeam1">0</td>
+                <td id="dgTeam1">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 2 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">2</th>
+                <!-- ADT -->
+                <td><img src="images/adt.png" alt="ADTlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">ADT</a></td>
+                <td class="fw-bold" id="puntosTeam2">0</td>
+                <td id="pjTeam2">0</td>
+                <td id="pgTeam2">0</td>
+                <td id="peTeam2">0</td>
+                <td id="ppTeam2">0</td>
+                <td id="gfTeam2">0</td>
+                <td id="gcTeam2">0</td>
+                <td id="dgTeam2">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 3 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">3</th>
+                <!-- Alianza Atlético -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2307/image" alt="AlianzaAtleticologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Alianza Atlético</a></td>
+                <td class="fw-bold" id="puntosTeam3">0</td>
+                <td id="pjTeam3">0</td>
+                <td id="pgTeam3">0</td>
+                <td id="peTeam3">0</td>
+                <td id="ppTeam3">0</td>
+                <td id="gfTeam3">0</td>
+                <td id="gcTeam3">0</td>
+                <td id="dgTeam3">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 4 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">4</th>
+                <!-- Alianza Lima -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2311/image" alt="AlianzaLimalogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Alianza Lima</a></td>
+                <td class="fw-bold" id="puntosTeam4">0</td>
+                <td id="pjTeam4">0</td>
+                <td id="pgTeam4">0</td>
+                <td id="peTeam4">0</td>
+                <td id="ppTeam4">0</td>
+                <td id="gfTeam4">0</td>
+                <td id="gcTeam4">0</td>
+                <td id="dgTeam4">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 5 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">5</th>
+                <!-- Atletico Grau -->
+                <td><img src="https://api.sofascore.com/api/v1/team/282538/image" alt="AtleticoGraulogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Atlético Grau</a></td>
+                <td class="fw-bold" id="puntosTeam5">0</td>
+                <td id="pjTeam5">0</td>
+                <td id="pgTeam5">0</td>
+                <td id="peTeam5">0</td>
+                <td id="ppTeam5">0</td>
+                <td id="gfTeam5">0</td>
+                <td id="gcTeam5">0</td>
+                <td id="dgTeam5">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 6 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">6</th>
+                <!-- Ayacucho FC -->
+                <td><img src="https://api.sofascore.com/api/v1/team/33894/image" alt="AyacuchoFClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Ayacucho FC</a></td>
+                <td class="fw-bold" id="puntosTeam6">0</td>
+                <td id="pjTeam6">0</td>
+                <td id="pgTeam6">0</td>
+                <td id="peTeam6">0</td>
+                <td id="ppTeam6">0</td>
+                <td id="gfTeam6">0</td>
+                <td id="gcTeam6">0</td>
+                <td id="dgTeam6">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 7 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">7</th>
+                <!-- Binacional -->
+                <td><img src="https://api.sofascore.com/api/v1/team/275839/image" alt="Binacionallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Binacional</a></td>
+                <td class="fw-bold" id="puntosTeam7">0</td>
+                <td id="pjTeam7">0</td>
+                <td id="pgTeam7">0</td>
+                <td id="peTeam7">0</td>
+                <td id="ppTeam7">0</td>
+                <td id="gfTeam7">0</td>
+                <td id="gcTeam7">0</td>
+                <td id="dgTeam7">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 8 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">8</th>
+                <!-- Carlos Manucci -->
+                <td><img src="https://api.sofascore.com/api/v1/team/252245/image" alt="CarlosManuccilogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Carlos Manucci</a></td>
+                <td class="fw-bold" id="puntosTeam8">0</td>
+                <td id="pjTeam8">0</td>
+                <td id="pgTeam8">0</td>
+                <td id="peTeam8">0</td>
+                <td id="ppTeam8">0</td>
+                <td id="gfTeam8">0</td>
+                <td id="gcTeam8">0</td>
+                <td id="dgTeam8">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 9 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">9</th>
+                <!-- Carlos Stein -->
+                <td> <img src="https://api.sofascore.com/api/v1/team/335037/image" alt="CarlosSteinlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Carlos Stein</a></td>
+                <td class="fw-bold" id="puntosTeam9">0</td>
+                <td id="pjTeam9">0</td>
+                <td id="pgTeam9">0</td>
+                <td id="peTeam9">0</td>
+                <td id="ppTeam9">0</td>
+                <td id="gfTeam9">0</td>
+                <td id="gcTeam9">0</td>
+                <td id="dgTeam9">0</td>
+                <td class="nospace">
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                  <i class="fas fa-circle draw"></i>
+                </td>
+              </tr>
+              <!-- 10 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">10</th>
+                <!-- César Vallejo -->
+                <td><img src="https://api.sofascore.com/api/v1/team/5281/image" alt="CesarVallegologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">César Vallejo</a></td>
+                <td class="fw-bold" id="puntosTeam10">0</td>
+                <td id="pjTeam10">0</td>
+                <td id="pgTeam10">0</td>
+                <td id="peTeam10">0</td>
+                <td id="ppTeam10">0</td>
+                <td id="gfTeam10">0</td>
+                <td id="gcTeam10">0</td>
+                <td id="dgTeam10">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 11 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">11</th>
+                <!-- Cienciano -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2301/image" alt="Ciencianologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Cienciano</a></td>
+                <td class="fw-bold" id="puntosTeam11">0</td>
+                <td id="pjTeam11">0</td>
+                <td id="pgTeam11">0</td>
+                <td id="peTeam11">0</td>
+                <td id="ppTeam11">0</td>
+                <td id="gfTeam11">0</td>
+                <td id="gcTeam11">0</td>
+                <td id="dgTeam11">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 12 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">12</th>
+                <!-- Deportivo Minicipal -->
+                <td><img src="https://api.sofascore.com/api/v1/team/7031/image" alt="DeportivoMunicipallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Deportivo Municipal</a></td>
+                <td class="fw-bold" id="puntosTeam12">0</td>
+                <td id="pjTeam12">0</td>
+                <td id="pgTeam12">0</td>
+                <td id="peTeam12">0</td>
+                <td id="ppTeam12">0</td>
+                <td id="gfTeam12">0</td>
+                <td id="gcTeam12">0</td>
+                <td id="dgTeam12">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 13 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">13</th>
+                <!-- FBC Melgar -->
+                <td><img src="images/teams/fbcmelgar.png" alt="FBCMelgarlogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">FBC Melgar</a></td>
+                <td class="fw-bold" id="puntosTeam13">0</td>
+                <td id="pjTeam13">0</td>
+                <td id="pgTeam13">0</td>
+                <td id="peTeam13">0</td>
+                <td id="ppTeam13">0</td>
+                <td id="gfTeam13">0</td>
+                <td id="gcTeam13">0</td>
+                <td id="dgTeam13">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 14 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">14</th>
+                <!-- San Martín -->
+                <td><img src="https://api.sofascore.com/api/v1/team/5282/image" alt="SantosFClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">San Martín</a></td>
+                <td class="fw-bold" id="puntosTeam14">0</td>
+                <td id="pjTeam14">0</td>
+                <td id="pgTeam14">0</td>
+                <td id="peTeam14">0</td>
+                <td id="ppTeam14">0</td>
+                <td id="gfTeam14">0</td>
+                <td id="gcTeam14">0</td>
+                <td id="dgTeam14">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 15 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">15</th>
+                <!-- Sport Boys -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2312/image" alt="SportBoyslogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sport Boys</a></td>
+                <td class="fw-bold" id="puntosTeam15">0</td>
+                <td id="pjTeam15">0</td>
+                <td id="pgTeam15">0</td>
+                <td id="peTeam15">0</td>
+                <td id="ppTeam15">0</td>
+                <td id="gfTeam15">0</td>
+                <td id="gcTeam15">0</td>
+                <td id="dgTeam15">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 16 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">16</th>
+                <!-- Sport Huancayo -->
+                <td><img src="https://api.sofascore.com/api/v1/team/33895/image" alt="SportHuancayologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sport Huancayo</a></td>
+                <td class="fw-bold" id="puntosTeam16">0</td>
+                <td id="pjTeam16">0</td>
+                <td id="pgTeam16">0</td>
+                <td id="peTeam16">0</td>
+                <td id="ppTeam16">0</td>
+                <td id="gfTeam16">0</td>
+                <td id="gcTeam16">0</td>
+                <td id="dgTeam16">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 17 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">17</th>
+                <!-- Sporting Cristal -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2302/image" alt="SportingCristallogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Sporting Cristal</a></td>
+                <td class="fw-bold" id="puntosTeam17">0</td>
+                <td id="pjTeam17">0</td>
+                <td id="pgTeam17">0</td>
+                <td id="peTeam17">0</td>
+                <td id="ppTeam17">0</td>
+                <td id="gfTeam17">0</td>
+                <td id="gcTeam17">0</td>
+                <td id="dgTeam17">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 18 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">18</th>
+                <!-- Universitario -->
+                <td><img src="https://api.sofascore.com/api/v1/team/2305/image" alt="Universitariologo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">Universitario</a></td>
+                <td class="fw-bold" id="puntosTeam18">0</td>
+                <td id="pjTeam18">0</td>
+                <td id="pgTeam18">0</td>
+                <td id="peTeam18">0</td>
+                <td id="ppTeam18">0</td>
+                <td id="gfTeam18">0</td>
+                <td id="gcTeam18">0</td>
+                <td id="dgTeam18">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+              <!-- 19 -->
+              <tr class="tableitem">
+                <th>
+                  <div class="">.</div>
+                </th>
+                <th scope="row">19</th>
+                <!-- UTC -->
+                <td><img src="https://api.sofascore.com/api/v1/team/87854/image" alt="UTClogo" class="logos"></td>
+                <td class="text-start nospace"><a href="#" class="teamstext">UTC</a></td>
+                <td class="fw-bold" id="puntosTeam19">0</td>
+                <td id="pjTeam19">0</td>
+                <td id="pgTeam19">0</td>
+                <td id="peTeam19">0</td>
+                <td id="ppTeam19">0</td>
+                <td id="gfTeam19">0</td>
+                <td id="gcTeam19">0</td>
+                <td id="dgTeam19">0</td>
+                <td class="nospace">
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                  <i class=""></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Descripción -->
+          <div class="foottable separadorbottom">
+            <h6 class="text-start"><b>Ascenso / Descenso</b></h6>
+            <div class="text-start">
+              <i class="fas fa-square square" style="color:#FBBC04"></i>
+              <span class="textdescription">Copa Libertadores</span>
+            </div>
+            <div class="text-start">
+              <i class="fas fa-square square" style="color:#34A853"></i>
+              <span class="textdescription">Copa Sudamericana</span>
+            </div>
+            <div class="text-start">
+              <i class="fas fa-square square" style="color:#f57316"></i>
+              <span class="textdescription">Revalidación</span>
+            </div>
+            <div class="text-start">
+              <i class="fas fa-square square" style="color:#c1272d"></i>
+              <span class="textdescription">Descenso</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <!-- Final-->
+    <div class="container-fluid divtitle">
+      <div class="row">
+        <div class="col-10">
+          <p><b>Final</b></p>
+        </div>
+      </div>
+    </div>
+    <!-- Descripción-->
+    <div class="container-fluid bglight">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-3 text-center">
+          <p class="notes">Ganador Apertura</p>
+          <p class="notes2"><b>Por Definir</b></p>
+        </div>
+        <div class="col-3  text-center">
+          <p class="notes">Ganador Clausura</p>
+          <p class="notes2"><b>Por Definir</b></p>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <!-- Divisor -->
+    <div class="container-fluid bg-light divcut shadow-lg"></div>
+    <!-- Tabla -->
+    <div class="container-fluid my-4">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-xl-7 col-lg-10 col-md-12 text-center bglight topcorners bottomcorners shadow-lg">
+
+          <!-- Llave -->
+          <div class="container my-4">
+            <div class="row">
+              <!-- Team 1 -->
+              <div class="col">
+                <i class="fas fa-shield-alt escudoteam"></i>
+                <p class="teamsfinal">Por Definir</p>
+              </div>
+              <!-- Marcador -->
+              <div class="col">
+                <ul style="list-style:none; padding-left: 0px; margin-bottom: 0%;">
+                  <!-- Ida -->
+                  <li>
+                    <div class="row">
+                      <div class="col-12">
+                        <p class="headersfinal">Ida</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="marcador2 zerobottom"></p>
+                      </div>
+                      <div class="col-4">
+                        <p class="marcador2 zerobottom">-</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="marcador2 zerobottom"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Vuelta -->
+                  <li>
+                    <div class="row">
+                      <div class="col-12">
+                        <p class="headersfinal">Vuelta</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="marcador2 zerobottom"></p>
+                      </div>
+                      <div class="col-4">
+                        <p class="marcador2 zerobottom">-</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="marcador2 zerobottom"></p>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Global -->
+                  <li>
+                    <div class="row">
+                      <div class="col-12">
+                        <p class="headersfinal2">Global</p>
+                        <p>&nbsp  -  &nbsp</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul> 
+              </div>
+              <!-- Team 2 -->
+              <div class="col">
+                <i class="fas fa-shield-alt escudoteam"></i>
+                <p class="teamsfinal">Por Definir</p>
+              </div>
+            </div>
+          </div>
+
+          <hr class="dividertop">
+
+          <!-- Ganador -->
+          <center>
+            <h3>¡CAMPEÓN!</h3>
+            <i class="fas fa-shield-alt escudoteam"></i>
+            <p class="teamsfinal">Por Definir</p>
+          </center>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="footer-clean shadow-lg">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+              <h3>Torneos</h3>
+              <hr class="d-b">
+              <ul>         
+                <li><a href="liga-1.html">Liga 1</a></li>
+                <li><a href="liga-2.html">Liga 2</a></li>
+                <li><a href="copa-peru.html">Copa Perú</a></li>
+                <li><a href="eliminatorias.html">Eliminatorias</a></li>
+                <li><a href="copa-bicentenario.html">Copa Bicentenario</a></li>
+              </ul>
+          </div>    
+          <div class="col-sm-4 col-md-3 item">
+              <h3>Careers</h3>
+              <hr class="d-b">
+              <ul>
+                <li><a href="#">Job openings</a></li>
+                <li><a href="#">Employee success</a></li>
+                <li><a href="#">Benefits</a></li>
+              </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Nosotros</h3>
+            <hr class="d-b">
+            <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="informacion.html">Información</a></li>
+            </ul>
+        </div>
+          <div class="col-lg-3 text-center item social">
+            <h3>Sigue a la liga:</h3>
+            <a href="https://www.facebook.com/LigaFutProf"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ligafutprof"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/LigaFutProf"><i class="fab fa-instagram"></i></a>
+            <p class="copyright">MAVP Projects © 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- APERTURA ULTIMOS PARTIDOS-->
+  <script type="text/javascript">
+    for (var i = 0; i <= 18; i++) {
+      var xd1 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
+      var xd2 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
+      var xd3 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
+      var xd4 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(3).attr("class");
+      var xd5 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(4).attr("class");
+
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(0).removeClass().addClass(xd1);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(1).removeClass().addClass(xd2);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(2).removeClass().addClass(xd3);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(3).removeClass().addClass(xd4);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(xd5);
+    }
+  </script>
+
+  <!-- CLAUSURA ULTIMOS PARTIDOS-->
+  <!--
+  <script type="text/javascript">
+    for (var i = 0; i <= 18; i++) {
+      var xd1 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
+      var xd2 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
+      var xd3 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
+      var xd4 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(3).attr("class");
+      var xd5 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(4).attr("class");
+
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(0).removeClass().addClass(xd1);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(1).removeClass().addClass(xd2);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(2).removeClass().addClass(xd3);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(3).removeClass().addClass(xd4);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(xd5);
+    }
+  </script>
+  -->
+
+  <!-- Scripts -->
+  <script src="js/operacionesLiga1.js" charset="utf-8"></script>
+  <script src="js/ordenamientoLiga1.js" charset="utf-8"></script>
+</body>
+
+</html>

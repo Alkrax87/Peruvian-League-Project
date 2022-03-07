@@ -1,0 +1,1093 @@
+body{
+  background-color: #DBDBDB;
+  font-family: 'Montserrat', sans-serif;
+}
+main{
+  padding-top: 170px;
+}
+td{
+  vertical-align: middle;
+  height: 65px;
+}
+th{
+  vertical-align: middle;
+}
+/* ==================================Fonts*/
+.f-d{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* ==================================Background Colors */
+.bgdark{
+  background-color: #1B1A17;
+}
+.bglight{
+ background-color: #fff;
+}
+.bgside{
+  background-color: #fff;
+}
+
+/* ==================================Nav Bar Style */
+.teamsnav{
+  height: 65px;
+  padding: 0px 15px 0px 15px;
+}
+.navoptionsbar{
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+}
+.navstyle{
+  background-color: #1B1A17;
+  font-size: 16px;
+}
+@media (min-width: 991px){
+  .navbar{
+    height: 60px;
+  }
+}
+.dropdown-menu{
+  transition: 0.3s;
+}
+/* HAMBURGUER MENU COLOR */
+.custom-toggler.navbar-toggler {
+  border-color: #fff;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}
+.navitems{
+  color: #fff;
+}
+.navitems:hover{
+  color: #fff;
+}
+.navoptions{
+  text-align: center;
+  padding-top: 15px;
+  width: 100%;
+  height: 50px;
+  transition: border .1s ease-out;
+  -webkit-transition: border .1s ease-out;
+}
+.navoptions:hover{
+  border-bottom: 5px solid #d8a928;
+}
+.selected{
+  text-align: center;
+  padding-top: 15px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 5px solid #d8a928;
+}
+.navoptionstext{
+  color: #646464;
+  text-decoration: none;
+  font-size: 14px;
+}
+.navoptionstext:hover{
+  color: #646464;
+}
+
+/* ==================================Table Style */
+.tableheader{
+  background-color: #990202;
+  height: 50px;
+  vertical-align: middle;
+  color: #fff;
+}
+.tableheader2{
+  background-color: #007D7E;
+  height: 50px;
+  vertical-align: middle;
+  color: #fff;
+}
+.tableheader3{
+ background-color: #55021C;
+ height: 50px;
+ vertical-align: middle;
+ color: #fff;
+}
+.topcorners{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.bottomcorners{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.tableitem:hover{
+  background-color: #ededed;
+}
+.foottable{
+  background-color: #f8f9fa;
+  padding: 10px 10px 10px 10px;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  border-style: solid;
+}
+.sizetable{
+  margin: 15px, 15px, 15px, 15px;
+  padding: 15px, 15px, 15px, 15px;
+}
+.t-h{
+  height: 30px;
+  font-size: 14px;
+}
+
+
+/* ==================================Buttons */
+.btn:focus{
+  box-shadow: none;
+}
+.btnswitch{
+  background-color: #e6e6e6;
+  margin-right: 7px;
+  height: 44px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.btnAcumulado{
+  width: 150px;
+}
+.btnFase1{
+  width: 120px;
+}
+.btnFase2{
+  width: 120px;
+}
+.btntableswitcheractive{
+ background-color: #fff;
+}
+.btntableswitcherdisble:hover{
+  background-color: #A3040E;
+  color: #fff;
+}
+.btn-Fixture{
+  width: 40px;
+  margin: 5px 2px 0px 2px;
+}
+.btn-Fixture-Switch{
+  background-color: #FFF;
+  border-width: 1px;
+  border-style: solid;
+}
+.btn-Fixture-Active1{
+  background-color: #A3040E;
+  color: #fff;
+}
+.btn-Fixture-Active1:hover{
+  background-color: #A3040E;
+  color: #fff;
+}
+.btn-Fixture-Disable1{
+  border-color: #A3040E;
+}
+.btn-Fixture-Disable1:hover{
+  background-color: #A3040E;
+  color: #fff;
+}
+.btn-Fixture-Active3{
+  background-color: #85072D;
+  color: #fff;
+}
+.btn-Fixture-Active3:hover{
+  background-color: #85072D;
+  color: #fff;
+}
+.btn-Fixture-Disable3{
+  border-color: #85072D;
+}
+.btn-Fixture-Disable3:hover{
+  background-color: #85072D;
+  color: #fff;
+}
+
+/* ==================================Descripcion */
+.square {
+  font-size: 20px;
+}
+.textdescription{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.teamstext{
+  color: #000;
+  text-decoration: none;
+}
+.teamstext:hover{
+  color: #000;
+  text-decoration: underline;
+}
+/* ==================================Divs */
+.divside{
+  color: #1B1A17;
+  padding-bottom: 20px;
+}
+.bgdivside{
+  background-color: rgb(250, 250, 250);
+  border-radius: 20px;
+}
+.divtitle{
+  background: rgb(89,6,6);
+  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 30%, rgba(19,0,0,1) 98%);
+  height: 260px;
+  padding-top: 70px;
+  padding-left: 70px;
+  font-size: 73px;
+  color: #fff;
+}
+.divtitle2{
+  background: rgb(1,33,51);
+  background: linear-gradient(90deg, rgba(1,33,51,1) 0%, rgba(0,128,128,1) 10%, rgba(0,180,162,1) 20%, rgba(0,153,150,1) 38%, rgba(1,33,51,1) 100%);
+  height: 260px;
+  padding-top: 70px;
+  padding-left: 70px;
+  font-size: 73px;
+  color: #fff;
+}
+.divtitle3{
+  background: rgb(85,2,28);
+  background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 30%, rgba(85,2,28,1) 98%);
+  height: 260px;
+  padding-top: 70px;
+  padding-left: 70px;
+  font-size: 73px;
+  color: #fff;
+}
+@media (max-width: 1075px){
+  .divtitlemain{
+  background: rgb(89,6,6);
+  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 30%, rgba(19,0,0,1) 98%);
+  height: 369px;
+  padding-top: 70px;
+  padding-left: 70px;
+  font-size: 73px;
+  color: #fff;
+  }
+  .divtitlemain2{
+    background: rgb(1,33,51);
+    background: linear-gradient(90deg, rgba(1,33,51,1) 0%, rgba(0,128,128,1) 10%, rgba(0,180,162,1) 20%, rgba(0,153,150,1) 38%, rgba(1,33,51,1) 100%);
+    height: 369px;
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: 73px;
+    color: #fff;
+  }
+  .divtitlemain3{
+    background: rgb(85,2,28);
+    background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 30%, rgba(85,2,28,1) 98%);
+    height: 369px;
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: 73px;
+    color: #fff;
+  }
+}
+.divbuttons{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.divcut{
+  height: 30px;
+  background: rgb(89,6,6);
+  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 30%, rgba(19,0,0,1) 98%);
+}
+.divcut2{
+  height: 30px;
+  background: rgb(1,33,51);
+  background: linear-gradient(90deg, rgba(1,33,51,1) 0%, rgba(0,128,128,1) 10%, rgba(0,180,162,1) 20%, rgba(0,153,150,1) 38%, rgba(1,33,51,1) 100%);  
+}
+.divcut3{
+  height: 30px;
+  background: rgb(85,2,28);
+  background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 30%, rgba(85,2,28,1) 98%);
+}
+
+/* ==================================Logos */
+.brand{
+  width: 57px;
+}
+.logos{
+  width: 40px;
+}
+.logosheader{
+  padding-top: 4px;
+  overflow:hidden;
+  transition: 0.2s;
+}
+.logosheader:hover{
+  transform:scale(1.2);
+}
+@media screen and (max-width: 1253px) {
+  .headerlogoseffect{
+    display: none;
+  }
+}
+.dt{
+  font-size: 30px;
+  color: rgb(112, 112, 112);
+}
+
+/*===================================Fixture */
+.logos-fixture{
+  width: 24px;
+}
+.fixture-title{
+  background: rgb(89,6,6);
+  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 50%, rgba(19,0,0,1) 100%);
+  color: #fff;
+  padding-top: 3px;
+  height: 30px;
+}
+.fixture-title2{
+  background: rgb(85,2,28);
+  background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 50%, rgba(85,2,28,1) 100%);
+  color: #fff;
+  padding-top: 3px;
+  height: 30px;
+}
+.fixture{
+  padding-top: 12px;
+  border-color: #a8a8a8; 
+  border-width: 1px; 
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  height: 92px;
+}
+.fixture-r{
+  padding-top: 12px;
+  border-color: #a8a8a8; 
+  border-width: 1px; 
+  border-top-style: solid;
+  border-right-style: solid;
+  height: 92px;
+}
+.fixture-r-2{
+  padding-top: 12px;
+  border-color: #a8a8a8; 
+  border-width: 1px; 
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  height: 92px;
+}
+.fixture-b{
+  padding-top: 12px;
+  border-color: #a8a8a8; 
+  border-width: 1px; 
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  height: 92px;
+}
+.fixture-pb{
+  padding-top: 12px;
+  border-color: #a8a8a8; 
+  border-width: 1px; 
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  height: 92px;
+}
+@media screen and (max-width: 991px){
+  .fixture-sm{
+    padding-top: 12px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-color: #a8a8a8; 
+    border-width: 1px; 
+    height: 92px;
+  }
+  .fixture-sm1{
+    padding-top: 12px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: #a8a8a8; 
+    border-width: 1px; 
+    height: 92px;
+  }
+}
+.fixture:hover,.fixture-r-2:hover,.fixture-r:hover,.fixture-pb:hover,.fixture-b:hover{
+  background-color: #ededed;
+}
+
+.fixture-text{
+  font-size: 14px;
+}
+.fixture-divider{
+  border-width: 1px; 
+  border-left-style: solid;
+  border-color: #a8a8a8;
+}
+
+/* ==================================Final */
+.escudoteam{
+  font-size: 130px;
+  /*<i class="fas fa-shield-alt escudoteam"></i>*/
+}
+.teamsfinal{
+  font-size: 18px;
+  font-weight: bold;
+}
+.marcador{
+  font-size: 50px;
+  padding-top: 40px;
+  font-weight: bold;
+}
+.headersfinal{
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 0%;
+}
+.headersfinal2{
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 0%;
+  color: #4d4d4d;
+}
+.marcador2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ==================================Brackets */
+.bracketstitle{
+  font-weight: bold;
+  font-size: 20px;
+}
+.bracketscontent{
+  padding-left: 10px;
+  font-size: 12px;
+}
+.brackets{
+  background-color: #f8f9fa;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  height: 50px;
+}
+
+/* ==================================HR */
+.divider{
+  margin: 50px 0px 50px 0px;
+  border-style: dotted;
+  border-width: 5px;
+}
+.dividertop{
+  border-color: #000000;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  width: 100%;
+  opacity: 100%;
+}
+.dividerbottom{
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  width: 100%;
+  opacity: 100%;
+}
+
+/* ==================================Separadores */
+.separadortop{
+  margin-top: 15px;
+}
+.separadorbottom{
+  margin-bottom: 15px;
+}
+.separadorright{
+  margin-right: 15px;
+}
+.separadorleft{
+  margin-left: 15px;
+}
+.padtop{
+  padding-top: 30px;
+}
+.padtop2{
+  padding-top: 15px;
+}
+.padbottom{
+  padding-bottom: 30px;
+}
+.padbottom2{
+  padding-bottom: 4px;
+}
+.padright{
+  padding-right: 20px;
+}
+.padleft{
+  padding-left: 20px;
+}
+
+/* ==================================Width */
+.w-5{
+  width: 5%;
+}
+.w-10{
+  width: 10%;
+}
+.w-30{
+  width: 30%;
+}
+.w-1c{
+  width: 100px;
+}
+.managerstablewidth{
+  width: 530px;
+}
+
+/* ==================================Posiciones */
+/* Liga1Positions */
+.libertadores{
+  background-color: #FBBC04;
+  color: #FBBC04;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.sudamericana{
+  background-color: #34A853;
+  color: #34A853;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.revalidacion{
+  background-color: #f57316;
+  color: #f57316;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.descenso{
+  background-color: #c1272d;
+  color: #c1272d;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* Liga2Positions */
+.ascenso{
+  background-color: #007944;
+  color: #007944;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.playoff{
+  background-color: #79D70F;
+  color: #79D70F;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* CopaPeru */
+.final{
+  background-color: #019290;
+  color: #019290;
+  height: 40px;
+  width: 13px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+/* Eliminatorias */
+.clasificacion{
+  background-color: #6A1A33;
+  color: #6A1A33;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.repechaje{
+  background-color: #EED0A4;
+  color: #EED0A4;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* ==================================Circulos de partidos
+win:     <i class="fas fa-check-circle win"></i>
+lose:    <i class="fas fa-times-circle lose"></i>
+draw:    <i class="fas fa-minus-circle draw"></i>
+circle:  <i class="fas fa-circle draw"></i>
+*/
+.win{
+  margin-top: 10px;
+  color: #3AA757;
+  font-size: 18px;
+}
+.draw{
+  margin-top: 10px;
+  color: #9AA0A6;
+  font-size: 18px;
+}
+.lose{
+  margin-top: 10px;
+  color: #EA4335;
+  font-size: 18px;
+}
+
+/* ==================================Lineas */
+.linetop{
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
+  border-top-width: 2px;
+}
+.linebottom{
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
+  border-bottom-width: 2px;
+}
+.lineright{
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
+  border-right-width: 2px;
+}
+.lineleft{
+  border-width: 0;
+  border-color: black;
+  border-style: solid;
+  border-left-width: 2px;
+}
+
+/* ==================================Clubs */
+.clubCircle{
+  margin-top: -30px;
+  position: relative;
+  padding-top: 20px;
+  width:110px;
+  height:110px;
+  background: #fff;
+  border-radius: 50%;
+  top: 45%; /* Position Y halfway in */
+  left: 50%; /* Position X halfway in */
+  transform: translate(-50%,-50%); /* Move it halfway back(x,y) */
+}
+.clubSquareFoot{
+  margin-top: -120px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+.clubSquareFoot2{
+  margin-top: -120px;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #333333;
+}
+.logosclubs{
+  height: 80px;
+  width: 80px;
+}
+.logosclubs2{
+  height: 70px;
+  width: 70px;
+}
+.club-divider{
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-left: 10%;
+  width: 80%;
+  opacity: 100%;
+}
+.club-name{
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+.club-stadium{
+  font-size: 13px;
+}
+.perfil{
+  font-size: 14px;
+}
+.perfil:hover{
+  text-decoration: underline;
+}
+.club-banner-top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.club-banner-bottom{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.club-animation:hover i {
+  animation: bounce 3s infinite  ease;
+}
+@keyframes bounce {
+	0% {transform: translateX(0%)}
+	50% {transform: translateX(100%)}
+	100% {transform: translateX(0%)}
+}
+
+.club-animation .figure{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  transition: all 2s ease;
+}
+.club-animation .figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 2s ease;
+}
+.club-animation:hover .figure img{
+  transform: scale(1.1);
+}
+
+/* ==================================Footer */
+.footer-clean {
+  padding:50px 0;
+  background-color:#1B1A17;
+  color:#ebebeb;
+}
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+.footer-clean .d-b{
+  width: 45%;
+}
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-clean ul a:hover {
+  opacity:1;
+}
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;  
+    padding-bottom:20px;
+  }
+  .footer-clean .d-b{
+    margin-left: 25%;
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:50px;
+  height:50px;
+  line-height:50px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:2px solid #ccc;
+  margin-left:10px;
+  color:inherit;
+  opacity:0.75;
+}
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+/* ==================================Tabla Copa Peru */
+.escudog{
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* ==================================Otros */
+/* Evitar el Salto de linea */
+.nospace{
+  white-space: nowrap;
+}
+.notes{
+  padding-top: 20px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-style: italic;
+}
+.notes2{
+  font-size: 20px;
+}
+.zerobottom{
+  margin-bottom: 0%;
+}
+.pad0{
+  padding: 0px 0px 0px 0px;
+}
+.indicator{
+  color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 20px;
+    margin-top: -3px;
+    margin-left: -5px;
+    visibility: visible;
+}
+@media screen and (max-width: 991px) {
+  .indicator{
+    display: none;
+    visibility: hidden;
+  }
+}
+.content{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px 80px 30px 80px;
+}
+.libertadores-logo{
+  border-color: #B47B33; 
+  border-width: 4px; 
+  border-style: dashed;
+  width: 150px;
+  height: 150px;
+}
+.sudamericana-logo{
+  border-color: rgb(4,22,110); 
+  border-width: 4px; 
+  border-style: dashed;
+  width: 150px;
+  height: 150px;
+}
+@media screen and (max-width: 991px) {
+  .sudamericana-logo{
+    margin-top: 30px;
+    border-color: rgb(4,22,110); 
+    border-width: 4px; 
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+  }
+}
+.f-tbt{
+  font-size: 14px;
+}
+.vc{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-36 {
+  background-color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: #fff 0 1px 15px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+
+
