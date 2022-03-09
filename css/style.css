@@ -22,7 +22,9 @@ th{
 .table-height{
   height: 55px;
 }
-
+.fixture-text{
+  font-size: 14px;
+}
 /* ==================================Background Colors */
 .bgdark{
   background-color: #1B1A17;
@@ -188,7 +190,8 @@ th{
   color: #fff;
 }
 .btn-Fixture{
-  width: 40px;
+  width: 35px;
+  font-size: 13px;
   margin: 5px 2px 0px 2px;
 }
 .btn-Fixture-Switch{
@@ -901,11 +904,11 @@ circle:  <i class="fas fa-circle draw"></i>
 .notes{
   padding-top: 20px;
   margin-bottom: 0px;
-  font-size: 12px;
+  font-size: 10px;
   font-style: italic;
 }
 .notes2{
-  font-size: 20px;
+  font-size: 15px;
 }
 .zerobottom{
   margin-bottom: 0%;

@@ -31,9 +31,11 @@
   <header class="fixed-top">
 
     <!-- Header -->
-    <div class="row bg-light teamsnav">
-      <div class="col">
-        <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/406/image" class="logosheader brand" alt="liga1logo"></a>
+    <div class="container-fluid">
+      <div class="row bg-light teamsnav">
+        <div class="col">
+          <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/406/image" class="logosheader brand" alt="liga1logo"></a>
+        </div>
       </div>
     </div>
     <!--Navbar -->
@@ -74,44 +76,62 @@
       </div>
     </nav>
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="index.html">
-              <div class="selected">Home</div>
-            </a>
+      <!-- H -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="index.html">
+                <div class="navoptions">Home</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="nosotros.html">
+                <div class="navoptions">Nosotros</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="social.html">
+                <div class="navoptions">Social</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="nosotros.html">
-              <div class="navoptions">Nosotros</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="social.html">
-              <div class="navoptions">Social</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- R -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Home
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="nosotros.html">Nosotros</a></li>
+            <li><a class="dropdown-item text-center" href="social.html">Social</a></li>
+          </ul>
         </div>
-      </div>  
-    </div>  
+      </div>   
 
   </header>
 
   <main>
 
     <!-- Titulo -->
-    <div class="container-fluid divtitle">
-      <div class="row">
-        <div class="col-9">
-          <p><b>Home</b></p>
-        </div>
-        <div class="col-2">
-          <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+      <!-- H -->
+      <div class="container-fluid divtitle title-d">
+        <div class="row">
+          <div class="col-8">
+            <p><b>Home</b></p>
+          </div>
+          <div class="col-4 text-center">
+            <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+          </div>
         </div>
       </div>
-    </div>
-
+      <!-- R -->
+      <div class="container-fluid text-center divtitle title-p">
+        <h1 style="font-size: 70px;"><b>Home</b></h1>
+      </div>
+    <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
