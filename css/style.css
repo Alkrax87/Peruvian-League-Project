@@ -16,6 +16,12 @@ th{
 .f-d{
   font-family: 'Open Sans', sans-serif;
 }
+.table-text{
+  font-size: 14px;
+}
+.table-height{
+  height: 55px;
+}
 
 /* ==================================Background Colors */
 .bgdark{
@@ -31,7 +37,6 @@ th{
 /* ==================================Nav Bar Style */
 .teamsnav{
   height: 65px;
-  padding: 0px 15px 0px 15px;
 }
 .btn-nav-options{
   height: 50px;
