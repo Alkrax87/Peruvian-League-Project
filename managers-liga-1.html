@@ -4,7 +4,7 @@
     <title>Liga 1 Técnicos</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Icono Pagina -->
     <link rel="icon" href="https://api.sofascore.com/api/v1/unique-tournament/406/image">
     <!-- Bootstrap CSS v5.0.2 -->
@@ -28,7 +28,7 @@
 
 <body>
 
-  <header class="fixed-top">
+  <header>
 
     <!-- Teams -->
     <div class="row bg-light teamsnav">
@@ -102,77 +102,102 @@
       </div>
     </nav>
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="equipos-liga-1.html">
-              <div class="navoptions">Clubes</div>
-            </a>
+      <!-- Desktop -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="equipos-liga-1.html">
+                <div class="navoptions">Clubes</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="fixture-liga-1.html">
+                <div class="navoptions">Fixture</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="tabla-liga-1.html">
+                <div class="navoptions">Tabla</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="managers-liga-1.html">
+                <div class="selected">Técnicos</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="fixture-liga-1.html">
-              <div class="navoptions">Fixture</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="tabla-liga-1.html">
-              <div class="navoptions">Tabla</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="managers-liga-1.html">
-              <div class="selected">Técnicos</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- Phone -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Técnicos
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="equipos-liga-1.html">Clubes</a></li>
+            <li><a class="dropdown-item text-center" href="fixture-liga-1.html">Fixture</a></li>
+            <li><a class="dropdown-item text-center" href="tabla-liga-1.html">Tabla</a></li>
+          </ul>
         </div>
       </div>  
-    </div>  
 
   </header>
 
   <main>
 
-    <!-- Titulo -->
-    <div class="container-fluid divtitle">
-      <div class="row">
-        <div class="col-9">
-          <p><b>Técnicos Liga 1</b></p>
-        </div>
-        <div class="col-2">
-          <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
-        </div>
-      </div>
-    </div>
+
+
     <!-- Descripción-->
-    <div class="container-fluid bglight divcontent">
-      <div class="row text-end">
-        <div class="col"></div>
-        <div class="col-2 text-center">
-          <p class="notes">Temporada</p>
-          <p class="notes2"><b>2022</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Equipos</p>
-          <p class="notes2"><b>19</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Categoría</p>
-          <p class="notes2 nospace"><b>1<sup>ra</sup> División</b></p>
-        </div>
-        <div class="col-3">
-          <img src="images/liga1fpf.png" alt="liga1logo" height="80px;">
+      <!-- Desktop -->
+      <div class="container-fluid bglight description-d">
+        <div class="row">
+          <div class="col-3 text-center">
+            <p class="notes">Temporada</p>
+            <p class="notes2"><b>2022</b></p>
+          </div>
+          <div class="col-3 text-center">
+            <p class="notes">Equipos</p>
+            <p class="notes2"><b>19</b></p>
+          </div>
+          <div class="col-3 text-center">
+            <p class="notes">Categoría</p>
+            <p class="notes2 nospace"><b>1<sup>ra</sup> División</b></p>
+          </div>
+          <div class="col-3 text-end">
+            <img src="images/liga1fpf.png" alt="liga1logo" height="80px;">
+          </div>
         </div>
       </div>
-    </div>
+      <!-- Phone -->
+      <div class="container-fluid bglight text-center description-p">
+        <div class="row">
+          <div class="col-4">
+            <p class="notes">Temporada</p>
+            <p class="notes2"><b>2022</b></p>
+          </div>
+          <div class="col-4">
+            <p class="notes">Equipos</p>
+            <p class="notes2"><b>19</b></p>
+          </div>
+          <div class="col-4">
+            <p class="notes">Categoría</p>
+            <p class="notes2 nospace"><b>1<sup>ra</sup> División</b></p>
+          </div>
+          <div class="col-12">
+            <img src="images/liga1fpf.png" alt="liga1logo" height="60px;">
+          </div>
+        </div>
+      </div>
     <!-- Divisor -->
     <div class="container-fluid bg-light divcut shadow-lg"></div>
     <!-- Tabla -->
     <div class="container-fluid">
       <div class="row">
         <div class="col"></div>
-        <div class="col-xl-9 col-lg-11 col-md-12 my-4 bglight padtop2 topcorners bottomcorners shadow-lg">
-          <table class="table table-responsive">
+        <div class="col-xl-9 col-lg-11 col-md-12 my-4 bglight  table-responsive padtop2 topcorners bottomcorners shadow-lg">
+          <table class="table">
             <thead>
               <tr class="tableheader">
                 <th scope="col" class="managerstablewidth">Director Técnico</th>
