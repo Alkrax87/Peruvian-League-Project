@@ -5,6 +5,8 @@ body{
 header{
   position: fixed;
   width: 100%;
+  display: block;
+  box-sizing: content-box;
 }
 main{
   padding-top: 170px;
