@@ -269,7 +269,6 @@ th{
   padding-left: 70px;
   font-size: 73px;
   color: #fff;
-  white-space: nowrap;
 }
 .divtitle2{
   background: rgb(1,33,51);
@@ -998,6 +997,9 @@ circle:  <i class="fas fa-circle draw"></i>
   }
   .title-p{
     display: block;
+  }
+  .divtitle{
+    padding-left: 0px;
   }
 }
 
