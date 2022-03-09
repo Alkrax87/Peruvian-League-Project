@@ -2,22 +2,8 @@ body{
   background-color: #DBDBDB;
   font-family: 'Montserrat', sans-serif;
 }
-header{
-  position: fixed;
-  width: 100%;
-  display: block;
-  box-sizing: content-box;
-}
 main{
   padding-top: 170px;
-}
-@media (max-width: 991px) {
-  header{
-    position: relative;
-  }
-  main{
-    padding-top: 0px;
-  }
 }
 td{
   vertical-align: middle;
