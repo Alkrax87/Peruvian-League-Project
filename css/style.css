@@ -229,6 +229,27 @@ th{
   background-color: #85072D;
   color: #fff;
 }
+.btn-switch-dropdown{
+  color:black; 
+  width: 50%;
+  border-style: solid;
+  border-color: #D8A928;
+  border-width: 3px;
+  border-radius: 15px;
+}
+.btn-switch-dropdown:hover{
+  color:black; 
+  width: 50%;
+}
+.list-dropdown{
+  color:black; 
+  width: 50%;
+  transition-duration: 0ms;
+  border-style: solid;
+  border-color: #D8A928;
+  border-width: 3px;
+  border-radius: 15px;
+}
 
 /* ==================================Descripcion */
 .square {
@@ -1014,6 +1035,26 @@ circle:  <i class="fas fa-circle draw"></i>
   }
 }
 
+@media screen and (max-width: 429px) {
+  .escudoteam{
+    font-size: 80px;
+  }
+  .teamsfinal{
+    font-size: 15px;
+  }
+  .headersfinal{
+    font-size: 14px;
+  }
+  .marcador2{
+    font-size: 18px;
+  }
+  .headersfinal2{
+    font-size: 12px;
+  }
+  .global{
+    font-size: 12px;
+  }
+}
 
 
 

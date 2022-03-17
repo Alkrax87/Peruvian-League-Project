@@ -156,6 +156,10 @@
         $('#tablaAcumulada').hide();
         $('#tablaClausura').hide();
         $(".foottable").hide();
+        $("#btnDropdown").text("Apertura");
+        $("#dbapertura").hide();
+        $("#dbclausura").show();
+        $("#dbacumulado").show();
       } else if (a == "clausura") {
         $("#btnApertura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
         $("#btnClausura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcheractive");
@@ -164,6 +168,10 @@
         $('#tablaAcumulada').hide();
         $('#tablaClausura').show();
         $(".foottable").hide();
+        $("#btnDropdown").text("Clausura");
+        $("#dbapertura").show();
+        $("#dbclausura").hide();
+        $("#dbacumulado").show();
       } else {
         $("#btnApertura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
         $("#btnClausura").removeClass("btntableswitcherdisble btntableswitcheractive").addClass("btntableswitcherdisble");
@@ -172,6 +180,10 @@
         $('#tablaAcumulada').show();
         $('#tablaClausura').hide();
         $(".foottable").show();
+        $("#btnDropdown").text("Acumulado");
+        $("#dbapertura").show();
+        $("#dbclausura").show();
+        $("#dbacumulado").hide();
       }
     }
   </script>
@@ -210,7 +222,26 @@
           <div class="col-12">
             <h1 style="font-size: 70px;"><b>Tabla</b></h1>
           </div>
+          <div class="col-12">
+            <div class="dropdown">
+              <button id="btnDropdown" class="btn btn-switch-dropdown bg-light dropdown-toggle" data-bs-toggle="dropdown" >
+                Acumulado
+              </button>
+              <ul class="dropdown-menu bg-light text-center list-dropdown">
+                <li id="dbacumulado">
+                  <button class="btn w-100" onclick="buttonsswitch('acumulado')">Acumulado</button>
+                </li>
+                <li id="dbapertura">
+                  <button class="btn w-100" onclick="buttonsswitch('apertura')">Apertura</button>
+                </li>
+                <li id="dbclausura">
+                  <button class="btn w-100" onclick="buttonsswitch('clausura')">Clausura</button>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+
       </div>
     <!-- Descripción-->
       <!-- H -->
@@ -1806,11 +1837,11 @@
     <div class="container-fluid bglight">
       <div class="row">
         <div class="col"></div>
-        <div class="col-3 text-center">
+        <div class="col-4 text-center">
           <p class="notes">Ganador Apertura</p>
           <p class="notes2"><b>Por Definir</b></p>
         </div>
-        <div class="col-3  text-center">
+        <div class="col-4  text-center">
           <p class="notes">Ganador Clausura</p>
           <p class="notes2"><b>Por Definir</b></p>
         </div>
@@ -1875,7 +1906,7 @@
                     <div class="row">
                       <div class="col-12">
                         <p class="headersfinal2">Global</p>
-                        <p>&nbsp  -  &nbsp</p>
+                        <p class="global">&nbsp  -  &nbsp</p>
                       </div>
                     </div>
                   </li>
@@ -1951,6 +1982,7 @@
 
   <!-- APERTURA ULTIMOS PARTIDOS-->
   <script type="text/javascript">
+    $("#dbacumulado").hide();
     for (var i = 0; i <= 18; i++) {
       var xd1 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
       var xd2 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
