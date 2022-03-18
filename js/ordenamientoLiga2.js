@@ -66,15 +66,11 @@ while (i < 13) {
     tbody.find("tr").eq(i).find("div").attr("class", "ascenso");
     tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
     i++;
-  } else if (i >= 2 && i < 6) {
-    tbody.find("tr").eq(i).find("div").attr("class", "playoff");
-    tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
-    i++;
-  } else if (i >= 6 && i < 11) {
+  } else if (i >= 2 && i < 12) {
     tbody.find("tr").eq(i).find("div").text("");
     tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
     i++;
-  } else if (i >= 11 && i < 13) {
+  } else if (i == 12) {
     tbody.find("tr").eq(i).find("div").attr("class", "descenso");
     tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
     i++;
