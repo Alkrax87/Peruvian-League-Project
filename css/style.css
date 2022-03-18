@@ -190,7 +190,7 @@ th{
   color: #fff;
 }
 .btn-Fixture{
-  width: 35px;
+  width: 38px;
   font-size: 13px;
   margin: 5px 2px 0px 2px;
 }
@@ -784,6 +784,7 @@ circle:  <i class="fas fa-circle draw"></i>
   width: 70px;
 }
 .club-divider{
+  background: #fff;
   border-color: white;
   border-style: solid;
   border-width: 2px;
@@ -975,7 +976,7 @@ circle:  <i class="fas fa-circle draw"></i>
     margin-top: 30px;
     border-color: rgb(4,22,110); 
     border-width: 4px; 
-    border-style: solid;
+    border-style: dashed;
     width: 150px;
     height: 150px;
   }
@@ -1017,6 +1018,9 @@ circle:  <i class="fas fa-circle draw"></i>
   }
   .divtitle{
     padding-left: 0px;
+  }
+  .title-efct{
+    text-align: center;
   }
 }
 
