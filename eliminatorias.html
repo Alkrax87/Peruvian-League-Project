@@ -29,25 +29,27 @@
   <header class="fixed-top">
 
     <!-- Teams -->
-    <div class="row bg-light teamsnav">
-      <div class="col">
-        <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/295/image" class="logosheader brand" alt="liga1logo"></a>
-      </div>
-      <div class="col-9 headerlogoseffect">
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/teams/afa.png" alt="AFAlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fef.png" alt="FEFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/apf.png" alt="AFPlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/auf.png" alt="AUFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
-          </nav>
-      </div>
-      <div class="col">
+    <div class="container-fluid">
+      <div class="row bg-light teamsnav">
+        <div class="col">
+          <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/295/image" class="logosheader brand" alt="liga1logo"></a>
+        </div>
+        <div class="col-9 headerlogoseffect">
+          <nav class="navbar navbar-light bg-light">
+              <a class="navbar-brand" href="#"><img src="images/teams/afa.png" alt="AFAlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fef.png" alt="FEFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/apf.png" alt="AFPlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/auf.png" alt="AUFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
+            </nav>
+        </div>
+        <div class="col">
+        </div>
       </div>
     </div>
     <!--Navbar -->
@@ -91,32 +93,47 @@
       </div>
     </nav>
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="equipos-eliminatorias.html">
-              <div class="navoptions">Equipos</div>
-            </a>
+      <!-- H -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="equipos-eliminatorias.html">
+                <div class="navoptions">Equipos</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="fixture-eliminatorias.html">
+                <div class="navoptions">Fixture</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="tabla-eliminatorias.html">
+                <div class="navoptions">Tabla</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="managers-eliminatorias.html">
+                <div class="navoptions">Técnicos</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="fixture-eliminatorias.html">
-              <div class="navoptions">Fixture</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="tabla-eliminatorias.html">
-              <div class="navoptions">Tabla</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="managers-eliminatorias.html">
-              <div class="navoptions">Técnicos</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- R -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Liga 1
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="equipos-eliminatorias.html">Equipos</a></li>
+            <li><a class="dropdown-item text-center" href="fixture-eliminatorias.html">Fixture</a></li>
+            <li><a class="dropdown-item text-center" href="tabla-eliminatorias.html">Tabla</a></li>
+            <li><a class="dropdown-item text-center" href="managers-eliminatorias.html">Técnicos</a></li>
+          </ul>
         </div>
       </div>  
-    </div>  
 
   </header>
 
@@ -124,27 +141,47 @@
 
     <!-- Banner -->
     <img src="images/banners/eliminatoriasbanner.jpg" width="100%" alt="liga1banner">
-    <!-- Descripcion-->
-    <div class="container-fluid bglight">
-      <div class="row text-end">
-        <div class="col"></div>
-        <div class="col-2 text-center">
-          <p class="notes">Clasificación</p>
-          <p class="notes2"><b>Qatar 2022</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Equipos</p>
-          <p class="notes2"><b>10</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Categoría</p>
-          <p class="notes2 nospace"><b>Eliminatorias</b></p>
-        </div>
-        <div class="col-3">
-          <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="80px;">
+    <!-- Descripción-->
+      <!-- H -->
+      <div class="container-fluid bglight description-d">
+        <div class="row">
+          <div class="col-3 text-center">
+            <p class="notes">Clasificación</p>
+            <p class="notes2"><b>Qatar 2022</b></p>
+          </div>
+          <div class="col-3 text-center">
+            <p class="notes">Equipos</p>
+            <p class="notes2"><b>10</b></p>
+          </div>
+          <div class="col-3 text-center">
+            <p class="notes">Categoría</p>
+            <p class="notes2 nospace"><b>Eliminatorias</b></p>
+          </div>
+          <div class="col-3 text-end">
+            <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="80px;">
+          </div>
         </div>
       </div>
-    </div>
+      <!-- R -->
+      <div class="container-fluid bglight text-center description-p">
+        <div class="row">
+          <div class="col-4">
+            <p class="notes">Clasificación</p>
+            <p class="notes2"><b>Qatar 2022</b></p>
+          </div>
+          <div class="col-4">
+            <p class="notes">Equipos</p>
+            <p class="notes2"><b>10</b></p>
+          </div>
+          <div class="col-4">
+            <p class="notes">Categoría</p>
+            <p class="notes2 nospace"><b>Eliminatorias</b></p>
+          </div>
+          <div class="col-12">
+            <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="60px;">
+          </div>
+        </div>
+      </div>
     <!-- Divisor -->
     <div class="container-fluid bg-light divcut3 shadow-lg"></div>
     <!-- Formato -->
@@ -154,6 +191,7 @@
           <img class="img-fluid shadow-lg" alt="liga-1" style="width: 350px; border-radius: 30px;" src="https://us.123rf.com/450wm/fifg/fifg1805/fifg180500017/101711518-13-de-abril-de-2018-mosc%C3%BA-rusia-trofeo-de-la-copa-mundial-de-la-fifa-con-el-tel%C3%B3n-de-fondo-del-estad.jpg?ver=6">
         </div>
         <div class="col-md-8">
+          <br>
           <h2 class="f-d">CLASIFICACIÓN CONMEBOL</h2>
           <p class="f-d">La clasificación al mundial se realiza en 18 fechas, donde todas las selecciones participantes se enfrentan en un todos contra todos de local y de visita.</p>
           <ul>

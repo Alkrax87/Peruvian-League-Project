@@ -915,11 +915,11 @@ circle:  <i class="fas fa-circle draw"></i>
 .notes{
   padding-top: 20px;
   margin-bottom: 0px;
-  font-size: 10px;
+  font-size: 9px;
   font-style: italic;
 }
 .notes2{
-  font-size: 14px;
+  font-size: 12px;
 }
 .zerobottom{
   margin-bottom: 0%;
@@ -1010,6 +1010,9 @@ circle:  <i class="fas fa-circle draw"></i>
   }
   .title-efct{
     text-align: center;
+  }
+  .divtitle3{
+    padding-left: 12px;
   }
 }
 

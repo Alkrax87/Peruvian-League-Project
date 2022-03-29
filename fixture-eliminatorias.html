@@ -29,26 +29,28 @@
   <header class="fixed-top">
 
     <!-- Teams -->
-    <div class="row bg-light teamsnav">
-      <div class="col">
-        <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/295/image" class="logosheader brand" alt="liga1logo"></a>
-      </div>
-      <div class="col-9 headerlogoseffect">
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/teams/afa.png" alt="AFAlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fef.png" alt="FEFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/apf.png" alt="AFPlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/auf.png" alt="AUFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
-          </nav>
-      </div>
-      <div class="col">
-      </div>
+    <div class="container-fluid">
+        <div class="row bg-light teamsnav">
+            <div class="col">
+              <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/295/image" class="logosheader brand" alt="liga1logo"></a>
+            </div>
+            <div class="col-9 headerlogoseffect">
+              <nav class="navbar navbar-light bg-light">
+                  <a class="navbar-brand" href="#"><img src="images/teams/afa.png" alt="AFAlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/fef.png" alt="FEFlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/apf.png" alt="AFPlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/auf.png" alt="AUFlogo" class="logos logosheader"></a>
+                  <a class="navbar-brand" href="#"><img src="images/teams/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
+                </nav>
+            </div>
+            <div class="col">
+            </div>
+          </div>
     </div>
     <!--Navbar -->
     <nav class="navbar navbar-expand-lg navstyle">
@@ -91,32 +93,47 @@
       </div>
     </nav>
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="equipos-eliminatorias.html">
-              <div class="navoptions">Equipos</div>
-            </a>
+      <!-- H -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="equipos-eliminatorias.html">
+                <div class="navoptions">Equipos</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="fixture-eliminatorias.html">
+                <div class="selected">Fixture</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="tabla-eliminatorias.html">
+                <div class="navoptions">Tabla</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="managers-eliminatorias.html">
+                <div class="navoptions">Técnicos</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="fixture-eliminatorias.html">
-              <div class="selected">Fixture</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="tabla-eliminatorias.html">
-              <div class="navoptions">Tabla</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="managers-eliminatorias.html">
-              <div class="navoptions">Técnicos</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- R -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Fixture
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="equipos-eliminatorias.html">Equipos</a></li>
+            <li><a class="dropdown-item text-center" href="fixture-eliminatorias.html">Fixture</a></li>
+            <li><a class="dropdown-item text-center" href="tabla-eliminatorias.html">Tabla</a></li>
+            <li><a class="dropdown-item text-center" href="managers-eliminatorias.html">Técnicos</a></li>
+          </ul>
         </div>
-      </div>  
-    </div>  
+      </div>   
 
   </header>
 
@@ -157,41 +174,70 @@
   <main>
 
     <!-- Titulo -->
-    <div class="container-fluid divtitle3 divtitlemain3">
-        <div class="row">
-          <div class="col-9">
-            <p><b>Fixture Eliminatorias</b></p>
+        <!-- H -->
+        <div class="container-fluid divtitle3 title-d">
+            <div class="row">
+              <div class="col-8">
+                <p><b>Fixture</b></p>
+              </div>
+              <div class="col-4 text-center">
+                <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+              </div>
+            </div>
           </div>
-          <div class="col-2">
-            <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+          <!-- R -->
+          <div class="container-fluid text-center divtitle3 title-p">
+            <h1 style="font-size: 70px;"><b>Fixture</b></h1>
           </div>
-        </div>
-    </div>
-    <!-- Descripcion-->
-    <div class="container-fluid bglight">
-        <div class="row text-end">
-          <div class="col"></div>
-          <div class="col-2 text-center">
-            <p class="notes">Clasificación</p>
-            <p class="notes2"><b>Qatar 2022</b></p>
+    <!-- Descripción-->
+        <!-- H -->
+        <div class="container-fluid bglight description-d">
+            <div class="row">
+              <div class="col-2 text-center">
+                <p class="notes">Clasificación</p>
+                <p class="notes2"><b>Qatar 2022</b></p>
+              </div>
+              <div class="col-2 text-center">
+                <p class="notes">Equipos</p>
+                <p class="notes2"><b>10</b></p>
+              </div>
+              <div class="col-3  text-center">
+                <p class="notes">Promoción</p>
+                <p class="notes2"><b>Clasificación</b></p>
+              </div>
+              <div class="col-2 text-center">
+                <p class="notes">Categoría</p>
+                <p class="notes2 nospace"><b>Eliminatorias</b></p>
+              </div>
+              <div class="col-3 text-end">
+                <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="80px;">
+              </div>
+            </div>
           </div>
-          <div class="col-2  text-center">
-            <p class="notes">Equipos</p>
-            <p class="notes2"><b>10</b></p>
+          <!-- R -->
+          <div class="container-fluid bglight text-center description-p">
+            <div class="row">
+              <div class="col-3">
+                <p class="notes">Clasificación</p>
+                <p class="notes2"><b>Qatar 2022</b></p>
+              </div>
+              <div class="col-3">
+                <p class="notes">Equipos</p>
+                <p class="notes2"><b>10</b></p>
+              </div>
+              <div class="col-3 text-center">
+                <p class="notes">Promoción</p>
+                <p class="notes2"><b>Clasificación</b></p>
+              </div>
+              <div class="col-3">
+                <p class="notes">Categoría</p>
+                <p class="notes2 nospace"><b>Eliminatorias</b></p>
+              </div>
+              <div class="col-12">
+                <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="60px;">
+              </div>
+            </div>
           </div>
-          <div class="col-2  text-center">
-            <p class="notes">Promoción</p>
-            <p class="notes2"><b>Clasificación</b></p>
-          </div>
-          <div class="col-2  text-center">
-            <p class="notes">Categoría</p>
-            <p class="notes2 nospace"><b>Eliminatorias</b></p>
-          </div>
-          <div class="col-3">
-            <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="80px;">
-          </div>
-        </div>
-    </div>
     <!-- Divisor -->
     <div class="container-fluid bg-light divcut3 shadow-lg"></div>
     <!-- Tabla Fixture -->  
@@ -200,38 +246,39 @@
             <div class="col"></div>
             <div class="col-xl-7 col-lg-10 col-md-12 my-4 topcorners bottomcorners bglight padtop2 text-center shadow-lg">
 
+                <!--  <i class="fas fa-caret-left"></i>  -->
+                
                 <!-- Botones -->
-                <div class="row">
-                    <div class="col">
-                    </div>
-                    <div class="col-11">
-                        <nav>
-                            <button id="1" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('1')">1</button>
-                            <button id="2" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('2')">2</button>
-                            <button id="3" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('3')">3</button>
-                            <button id="4" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('4')">4</button>
-                            <button id="5" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('5')">5</button>
-                            <button id="6" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('6')">6</button>
-                            <button id="7" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('7')">7</button>
-                            <button id="8" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('8')">8</button>
-                            <button id="9" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('9')">9</button>
-                            <button id="10" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('10')">10</button>
-                            <button id="11" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('11')">11</button>
-                            <button id="12" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('12')">12</button>
-                            <button id="13" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('13')">13</button>
-                            <button id="14" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('14')">14</button>
-                            <button id="15" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('15')">15</button>
-                            <button id="16" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('16')">16</button>
-                            <button id="17" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('17')">17</button>
-                            <button id="18" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('18')">18</button>
-                        </nav>
-                    </div>
-                    <div class="col">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Selector de Fechas:</p>
+                        </div>
+                        <div class="col-12 text-center">
+                            <nav>
+                                <button id="1" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('1')">1</button>
+                                <button id="2" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('2')">2</button>
+                                <button id="3" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('3')">3</button>
+                                <button id="4" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('4')">4</button>
+                                <button id="5" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('5')">5</button>
+                                <button id="6" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('6')">6</button>
+                                <button id="7" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('7')">7</button>
+                                <button id="8" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('8')">8</button>
+                                <button id="9" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('9')">9</button>
+                                <button id="10" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('10')">10</button>
+                                <button id="11" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('11')">11</button>
+                                <button id="12" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('12')">12</button>
+                                <button id="13" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('13')">13</button>
+                                <button id="14" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('14')">14</button>
+                                <button id="15" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('15')">15</button>
+                                <button id="16" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('16')">16</button>
+                                <button id="17" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('17')">17</button>
+                                <button id="18" class="btn btn-Fixture-Switch btn-Fixture btn-Fixture-Disable3" onclick="fixtureselector('18')">18</button>
+                            </nav>
+                        </div>
                     </div>
                 </div>
                 <br>
-
-                <!--<i class="fas fa-caret-left"></i>-->
 
                 <!-- Content -->
                 <div id="tablaApertura" class="container">
@@ -1621,9 +1668,10 @@
                                     <img src="images/teams/fvf.png" alt="FVFlogo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Venezuela</span>
                                 </div>
                                 <div class="col fixture-divider text-start" style="width: 20%;">
-                                    <span></span>
+                                    <span>3</span>
+                                    <i class="fas fa-caret-left"></i>
                                     <div class="py-2"></div>
-                                    <span></span>
+                                    <span>0</span>
                                 </div>
                             </div>
                         </div>
@@ -1636,9 +1684,10 @@
                                     <img src="images/teams/fbf.png" alt="FBFlogo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Bolivia</span>
                                 </div>
                                 <div class="col fixture-divider text-start" style="width: 20%;">
-                                    <span></span>
+                                    <span>3</span>
+                                    <i class="fas fa-caret-left"></i>
                                     <div class="py-2"></div>
-                                    <span></span>
+                                    <span>0</span>
                                 </div>
                             </div>
                         </div>
@@ -1651,9 +1700,10 @@
                                     <img src="images/teams/fef.png" alt="FEFlogo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Ecuador</span>
                                 </div>
                                 <div class="col fixture-divider text-start" style="width: 20%;">
-                                    <span></span>
+                                    <span>3</span>
+                                    <i class="fas fa-caret-left"></i>
                                     <div class="py-2"></div>
-                                    <span></span>
+                                    <span>1</span>
                                 </div>
                             </div>
                         </div>
@@ -1666,9 +1716,10 @@
                                     <img src="images/teams/ffch.png" alt="FFCHlogo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Chile</span>
                                 </div>
                                 <div class="col fixture-divider text-start" style="width: 20%;">
-                                    <span></span>
+                                    <span>4</span>
+                                    <i class="fas fa-caret-left"></i>
                                     <div class="py-2"></div>
-                                    <span></span>
+                                    <span>0</span>
                                 </div>
                             </div>
                         </div>
@@ -1681,9 +1732,10 @@
                                     <img src="images/teams/fpf.png" alt="FPFlogo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Perú</span>
                                 </div>
                                 <div class="col fixture-divider text-start" style="width: 20%;">
-                                    <span></span>
+                                    <span>1</span>
+                                    <i class="fas fa-caret-left"></i>
                                     <div class="py-2"></div>
-                                    <span></span>
+                                    <span>0</span>
                                 </div>
                             </div>
                         </div>
@@ -1782,8 +1834,8 @@
 
     <script>
         ocultar();
-        $("#f16").show(); 
-        $("#16").addClass("btn-Fixture-Active3");
+        $("#f18").show(); 
+        $("#18").addClass("btn-Fixture-Active3");
     </script>
 
     <div class="footer-clean shadow-lg">

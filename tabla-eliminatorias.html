@@ -29,25 +29,27 @@
   <header class="fixed-top">
 
     <!-- Teams -->
-    <div class="row bg-light teamsnav">
-      <div class="col">
-        <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/295/image" class="logosheader brand" alt="liga1logo"></a>
-      </div>
-      <div class="col-9 headerlogoseffect">
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/teams/afa.png" alt="AFAlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fef.png" alt="FEFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/apf.png" alt="AFPlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/auf.png" alt="AUFlogo" class="logos logosheader"></a>
-            <a class="navbar-brand" href="#"><img src="images/teams/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
-          </nav>
-      </div>
-      <div class="col">
+    <div class="contrainer-fluid">
+      <div class="row bg-light teamsnav">
+        <div class="col">
+          <a class="navbar-brand" href="index.html"><img src="https://api.sofascore.com/api/v1/unique-tournament/295/image" class="logosheader brand" alt="liga1logo"></a>
+        </div>
+        <div class="col-9 headerlogoseffect">
+          <nav class="navbar navbar-light bg-light">
+              <a class="navbar-brand" href="#"><img src="images/teams/afa.png" alt="AFAlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fef.png" alt="FEFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/apf.png" alt="AFPlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/auf.png" alt="AUFlogo" class="logos logosheader"></a>
+              <a class="navbar-brand" href="#"><img src="images/teams/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
+            </nav>
+        </div>
+        <div class="col">
+        </div>
       </div>
     </div>
     <!--Navbar -->
@@ -91,73 +93,117 @@
       </div>
     </nav>
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="equipos-eliminatorias.html">
-              <div class="navoptions">Equipos</div>
-            </a>
+      <!-- H -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="equipos-eliminatorias.html">
+                <div class="navoptions">Equipos</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="fixture-eliminatorias.html">
+                <div class="navoptions">Fixture</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="tabla-eliminatorias.html">
+                <div class="selected">Tabla</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="managers-eliminatorias.html">
+                <div class="navoptions">Técnicos</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="fixture-eliminatorias.html">
-              <div class="navoptions">Fixture</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="tabla-eliminatorias.html">
-              <div class="selected">Tabla</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="managers-eliminatorias.html">
-              <div class="navoptions">Técnicos</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- R -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Tabla
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="equipos-eliminatorias.html">Equipos</a></li>
+            <li><a class="dropdown-item text-center" href="fixture-eliminatorias.html">Fixture</a></li>
+            <li><a class="dropdown-item text-center" href="tabla-eliminatorias.html">Tabla</a></li>
+            <li><a class="dropdown-item text-center" href="managers-eliminatorias.html">Técnicos</a></li>
+          </ul>
         </div>
-      </div>  
-    </div>  
+      </div> 
 
   </header>
 
   <main>
 
     <!-- Titulo -->
-    <div class="container-fluid divtitle3 divtitlemain3">
-      <div class="row">
-        <div class="col-9">
-          <p><b>Tabla de Posiciones</b></p>
+        <!-- H -->
+        <div class="container-fluid divtitle3 title-d">
+          <div class="row">
+            <div class="col-8">
+              <p><b>Tabla</b></p>
+            </div>
+            <div class="col-4 text-center">
+              <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+            </div>
+          </div>
         </div>
-        <div class="col-2">
-          <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+        <!-- R -->
+        <div class="container-fluid text-center divtitle3 title-p">
+          <h1 style="font-size: 70px;"><b>Tabla</b></h1>
         </div>
-      </div>
-    </div>
-    <!-- Descripcion-->
-    <div class="container-fluid bglight">
-      <div class="row text-end">
-        <div class="col"></div>
-        <div class="col-2 text-center">
-          <p class="notes">Clasificación</p>
-          <p class="notes2"><b>Qatar 2022</b></p>
+    <!-- Descripción-->
+        <!-- H -->
+        <div class="container-fluid bglight description-d">
+          <div class="row">
+            <div class="col-2 text-center">
+              <p class="notes">Clasificación</p>
+              <p class="notes2"><b>Qatar 2022</b></p>
+            </div>
+            <div class="col-2 text-center">
+              <p class="notes">Equipos</p>
+              <p class="notes2"><b>10</b></p>
+            </div>
+            <div class="col-3  text-center">
+              <p class="notes">Promoción</p>
+              <p class="notes2"><b>Clasificación</b></p>
+            </div>
+            <div class="col-2 text-center">
+              <p class="notes">Categoría</p>
+              <p class="notes2 nospace"><b>Eliminatorias</b></p>
+            </div>
+            <div class="col-3 text-end">
+              <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="80px;">
+            </div>
+          </div>
         </div>
-        <div class="col-2  text-center">
-          <p class="notes">Equipos</p>
-          <p class="notes2"><b>10</b></p>
+        <!-- R -->
+        <div class="container-fluid bglight text-center description-p">
+          <div class="row">
+            <div class="col-3">
+              <p class="notes">Clasificación</p>
+              <p class="notes2"><b>Qatar 2022</b></p>
+            </div>
+            <div class="col-3">
+              <p class="notes">Equipos</p>
+              <p class="notes2"><b>10</b></p>
+            </div>
+            <div class="col-3 text-center">
+              <p class="notes">Promoción</p>
+              <p class="notes2"><b>Clasificación</b></p>
+            </div>
+            <div class="col-3">
+              <p class="notes">Categoría</p>
+              <p class="notes2 nospace"><b>Eliminatorias</b></p>
+            </div>
+            <div class="col-12">
+              <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="60px;">
+            </div>
+          </div>
         </div>
-        <div class="col-2  text-center">
-          <p class="notes">Promoción</p>
-          <p class="notes2"><b>Clasificación</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Categoría</p>
-          <p class="notes2 nospace"><b>Eliminatorias</b></p>
-        </div>
-        <div class="col-3">
-          <img src="images/eliminatorias.png" alt="eliminatoriaslogo" height="80px;">
-        </div>
-      </div>
-    </div>
     <!-- Divisor -->
     <div class="container-fluid bg-light divcut3 shadow-lg"></div>
     <!-- Tabla Eliminatorias-->
@@ -167,277 +213,279 @@
         <div class="col-xl-9 col-lg-11 col-md-12 my-4 topcorners bottomcorners bglight padtop2 text-center shadow-lg">
 
           <!-- Tabla -->
-          <table id="tablaEliminatorias" class="table table-responsive">
-            <thead>
-              <tr class="tableheader3">
-                <th></th>
-                <th>#</th>
-                <th>Escudo</th>
-                <th class="text-start w-30">Nombre</th>
-                <th class="w-10">Puntos</th>
-                <th class="w-5">PJ</th>
-                <th class="w-5">PG</th>
-                <th class="w-5">PE</th>
-                <th class="w-5">PP</th>
-                <th class="w-5">GF</th>
-                <th class="w-5">GC</th>
-                <th class="w-5">DG</th>
-                <th class="nospace w-25">Ultimos 5</th>
-              </tr>
-            </thead>
-            <tbody id="table1">
-              <!-- 1 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">1</th>
-                <!-- Argentina -->
-                <td><img src="images/teams/afa.png" alt="Argentinalogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Argentina</a></td>
-                <td class="fw-bold" id="puntosTeam1">0</td>
-                <td id="pjTeam1">0</td>
-                <td id="pgTeam1">10</td>
-                <td id="peTeam1">5</td>
-                <td id="ppTeam1">0</td>
-                <td id="gfTeam1">23</td>
-                <td id="gcTeam1">7</td>
-                <td id="dgTeam1">0</td>
-                <td class="nospace">
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>            
-                </td>
-              </tr>
-              <!-- 2 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">2</th>
-                <!-- Bolivia -->
-                <td><img src="images/teams/fbf.png" alt="Bolivialogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Bolivia</a></td>
-                <td class="fw-bold" id="puntosTeam2">0</td>
-                <td id="pjTeam2">0</td>
-                <td id="pgTeam2">4</td>
-                <td id="peTeam2">3</td>
-                <td id="ppTeam2">9</td>
-                <td id="gfTeam2">23</td>
-                <td id="gcTeam2">35</td>
-                <td id="dgTeam2">0</td>
-                <td class="nospace">
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-check-circle win"></i>          
-                </td>
-              </tr>
-              <!-- 3 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">3</th>
-                <!-- Brazil -->
-                <td><img src="images/teams/cbf.png" alt="Brazillogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Brazil</a></td>
-                <td class="fw-bold" id="puntosTeam3">0</td>
-                <td id="pjTeam3">0</td>
-                <td id="pgTeam3">12</td>
-                <td id="peTeam3">3</td>
-                <td id="ppTeam3">0</td>
-                <td id="gfTeam3">32</td>
-                <td id="gcTeam3">5</td>
-                <td id="dgTeam3">0</td>
-                <td class="nospace">
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                </td>
-              </tr>
-              <!-- 4 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">4</th>
-                <!-- Colombia -->
-                <td><img src="images/teams/fcf.png" alt="Colombialogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Colombia</a></td>
-                <td class="fw-bold" id="puntosTeam4">0</td>
-                <td id="pjTeam4">0</td>
-                <td id="pgTeam4">3</td>
-                <td id="peTeam4">8</td>
-                <td id="ppTeam4">5</td>
-                <td id="gfTeam4">16</td>
-                <td id="gcTeam4">19</td>
-                <td id="dgTeam4">0</td>
-                <td class="nospace">
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                </td>
-              </tr>
-              <!-- 5 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">5</th>
-                <!-- Chile -->
-                <td><img src="images/teams/ffch.png" alt="Chilelogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Chile</a></td>
-                <td class="fw-bold" id="puntosTeam5">0</td>
-                <td id="pjTeam5">0</td>
-                <td id="pgTeam5">5</td>
-                <td id="peTeam5">4</td>
-                <td id="ppTeam5">7</td>
-                <td id="gfTeam5">19</td>
-                <td id="gcTeam5">20</td>
-                <td id="dgTeam5">0</td>
-                <td class="nospace">
-                  <i class="fas fa-check-circle win"></i> 
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                </td>
-              </tr>
-              <!-- 6 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">6</th>
-                <!-- Ecuador -->
-                <td><img src="images/teams/fef.png" alt="Ecuadorlogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Ecuador</a></td>
-                <td class="fw-bold" id="puntosTeam6">0</td>
-                <td id="pjTeam6">0</td>
-                <td id="pgTeam6">7</td>
-                <td id="peTeam6">4</td>
-                <td id="ppTeam6">5</td>
-                <td id="gfTeam6">25</td>
-                <td id="gcTeam6">15</td>
-                <td id="dgTeam6">0</td>
-                <td class="nospace">
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                </td>
-              </tr>
-              <!-- 7 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">7</th>
-                <!-- Paraguay -->
-                <td><img src="images/teams/apf.png" alt="Paraguaylogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Paraguay</a></td>
-                <td class="fw-bold" id="puntosTeam7">0</td>
-                <td id="pjTeam7">0</td>
-                <td id="pgTeam7">2</td>
-                <td id="peTeam7">7</td>
-                <td id="ppTeam7">7</td>
-                <td id="gfTeam7">9</td>
-                <td id="gcTeam7">23</td>
-                <td id="dgTeam7">0</td>
-                <td class="nospace">
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>           
-                </td>
-              </tr>
-              <!-- 8 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">8</th>
-                <!-- Peru -->
-                <td><img src="images/teams/fpf.png" alt="Perulogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Perú</a></td>
-                <td class="fw-bold" id="puntosTeam8">0</td>
-                <td id="pjTeam8">0</td>
-                <td id="pgTeam8">6</td>
-                <td id="peTeam8">3</td>
-                <td id="ppTeam8">7</td>
-                <td id="gfTeam8">17</td>
-                <td id="gcTeam8">21</td>
-                <td id="dgTeam8">0</td>
-                <td class="nospace">
-                  <i class="fas fa-minus-circle draw"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                </td>
-              </tr>
-              <!-- 9 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">9</th>
-                <!-- Uruguay -->
-                <td><img src="images/teams/auf.png" alt="Uruguaylogo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Uruguay</a></td>
-                <td class="fw-bold" id="puntosTeam9">0</td>
-                <td id="pjTeam9">0</td>
-                <td id="pgTeam9">6</td>
-                <td id="peTeam9">4</td>
-                <td id="ppTeam9">6</td>
-                <td id="gfTeam9">19</td>
-                <td id="gcTeam9">22</td>
-                <td id="dgTeam9">0</td>
-                <td class="nospace">
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                </td>
-              </tr>
-              <!-- 10 -->
-              <tr class="tableitem">
-                <th>
-                  <div class="">.</div>
-                </th>
-                <th scope="row">10</th>
-                <!-- Venezuela -->
-                <td><img src="images/teams/fvf.png" alt="Venezuelalofo" class="logos"></td>
-                <td class="text-start nospace"><a href="#" class="teamstext">Venezuela</a></td>
-                <td class="fw-bold" id="puntosTeam10">0</td>
-                <td id="pjTeam10">0</td>
-                <td id="pgTeam10">3</td>
-                <td id="peTeam10">1</td>
-                <td id="ppTeam10">12</td>
-                <td id="gfTeam10">14</td>
-                <td id="gcTeam10">30</td>
-                <td id="dgTeam10">0</td>
-                <td class="nospace">
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-check-circle win"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                  <i class="fas fa-times-circle lose"></i>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="table-responsive">
+            <table id="tablaEliminatorias" class="table">
+              <thead>
+                <tr class="tableheader3">
+                  <th></th>
+                  <th>#</th>
+                  <th>Escudo</th>
+                  <th class="text-start w-30">Nombre</th>
+                  <th class="w-10">Puntos</th>
+                  <th class="w-5">PJ</th>
+                  <th class="w-5">PG</th>
+                  <th class="w-5">PE</th>
+                  <th class="w-5">PP</th>
+                  <th class="w-5">GF</th>
+                  <th class="w-5">GC</th>
+                  <th class="w-5">DG</th>
+                  <th class="nospace w-25">Ultimos 5</th>
+                </tr>
+              </thead>
+              <tbody id="table1">
+                <!-- 1 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">1</th>
+                  <!-- Argentina -->
+                  <td><img src="images/teams/afa.png" alt="Argentinalogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Argentina</a></td>
+                  <td class="fw-bold" id="puntosTeam1">0</td>
+                  <td id="pjTeam1">0</td>
+                  <td id="pgTeam1">11</td>
+                  <td id="peTeam1">5</td>
+                  <td id="ppTeam1">0</td>
+                  <td id="gfTeam1">26</td>
+                  <td id="gcTeam1">7</td>
+                  <td id="dgTeam1">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-check-circle win"></i>  
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-check-circle win"></i>          
+                  </td>
+                </tr>
+                <!-- 2 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">2</th>
+                  <!-- Bolivia -->
+                  <td><img src="images/teams/fbf.png" alt="Bolivialogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Bolivia</a></td>
+                  <td class="fw-bold" id="puntosTeam2">0</td>
+                  <td id="pjTeam2">0</td>
+                  <td id="pgTeam2">4</td>
+                  <td id="peTeam2">3</td>
+                  <td id="ppTeam2">10</td>
+                  <td id="gfTeam2">23</td>
+                  <td id="gcTeam2">38</td>
+                  <td id="dgTeam2">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-times-circle lose"></i>        
+                  </td>
+                </tr>
+                <!-- 3 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">3</th>
+                  <!-- Brazil -->
+                  <td><img src="images/teams/cbf.png" alt="Brazillogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Brazil</a></td>
+                  <td class="fw-bold" id="puntosTeam3">0</td>
+                  <td id="pjTeam3">0</td>
+                  <td id="pgTeam3">13</td>
+                  <td id="peTeam3">3</td>
+                  <td id="ppTeam3">0</td>
+                  <td id="gfTeam3">36</td>
+                  <td id="gcTeam3">5</td>
+                  <td id="dgTeam3">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-check-circle win"></i>
+                  </td>
+                </tr>
+                <!-- 4 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">4</th>
+                  <!-- Colombia -->
+                  <td><img src="images/teams/fcf.png" alt="Colombialogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Colombia</a></td>
+                  <td class="fw-bold" id="puntosTeam4">0</td>
+                  <td id="pjTeam4">0</td>
+                  <td id="pgTeam4">4</td>
+                  <td id="peTeam4">8</td>
+                  <td id="ppTeam4">5</td>
+                  <td id="gfTeam4">19</td>
+                  <td id="gcTeam4">19</td>
+                  <td id="dgTeam4">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                  </td>
+                </tr>
+                <!-- 5 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">5</th>
+                  <!-- Chile -->
+                  <td><img src="images/teams/ffch.png" alt="Chilelogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Chile</a></td>
+                  <td class="fw-bold" id="puntosTeam5">0</td>
+                  <td id="pjTeam5">0</td>
+                  <td id="pgTeam5">5</td>
+                  <td id="peTeam5">4</td>
+                  <td id="ppTeam5">8</td>
+                  <td id="gfTeam5">19</td>
+                  <td id="gcTeam5">24</td>
+                  <td id="dgTeam5">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-check-circle win"></i> 
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-check-circle win"></i>
+                  </td>
+                </tr>
+                <!-- 6 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">6</th>
+                  <!-- Ecuador -->
+                  <td><img src="images/teams/fef.png" alt="Ecuadorlogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Ecuador</a></td>
+                  <td class="fw-bold" id="puntosTeam6">0</td>
+                  <td id="pjTeam6">0</td>
+                  <td id="pgTeam6">7</td>
+                  <td id="peTeam6">4</td>
+                  <td id="ppTeam6">6</td>
+                  <td id="gfTeam6">26</td>
+                  <td id="gcTeam6">18</td>
+                  <td id="dgTeam6">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                  </td>
+                </tr>
+                <!-- 7 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">7</th>
+                  <!-- Paraguay -->
+                  <td><img src="images/teams/apf.png" alt="Paraguaylogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Paraguay</a></td>
+                  <td class="fw-bold" id="puntosTeam7">0</td>
+                  <td id="pjTeam7">0</td>
+                  <td id="pgTeam7">3</td>
+                  <td id="peTeam7">7</td>
+                  <td id="ppTeam7">7</td>
+                  <td id="gfTeam7">12</td>
+                  <td id="gcTeam7">24</td>
+                  <td id="dgTeam7">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-times-circle lose"></i>          
+                  </td>
+                </tr>
+                <!-- 8 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">8</th>
+                  <!-- Peru -->
+                  <td><img src="images/teams/fpf.png" alt="Perulogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Perú</a></td>
+                  <td class="fw-bold" id="puntosTeam8">0</td>
+                  <td id="pjTeam8">0</td>
+                  <td id="pgTeam8">6</td>
+                  <td id="peTeam8">3</td>
+                  <td id="ppTeam8">8</td>
+                  <td id="gfTeam8">17</td>
+                  <td id="gcTeam8">22</td>
+                  <td id="dgTeam8">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-minus-circle draw"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                  </td>
+                </tr>
+                <!-- 9 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">9</th>
+                  <!-- Uruguay -->
+                  <td><img src="images/teams/auf.png" alt="Uruguaylogo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Uruguay</a></td>
+                  <td class="fw-bold" id="puntosTeam9">0</td>
+                  <td id="pjTeam9">0</td>
+                  <td id="pgTeam9">7</td>
+                  <td id="peTeam9">4</td>
+                  <td id="ppTeam9">6</td>
+                  <td id="gfTeam9">20</td>
+                  <td id="gcTeam9">22</td>
+                  <td id="dgTeam9">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                  </td>
+                </tr>
+                <!-- 10 -->
+                <tr class="tableitem">
+                  <th>
+                    <div class="">.</div>
+                  </th>
+                  <th scope="row">10</th>
+                  <!-- Venezuela -->
+                  <td><img src="images/teams/fvf.png" alt="Venezuelalofo" class="logos"></td>
+                  <td class="text-start nospace"><a href="#" class="teamstext">Venezuela</a></td>
+                  <td class="fw-bold" id="puntosTeam10">0</td>
+                  <td id="pjTeam10">0</td>
+                  <td id="pgTeam10">3</td>
+                  <td id="peTeam10">1</td>
+                  <td id="ppTeam10">13</td>
+                  <td id="gfTeam10">14</td>
+                  <td id="gcTeam10">33</td>
+                  <td id="dgTeam10">0</td>
+                  <td class="nospace">
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-check-circle win"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                    <i class="fas fa-times-circle lose"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <!-- Descripcion -->
           <div class="foottable separadorbottom">
