@@ -160,6 +160,9 @@ th{
   height: 30px;
   font-size: 14px;
 }
+.t-h2{
+  height: 30px;
+}
 
 
 /* ==================================Buttons */
@@ -360,6 +363,9 @@ th{
 }
 .logos{
   width: 40px;
+}
+.logos-evol{
+  width: 30px;
 }
 .logosheader{
   padding-top: 4px;
@@ -610,6 +616,9 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.libertadores-evol{
+  background-color: #fff5d7;
+}
 .sudamericana{
   background-color: #34A853;
   color: #34A853;
@@ -620,6 +629,9 @@ th{
   margin-left: -8px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.sudamericana-evol{
+  background-color: #d4f7dd;
 }
 .revalidacion{
   background-color: #f57316;
@@ -632,6 +644,9 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.revalidacion-evol{
+  background-color: #fcddc7;
+}
 .descenso{
   background-color: #c1272d;
   color: #c1272d;
@@ -642,6 +657,13 @@ th{
   margin-left: -8px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.descenso-evol{
+  background-color: #ffb8bb;
+}
+.t-modal-h th{
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 /* Liga2Positions */
 .ascenso{
@@ -956,6 +978,33 @@ circle:  <i class="fas fa-circle draw"></i>
     margin-left: -5px;
     visibility: visible;
 }
+
+/* ==================================Otros */
+/* MODAL */
+#modal::backdrop{
+  background-color: rgba(0, 0, 0, 0.829);
+}
+dialog{
+  border-color: #D8A928;
+}
+.modal-table{
+
+}
+.modal-table button{
+  width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 991px) {
   .indicator{
     display: none;
