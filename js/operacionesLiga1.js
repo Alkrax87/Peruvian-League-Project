@@ -26,9 +26,8 @@ function operaciones(team){
 }
 
 // REDUCCION DE PUNTOS
-/*
-document.getElementById("puntosTeam3").innerHTML = parseInt($("#puntosTeam3").text()) - 1;
-*/
+document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 1;
+
 
 $('#tablaApertura').hide();
 $('#tablaClausura').hide();
