@@ -157,6 +157,7 @@ th{
   padding: 15px, 15px, 15px, 15px;
 }
 .t-h{
+  white-space: nowrap;
   height: 30px;
   font-size: 14px;
 }
@@ -689,6 +690,28 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.ascensol1{
+  background-color: #08a2bd;
+  color: #08a2bd;
+  height: 40px;
+  width: 13px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.ascensol2{
+  background-color: #01c4b3;
+  color: #01c4b3;
+  height: 40px;
+  width: 13px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 /* Eliminatorias */
 .clasificacion{
   background-color: #6A1A33;
@@ -1078,13 +1101,23 @@ dialog{
   .divtitle{
     padding-left: 0px;
   }
+  .divtitle2{
+    padding-left: 0px;
+  }
   .title-efct{
     text-align: center;
   }
   .divtitle3{
     padding-left: 12px;
   }
-  
+  .e-n{
+    text-align: center;
+    font-size: 60px;
+  }
+  .e-fe{
+    text-align: center;
+    font-size: 55px;
+  }
 }
 @media screen and (max-width: 525px){
   .reval-title{

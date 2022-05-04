@@ -22,8 +22,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <!-- Flags -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/css/flag-icons.min.css">
   </head>
 
 <body>
@@ -31,9 +29,11 @@
   <header class="fixed-top">
 
     <!-- Teams -->
-    <div class="row bg-light teamsnav">
-      <div class="col">
-        <a class="navbar-brand" href="index.html"><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/CopaPeruLogo.png" class="logosheader brand" alt="liga1logo"></a>
+    <div class="container-fluid">
+      <div class="row bg-light teamsnav">
+        <div class="col">
+          <a class="navbar-brand" href="index.html"><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/CopaPeruLogo.png" class="logosheader brand" alt="liga1logo"></a>
+        </div>
       </div>
     </div>
     <!--Navbar -->
@@ -77,50 +77,68 @@
       </div>
     </nav>
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="equipos-copa-peru.html">
-              <div class="navoptions">Clubes</div>
-            </a>
+      <!-- H -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="equipos-copa-peru.html">
+                <div class="navoptions">Clubes</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="etapas-copa-peru.html">
+                <div class="selected">Etapas</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="tabla-copa-peru.html">
+                <div class="navoptions">Tabla</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="etapas-copa-peru.html">
-              <div class="selected">Etapas</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="tabla-copa-peru.html">
-              <div class="navoptions">Tabla</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- R -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Etapas
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="equipos-copa-peru.html">Clubes</a></li>
+            <li><a class="dropdown-item text-center" href="tabla-copa-peru.html">Tabla</a></li>
+          </ul>
         </div>
-      </div>  
-    </div>  
+      </div> 
 
   </header>
 
   <main>
 
     <!-- Titulo -->
-    <div class="container-fluid divtitle2">
-      <div class="row">
-        <div class="col-9">
-          <p><b>Etapas</b></p>
-        </div>
-        <div class="col-2">
-          <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+      <!-- H -->
+      <div class="container-fluid divtitle2 title-d">
+        <div class="row">
+          <div class="col-8">
+            <p><b>Etapas</b></p>
+          </div>
+          <div class="col-4 text-center">
+            <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+          </div>
         </div>
       </div>
-    </div>
+      <!-- R -->
+      <div class="container-fluid text-center divtitle2 title-p">
+        <h1 style="font-size: 70px;"><b>Etapas</b></h1>
+      </div>
     <!-- Descripción-->
     <div class="container-fluid bglight divcontent">
       <div class="row">
         <div class="col"></div>
         <div class="col-10 text-center">
           <p class="notes">Descripción</p>
-          <p class="notes2 nospace"><b>El formato se desarrollará en 5 etapas principales.</b></p>
+          <p class="notes2"><b>El formato se desarrollará en 5 etapas principales.</b></p>
         </div>
         <div class="col"></div>
       </div>
@@ -130,7 +148,7 @@
     <!-- Distrital -->
     <div class="container-fluid bglight my-5 py-4 px-5 shadow-lg">
       <div class="row vc">
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center py-3">
           <img class="img-fluid shadow-lg" alt="liga-1" style="width: 450px; border-radius: 30px;" src="https://f.rpp-noticias.io/2019/09/02/835555club-deportivo-municipal-de-jazan-amazonaspng.png">
         </div>
         <div class="col-md-8">
@@ -154,19 +172,19 @@
     <!-- Departamental -->
     <div class="container-fluid bglight my-5 py-4 px-5 shadow-lg">
       <div class="row vc">
-        <div class="col-md-4 text-center">
+        <div class="py-3 col-md-4 text-center">
           <img class="img-fluid shadow-lg" alt="liga-1" style="width: 450px; border-radius: 30px;" src="https://live.staticflickr.com/7895/46849241774_429a6cc180_b.jpg">
         </div>
         <div class="col-md-8">
           <h3 class="f-d">ETAPA DEPARTAMENTAL</h3>
           <p class="f-d">Cada una de las 25 <b>Ligas Departamentales</b> organiza esta etapa con los clasificados de la etapa anterior, además de los equipos eliminados en la Fase 4 y 5 de la <b>Copa Perú 2021</b>.</p>
           <ul style="list-style:none">
-            <li class="f-d"><span><img src="https://tmssl.akamaized.net/images/wappen/big/86144.png?lm=1617398471" height="30px" width="30px" alt="USM-logo"></span>&nbsp Credicoop San Cristobal.</li>
-            <li class="f-d"><span><img src="https://api.sofascore.com/api/v1/team/138556/image" height="30px" width="30px" alt="USM-logo"></span>&nbsp Los Caimanes.</li>
-            <li class="f-d"><span><img src="images/estrella.png" height="30px" width="30px" alt="USM-logo"></span>&nbsp Estrella Azul.</li>
-            <li class="f-d"><span><img src="https://tmssl.akamaized.net/images/wappen/head/87175.png?lm=1614869449" height="30px" width="30px" alt="USM-logo"></span>&nbsp Deportivo Maristas.</li>
-            <li class="f-d"><span><img src="images/sanmartin.png" height="30px" width="30px" alt="USM-logo"></span>&nbsp Unión San Martín.</li>
-            <li class="f-d"><span><img src="images/parachique.png" height="30px" width="30px" alt="USM-logo"></span>&nbsp Deportivo Parachique</li>
+            <li class="f-d"><span><img src="images/copa-peru/CSC.png" width="40px" alt="CSC-logo"></span>&nbsp Credicoop San Cristóbal</li>
+            <li class="f-d"><span><img src="images/copa-peru/DMH.png" width="40px" alt="DMH-logo"></span>&nbsp Deportivo Maristas</li>
+            <li class="f-d"><span><img src="images/copa-peru/DUP.png" width="40px" alt="DUP-logo"></span>&nbsp Deportivo Parachique</li>          
+            <li class="f-d"><span><img src="images/copa-peru/EAZ.png" width="40px" alt="EAZ-logo"></span>&nbsp Estrella Azul</li>
+            <li class="f-d"><span><img src="images/copa-peru/LCM.png" width="40px" alt="LCM-logo"></span>&nbsp Los Caimanes</li>     
+            <li class="f-d"><span><img src="images/copa-peru/USM.png" width="40px" alt="USM-logo"></span>&nbsp Unión San Martín</li>          
           </ul>
           <p class="f-d">El campeón y subcampeón de cada liga clasifica a la <b>Etapa Nacional</b></p>
         </div>
@@ -177,7 +195,8 @@
       <div class="row vc">
         <div class="col-md-8">
           <h3 class="f-d">ETAPA NACIONAL</h3>
-          <p class="f-d">En esta fase los <b>50 equipos</b> clasificados juegan seis partidos contra tres rivales <b>(ida y vuelta)</b> que tengan cercanía geográfica. Al final de las 6 fechas los <b>32 mejor ubicados</b> en la Tabla general de posiciones clasificarán a los <b>Dieciseisavos de final</b> de las rondas eliminatorias.</p>
+          <p class="f-d">En esta fase los <b>50 equipos</b> clasificados juegan seis partidos contra tres rivales <b>(ida y vuelta)</b> que tengan cercanía geográfica.</p>
+          <p class="f-d">Al final de las 6 fechas los <b>32 mejor ubicados</b> en la Tabla general de posiciones clasificarán a los <b>Dieciseisavos de final</b> de las rondas eliminatorias.</p>
         </div>
         <div class="col-md-4 text-center">
           <img class="img-fluid shadow-lg" alt="liga-2" style="width: 450px; border-radius: 30px;" src="https://larepublica.pe/resizer/A6IlOKkbSzgaXNIUs-os2Sbm99o=/1250x735/top/smart/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/KFQYHJFHQBCBLCNA5LFNGP3QNU.jpg">
@@ -187,12 +206,12 @@
     <!-- Rondas Eliminatorias -->
     <div class="container-fluid bglight my-5 py-4 px-5 shadow-lg">
       <div class="row vc">
-        <div class="col-md-4 text-center">
+        <div class="py-3 col-md-4 text-center">
           <img class="img-fluid shadow-lg" alt="liga-1" style="width: 450px; border-radius: 30px;" src="https://cdn.futbolperuano.com/sdi/2022/02/21/los-10-equipos-de-lima-y-callao-que-suenan-ganar-la-copa-peru-1000773.jpg">
         </div>
         <div class="col-md-8">
           <h3 class="f-d">Rondas Eliminatorias</h3>
-          <p class="f-d">Se juegan desde los <b>Dieciseisavos de Final, Octavos de Final, Cuartos de Final, Semifinal y Final</b> con los 32 equipos clasificados de la <b>Etapa Nacional</b>.</p>
+          <p class="f-d">Se juegan desde los <b>Dieciseisavos, Octavos , Cuartos , Semifinal y Final</b> con los 32 equipos clasificados de la <b>Etapa Nacional</b>.</p>
           <ul>
             <li><b>Campeón</b> asciende a la <b>Liga 1</b>.</li>
             <li><b>Subcampeón</b> asciende a la <b>Liga 2</b>.</li>
@@ -200,10 +219,6 @@
         </div>
       </div>
     </div>
-
-
-
-
 
   </main>
 

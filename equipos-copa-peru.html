@@ -22,8 +22,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <!-- Flags -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/css/flag-icons.min.css">
   </head>
 
 <body>
@@ -31,9 +29,11 @@
   <header class="fixed-top">
 
     <!-- Teams -->
-    <div class="row bg-light teamsnav">
-      <div class="col">
-        <a class="navbar-brand" href="index.html"><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/CopaPeruLogo.png" class="logosheader brand" alt="liga1logo"></a>
+    <div class="container-fluid">
+      <div class="row bg-light teamsnav">
+        <div class="col">
+          <a class="navbar-brand" href="index.html"><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/CopaPeruLogo.png" class="logosheader brand" alt="liga1logo"></a>
+        </div>
       </div>
     </div>
     <!--Navbar -->
@@ -75,52 +75,70 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> 
     <!--Options -->
-    <div class="bg-light navoptionsbar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-2 pad0">               
-            <a class="navoptionstext" href="equipos-copa-peru.html">
-              <div class="selected">Clubes</div>
-            </a>
+      <!-- H -->
+      <div class="bg-light navoptionsbar options-d">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-1 col-md-2 pad0">               
+              <a class="navoptionstext" href="equipos-copa-peru.html">
+                <div class="selected">Clubes</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="etapas-copa-peru.html">
+                <div class="navoptions">Etapas</div>
+              </a>
+            </div>
+            <div class="col-lg-1 col-md-2 pad0">
+              <a class="navoptionstext" href="tabla-copa-peru.html">
+                <div class="navoptions">Tabla</div>
+              </a>
+            </div>
           </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="etapas-copa-peru.html">
-              <div class="navoptions">Etapas</div>
-            </a>
-          </div>
-          <div class="col-lg-1 col-md-2 pad0">
-            <a class="navoptionstext" href="tabla-copa-peru.html">
-              <div class="navoptions">Tabla</div>
-            </a>
-          </div>
+        </div>  
+      </div>
+      <!-- R -->
+      <div class="bg-light container-fluid btn-nav-options options-p">
+        <div class="dropdown">
+          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Clubes
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item text-center" href="etapas-copa-peru.html">Etapas</a></li>
+            <li><a class="dropdown-item text-center" href="tabla-copa-peru.html">Tabla</a></li>
+          </ul>
         </div>
-      </div>  
-    </div>  
+      </div> 
 
   </header>
 
   <main>
     
     <!-- Titulo -->
-    <div class="container-fluid divtitle2">
-      <div class="row">
-        <div class="col-9">
-          <p><b>Clubes Copa Perú</b></p>
-        </div>
-        <div class="col-2">
-          <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+      <!-- H -->
+      <div class="container-fluid divtitle2 title-d">
+        <div class="row">
+          <div class="col-8">
+            <p><b>Clubes</b></p>
+          </div>
+          <div class="col-4 text-center">
+            <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+          </div>
         </div>
       </div>
-    </div>
+      <!-- R -->
+      <div class="container-fluid text-center divtitle2 title-p">
+        <h1 style="font-size: 70px;"><b>Clubes</b></h1>
+      </div>
     <!-- Descripción-->
     <div class="container-fluid bglight divcontent">
       <div class="row">
         <div class="col"></div>
         <div class="col-10 text-center">
           <p class="notes">Descripción</p>
-          <p class="notes2 nospace"><b>Equipos clasificados a la etapa nacional.</b></p>
+          <p class="notes2"><b>Equipos clasificados a la etapa nacional.</b></p>
         </div>
         <div class="col"></div>
       </div>
@@ -128,304 +146,324 @@
     <!-- Divisor -->
     <div class="container-fluid bg-light divcut2 shadow-lg"></div>
     <!-- Descripción-->
-    <div class="container-fluid bglight divcontent">
-      <div class="row text-end">
-        <div class="col"></div>
-        <div class="col-2 text-center">
-          <p class="notes">Temporada</p>
-          <p class="notes2"><b>2022</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Equipos</p>
-          <p class="notes2"><b>Por Definir</b></p>
-        </div>
-        <div class="col-2  text-center">
-          <p class="notes">Categoría</p>
-          <p class="notes2 nospace"><b>3<sup>ra</sup> División</b></p>
-        </div>
-        <div class="col-3">
-          <img src="images/copaperufpf.png" alt="copaperulogo" height="80px;">
+      <!-- H -->
+      <div class="container-fluid bglight description-d">
+        <div class="row">
+          <div class="col-3 text-center">
+            <p class="notes">Temporada</p>
+            <p class="notes2"><b>2022</b></p>
+          </div>
+          <div class="col-3 text-center">
+            <p class="notes">Equipos</p>
+            <p class="notes2"><b>50</b></p>
+          </div>
+          <div class="col-3 text-center">
+            <p class="notes">Categoría</p>
+            <p class="notes2 nospace"><b>3<sup>ra</sup> División</b></p>
+          </div>
+          <div class="col-3 text-end">
+            <img src="images/copa-peru/copaperufpf.png" alt="copaperulogo" height="80px;">
+          </div>
         </div>
       </div>
-    </div>
+      <!-- R -->
+      <div class="container-fluid bglight text-center description-p">
+        <div class="row">
+          <div class="col-4">
+            <p class="notes">Temporada</p>
+            <p class="notes2"><b>2022</b></p>
+          </div>
+          <div class="col-4">
+            <p class="notes">Equipos</p>
+            <p class="notes2"><b>50</b></p>
+          </div>
+          <div class="col-4">
+            <p class="notes">Categoría</p>
+            <p class="notes2 nospace"><b>3<sup>ra</sup> División</p>
+          </div>
+          <div class="col-12">
+            <img src="images/copa-peru/copaperufpf.png" alt="copaperulogo" height="60px;">
+          </div>
+        </div>
+      </div>
     <!-- Divisor -->
     <div class="container-fluid bg-light divcut2 shadow-lg"></div>
     <!-- Tabla -->
     <div class="container-fluid py-4">
       <div class="row">
         <div class="col"></div>
-        <div class="col-xl-7 col-lg-10 col-md-12 topcorners bottomcorners bglight py-2">
-          <table class="table table-sm">
-            <thead>
-              <tr class="tableheader2">
-                <th class="w-25">Departamento</th>
-                <th>Club</th>
-                <th>Distrito</th>
-              </tr>
-            </thead>
-            <tbody>
-              <!-- 1 -->
-              <tr>
-                <td class="" rowspan="2">Amazonas</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 2 -->
-              <tr>
-                <td rowspan="2">Áncash</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 3 -->
-              <tr>
-                <td rowspan="2">Apurimac</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 4 -->
-              <tr>
-                <td rowspan="2">Arequipa</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 5 -->
-              <tr>
-                <td rowspan="2">Ayacucho</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 6 -->
-              <tr>
-                <td rowspan="2">Cajamarca</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 7 -->
-              <tr>
-                <td rowspan="2">Callao</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 8 -->
-              <tr>
-                <td rowspan="2">Cusco</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 9 -->
-              <tr>
-                <td rowspan="2">Huancavelica</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 10 -->
-              <tr>
-                <td rowspan="2">Huánuco</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 11 -->
-              <tr>
-                <td rowspan="2">Ica</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 12 -->
-              <tr>
-                <td rowspan="2">Junín</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 13 -->
-              <tr>
-                <td rowspan="2">La Libertad</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 14 -->
-              <tr>
-                <td rowspan="2">Lambayeque</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 15 -->
-              <tr>
-                <td rowspan="2">Lima</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 16 -->
-              <tr>
-                <td rowspan="2">Loreto</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 17 -->
-              <tr>
-                <td rowspan="2">Madre de Dios</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 18 -->
-              <tr>
-                <td rowspan="2">Moquegua</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 19 -->
-              <tr>
-                <td rowspan="2">Pasco</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 20 -->
-              <tr>
-                <td rowspan="2">Piura</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 21 -->
-              <tr>
-                <td rowspan="2">Puno</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 22 -->
-              <tr>
-                <td rowspan="2">San Martín</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 23 -->
-              <tr>
-                <td rowspan="2">Tacna</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 24 -->
-              <tr>
-                <td rowspan="2">Tumbes</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <!-- 25 -->
-              <tr>
-                <td rowspan="2">Ucayali</td>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              <tr>
-                <td class="t-h">Por Definir</td>
-                <td class="t-h">Por Definir</td>
-              </tr>
-              
-              
-            </tbody>
-          </table>
+        <div class="col-xl-8 col-lg-10 col-md-12 topcorners bottomcorners bglight py-3">
+
+          <!-- Tabla -->
+          <div class="table-responsive">
+            <table class="table table-sm">
+              <thead>
+                <tr class="tableheader2"> 
+                  <th class="w-25">Departamento</th>
+                  <th>Club</th>
+                  <th>Distrito</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- 1 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Amazonas_bandera.png" alt="AMA-logo" width="50px"></span>&nbsp&nbsp Amazonas</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 2 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Bandera_Ancash.png" alt="ANC-logo" width="50px"></span>&nbsp&nbsp Áncash</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 3 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bandera_Regi%C3%B3n_Apurimac.svg" alt="APU-logo" width="50px"></span>&nbsp&nbsp Apurimac</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 4 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandera_de_Arequipa.svg" alt="ARE-logo" width="50px"></span>&nbsp&nbsp Arequipa</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 5 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Ayacucho.svg" alt="AYA-logo" width="50px"></span>&nbsp&nbsp Ayacucho</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 6 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Bandera_de_Cajamarca.svg" alt="CAJ-logo" width="50px"></span>&nbsp&nbsp Cajamarca</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 7 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/2/22/Bandera_del_Callao.svg" alt="CAL-logo" width="50px"></span>&nbsp&nbsp Callao</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 8 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Bandera_de_Cusco.png" alt="CUS-logo" width="50px"></span>&nbsp&nbsp Cusco</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 9 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Huancavelica.svg" alt="HUA-logo" width="50px"></span>&nbsp&nbsp Huancavelica</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 10 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Hu%C3%A1nuco.svg/1280px-Flag_of_Hu%C3%A1nuco.svg.png" alt="HUA-logo" width="50px"></span>&nbsp&nbsp Huánuco</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 11 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Bandera_Regi%C3%B3n_Ica.png" alt="ICA-logo" width="50px"></span>&nbsp&nbsp Ica</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 12 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Bandera_Jun%C3%ADn.png" alt="JNN-logo" width="50px"></span>&nbsp&nbsp Junín</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 13 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/La_Libertad_Flag%28PER%29.png" alt="LBR-logo" width="50px"></span>&nbsp&nbsp La Libertad</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 14 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Lambayeque_Department.svg" alt="LMB-logo" width="50px"></span>&nbsp&nbsp Lambayeque</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 15 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Flag_of_Lima.svg" alt="LIM-logo" width="50px"></span>&nbsp&nbsp Lima</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 16 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Bandera_Regi%C3%B3n_Loreto.png" alt="LRT-logo" width="50px"></span>&nbsp&nbsp Loreto</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 17 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Madre_de_Dios_Department.svg" alt="MDR-logo" width="50px"></span>&nbsp&nbsp Madre de Dios</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 18 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Moquegua.svg" alt="MQG-logo" width="50px"></span>&nbsp&nbsp Moquegua</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 19 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Flag_of_Pasco_Department.svg" alt="PSC-logo" width="50px"></span>&nbsp&nbsp Pasco</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 20 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_Region_Piura.png" alt="PRA-logo" width="50px"></span>&nbsp&nbsp Piura</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 21 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Puno_Region_Flag.png" alt="PNO-logo" width="50px"></span>&nbsp&nbsp Puno</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 22 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Bandera_Regi%C3%B3n_San_Mart%C3%ADn.png" alt="SMT-logo" width="50px"></span>&nbsp&nbsp San Martín</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 23 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Flag_of_Tacna.svg" alt="TCN-logo" width="50px"></span>&nbsp&nbsp Tacna</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 24 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Bandera_de_Tumbes.svg" alt="TMB-logo" width="50px"></span>&nbsp&nbsp Tumbes</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <!-- 25 -->
+                <tr>
+                  <td class="nospace" rowspan="2"><span><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Ucayali_flag.png" alt="UCY-logo" width="50px"></span>&nbsp&nbsp Ucayali</td>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>
+                <tr>
+                  <td class="t-h">Por Definir</td>
+                  <td class="t-h">Por Definir</td>
+                </tr>       
+              </tbody>
+            </table>
+          </div>
+
         </div>
         <div class="col"></div>
       </div>
     </div>
     
-
-
-
   </main>
 
   <div class="footer-clean shadow-lg">
