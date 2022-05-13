@@ -1026,13 +1026,9 @@ dialog{
 .map-team:hover{
   fill: #D8A928;
 }
-.map-info{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
 .info-card{
-  background: #fff;
+  background: #fafafa;
+  border: #D8A928 solid;
   border-radius: 10px;
   padding: 10px 10px 10px 10px;
   font-size: 20px;
@@ -1108,6 +1104,16 @@ dialog{
 .options-p{
   display: none;
 }
+@media screen and (max-width: 1060px){
+  .map{
+    width: 400px;
+  }
+}
+@media screen and (max-width: 840px){
+  .map{
+    width: 350px;
+  }
+}
 @media screen and (max-width: 767px){
   .options-d{
     display: none;
@@ -1115,8 +1121,8 @@ dialog{
   .options-p{
     display: block;
   }
-  .map-info{
-    justify-content: center;
+  .map{
+    width: 100%;
   }
 }
 
@@ -1158,11 +1164,7 @@ dialog{
   .reval-title{
     font-size: 50px;
   }
-  .map{
-    width: 100%;
-  }
 }
-
 .description-d{
   display: block;
 }
