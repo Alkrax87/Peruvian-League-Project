@@ -877,7 +877,6 @@ circle:  <i class="fas fa-circle draw"></i>
 	50% {transform: translateX(100%)}
 	100% {transform: translateX(0%)}
 }
-
 .club-animation .figure{
   width: 100%;
   height: 200px;
@@ -1010,12 +1009,45 @@ circle:  <i class="fas fa-circle draw"></i>
 dialog{
   border-color: #D8A928;
 }
-.modal-table{
-
-}
 .modal-table button{
   width: 150px;
 }
+
+/* ==================================Mapa */
+.map{
+  background-color: rgb(29, 29, 29);
+  border-radius: 20px;
+  width: 500px;
+}
+.map-team{
+  fill: rgb(133, 17, 17);
+  transition: 0.5s;
+}
+.map-team:hover{
+  fill: #D8A928;
+}
+.map-info{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.info-card{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1083,6 +1115,9 @@ dialog{
   .options-p{
     display: block;
   }
+  .map-info{
+    justify-content: center;
+  }
 }
 
 .title-d{
@@ -1122,6 +1157,9 @@ dialog{
 @media screen and (max-width: 525px){
   .reval-title{
     font-size: 50px;
+  }
+  .map{
+    width: 100%;
   }
 }
 
@@ -1169,6 +1207,8 @@ dialog{
     font-size: 12px;
   }
 }
+
+
 
 
 
