@@ -1026,6 +1026,15 @@ dialog{
 .map-team:hover{
   fill: #D8A928;
 }
+.map-info{
+  visibility: hidden;
+}
+.map-info2{
+  visibility: visible;
+}
+.img-team-info{
+  width: 50px;
+}
 .info-card{
   background: #fafafa;
   border: #D8A928 solid;
@@ -1033,8 +1042,15 @@ dialog{
   padding: 10px 10px 10px 10px;
   font-size: 20px;
   font-style: oblique;
+  margin-bottom: 18px;
 }
-
+.info-card p {
+  font-size: 14px;
+  font-style: normal;
+}
+.info-card hr {
+  margin: 5px 5px 5px 5px;
+}
 
 
 
@@ -1111,7 +1127,10 @@ dialog{
 }
 @media screen and (max-width: 840px){
   .map{
-    width: 350px;
+    width: 360px;
+  }
+  .img-team-info{
+    width: 30px;
   }
 }
 @media screen and (max-width: 767px){
@@ -1163,6 +1182,9 @@ dialog{
 @media screen and (max-width: 525px){
   .reval-title{
     font-size: 50px;
+  }
+  .img-team-info{
+    width: 40px;
   }
 }
 .description-d{
