@@ -471,10 +471,6 @@ th{
     height: 92px;
   }
 }
-.fixture:hover,.fixture-r-2:hover,.fixture-r:hover,.fixture-pb:hover,.fixture-b:hover{
-  background-color: #ededed;
-}
-
 .fixture-text{
   font-size: 14px;
 }
