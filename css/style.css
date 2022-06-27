@@ -604,10 +604,19 @@ th{
 }
 
 /* ==================================Posiciones */
+.winner{
+  background-color: #38a834;
+  height: 64px;
+  width: 15px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 /* Liga1Positions */
 .libertadores{
   background-color: #FBBC04;
-  color: #FBBC04;
   height: 64px;
   width: 15px;
   margin-top: -8px;
@@ -621,7 +630,6 @@ th{
 }
 .sudamericana{
   background-color: #34A853;
-  color: #34A853;
   height: 64px;
   width: 15px;
   margin-top: -8px;
@@ -635,7 +643,6 @@ th{
 }
 .revalidacion{
   background-color: #f57316;
-  color: #f57316;
   height: 64px;
   width: 15px;
   margin-top: -8px;
@@ -649,7 +656,6 @@ th{
 }
 .descenso{
   background-color: #c1272d;
-  color: #c1272d;
   height: 64px;
   width: 15px;
   margin-top: -8px;
@@ -668,7 +674,6 @@ th{
 /* Liga2Positions */
 .ascenso{
   background-color: #7ac029;
-  color: #7ac029;
   height: 64px;
   width: 15px;
   margin-top: -8px;
@@ -680,7 +685,6 @@ th{
 /* CopaPeru */
 .final{
   background-color: #019290;
-  color: #019290;
   height: 40px;
   width: 13px;
   margin-top: -8px;
@@ -691,7 +695,6 @@ th{
 }
 .ascensol1{
   background-color: #08a2bd;
-  color: #08a2bd;
   height: 40px;
   width: 13px;
   margin-top: -8px;
@@ -702,7 +705,6 @@ th{
 }
 .ascensol2{
   background-color: #01c4b3;
-  color: #01c4b3;
   height: 40px;
   width: 13px;
   margin-top: -8px;
@@ -714,7 +716,6 @@ th{
 /* Eliminatorias */
 .clasificacion{
   background-color: #6A1A33;
-  color: #6A1A33;
   height: 64px;
   width: 15px;
   margin-top: -8px;
@@ -725,7 +726,6 @@ th{
 }
 .repechaje{
   background-color: #EED0A4;
-  color: #EED0A4;
   height: 64px;
   width: 15px;
   margin-top: -8px;
