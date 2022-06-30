@@ -1107,7 +1107,28 @@ dialog{
   }
 }
 .f-tbt{
-  font-size: 14px;
+  font-size: 12px;
+}
+.table-cupos{
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #dfdfdf;
+}
+.table-cupos tr{
+  width: 80%;
+}
+.table-cupos td{
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: #dfdfdf;
+  height: 36px;
+}
+.table-cupos td:nth-child(1){
+  padding: 0px 12px 0px 12px;
+}
+.table-cupos td:nth-child(2){
+  padding: 0px 12px 0px 12px;
+  width: 100%;
 }
 .vc{
   display: flex;

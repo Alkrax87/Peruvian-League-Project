@@ -312,7 +312,7 @@
                   <th class="w-5">GF</th>
                   <th class="w-5">GC</th>
                   <th class="w-5">DG</th>
-                  <th class="nospace w-25">Ultimos 5</th>
+                  <th class="nospace w-25">Últimos 5</th>
                 </tr>
               </thead>
               <tbody id="table1">
@@ -660,7 +660,7 @@
                   <th class="w-5">GF</th>
                   <th class="w-5">GC</th>
                   <th class="w-5">DG</th>
-                  <th class="nospace w-25">Ultimos 5</th>
+                  <th class="nospace w-25">Últimos 5</th>
                 </tr>
               </thead>
               <tbody id="table2">
@@ -1008,7 +1008,7 @@
                   <th class="w-5">GF</th>
                   <th class="w-5">GC</th>
                   <th class="w-5">DG</th>
-                  <th class="nospace w-25">Ultimos 5</th>
+                  <th class="nospace w-25">Últimos 5</th>
                 </tr>
               </thead>
               <tbody id="table3">
@@ -2063,6 +2063,7 @@
 
   <!-- APERTURA ULTIMOS PARTIDOS-->
   <script type="text/javascript">
+    $("#dbacumulado").hide();
     for (var i = 0; i <= 12; i++) {
       var xd1 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
       var xd2 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
@@ -2081,6 +2082,7 @@
   <!-- CLAUSURA ULTIMOS PARTIDOS-->
   <!--
   <script type="text/javascript">
+    $("#dbacumulado").hide();
     for (var i = 0; i <= 12; i++) {
       var xd1 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
       var xd2 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
