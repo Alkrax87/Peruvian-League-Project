@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Tabla Torneo Promoción y Reservas</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Icono Pagina -->
+        <link rel="icon" href="images/logos/liga-logo.png">
+        <!-- Bootstrap CSS v5.0.2 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/60436f8d4a.js" crossorigin="anonymous"></script>
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header class="fixed-top">
+
+            <!-- Teams -->
+            <div class="container-fluid">
+                <div class="row bg-light teamsnav">
+                    <div class="col">
+                        <a class="navbar-brand" href="index.html"><img src="images/logos/liga-logo.png" class="logosheader brand" alt="LIGA-logo"></a>
+                    </div>
+                    <div class="col-10 headerlogoseffect">
+                        <nav class="navbar navbar-light">
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/can.png" alt="CAN-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/adt.png" alt="ADT-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/aas.png" alt="AAS-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/ali.png" alt="ALI-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/atg.png" alt="ATG-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/aya.png" alt="AYA-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/bin.png" alt="BIN-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/cam.png" alt="CAM-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/cst.png" alt="CST-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/ucv.png" alt="UCV-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/cie.png" alt="CIE-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/mun.png" alt="MUN-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/mel.png" alt="MEL-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/usm.png" alt="USM-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/sba.png" alt="SBA-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/hua.png" alt="HUA-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/cri.png" alt="CRI-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/uni.png" alt="UNI-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-1/utc.png" alt="UTC-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/auh.png" alt="AUH-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/alu.png" alt="ALU-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/chk.png" alt="CHK-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/cou.png" alt="COU-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/cus.png" alt="CUS-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/coo.png" alt="COO-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/dll.png" alt="DLL-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/jua.png" alt="JUA-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/pir.png" alt="PIR-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/san.png" alt="SAN-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/sch.png" alt="SCH-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/uco.png" alt="UCO-logo" class="logos logosheader"></a>
+                            <a class="nav-item nospace" href="#"><img src="images/liga-2/unh.png" alt="UNH-logo" class="logos logosheader"></a>
+                        </nav>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+            <!--Navbar -->
+            <nav class="navbar navbar-expand-lg navstyle">
+                <div class="container-fluid">
+                    <a class="navbar-brand navitems" href="index.html">PLP</a>
+                    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nv-pj" aria-controls="nv-pj" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nv-pj">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3">
+                                <a href="liga-1.html" class="nav-link navitems">Liga 1</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a href="liga-2.html" class="nav-link navitems">Liga 2</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a href="copa-peru.html" class="nav-link navitems">Copa Perú</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a href="eliminatorias.html" class="nav-link navitems">Eliminatorias</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a href="reservas.html" class="nav-link navitems">Promoción y Reservas</a>
+                                <div class="text-center"><i class="fas fa-caret-up indicator"></i></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--Options -->
+            <!-- H -->
+            <div class="bg-light navoptionsbar options-d">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-1 col-md-2 pad0">
+                            <a class="navoptionstext" href="grupos-reserva.html">
+                                <div class="navoptions">Grupos</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-1 col-md-2 pad0">
+                            <a class="navoptionstext" href="tabla-reserva.html">
+                                <div class="selected">Tabla</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- R -->
+            <div class="bg-light container-fluid btn-nav-options options-p">
+                <div class="dropdown">
+                    <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tabla
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item text-center" href="grupos-reserva.html">Grupos</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <!-- Titulo -->
+                <!-- H -->
+                <div class="container-fluid divtitle title-d">
+                    <div class="row">
+                        <div class="col-8">
+                            <h1><b>Tabla</b></h1>
+                        </div>
+                        <div class="col-4 text-center">
+                            <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- R -->
+                <div class="container-fluid text-center divtitle title-p">
+                    <h1 style="font-size: 70px;"><b>Tabla</b></h1>
+                </div>
+            <!-- Descripción-->
+                <!-- H -->
+                <div class="container-fluid bglight description-d">
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <p class="notes">Temporada</p>
+                            <p class="notes2"><b>2022</b></p>
+                        </div>
+                        <div class="col-3 text-center">
+                            <p class="notes">Equipos</p>
+                            <p class="notes2"><b>32</b></p>
+                        </div>
+                        <div class="col-3 text-center">
+                            <p class="notes">Categoría</p>
+                            <p class="notes2 nospace"><b>Promoción y Reserva</b></p>
+                        </div>
+                        <div class="col-3 text-end">
+                            <img src="images/logos/reservafpf.png" alt="reservalogo" height="80px;">
+                        </div>
+                    </div>
+                </div>
+                <!-- R -->
+                <div class="container-fluid bglight text-center description-p">
+                    <div class="row">
+                        <div class="col-4">
+                            <p class="notes">Temporada</p>
+                            <p class="notes2"><b>2022</b></p>
+                        </div>
+                        <div class="col-4">
+                            <p class="notes">Equipos</p>
+                            <p class="notes2"><b>32</b></p>
+                        </div>
+                        <div class="col-4">
+                            <p class="notes">Categoría</p>
+                            <p class="notes2"><b>Promoción y Reserva</b></p>
+                        </div>
+                        <div class="col-12">
+                            <img src="images/logos/reservafpf.png" alt="reservalogo" height="60px;">
+                        </div>
+                    </div>
+                </div>
+            <!-- Divisor -->
+            <div class="container-fluid bg-light divcut shadow-lg"></div>
+            <!-- Tabla Norte -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-xl-9 col-lg-11 col-md-12 my-3 bglight text-center table-text padtop2 topcorners bottomcorners shadow-lg">
+
+                        <h3>Grupo Norte</h3>
+                        <div class="table-responsive">
+
+                            <table id="tablaNorte" class="table reserva-table-sm">
+                                <thead>
+                                    <tr class="tableheaderN">
+                                        <th scope="col"></th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Escudo</th>
+                                        <th scope="col" class="text-start w-35">Nombre</th>
+                                        <th scope="col" class="w-20">Puntos</th>
+                                        <th scope="col" class="w-5">PJ</th>
+                                        <th scope="col" class="w-5">PG</th>
+                                        <th scope="col" class="w-5">PE</th>
+                                        <th scope="col" class="w-5">PP</th>
+                                        <th scope="col" class="w-5">GF</th>
+                                        <th scope="col" class="w-5">GC</th>
+                                        <th scope="col" class="w-5">DG</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table1">
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">1</th>
+                                        <!-- Alianza Atlético -->
+                                        <td><img src="images/liga-1/aas.png" alt="AAS-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Alianza Atlético</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam1">0</td>
+                                        <td id="NpjTeam1">0</td>
+                                        <td id="NpgTeam1">1</td>
+                                        <td id="NpeTeam1">1</td>
+                                        <td id="NppTeam1">2</td>
+                                        <td id="NgfTeam1">7</td>
+                                        <td id="NgcTeam1">11</td>
+                                        <td id="NdgTeam1">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">2</th>
+                                        <!-- Atlético Grau -->
+                                        <td><img src="images/liga-1/atg.png" alt="ATG-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Atlético Grau</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam2">0</td>
+                                        <td id="NpjTeam2">0</td>
+                                        <td id="NpgTeam2">1</td>
+                                        <td id="NpeTeam2">2</td>
+                                        <td id="NppTeam2">2</td>
+                                        <td id="NgfTeam2">7</td>
+                                        <td id="NgcTeam2">8</td>
+                                        <td id="NdgTeam2">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">3</th>
+                                        <!-- Carlos Manucci -->
+                                        <td><img src="images/liga-1/cam.png" alt="CAM-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Carlos Manucci</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam3">0</td>
+                                        <td id="NpjTeam3">0</td>
+                                        <td id="NpgTeam3">2</td>
+                                        <td id="NpeTeam3">3</td>
+                                        <td id="NppTeam3">0</td>
+                                        <td id="NgfTeam3">8</td>
+                                        <td id="NgcTeam3">2</td>
+                                        <td id="NdgTeam3">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">4</th>
+                                        <!-- Carlos Stein -->
+                                        <td><img src="images/liga-1/cst.png" alt="CST-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Carlos Stein</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam4">0</td>
+                                        <td id="NpjTeam4">0</td>
+                                        <td id="NpgTeam4">2</td>
+                                        <td id="NpeTeam4">2</td>
+                                        <td id="NppTeam4">1</td>
+                                        <td id="NgfTeam4">7</td>
+                                        <td id="NgcTeam4">3</td>
+                                        <td id="NdgTeam4">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">5</th>
+                                        <!-- César Vallejo -->
+                                        <td><img src="images/liga-1/ucv.png" alt="UCV-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">César Vallejo</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam5">0</td>
+                                        <td id="NpjTeam5">0</td>
+                                        <td id="NpgTeam5">4</td>
+                                        <td id="NpeTeam5">2</td>
+                                        <td id="NppTeam5">0</td>
+                                        <td id="NgfTeam5">12</td>
+                                        <td id="NgcTeam5">2</td>
+                                        <td id="NdgTeam5">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">6</th>
+                                        <!-- Juan Aurich -->
+                                        <td><img src="images/liga-2/jua.png" alt="JUA-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Juan Aurich</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam6">0</td>
+                                        <td id="NpjTeam6">0</td>
+                                        <td id="NpgTeam6">1</td>
+                                        <td id="NpeTeam6">2</td>
+                                        <td id="NppTeam6">2</td>
+                                        <td id="NgfTeam6">3</td>
+                                        <td id="NgcTeam6">7</td>
+                                        <td id="NdgTeam6">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">7</th>
+                                        <!-- Pirata FC -->
+                                        <td><img src="images/liga-2/pir.png" alt="PIR-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Pirata FC</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam7">0</td>
+                                        <td id="NpjTeam7">0</td>
+                                        <td id="NpgTeam7">1</td>
+                                        <td id="NpeTeam7">3</td>
+                                        <td id="NppTeam7">2</td>
+                                        <td id="NgfTeam7">5</td>
+                                        <td id="NgcTeam7">8</td>
+                                        <td id="NdgTeam7">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">8</th>
+                                        <!-- Sport Chavelines Juniors -->
+                                        <td><img src="images/liga-2/sch.png" alt="SCH-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Sport Chavelines Juniors</a></td>
+                                        <td class="fw-bold" id="NpuntosTeam8">0</td>
+                                        <td id="NpjTeam8">0</td>
+                                        <td id="NpgTeam8">1</td>
+                                        <td id="NpeTeam8">1</td>
+                                        <td id="NppTeam8">4</td>
+                                        <td id="NgfTeam8">2</td>
+                                        <td id="NgcTeam8">10</td>
+                                        <td id="NdgTeam8">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <!-- Tabla Centro -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-xl-9 col-lg-11 col-md-12 bglight text-center table-text padtop2 topcorners bottomcorners shadow-lg">
+
+                        <h3>Grupo Centro</h3>
+                        <div class="table-responsive">
+
+                            <table id="tablaCentro" class="table reserva-table-sm">
+                                <thead>
+                                    <tr class="tableheaderC">
+                                        <th scope="col"></th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Escudo</th>
+                                        <th scope="col" class="text-start w-35">Nombre</th>
+                                        <th scope="col" class="w-20">Puntos</th>
+                                        <th scope="col" class="w-5">PJ</th>
+                                        <th scope="col" class="w-5">PG</th>
+                                        <th scope="col" class="w-5">PE</th>
+                                        <th scope="col" class="w-5">PP</th>
+                                        <th scope="col" class="w-5">GF</th>
+                                        <th scope="col" class="w-5">GC</th>
+                                        <th scope="col" class="w-5">DG</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table2">
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">1</th>
+                                        <!-- ADT -->
+                                        <td><img src="images/liga-1/adt.png" alt="ADT-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">ADT</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam1">0</td>
+                                        <td id="CpjTeam1">0</td>
+                                        <td id="CpgTeam1">1</td>
+                                        <td id="CpeTeam1">3</td>
+                                        <td id="CppTeam1">1</td>
+                                        <td id="CgfTeam1">11</td>
+                                        <td id="CgcTeam1">7</td>
+                                        <td id="CdgTeam1">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">2</th>
+                                        <!-- Alianza Universidad -->
+                                        <td><img src="images/liga-2/auh.png" alt="AUH-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Alianza Universidad</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam2">0</td>
+                                        <td id="CpjTeam2">0</td>
+                                        <td id="CpgTeam2">2</td>
+                                        <td id="CpeTeam2">2</td>
+                                        <td id="CppTeam2">2</td>
+                                        <td id="CgfTeam2">7</td>
+                                        <td id="CgcTeam2">7</td>
+                                        <td id="CdgTeam2">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">3</th>
+                                        <!-- Comerciantes Unidos -->
+                                        <td><img src="images/liga-2/cou.png" alt="COU-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Comerciantes Unidos</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam3">0</td>
+                                        <td id="CpjTeam3">0</td>
+                                        <td id="CpgTeam3">1</td>
+                                        <td id="CpeTeam3">1</td>
+                                        <td id="CppTeam3">3</td>
+                                        <td id="CgfTeam3">4</td>
+                                        <td id="CgcTeam3">16</td>
+                                        <td id="CdgTeam3">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">4</th>
+                                        <!-- Deportivo LLacuabamba -->
+                                        <td><img src="images/liga-2/dll.png" alt="DLL-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Deportivo LLacuabamba</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam4">0</td>
+                                        <td id="CpjTeam4">0</td>
+                                        <td id="CpgTeam4">2</td>
+                                        <td id="CpeTeam4">0</td>
+                                        <td id="CppTeam4">3</td>
+                                        <td id="CgfTeam4">9</td>
+                                        <td id="CgcTeam4">8</td>
+                                        <td id="CdgTeam4">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">5</th>
+                                        <!-- Sport Huancayo -->
+                                        <td><img src="images/liga-1/hua.png" alt="HUA-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Sport Huancayo</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam5">0</td>
+                                        <td id="CpjTeam5">0</td>
+                                        <td id="CpgTeam5">4</td>
+                                        <td id="CpeTeam5">0</td>
+                                        <td id="CppTeam5">1</td>
+                                        <td id="CgfTeam5">11</td>
+                                        <td id="CgcTeam5">5</td>
+                                        <td id="CdgTeam5">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">6</th>
+                                        <!-- Unión Comercio -->
+                                        <td><img src="images/liga-2/uco.png" alt="UCO-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Unión Comercio</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam6">0</td>
+                                        <td id="CpjTeam6">0</td>
+                                        <td id="CpgTeam6">1</td>
+                                        <td id="CpeTeam6">1</td>
+                                        <td id="CppTeam6">3</td>
+                                        <td id="CgfTeam6">5</td>
+                                        <td id="CgcTeam6">9</td>
+                                        <td id="CdgTeam6">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">7</th>
+                                        <!-- Unión Huaral -->
+                                        <td><img src="images/liga-2/unh.png" alt="UNH-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Unión Huaral</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam7">0</td>
+                                        <td id="CpjTeam7">0</td>
+                                        <td id="CpgTeam7">1</td>
+                                        <td id="CpeTeam7">2</td>
+                                        <td id="CppTeam7">3</td>
+                                        <td id="CgfTeam7">5</td>
+                                        <td id="CgcTeam7">9</td>
+                                        <td id="CdgTeam7">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">8</th>
+                                        <!-- UTC -->
+                                        <td><img src="images/liga-1/utc.png" alt="UTC-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">UTC</a></td>
+                                        <td class="fw-bold" id="CpuntosTeam8">0</td>
+                                        <td id="CpjTeam8">0</td>
+                                        <td id="CpgTeam8">4</td>
+                                        <td id="CpeTeam8">1</td>
+                                        <td id="CppTeam8">0</td>
+                                        <td id="CgfTeam8">13</td>
+                                        <td id="CgcTeam8">4</td>
+                                        <td id="CdgTeam8">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <!-- Tabla Sur -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-xl-9 col-lg-11 col-md-12 my-3 bglight text-center table-text padtop2 topcorners bottomcorners shadow-lg">
+
+                        <h3>Grupo Sur</h3>
+                        <div class="table-responsive">
+
+                            <table id="tablaSur" class="table reserva-table-sm">
+                                <thead>
+                                    <tr class="tableheaderS">
+                                        <th scope="col"></th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Escudo</th>
+                                        <th scope="col" class="text-start w-35">Nombre</th>
+                                        <th scope="col" class="w-20">Puntos</th>
+                                        <th scope="col" class="w-5">PJ</th>
+                                        <th scope="col" class="w-5">PG</th>
+                                        <th scope="col" class="w-5">PE</th>
+                                        <th scope="col" class="w-5">PP</th>
+                                        <th scope="col" class="w-5">GF</th>
+                                        <th scope="col" class="w-5">GC</th>
+                                        <th scope="col" class="w-5">DG</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table3">
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">1</th>
+                                        <!-- Alfonso Ugarte -->
+                                        <td><img src="images/liga-2/alu.png" alt="ALU-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Alfonso Ugarte</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam1">0</td>
+                                        <td id="SpjTeam1">0</td>
+                                        <td id="SpgTeam1">1</td>
+                                        <td id="SpeTeam1">1</td>
+                                        <td id="SppTeam1">4</td>
+                                        <td id="SgfTeam1">3</td>
+                                        <td id="SgcTeam1">11</td>
+                                        <td id="SdgTeam1">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">2</th>
+                                        <!-- Ayacucho FC -->
+                                        <td><img src="images/liga-1/aya.png" alt="AYA-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Ayacucho FC</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam2">0</td>
+                                        <td id="SpjTeam2">0</td>
+                                        <td id="SpgTeam2">4</td>
+                                        <td id="SpeTeam2">1</td>
+                                        <td id="SppTeam2">1</td>
+                                        <td id="SgfTeam2">12</td>
+                                        <td id="SgcTeam2">4</td>
+                                        <td id="SdgTeam2">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">3</th>
+                                        <!-- Binacional -->
+                                        <td><img src="images/liga-1/bin.png" alt="BIN-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Binacional</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam3">0</td>
+                                        <td id="SpjTeam3">0</td>
+                                        <td id="SpgTeam3">1</td>
+                                        <td id="SpeTeam3">2</td>
+                                        <td id="SppTeam3">3</td>
+                                        <td id="SgfTeam3">4</td>
+                                        <td id="SgcTeam3">12</td>
+                                        <td id="SdgTeam3">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">4</th>
+                                        <!-- Chankas CYC -->
+                                        <td><img src="images/liga-2/chk.png" alt="CHK-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Chankas CYC</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam4">0</td>
+                                        <td id="SpjTeam4">0</td>
+                                        <td id="SpgTeam4">1</td>
+                                        <td id="SpeTeam4">0</td>
+                                        <td id="SppTeam4">3</td>
+                                        <td id="SgfTeam4">2</td>
+                                        <td id="SgcTeam4">9</td>
+                                        <td id="SdgTeam4">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">5</th>
+                                        <!-- Cienciano -->
+                                        <td><img src="images/liga-1/cie.png" alt="CIE-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Cienciano</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam5">0</td>
+                                        <td id="SpjTeam5">0</td>
+                                        <td id="SpgTeam5">3</td>
+                                        <td id="SpeTeam5">1</td>
+                                        <td id="SppTeam5">1</td>
+                                        <td id="SgfTeam5">8</td>
+                                        <td id="SgcTeam5">4</td>
+                                        <td id="SdgTeam5">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">6</th>
+                                        <!-- Cusco FC -->
+                                        <td><img src="images/liga-2/cus.png" alt="CUS-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Cusco FC</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam6">0</td>
+                                        <td id="SpjTeam6">0</td>
+                                        <td id="SpgTeam6">2</td>
+                                        <td id="SpeTeam6">0</td>
+                                        <td id="SppTeam6">4</td>
+                                        <td id="SgfTeam6">8</td>
+                                        <td id="SgcTeam6">14</td>
+                                        <td id="SdgTeam6">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">7</th>
+                                        <!-- FBC Melgar -->
+                                        <td><img src="images/liga-1/mel.png" alt="MEL-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">FBC Melgar</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam7">0</td>
+                                        <td id="SpjTeam7">0</td>
+                                        <td id="SpgTeam7">4</td>
+                                        <td id="SpeTeam7">2</td>
+                                        <td id="SppTeam7">0</td>
+                                        <td id="SgfTeam7">21</td>
+                                        <td id="SgcTeam7">6</td>
+                                        <td id="SdgTeam7">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">8</th>
+                                        <!-- Santos FC -->
+                                        <td><img src="images/liga-2/san.png" alt="SAN-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Santos FC</a></td>
+                                        <td class="fw-bold" id="SpuntosTeam8">0</td>
+                                        <td id="SpjTeam8">0</td>
+                                        <td id="SpgTeam8">3</td>
+                                        <td id="SpeTeam8">1</td>
+                                        <td id="SppTeam8">2</td>
+                                        <td id="SgfTeam8">7</td>
+                                        <td id="SgcTeam8">4</td>
+                                        <td id="SdgTeam8">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            <!-- Tabla Lima -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-xl-9 col-lg-11 col-md-12 separadorbottom bglight text-center table-text padtop2 topcorners bottomcorners shadow-lg">
+
+                        <h3>Grupo Lima</h3>
+                        <div class="table-responsive">
+
+                            <table id="tablaLima" class="table reserva-table-sm">
+                                <thead>
+                                    <tr class="tableheaderL">
+                                        <th scope="col"></th>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Escudo</th>
+                                        <th scope="col" class="text-start w-35">Nombre</th>
+                                        <th scope="col" class="w-20">Puntos</th>
+                                        <th scope="col" class="w-5">PJ</th>
+                                        <th scope="col" class="w-5">PG</th>
+                                        <th scope="col" class="w-5">PE</th>
+                                        <th scope="col" class="w-5">PP</th>
+                                        <th scope="col" class="w-5">GF</th>
+                                        <th scope="col" class="w-5">GC</th>
+                                        <th scope="col" class="w-5">DG</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="table4">
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">1</th>
+                                        <!-- Alianza Lima -->
+                                        <td><img src="images/liga-1/ali.png" alt="ALI-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Alianza Lima</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam1">0</td>
+                                        <td id="LpjTeam1">0</td>
+                                        <td id="LpgTeam1">4</td>
+                                        <td id="LpeTeam1">1</td>
+                                        <td id="LppTeam1">1</td>
+                                        <td id="LgfTeam1">7</td>
+                                        <td id="LgcTeam1">4</td>
+                                        <td id="LdgTeam1">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">2</th>
+                                        <!-- Academia Cantolao -->
+                                        <td><img src="images/liga-1/can.png" alt="CAN-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Academia Cantolao</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam2">0</td>
+                                        <td id="LpjTeam2">0</td>
+                                        <td id="LpgTeam2">2</td>
+                                        <td id="LpeTeam2">3</td>
+                                        <td id="LppTeam2">1</td>
+                                        <td id="LgfTeam2">11</td>
+                                        <td id="LgcTeam2">11</td>
+                                        <td id="LdgTeam2">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">3</th>
+                                        <!-- Deportivo Coopsol -->
+                                        <td><img src="images/liga-2/coo.png" alt="COO-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Deportivo Coopsol</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam3">0</td>
+                                        <td id="LpjTeam3">0</td>
+                                        <td id="LpgTeam3">0</td>
+                                        <td id="LpeTeam3">0</td>
+                                        <td id="LppTeam3">6</td>
+                                        <td id="LgfTeam3">3</td>
+                                        <td id="LgcTeam3">14</td>
+                                        <td id="LdgTeam3">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">4</th>
+                                        <!-- Deportivo Municipal -->
+                                        <td><img src="images/liga-1/mun.png" alt="MUN-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Deportivo Municipal</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam4">0</td>
+                                        <td id="LpjTeam4">0</td>
+                                        <td id="LpgTeam4">1</td>
+                                        <td id="LpeTeam4">1</td>
+                                        <td id="LppTeam4">4</td>
+                                        <td id="LgfTeam4">3</td>
+                                        <td id="LgcTeam4">11</td>
+                                        <td id="LdgTeam4">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">5</th>
+                                        <!-- San Martín -->
+                                        <td><img src="images/liga-1/usm.png" alt="USM-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">San Martín</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam5">0</td>
+                                        <td id="LpjTeam5">0</td>
+                                        <td id="LpgTeam5">2</td>
+                                        <td id="LpeTeam5">1</td>
+                                        <td id="LppTeam5">3</td>
+                                        <td id="LgfTeam5">10</td>
+                                        <td id="LgcTeam5">13</td>
+                                        <td id="LdgTeam5">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">6</th>
+                                        <!-- Sport Boys -->
+                                        <td><img src="images/liga-1/sba.png" alt="SBA-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Sport Boys</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam6">0</td>
+                                        <td id="LpjTeam6">0</td>
+                                        <td id="LpgTeam6">3</td>
+                                        <td id="LpeTeam6">0</td>
+                                        <td id="LppTeam6">3</td>
+                                        <td id="LgfTeam6">16</td>
+                                        <td id="LgcTeam6">10</td>
+                                        <td id="LdgTeam6">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">7</th>
+                                        <!-- Sporting Cristal -->
+                                        <td><img src="images/liga-1/cri.png" alt="CRI-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Sporting Cristal</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam7">0</td>
+                                        <td id="LpjTeam7">0</td>
+                                        <td id="LpgTeam7">3</td>
+                                        <td id="LpeTeam7">1</td>
+                                        <td id="LppTeam7">2</td>
+                                        <td id="LgfTeam7">11</td>
+                                        <td id="LgcTeam7">7</td>
+                                        <td id="LdgTeam7">0</td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            <div class=""></div>
+                                        </th>
+                                        <th scope="row">8</th>
+                                        <!-- Universitario -->
+                                        <td><img src="images/liga-1/uni.png" alt="UNI-logo" class="logos-sm"></td>
+                                        <td class="text-start nospace"><a href="#" class="teamstext">Universitario</a></td>
+                                        <td class="fw-bold" id="LpuntosTeam8">0</td>
+                                        <td id="LpjTeam8">0</td>
+                                        <td id="LpgTeam8">5</td>
+                                        <td id="LpeTeam8">1</td>
+                                        <td id="LppTeam8">0</td>
+                                        <td id="LgfTeam8">13</td>
+                                        <td id="LgcTeam8">4</td>
+                                        <td id="LdgTeam8">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="footer-clean shadow-lg">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Competencias</h3>
+                            <hr class="d-b">
+                            <ul>
+                                <li><a href="liga-1.html">Liga 1</a></li>
+                                <li><a href="liga-2.html">Liga 2</a></li>
+                                <li><a href="copa-peru.html">Copa Perú</a></li>
+                                <li><a href="eliminatorias.html">Eliminatorias</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item ">
+                            <h3>Torneos</h3>
+                            <hr class="d-b">
+                            <ul>
+                                <li><a href="copa-bicentenario.html">Copa Bicentenario</a></li>
+                                <li><a href="reservas.html">Promoción y Reservas</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Nosotros</h3>
+                            <hr class="d-b">
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="contacto.html">Contacto</a></li>
+                                <li><a href="informacion.html">Información</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 text-center item social">
+                            <h3>Sigue a la liga:</h3>
+                            <a href="https://www.facebook.com/LigaFutProf"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/ligafutprof"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/LigaFutProf"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="col-12 padtop text-center">
+                            <p><a href="#" class="copyright">MAVP Projects © 2022</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- Scripts -->
+        <script src="js/operacionesReserva.js"></script>
+    </body>
+</html>

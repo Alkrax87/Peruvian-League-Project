@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/style.css">
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -24,449 +24,439 @@
     <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
 
-<body>
+  <body>
 
-  <header class="fixed-top">
+    <header class="fixed-top">
 
-    <!-- Teams -->
-    <div class="container-fluid">
-      <div class="row bg-light teamsnav">
-        <div class="col">
-          <a class="navbar-brand" href="index.html"><img src="images/logos/qatarwp-logo.png" class="logosheader brand" alt="liga1logo"></a>
-        </div>
-        <div class="col-9 headerlogoseffect">
-          <nav class="navbar navbar-light bg-light">
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/afa.png" alt="AFAlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/fef.png" alt="FEFlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/apf.png" alt="AFPlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/auf.png" alt="AUFlogo" class="logos logosheader"></a>
-              <a class="navbar-brand" href="#"><img src="images/eliminatorias/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
-            </nav>
-        </div>
-        <div class="col">
-        </div>
-      </div>
-    </div>
-    <!--Navbar -->
-    <nav class="navbar navbar-expand-lg navstyle">
-      <div class="container-fluid">
-        <a class="navbar-brand navitems" href="index.html">PLP</a>
-        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nv-pj" aria-controls="nv-pj" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nv-pj">
-          <ul class="navbar-nav">
-            <!-- Liga 1 -->
-            <li class="nav-item active px-3">
-              <a href="liga-1.html" class="nav-link navitems">
-                Liga 1
-              </a>
-            </li>
-            <!-- Liga 2 -->
-            <li class="nav-item active px-3">
-              <a href="liga-2.html" class="nav-link navitems">
-                Liga 2
-              </a>
-            </li>
-            <!-- Copa Perú -->
-            <li class="nav-item active px-3">
-              <a href="copa-peru.html" class="nav-link navitems">
-                Copa Perú
-              </a>
-            </li>
-            <!-- Eliminatorias -->
-            <li class="nav-item active px-3">
-              <a href="eliminatorias.html" class="nav-link navitems">
-                Eliminatorias Qatar 2022
-              </a>
-              <div class="text-center">
-                <i class="fas fa-caret-up indicator"></i>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--Options -->
-      <!-- H -->
-      <div class="bg-light navoptionsbar options-d">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-1 col-md-2 pad0">
-              <a class="navoptionstext" href="equipos-eliminatorias.html">
-                <div class="selected">Equipos</div>
-              </a>
-            </div>
-            <div class="col-lg-1 col-md-2 pad0">
-              <a class="navoptionstext" href="fixture-eliminatorias.html">
-                <div class="navoptions">Fixture</div>
-              </a>
-            </div>
-            <div class="col-lg-1 col-md-2 pad0">
-              <a class="navoptionstext" href="tabla-eliminatorias.html">
-                <div class="navoptions">Tabla</div>
-              </a>
-            </div>
-            <div class="col-lg-1 col-md-2 pad0">
-              <a class="navoptionstext" href="managers-eliminatorias.html">
-                <div class="navoptions">Técnicos</div>
-              </a>
-            </div>
-          </div>
-        </div>  
-      </div>
-      <!-- R -->
-      <div class="bg-light container-fluid btn-nav-options options-p">
-        <div class="dropdown">
-          <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Equipos
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item text-center" href="fixture-eliminatorias.html">Fixture</a></li>
-            <li><a class="dropdown-item text-center" href="tabla-eliminatorias.html">Tabla</a></li>
-            <li><a class="dropdown-item text-center" href="managers-eliminatorias.html">Técnicos</a></li>
-          </ul>
-        </div>
-      </div>   
-
-  </header>
-
-  <main>
-
-      <!-- Titulo -->
-        <!-- H -->
-        <div class="container-fluid divtitle3 title-d">
-          <div class="row">
-            <div class="col-8">
-              <p><b>Equipos</b></p>
-            </div>
-            <div class="col-4 text-center">
-              <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
-            </div>
-          </div>
-        </div>
-        <!-- R -->
-        <div class="container-fluid text-center divtitle3 title-p">
-          <h1 style="font-size: 70px;"><b>Equipos</b></h1>
-        </div>
-      <!-- Descripción-->
-        <!-- H -->
-        <div class="container-fluid bglight description-d">
-          <div class="row">
-            <div class="col-3 text-center">
-              <p class="notes">Clasificación</p>
-              <p class="notes2"><b>Qatar 2022</b></p>
-            </div>
-            <div class="col-3 text-center">
-              <p class="notes">Equipos</p>
-              <p class="notes2"><b>10</b></p>
-            </div>
-            <div class="col-3 text-center">
-              <p class="notes">Categoría</p>
-              <p class="notes2 nospace"><b>Eliminatorias</b></p>
-            </div>
-            <div class="col-3 text-end">
-              <img src="images/eliminatorias/qatarconmebol.png" alt="qatar-logo" height="80px;">
-            </div>
-          </div>
-        </div>
-        <!-- R -->
-        <div class="container-fluid bglight text-center description-p">
-          <div class="row">
-            <div class="col-4">
-              <p class="notes">Clasificación</p>
-              <p class="notes2"><b>Qatar 2022</b></p>
-            </div>
-            <div class="col-4">
-              <p class="notes">Equipos</p>
-              <p class="notes2"><b>10</b></p>
-            </div>
-            <div class="col-4">
-              <p class="notes">Categoría</p>
-              <p class="notes2 nospace"><b>Eliminatorias</b></p>
-            </div>
-            <div class="col-12">
-              <img src="images/eliminatorias/qatarconmebol.png" alt="qatar-logo" height="60px;">
-            </div>
-          </div>
-        </div>
-      <!-- Divisor -->
-      <div class="container-fluid bg-light divcut3 shadow-lg"></div>
       <!-- Teams -->
-      <div class="container-fluid my-4">
-        <div class="row">
-          <div class="col"></div>
-          <div class="col-10">
-            <ul class="list-unstyled row">
-                
-              <!-- Argentina -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Estadio_%22El_Monumental%22_2016_%282%29.jpg/427px-Estadio_%22El_Monumental%22_2016_%282%29.jpg" width="100%" height="200" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                      <img src="images/eliminatorias/afa.png" alt="AFAlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #89CAF0;">
-                      <div class="clubSquareFoot2">
-                        <p class="club-name"><b>Argentina</b></p>
-                        <p class="club-stadium">Estadio Antonio Vespucio Liberti</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+      <div class="container-fluid">
+        <div class="row bg-light teamsnav">
+          <div class="col">
+            <a class="navbar-brand" href="index.html"><img src="images/logos/qatarwp-logo.png" class="logosheader brand" alt="liga1logo"></a>
+          </div>
+          <div class="col-9 headerlogoseffect">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/afa.png" alt="AFAlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/fbf.png" alt="FBFlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/cbf.png" alt="CBFlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/fcf.png" alt="FCFlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/ffch.png" alt="FFCHlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/fef.png" alt="FEFlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/apf.png" alt="AFPlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/fpf.png" alt="FPFlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/auf.png" alt="AUFlogo" class="logos logosheader"></a>
+                <a class="navbar-brand" href="#"><img src="images/eliminatorias/fvf.png" alt="FVFlogo" class="logos logosheader"></a>
+              </nav>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+      <!--Navbar -->
+      <nav class="navbar navbar-expand-lg navstyle">
+        <div class="container-fluid">
+          <a class="navbar-brand navitems" href="index.html">PLP</a>
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nv-pj" aria-controls="nv-pj" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nv-pj">
+            <ul class="navbar-nav">
+              <li class="nav-item px-3">
+                <a href="liga-1.html" class="nav-link navitems">Liga 1</a>
               </li>
-              <!-- Bolivia -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://jornada.com.bo/wp-content/uploads/2021/02/estadio-Hernando-Siles.jpg" width="100%" height="200" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/fbf.png" alt="FBFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #025A0D;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Bolivia</b></p>
-                        <p class="club-stadium">Estadio Hernando Siles</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+              <li class="nav-item px-3">
+                <a href="liga-2.html" class="nav-link navitems">Liga 2</a>
               </li>
-              <!-- Brazil -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://www.eluniverso.com/resizer/mCUskKd45sNRw4LTCJjhm4hc46s=/0x0:1018x696/980x670/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/PAA2YAM5NFAP3EQAWJZQZFL5DI.jpg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/cbf.png" alt="CBFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #F2C83F;">
-                      <div class="clubSquareFoot2">
-                        <p class="club-name"><b>Brazil</b></p>
-                        <p class="club-stadium">Estadio Maracaná</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+              <li class="nav-item px-3">
+                <a href="copa-peru.html" class="nav-link navitems">Copa Perú</a>
               </li>
-              <!-- Colombia -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://larazon.co/wp-content/uploads/2021/05/metro.jpg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/fcf.png" alt="FCFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #111B4D;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Colombia</b></p>
-                        <p class="club-stadium">Estadio Metropolitano de Barranquilla</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+              <li class="nav-item px-3">
+                <a href="eliminatorias.html" class="nav-link navitems">Eliminatorias</a>
+                <div class="text-center"><i class="fas fa-caret-up indicator"></i></div>
               </li>
-              <!-- Chile -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="http://pm1.narvii.com/7054/472858b830211bbfe213593a56f94ac96e606a8br1-993-533v2_uhq.jpg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                      <img src="images/eliminatorias/ffch.png" alt="FFCHlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #981C18;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Chile</b></p>
-                        <p class="club-stadium">Estadio Nacional de Chile</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
+              <li class="nav-item px-3">
+                <a href="reservas.html" class="nav-link navitems">Promoción y Reservas</a>
               </li>
-              <!-- Ecuador -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://media.primicias.ec/2020/11/30053745/Panorama_liga1.jpg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/fef.png" alt="FEFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #001F57;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Ecuador</b></p>
-                        <p class="club-stadium">Estadio Rodrigo Paz Delgado</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <!-- Paraguay -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://e.rpp-noticias.io/xlarge/2020/02/26/100910_905790.jpg" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/apf.png" alt="AFPlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #0171BC;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Paraguay</b></p>
-                        <p class="club-stadium">Estadio Defensores del Chaco</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <!-- Perú -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://cdn.futbolperuano.com/sdi/2021/10/27/estadio-nacional-celebra-su-69-aniversario-963938.jpg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/fpf.png" alt="FPFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #c80014;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Perú</b></p>
-                        <p class="club-stadium">Estadio Nacional de Lima</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <!-- Uruguay -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://d1lofqbqbj927c.cloudfront.net/UY-sarandi/2020/01/estadio-centenario.jpg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/auf.png" alt="AUFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #025082;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Uruguay</b></p>
-                        <p class="club-stadium">Estadio Centenario</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <!-- Venezuela -->
-              <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
-                <a href="#" class="club-animation" style="text-decoration:none;">
-                  <div>
-                    <div class="figure club-banner-top">
-                      <img src="https://www.futbolred.com/files/article_main/uploads/2021/06/08/60bfe824e815d.jpeg" width="100%" alt="StadiumLogo">
-                    </div>
-                    <div class="clubCircle text-center">
-                        <img src="images/eliminatorias/fvf.png" alt="FVFlogo" class="logosclubs2">
-                    </div>
-                    <div class="text-center club-banner-bottom" style="background-color: #3E0011;">
-                      <div class="clubSquareFoot">
-                        <p class="club-name"><b>Venezuela</b></p>
-                        <p class="club-stadium">Estadio Estadio José Antonio Anzoátegui</p>
-                        <hr class="club-divider">
-                        <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </li>
-    
             </ul>
           </div>
-          <div class="col"></div>
         </div>
-      </div>
+      </nav>
+      <!--Options -->
+        <!-- H -->
+        <div class="bg-light navoptionsbar options-d">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-1 col-md-2 pad0">
+                <a class="navoptionstext" href="equipos-eliminatorias.html">
+                  <div class="selected">Equipos</div>
+                </a>
+              </div>
+              <div class="col-lg-1 col-md-2 pad0">
+                <a class="navoptionstext" href="fixture-eliminatorias.html">
+                  <div class="navoptions">Fixture</div>
+                </a>
+              </div>
+              <div class="col-lg-1 col-md-2 pad0">
+                <a class="navoptionstext" href="tabla-eliminatorias.html">
+                  <div class="navoptions">Tabla</div>
+                </a>
+              </div>
+              <div class="col-lg-1 col-md-2 pad0">
+                <a class="navoptionstext" href="managers-eliminatorias.html">
+                  <div class="navoptions">Técnicos</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- R -->
+        <div class="bg-light container-fluid btn-nav-options options-p">
+          <div class="dropdown">
+            <button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Equipos
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item text-center" href="fixture-eliminatorias.html">Fixture</a></li>
+              <li><a class="dropdown-item text-center" href="tabla-eliminatorias.html">Tabla</a></li>
+              <li><a class="dropdown-item text-center" href="managers-eliminatorias.html">Técnicos</a></li>
+            </ul>
+          </div>
+        </div>
 
-  </main>
+    </header>
 
-  <div class="footer-clean shadow-lg">
+    <main>
+
+        <!-- Titulo -->
+          <!-- H -->
+          <div class="container-fluid divtitle3 title-d">
+            <div class="row">
+              <div class="col-8">
+                <h1><b>Equipos</b></h1>
+              </div>
+              <div class="col-4 text-center">
+                <button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+              </div>
+            </div>
+          </div>
+          <!-- R -->
+          <div class="container-fluid text-center divtitle3 title-p">
+            <h1 style="font-size: 70px;"><b>Equipos</b></h1>
+          </div>
+        <!-- Descripción-->
+          <!-- H -->
+          <div class="container-fluid bglight description-d">
+            <div class="row">
+              <div class="col-3 text-center">
+                <p class="notes">Clasificación</p>
+                <p class="notes2"><b>Qatar 2022</b></p>
+              </div>
+              <div class="col-3 text-center">
+                <p class="notes">Equipos</p>
+                <p class="notes2"><b>10</b></p>
+              </div>
+              <div class="col-3 text-center">
+                <p class="notes">Categoría</p>
+                <p class="notes2 nospace"><b>Eliminatorias</b></p>
+              </div>
+              <div class="col-3 text-end">
+                <img src="images/eliminatorias/qatarconmebol.png" alt="qatar-logo" height="80px;">
+              </div>
+            </div>
+          </div>
+          <!-- R -->
+          <div class="container-fluid bglight text-center description-p">
+            <div class="row">
+              <div class="col-4">
+                <p class="notes">Clasificación</p>
+                <p class="notes2"><b>Qatar 2022</b></p>
+              </div>
+              <div class="col-4">
+                <p class="notes">Equipos</p>
+                <p class="notes2"><b>10</b></p>
+              </div>
+              <div class="col-4">
+                <p class="notes">Categoría</p>
+                <p class="notes2 nospace"><b>Eliminatorias</b></p>
+              </div>
+              <div class="col-12">
+                <img src="images/eliminatorias/qatarconmebol.png" alt="qatar-logo" height="60px;">
+              </div>
+            </div>
+          </div>
+        <!-- Divisor -->
+        <div class="container-fluid bg-light divcut3 shadow-lg"></div>
+        <!-- Teams -->
+        <div class="container-fluid my-4">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+              <ul class="list-unstyled row">
+
+                <!-- Argentina -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Estadio_%22El_Monumental%22_2016_%282%29.jpg/427px-Estadio_%22El_Monumental%22_2016_%282%29.jpg" width="100%" height="200" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                        <img src="images/eliminatorias/afa.png" alt="AFAlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #89CAF0;">
+                        <div class="clubSquareFoot2">
+                          <p class="club-name"><b>Argentina</b></p>
+                          <p class="club-stadium">Estadio Antonio Vespucio Liberti</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Bolivia -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://jornada.com.bo/wp-content/uploads/2021/02/estadio-Hernando-Siles.jpg" width="100%" height="200" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/fbf.png" alt="FBFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #025A0D;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Bolivia</b></p>
+                          <p class="club-stadium">Estadio Hernando Siles</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Brazil -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://www.eluniverso.com/resizer/mCUskKd45sNRw4LTCJjhm4hc46s=/0x0:1018x696/980x670/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/PAA2YAM5NFAP3EQAWJZQZFL5DI.jpg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/cbf.png" alt="CBFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #F2C83F;">
+                        <div class="clubSquareFoot2">
+                          <p class="club-name"><b>Brazil</b></p>
+                          <p class="club-stadium">Estadio Maracaná</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Colombia -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://larazon.co/wp-content/uploads/2021/05/metro.jpg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/fcf.png" alt="FCFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #111B4D;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Colombia</b></p>
+                          <p class="club-stadium">Estadio Metropolitano de Barranquilla</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Chile -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="http://pm1.narvii.com/7054/472858b830211bbfe213593a56f94ac96e606a8br1-993-533v2_uhq.jpg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                        <img src="images/eliminatorias/ffch.png" alt="FFCHlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #981C18;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Chile</b></p>
+                          <p class="club-stadium">Estadio Nacional de Chile</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Ecuador -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://media.primicias.ec/2020/11/30053745/Panorama_liga1.jpg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/fef.png" alt="FEFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #001F57;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Ecuador</b></p>
+                          <p class="club-stadium">Estadio Rodrigo Paz Delgado</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Paraguay -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://e.rpp-noticias.io/xlarge/2020/02/26/100910_905790.jpg" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/apf.png" alt="AFPlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #0171BC;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Paraguay</b></p>
+                          <p class="club-stadium">Estadio Defensores del Chaco</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Perú -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://cdn.futbolperuano.com/sdi/2021/10/27/estadio-nacional-celebra-su-69-aniversario-963938.jpg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/fpf.png" alt="FPFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #c80014;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Perú</b></p>
+                          <p class="club-stadium">Estadio Nacional de Lima</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Uruguay -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://d1lofqbqbj927c.cloudfront.net/UY-sarandi/2020/01/estadio-centenario.jpg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/auf.png" alt="AUFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #025082;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Uruguay</b></p>
+                          <p class="club-stadium">Estadio Centenario</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <!-- Venezuela -->
+                <li class="list-item col-lg-3 col-md-4 col-sm-6 py-2">
+                  <a href="#" class="club-animation" style="text-decoration:none;">
+                    <div>
+                      <div class="figure club-banner-top">
+                        <img src="https://www.futbolred.com/files/article_main/uploads/2021/06/08/60bfe824e815d.jpeg" width="100%" alt="StadiumLogo">
+                      </div>
+                      <div class="clubCircle text-center">
+                          <img src="images/eliminatorias/fvf.png" alt="FVFlogo" class="logosclubs2">
+                      </div>
+                      <div class="text-center club-banner-bottom" style="background-color: #3E0011;">
+                        <div class="clubSquareFoot">
+                          <p class="club-name"><b>Venezuela</b></p>
+                          <p class="club-stadium">Estadio Estadio José Antonio Anzoátegui</p>
+                          <hr class="club-divider">
+                          <span class="perfil"><b>Perfil del Equipo</b></span> &nbsp&nbsp<i class="fas fa-chevron-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+
+    </main>
+
     <footer>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-sm-4 col-md-3 item">
-              <h3>Torneos</h3>
+
+      <div class="footer-clean shadow-lg">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Competencias</h3>
               <hr class="d-b">
-              <ul>         
+              <ul>
                 <li><a href="liga-1.html">Liga 1</a></li>
                 <li><a href="liga-2.html">Liga 2</a></li>
                 <li><a href="copa-peru.html">Copa Perú</a></li>
                 <li><a href="eliminatorias.html">Eliminatorias</a></li>
-                <li><a href="copa-bicentenario.html">Copa Bicentenario</a></li>
               </ul>
-          </div>    
-          <div class="col-sm-4 col-md-3 item">
-              <h3>Careers</h3>
+            </div>
+            <div class="col-sm-4 col-md-3 item ">
+              <h3>Torneos</h3>
               <hr class="d-b">
               <ul>
-                <li><a href="#">Job openings</a></li>
-                <li><a href="#">Employee success</a></li>
-                <li><a href="#">Benefits</a></li>
+                <li><a href="copa-bicentenario.html">Copa Bicentenario</a></li>
+                <li><a href="reservas.html">Promoción y Reservas</a></li>
               </ul>
-          </div>
-          <div class="col-sm-4 col-md-3 item">
-            <h3>Nosotros</h3>
-            <hr class="d-b">
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="informacion.html">Información</a></li>
-            </ul>
-        </div>
-          <div class="col-lg-3 text-center item social">
-            <h3>Sigue a la liga:</h3>
-            <a href="https://www.facebook.com/LigaFutProf"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/ligafutprof"><i class="fab fa-twitter"></i></a>
-            <a href="https://twitter.com/LigaFutProf"><i class="fab fa-instagram"></i></a>
-            <p class="copyright">MAVP Projects © 2022</p>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>Nosotros</h3>
+              <hr class="d-b">
+              <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="informacion.html">Información</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 text-center item social">
+              <h3>Sigue a la liga:</h3>
+              <a href="https://www.facebook.com/LigaFutProf"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/ligafutprof"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/LigaFutProf"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col-12 padtop text-center">
+              <p><a href="#" class="copyright">MAVP Projects © 2022</a></p>
+            </div>
           </div>
         </div>
       </div>
+
     </footer>
-  </div>
-      
   </body>
 </html>
