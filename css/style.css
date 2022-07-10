@@ -155,6 +155,11 @@ th{
   vertical-align: middle;
   color: #fff;
 }
+.liga-table td{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  height: 50px;
+}
 .reserva-table-sm td{
   padding: 0px 8px;
   height: 40px;
@@ -653,7 +658,7 @@ th{
 /* ==================================Posiciones */
 .winner{
   background-color: #D8A928;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -674,7 +679,7 @@ th{
 /* Liga1Positions */
 .libertadores{
   background-color: #FBBC04;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -687,7 +692,7 @@ th{
 }
 .sudamericana{
   background-color: #34A853;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -700,7 +705,7 @@ th{
 }
 .revalidacion{
   background-color: #f57316;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -713,7 +718,7 @@ th{
 }
 .descenso{
   background-color: #c1272d;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -731,7 +736,7 @@ th{
 /* Liga2Positions */
 .ascenso{
   background-color: #7ac029;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -773,7 +778,7 @@ th{
 /* Eliminatorias */
 .clasificacion{
   background-color: #6A1A33;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -783,7 +788,7 @@ th{
 }
 .repechaje{
   background-color: #EED0A4;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -794,7 +799,7 @@ th{
 /* EXTRA */
 .tecnico{
   background-color: #d8b145;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;
@@ -804,7 +809,7 @@ th{
 }
 .destituido{
   background-color: #2c2c2c;
-  height: 64px;
+  height: 52px;
   width: 15px;
   margin-top: -8px;
   margin-bottom: -8px;

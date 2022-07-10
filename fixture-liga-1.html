@@ -236,10 +236,10 @@
                     <div class="divbuttons">
                         <ul class="nav">
                             <li>
-                                <button id="btnApertura" class="btn btnswitch btnFase1 btntableswitcheractive" onclick="buttonsswitch('apertura')">Apertura</button>
+                                <button id="btnApertura" class="btn btnswitch btnFase1 btntableswitcherdisble" onclick="buttonsswitch('apertura')">Apertura</button>
                             </li>
                             <li>
-                                <button id="btnClausura" class="btn btnswitch btnFase2 btntableswitcherdisble" onclick="buttonsswitch('clausura')">Clausura</button>
+                                <button id="btnClausura" class="btn btnswitch btnFase2 btntableswitcheractive" onclick="buttonsswitch('clausura')">Clausura</button>
                             </li>
                         </ul>
                     </div>
@@ -253,7 +253,7 @@
                         <div class="col-12">
                             <div class="dropdown">
                                 <button id="btnDropdown" class="btn btn-switch-dropdown bg-light dropdown-toggle" data-bs-toggle="dropdown">
-                                    Apertura
+                                    Clausura
                                 </button>
                                 <ul class="dropdown-menu bg-light text-center list-dropdown">
                                     <li id="dbapertura">
@@ -3338,9 +3338,10 @@
                                             <img src="images/liga-1/hua.png" alt="HUA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sport Huancayo</span>
                                         </div>
                                         <div class="col fixture-divider" style="width: 20%;">
-                                            <span></span>
+                                            <span>4</span>
+                                            <i class="fas fa-caret-left"></i>
                                             <div class="py-2"></div>
-                                            <span></span>
+                                            <span>3</span>
                                         </div>
                                     </div>
                                 </div>
@@ -3353,9 +3354,9 @@
                                             <img src="images/liga-1/mun.png" alt="MUN-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Deportivo Municipal</span>
                                         </div>
                                         <div class="col fixture-divider" style="width: 20%;">
-                                            <span></span>
+                                            <span>1</span>
                                             <div class="py-2"></div>
-                                            <span></span>
+                                            <span>1</span>
                                         </div>
                                     </div>
                                 </div>
@@ -3368,9 +3369,10 @@
                                             <img src="images/liga-1/ucv.png" alt="UCV-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp César Vallejo</span>
                                         </div>
                                         <div class="col fixture-divider" style="width: 20%;">
-                                            <span></span>
+                                            <span>2</span>
+                                            <i class="fas fa-caret-left"></i>
                                             <div class="py-2"></div>
-                                            <span></span>
+                                            <span>0</span>
                                         </div>
                                     </div>
                                 </div>
@@ -6059,8 +6061,8 @@
                             $("#fc1").show();
                             $("#c1").addClass("btn-Fixture-Active1");
                             //Mostrar un Fixture
-                            $('#tablaApertura').show();
-                            $('#tablaClausura').hide();
+                            $('#tablaApertura').hide();
+                            $('#tablaClausura').show();
                         </script>
 
                     </div>
