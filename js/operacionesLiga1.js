@@ -174,41 +174,136 @@ function TablaAcumulado(team){
    //APERTURA LAST GAMES
    /*$("#dbacumulado").hide();
       for (var i = 0; i <= 18; i++) {
-      var xd1 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
-      var xd2 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
-      var xd3 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
-      var xd4 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(3).attr("class");
-      var xd5 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(4).attr("class");
+      var lg1 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
+      var lg2 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
+      var lg3 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
+      var lg4 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(3).attr("class");
+      var lg5 = $('#table1').find('tr').eq(i).find('td').eq(10).find('i').eq(4).attr("class");
 
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(0).removeClass().addClass(xd1);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(1).removeClass().addClass(xd2);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(2).removeClass().addClass(xd3);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(3).removeClass().addClass(xd4);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(xd5);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(0).removeClass().addClass(lg1);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(1).removeClass().addClass(lg2);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(2).removeClass().addClass(lg3);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(3).removeClass().addClass(lg4);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(lg5);
    }*/
    //CLAUSURA LAST GAMES
    for (var i = 0; i <= 18; i++) {
-      var xd1 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
-      var xd2 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
-      var xd3 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
-      var xd4 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(3).attr("class");
-      var xd5 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(4).attr("class");
+      var lg1 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
+      var lg2 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
+      var lg3 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
+      var lg4 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(3).attr("class");
+      var lg5 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(4).attr("class");
 
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(0).removeClass().addClass(xd1);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(1).removeClass().addClass(xd2);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(2).removeClass().addClass(xd3);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(3).removeClass().addClass(xd4);
-      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(xd5);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(0).removeClass().addClass(lg1);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(1).removeClass().addClass(lg2);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(2).removeClass().addClass(lg3);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(3).removeClass().addClass(lg4);
+      $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(lg5);
+   }
+}
+//Proceso de ordenamiento de la tabla
+//Apertura
+var table = $('#tablaApertura');
+var tbody = $('#table1')
+
+tbody.find('tr').sort(function(a, b) {
+   if ($("td", b).eq(2).text() != $("td", a).eq(2).text()) {
+      return $("td", b).eq(2).text() - $("td", a).eq(2).text();
+   } else if ($("td", b).eq(9).text() != $("td", a).eq(9).text()) {
+      return $("td", b).eq(9).text() - $("td", a).eq(9).text();
+   } else {
+      return $("td", b).eq(7).text() - $("td", a).eq(7).text();
+   }
+}).appendTo(tbody);
+
+var i = 0;
+var j = 1;
+while (i < 19) {
+   if (i == 0) {
+      tbody.find("tr").eq(i).find("div").attr("class", "winner");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   } else if (i >= 1 && i < 19) {
+      tbody.find("tr").eq(i).find("div").attr("class", "");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
    }
 }
 
-// REDUCCION DE PUNTOS
+//Clausura
+var table = $('#tablaClausura');
+var tbody = $('#table2')
+
+tbody.find('tr').sort(function(a, b) {
+   if ($("td", b).eq(2).text() != $("td", a).eq(2).text()) {
+      return $("td", b).eq(2).text() - $("td", a).eq(2).text();
+   } else if ($("td", b).eq(9).text() != $("td", a).eq(9).text()) {
+      return $("td", b).eq(9).text() - $("td", a).eq(9).text();
+   } else {
+      return $("td", b).eq(7).text() - $("td", a).eq(7).text();
+   }
+}).appendTo(tbody);
+
+var i = 0;
+var j = 1;
+while (i < 19) {
+   if (i == 0) {
+      tbody.find("tr").eq(i).find("div").attr("class", "winner");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   } else if (i >= 1 && i < 19) {
+      tbody.find("tr").eq(i).find("div").attr("class", "");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   }
+}
+
+//Acumulado
+var table = $('#tablaAcumulada');
+var tbody = $('#table3')
+
+tbody.find('tr').sort(function(a, b) {
+   if ($("td", b).eq(2).text() != $("td", a).eq(2).text()) {
+      return $("td", b).eq(2).text() - $("td", a).eq(2).text();
+   } else if ($("td", b).eq(9).text() != $("td", a).eq(9).text()) {
+      return $("td", b).eq(9).text() - $("td", a).eq(9).text();
+   } else {
+      return $("td", b).eq(7).text() - $("td", a).eq(7).text();
+   }
+}).appendTo(tbody);
+
+var i = 0;
+var j = 1;
+while (i < 19) {
+   if (i >= 0 && i <= 3) {
+      tbody.find("tr").eq(i).find("div").attr("class", "libertadores");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   } else if (i >= 4 && i <= 7) {
+      tbody.find("tr").eq(i).find("div").attr("class", "sudamericana");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   } else if (i >= 8 && i <= 15) {
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   } else if (i == 16) {
+      tbody.find("tr").eq(i).find("div").attr("class", "revalidacion");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   } else if (i >= 17 && i < 19) {
+      tbody.find("tr").eq(i).find("div").attr("class", "descenso");
+      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
+      i++;
+   }
+}
+
+//Reducción de puntos
 document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 3;
 document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 1;
 document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 1;
 document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 1;
 
-
+//Otros
 $('#tablaApertura').hide();
 $('#tablaClausura').hide();
 $('#tablaAcumulada').show();

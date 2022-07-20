@@ -3,7 +3,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 main{
-  padding-top: 170px;
+  padding-top: 165px;
 }
 td{
   vertical-align: middle;
@@ -30,7 +30,7 @@ th{
   background-color: #1B1A17;
 }
 .bglight{
- background-color: #fff;
+  background-color: #fff;
 }
 .bgside{
   background-color: #fff;
@@ -38,7 +38,7 @@ th{
 
 /* ==================================Nav Bar Style */
 .teamsnav{
-  height: 65px;
+  height: 60px;
 }
 .btn-nav-options{
   height: 50px;
@@ -196,7 +196,8 @@ th{
   font-size: 14px;
 }
 .t-h2{
-  height: 30px;
+  height: 20px;
+  font-size: 12px;
 }
 
 /* ==================================Buttons */
@@ -210,13 +211,19 @@ th{
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
 }
-.btnAcumulado{
+#btnAcumulado{
   width: 150px;
 }
-.btnFase1{
+#btnApertura{
   width: 120px;
 }
-.btnFase2{
+#btnClausura{
+  width: 120px;
+}
+#btnFixtureApertura{
+  width: 120px;
+}
+#btnFixtureClausura{
   width: 120px;
 }
 .btntableswitcheractive{
@@ -384,9 +391,13 @@ th{
     color: #fff;
   }
 }
-.divbuttons{
+.table-selector{
   font-size: 20px;
   padding-top: 26.5px;
+}
+.fixture-selector{
+  font-size: 20px;
+  padding-top: 30.5px;
 }
 .divcut{
   height: 30px;
@@ -406,7 +417,12 @@ th{
 
 /* ==================================Logos */
 .brand{
-  width: 57px;
+  padding-top: 5px;
+  height: 55px;
+  transition: 1s;
+}
+.brand:hover{
+  transform: scale(1.2);
 }
 .logos{
   width: 40px;
@@ -417,15 +433,16 @@ th{
 .logos-evol{
   width: 28px;
 }
-.logosheader{
+.logos-header{
+  width: 40px;
   padding-top: 4px;
   overflow:hidden;
   transition: 0.2s;
 }
-.logosheader:hover{
+.logos-header:hover{
   transform:scale(1.2);
 }
-@media screen and (max-width: 1253px) {
+@media screen and (max-width: 1045px) {
   .headerlogoseffect{
     display: none;
   }
@@ -729,9 +746,9 @@ th{
 .descenso-evol{
   background-color: #ffb8bb;
 }
-.t-modal-h th{
-  padding-top: 2px;
-  padding-bottom: 2px;
+.t-modal-h td{
+  height: 20px;
+  padding: 2px 2px;
 }
 /* Liga2Positions */
 .ascenso{
@@ -1108,7 +1125,7 @@ dialog{
   visibility: visible;
 }
 .img-team-info{
-  width: 50px;
+  width: 40px;
 }
 .info-card{
   background: #fafafa;
