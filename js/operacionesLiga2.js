@@ -289,6 +289,12 @@ while (i < 13) {
    }
 }
 
+//Reducción de puntos
+document.getElementById("puntosTeam4").innerHTML = parseInt($("#puntosTeam4").text()) - 1;
+document.getElementById("puntosTeam8").innerHTML = parseInt($("#puntosTeam8").text()) - 2;
+document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 2;
+document.getElementById("puntosTeam13").innerHTML = parseInt($("#puntosTeam13").text()) - 2;
+document.getElementById("puntosTeam11").innerHTML = parseInt($("#puntosTeam11").text()) - 3;
 
 //Otros
 $('#tablaApertura').hide();

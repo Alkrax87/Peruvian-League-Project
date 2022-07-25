@@ -201,6 +201,11 @@ function TablaAcumulado(team){
       $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(lg5);
    }
 }
+//Reducción de puntos
+document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 3;
+document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 1;
+document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 1;
+document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 1;
 //Proceso de ordenamiento de la tabla
 //Apertura
 var table = $('#tablaApertura');
@@ -296,13 +301,6 @@ while (i < 19) {
       i++;
    }
 }
-
-//Reducción de puntos
-document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 3;
-document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 1;
-document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 1;
-document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 1;
-
 //Otros
 $('#tablaApertura').hide();
 $('#tablaClausura').hide();
