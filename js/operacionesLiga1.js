@@ -202,10 +202,7 @@ function TablaAcumulado(team){
    }
 }
 //Reducción de puntos
-document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 3;
-document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 1;
-document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 1;
-document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 1;
+document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 2;
 //Proceso de ordenamiento de la tabla
 //Apertura
 var table = $('#tablaApertura');
