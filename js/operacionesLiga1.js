@@ -203,6 +203,7 @@ function TablaAcumulado(team){
 }
 //Reducción de puntos
 document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 2;
+document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 1;
 //Proceso de ordenamiento de la tabla
 //Apertura
 var table = $('#tablaApertura');
