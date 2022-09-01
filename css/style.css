@@ -160,6 +160,10 @@ th{
   padding-bottom: 6px;
   height: 50px;
 }
+.table td{
+  padding: 0px 8px;
+  height: 40px;
+}
 .reserva-table-sm td{
   padding: 0px 8px;
   height: 40px;
@@ -832,6 +836,9 @@ th{
   margin-left: -8px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.bracket-height td{
+  height: 40px;
 }
 
 /* ==================================Circulos de partidos
