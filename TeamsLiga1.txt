@@ -15,5 +15,5 @@
 <img src="images/liga-1/sba.png" alt="SBA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sport Boys</span>
 <img src="images/liga-1/hua.png" alt="HUA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sport Huancayo</span>
 <img src="images/liga-1/cri.png" alt="CRI-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sporting Cristal</span>
-<img src="images/liga-1/utc.png" alt="UTC-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp UTC</span>
 <img src="images/liga-1/uni.png" alt="UNI-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Universitario</span>
+<img src="images/liga-1/utc.png" alt="UTC-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp UTC</span>
