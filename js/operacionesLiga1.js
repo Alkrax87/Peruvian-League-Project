@@ -206,6 +206,9 @@ document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").
 document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 1;
 document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 2;
 document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 2;
+//Aumento de puntos
+document.getElementById("puntosTeam4").innerHTML = parseInt($("#puntosTeam4").text()) + 2;
+document.getElementById("puntosTeam6").innerHTML = parseInt($("#puntosTeam6").text()) + 1;
 //Proceso de ordenamiento de la tabla
 //Apertura
 var table = $('#tablaApertura');

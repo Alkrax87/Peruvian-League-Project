@@ -6,6 +6,8 @@ tbody.find('tr').sort(function(a, b) {
 
   if ($("td", b).eq(1).text() != $("td", a).eq(1).text()) {
     return $("td", b).eq(1).text() - $("td", a).eq(1).text();
+  } else if ($("td", b).eq(9).text() != $("td", a).eq(9).text()) {
+    return $("td", b).eq(9).text() - $("td", a).eq(9).text();
   } else if ($("td", b).eq(8).text() != $("td", a).eq(8).text()) {
     return $("td", b).eq(8).text() - $("td", a).eq(8).text();
   } else {
