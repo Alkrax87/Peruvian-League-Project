@@ -202,7 +202,7 @@ function TablaAcumulado(team){
    }
 }
 //Reducción de puntos
-document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 15;
+document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 7;
 document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 5;
 document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 2;
 document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 3;
