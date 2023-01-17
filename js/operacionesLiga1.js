@@ -202,13 +202,11 @@ function TablaAcumulado(team){
    }
 }
 //Reducción de puntos
-document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 7;
-document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 5;
-document.getElementById("puntosTeam9").innerHTML = parseInt($("#puntosTeam9").text()) - 2;
-document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 3;
+// Example: document.getElementById("puntosTeam15").innerHTML = parseInt($("#puntosTeam15").text()) - 7;
+
 //Aumento de puntos
-document.getElementById("puntosTeam4").innerHTML = parseInt($("#puntosTeam4").text()) + 2;
-document.getElementById("puntosTeam6").innerHTML = parseInt($("#puntosTeam6").text()) + 1;
+
+
 //Proceso de ordenamiento de la tabla
 //Apertura
 var table = $('#tablaApertura');
@@ -294,11 +292,7 @@ while (i < 19) {
    } else if (i >= 8 && i <= 15) {
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
-   } else if (i == 16) {
-      tbody.find("tr").eq(i).find("div").attr("class", "revalidacion");
-      tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
-      i++;
-   } else if (i >= 17 && i < 19) {
+   } else if (i >= 16 && i < 19) {
       tbody.find("tr").eq(i).find("div").attr("class", "descenso");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;

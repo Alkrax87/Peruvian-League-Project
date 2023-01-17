@@ -3,17 +3,25 @@
 <img src="images/liga-1/aas.png" alt="AAS-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Alianza Atlético</span>
 <img src="images/liga-1/ali.png" alt="ALI-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Alianza Lima</span>
 <img src="images/liga-1/atg.png" alt="ATG-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Atlético Grau</span>
-<img src="images/liga-1/aya.png" alt="AYA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Ayacucho FC</span>
 <img src="images/liga-1/bin.png" alt="BIN-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Binacional</span>
 <img src="images/liga-1/cam.png" alt="CAM-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Carlos Mannucci</span>
-<img src="images/liga-1/cst.png" alt="CST-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Carlos Stein</span>
 <img src="images/liga-1/ucv.png" alt="UCV-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp César Vallejo</span>
 <img src="images/liga-1/cie.png" alt="CIE-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Cienciano</span>
+<img src="images/liga-1/cus.png" alt="CUS-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Cusco FC</span>
+<img src="images/liga-1/cdg.png" alt="CDG-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Deportivo Garcilaso</span>
 <img src="images/liga-1/mun.png" alt="MUN-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Deportivo Municipal</span>
 <img src="images/liga-1/mel.png" alt="MEL-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp FBC Melgar</span>
-<img src="images/liga-1/usm.png" alt="USM-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp San Martín</span>
 <img src="images/liga-1/sba.png" alt="SBA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sport Boys</span>
 <img src="images/liga-1/hua.png" alt="HUA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sport Huancayo</span>
 <img src="images/liga-1/cri.png" alt="CRI-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Sporting Cristal</span>
+<img src="images/liga-1/uco.png" alt="UCO-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Unión Comercio</span>
 <img src="images/liga-1/uni.png" alt="UNI-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Universitario</span>
 <img src="images/liga-1/utc.png" alt="UTC-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp UTC</span>
+
+
+
+
+
+<a class="nav-item" href="#"><img src="images/liga-1/cus.png" alt="CUS-logo" class="logos-header"></a>
+<a class="nav-item" href="#"><img src="images/liga-1/cdg.png" alt="CDG-logo" class="logos-header"></a>
+<a class="nav-item" href="#"><img src="images/liga-1/uco.png" alt="UCO-logo" class="logos-header"></a>
