@@ -1,0 +1,488 @@
+{
+   "Info": {
+      "temporada": 2023,
+      "equipos": 19,
+      "torneo": "apertura",
+      "fechaApertura": "5",
+      "fechaClausura": "1"
+   },
+   "Teams": [
+      {
+         "id": "Team1",
+         "name": "Academia Cantolao",
+         "image": "images/liga-1/can.png",
+         "alt": "CAN-logo",
+         "banner": "images/liga-1/estadio-miguel-grau-del-callao.png",
+         "url": "",
+         "stadium": "Estadio Miguel Grau del Callao",
+         "color1": "#FEF100",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Matías Rosa",
+               "country": "Uruguay",
+               "cod": "uy",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team2",
+         "name": "ADT",
+         "image": "images/liga-1/adt.png",
+         "alt": "ADT-logo",
+         "banner": "images/liga-1/estadio-union-tarma.png",
+         "url": "",
+         "stadium": "Estadio Unión Tarma",
+         "color1": "#00B3FF",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Franco Navarro",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team3",
+         "name": "Alianza Atlético",
+         "image": "images/liga-1/aas.png",
+         "alt": "AAS-logo",
+         "banner": "images/liga-1/estadio-campeones-del-36.png",
+         "url": "",
+         "stadium": "Estadio Campeones del 36",
+         "color1": "#26267F",
+         "dt": [
+            {
+               "name": "Carlos Desio",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team4",
+         "name": "Alianza Lima",
+         "image": "images/liga-1/ali.png",
+         "alt": "ALI-logo",
+         "banner": "images/liga-1/estadio-alejandro-villanueva.png",
+         "url": "",
+         "stadium": "Estadio Alejandro Villanueva",
+         "color1": "#001A48",
+         "dt": [
+            {
+               "name": "Guillermo Salas",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team5",
+         "name": "Atlético Grau",
+         "image": "images/liga-1/atg.png",
+         "alt": "ATG-logo",
+         "banner": "images/liga-1/estadio-miguel-grau-de-piura.png",
+         "url": "",
+         "stadium": "Estadio Miguel Grau de Piura",
+         "color1": "#FF070C",
+         "dt": [
+            {
+               "name": "Daniel Ahmed",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team6",
+         "name": "Binacional",
+         "image": "images/liga-1/bin.png",
+         "alt": "BIN-logo",
+         "banner": "images/liga-1/estadio-guillermo-briceno.png",
+         "url": "",
+         "stadium": "Estadio Guillermo Briceño",
+         "color1": "#84DCEC",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Wilmar Valencia",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team7",
+         "name": "Carlos Mannucci",
+         "image": "images/liga-1/cam.png",
+         "alt": "CAM-logo",
+         "banner": "images/liga-1/estadio-mansiche.png",
+         "url": "",
+         "stadium": "Estadio Mansiche",
+         "color1": "#005FCD",
+         "dt": [
+            {
+               "name": "Mario Viera",
+               "country": "Uruguay",
+               "cod": "uy",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team8",
+         "name": "César Vallejo",
+         "image": "images/liga-1/ucv.png",
+         "alt": "UCV-logo",
+         "banner": "images/liga-1/estadio-mansiche.png",
+         "url": "",
+         "stadium": "Estadio Mansiche",
+         "color1": "#1B294B",
+         "dt": [
+            {
+               "name": "Sebastián Abreu",
+               "country": "Uruguay",
+               "cod": "uy",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team9",
+         "name": "Cienciano",
+         "image": "images/liga-1/cie.png",
+         "alt": "CIE-logo",
+         "banner": "images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
+         "url": "",
+         "stadium": "Estadio Inca Garcilaso de la Vega",
+         "color1": "#A40300",
+         "dt": [
+            {
+               "name": "Leonel Álvarez",
+               "country": "Colombia",
+               "cod": "co",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team10",
+         "name": "Cusco FC",
+         "image": "images/liga-1/cus.png",
+         "alt": "CUS-logo",
+         "banner": "images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
+         "url": "",
+         "stadium": "Estadio Inca Garcilaso de la Vega",
+         "color1": "#DC9B52",
+         "dt": [
+            {
+               "name": "Pablo Peirano",
+               "country": "Uruguay",
+               "cod": "uy",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team11",
+         "name": "Deportivo Garcilaso",
+         "image": "images/liga-1/cdg.png",
+         "alt": "CDG-logo",
+         "banner": "images/liga-1/estadio-inca-garcilaso-de-la-vega.png",
+         "url": "",
+         "stadium": "Estadio Inca Garcilaso de la Vega",
+         "color1": "#009EED",
+         "dt": [
+            {
+               "name": "Roberto Tristán",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team12",
+         "name": "Deportivo Municipal",
+         "image": "images/liga-1/mun.png",
+         "alt": "MUN-logo",
+         "banner": "images/liga-1/estadio-ivan-elias-moreno.png",
+         "url": "",
+         "stadium": "Estadio Iván Elías Moreno",
+         "color1": "#003083",
+         "dt": [
+            {
+               "name": "Ángel Comizzo",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team13",
+         "name": "FBC Melgar",
+         "image": "images/liga-1/mel.png",
+         "alt": "MEL-logo",
+         "banner": "images/liga-1/estadio-monumental-de-la-unsa.png",
+         "url": "",
+         "stadium": "Estadio Monumental de la UNSA",
+         "color1": "#8C0202",
+         "dt": [
+            {
+               "name": "Pablo Lavallén",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team14",
+         "name": "Sport Boys",
+         "image": "images/liga-1/sba.png",
+         "alt": "SBA-logo",
+         "banner": "images/liga-1/estadio-miguel-grau-del-callao.png",
+         "url": "",
+         "stadium": "Estadio Miguel Grau del Callao",
+         "color1": "#FFAFCE",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Guillermo Sanguinetti",
+               "country": "Uruguay",
+               "cod": "uy",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team15",
+         "name": "Sport Huancayo",
+         "image": "images/liga-1/hua.png",
+         "alt": "HUA-logo",
+         "banner": "images/liga-1/estadio-huancayo.png",
+         "url": "",
+         "stadium": "Estadio Huancayo",
+         "color1": "#CF001C",
+         "dt": [
+            {
+               "name": "Mifflin Bermúdez",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team16",
+         "name": "Sporting Cristal",
+         "image": "images/liga-1/cri.png",
+         "alt": "CRI-logo",
+         "banner": "images/liga-1/estadio-alberto-gallardo.png",
+         "url": "",
+         "stadium": "Estadio Alberto Gallardo",
+         "color1": "#00C0F2",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Tiago Nunes",
+               "country": "Brazil",
+               "cod": "br",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team17",
+         "name": "Unión Comercio",
+         "image": "images/liga-1/uco.png",
+         "alt": "UCO-logo",
+         "banner": "images/liga-1/estadio-carlos-vidaurre-garcia.png",
+         "url": "",
+         "stadium": "Estadio Carlos Vidaurre García",
+         "color1": "#F70900",
+         "dt": [
+            {
+               "name": "Jesús Oropesa",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team18",
+         "name": "Universitario",
+         "image": "images/liga-1/uni.png",
+         "alt": "UNI-logo",
+         "banner": "images/liga-1/estadio-monumental.png",
+         "url": "",
+         "stadium": "Estadio Monumental",
+         "color1": "#F9F0D1",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Carlos Compagnucci",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team19",
+         "name": "UTC",
+         "image": "images/liga-1/utc.png",
+         "alt": "UTC-logo",
+         "banner": "images/liga-1/estadio-heroes-de-san-ramon.png",
+         "url": "",
+         "stadium": "Estadio Héroes de San Ramón",
+         "color1": "#8E1119",
+         "dt": [
+            {
+               "name": "Marcelo Grioni",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      }
+   ],
+   "Apertura": {
+      "F1": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F2": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F3": [
+         "0","","2","0","3","0","3","2","0","0","3","0","0","2","3","3","1","4","3"
+      ],
+      "F4": [
+         "1","1","2","2","4","2","1","2","2","0","2","2","0","0","","1","1","0","0"
+      ],
+      "F5": [
+         "","","","","","","","3","","","","","0","","","1","1","",""
+      ],
+      "F6": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F7": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F8": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F9": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F10": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F11": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F12": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F13": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F14": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F15": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F16": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F17": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F18": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F19": [
+         "","","","","","","","","","","","","","","","","","",""
+      ]
+   },
+   "Clausura": {
+      "F1": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F2": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F3": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F4": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F5": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F6": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F7": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F8": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F9": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F10": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F11": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F12": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F13": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F14": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F15": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F16": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F17": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F18": [
+         "","","","","","","","","","","","","","","","","","",""
+      ],
+      "F19": [
+         "","","","","","","","","","","","","","","","","","",""
+      ]
+   },
+   "Finalistas": {
+      "Apertura": "Por Definir",
+      "Clausura": "Por Definir",
+      "Acumulado": "",
+      "Resultado": [
+         {"ida": ""},
+         {"vuelta": ""},
+         {"global": ""}
+      ],
+      "Campeon": ""
+   }
+}

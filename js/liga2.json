@@ -1,0 +1,358 @@
+{
+   "Info": {
+      "temporada": 2023,
+      "equipos": 14,
+      "torneo": "apertura",
+      "fechaApertura": "1",
+      "fechaClausura": "1"
+   },
+   "Teams": [
+      {
+         "id": "Team1",
+         "name": "Alianza Universidad",
+         "image": "images/liga-2/auh.png",
+         "alt": "AUH-logo",
+         "banner": "images/liga-2/estadio-heraclio-tapía.png",
+         "url": "",
+         "stadium": "Estadio Heráclio Tapia",
+         "color1": "#3038A9",
+         "dt": [
+            {
+               "name": "Paul Cominges",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team2",
+         "name": "Alfonso Ugarte",
+         "image": "images/liga-2/alu.png",
+         "alt": "ALU-logo",
+         "banner": "images/liga-2/estadio-monumental-de-la-una.png",
+         "url": "",
+         "stadium": "Estadio Monumental de la UNA",
+         "color1": "#FD2015",
+         "dt": [
+            {
+               "name": "Gustavo Roverano",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team3",
+         "name": "Ayacucho FC",
+         "image": "images/liga-2/aya.png",
+         "alt": "AYA-logo",
+         "banner": "images/liga-2/estadio-ciudad-de-cumana.png",
+         "url": "",
+         "stadium": "Estadio Ciudad de Cumaná",
+         "color1": "#E9D9A9",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team4",
+         "name": "Carlos Stein",
+         "image": "images/liga-2/cst.png",
+         "alt": "CST-logo",
+         "banner": "images/liga-2/estadio-victor-montoya-segura.png",
+         "url": "",
+         "stadium": "Estadio Víctor Montoya Segura",
+         "color1": "#FEFD00",
+         "color2": "#333333",
+         "dt": [
+            {
+               "name": "Javier Arce",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team5",
+         "name": "Chankas CYC",
+         "image": "images/liga-2/chk.png",
+         "alt": "CHK-logo",
+         "banner": "images/liga-2/estadio-los-chankas.png",
+         "url": "",
+         "stadium": "Estadio Los Chankas",
+         "color1": "#A21009",
+         "dt": [
+            {
+               "name": "Juan Bazalar",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team6",
+         "name": "Comerciantes FC",
+         "image": "images/liga-2/adc.png",
+         "alt": "ADC-logo",
+         "banner": "images/liga-2/estadio-max-augustin.png",
+         "url": "",
+         "stadium": "Estadio Max Augustín",
+         "color1": "#00AF00",
+         "dt": [
+            {
+               "name": "Marcial Salazar",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team7",
+         "name": "Comerciantes Unidos",
+         "image": "images/liga-2/cou.png",
+         "alt": "COU-logo",
+         "banner": "images/liga-2/estadio-juan-maldonado-gamarra.png",
+         "url": "",
+         "stadium": "Estadio Juan Maldonado Gamarra",
+         "color1": "#35026A",
+         "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team8",
+         "name": "Deportivo Coopsol",
+         "image": "images/liga-2/coo.png",
+         "alt": "COO-logo",
+         "banner": "images/liga-2/estadio-romulo-shaw-cisneros.png",
+         "url": "",
+         "stadium": "Estadio Rómulo Shaw Cisneros",
+         "color1": "#F5B108",
+         "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team9",
+         "name": "Deportivo Llacuabamba",
+         "image": "images/liga-2/dll.png",
+         "alt": "DLL-logo",
+         "banner": "images/liga-2/estadio-comunal-llacuabamba.png",
+         "url": "",
+         "stadium": "Estadio Comunal Llacuabamba",
+         "color1": "#00B5CE",
+         "dt": [
+            {
+               "name": "Fernando Nogara",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team10",
+         "name": "Juan Aurich",
+         "image": "images/liga-2/jua.png",
+         "alt": "JUA-logo",
+         "banner": "images/liga-2/estadio-cesar-flores-marigorda.png",
+         "url": "",
+         "stadium": "Estadio César Flores Marigorda",
+         "color1": "#FF111C",
+         "dt": [
+            {
+               "name": "Jahir Butrón",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team11",
+         "name": "Pirata FC",
+         "image": "images/liga-2/pir.png",
+         "alt": "PIR-logo",
+         "banner": "images/liga-2/estadio-francisco-mendoza-pizarro.png",
+         "url": "",
+         "stadium": "Estadio Francisco Mendoza Pizarro",
+         "color1": "#007E00",
+         "dt": [
+            {
+               "name": "Damián Castellanos",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team12",
+         "name": "San Martín",
+         "image": "images/liga-2/usm.png",
+         "alt": "USM-logo",
+         "banner": "images/liga-2/estadio-alberto-gallardo.png",
+         "url": "",
+         "stadium": "Estadio Alberto Gallardo",
+         "color1": "#282782",
+         "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team13",
+         "name": "Santos FC",
+         "image": "images/liga-2/san.png",
+         "alt": "SAN-logo",
+         "banner": "images/liga-2/estadio-municipal-de-nazca.png",
+         "url": "",
+         "stadium": "Estadio Municipal de Nazca",
+         "color1": "#325BA3",
+         "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            }
+         ]
+      },
+      {
+         "id": "Team14",
+         "name": "Union Huaral",
+         "image": "images/liga-2/unh.png",
+         "alt": "UNH-logo",
+         "banner": "images/liga-2/estadio-julio-lores-colan.png",
+         "url": "",
+         "stadium": "Estadio Julio Lores Colán",
+         "color1": "#EB0803",
+         "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            }
+         ]
+      }
+   ],
+   "Apertura": {
+      "F1": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F2": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F3": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F4": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F5": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F6": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F7": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F8": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F9": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F10": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F11": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F12": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F13": [
+         "","","","","","","","","","","","","",""
+      ]
+   },
+   "Clausura": {
+      "F1": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F2": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F3": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F4": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F5": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F6": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F7": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F8": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F9": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F10": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F11": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F12": [
+         "","","","","","","","","","","","","",""
+      ],
+      "F13": [
+         "","","","","","","","","","","","","",""
+      ]
+   },
+   "Finalistas": {
+      "Apertura": "Por Definir",
+      "Clausura": "Por Definir",
+      "Acumulado": "",
+      "Resultado": [
+         {"ida": ""},
+         {"vuelta": ""},
+         {"global": ""}
+      ],
+      "Campeon": ""
+   }
+}

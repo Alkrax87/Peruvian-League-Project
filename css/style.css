@@ -539,8 +539,8 @@ th{
     border-left-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
-    border-color: #a8a8a8; 
-    border-width: 1px; 
+    border-color: #a8a8a8;
+    border-width: 1px;
     height: 92px;
   }
 }
@@ -548,7 +548,7 @@ th{
   font-size: 14px;
 }
 .fixture-divider{
-  border-width: 1px; 
+  border-width: 1px;
   border-left-style: solid;
   border-color: #a8a8a8;
 }
@@ -557,6 +557,9 @@ th{
 .escudoteam{
   font-size: 130px;
   /*<i class="fas fa-shield-alt escudoteam"></i>*/
+}
+.ascendido{
+  font-size: 60px;
 }
 .finalist-team{
   width: 130px;
@@ -910,7 +913,6 @@ circle:  <i class="fas fa-circle draw"></i>
   margin-top: -120px;
   padding-top: 80px;
   padding-bottom: 20px;
-  color: #fff;
 }
 .clubSquareFoot2{
   margin-top: -120px;
@@ -919,10 +921,6 @@ circle:  <i class="fas fa-circle draw"></i>
   color: #333333;
 }
 .logosclubs{
-  height: 80px;
-  width: 80px;
-}
-.logosclubs2{
   height: 70px;
   width: 70px;
 }

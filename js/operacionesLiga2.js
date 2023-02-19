@@ -1,5 +1,5 @@
 //Bucle de asignación de resultados en la tabla para cada equipo
-for (i = 1; i <= 13; i++) {
+for (i = 1; i <= 14; i++) {
    FixtureProcessA("Team"+i);
    FixtureProcessC("Team"+i);
    TablaAcumulado("Team"+i);
@@ -15,7 +15,7 @@ function FixtureProcessA(team){
       '<i class="fas fa-circle draw"></i>',
       '<i class="fas fa-circle draw"></i>'];
 
-   while (nteam <= 13) {
+   while (nteam <= 14) {
       try {
          var club = team+"-AF"+nteam;
          if (document.getElementById(club).parentElement){
@@ -93,7 +93,7 @@ function FixtureProcessC(team){
       '<i class="fas fa-circle draw"></i>',
       '<i class="fas fa-circle draw"></i>'];
 
-   while (nteam <= 13) {
+   while (nteam <= 14) {
       try {
          var club = team+"-CF"+nteam;
          if (document.getElementById(club).parentElement){
@@ -187,7 +187,7 @@ function TablaAcumulado(team){
       $('#table3').find('tr').eq(i).find('td').eq(10).find('i').eq(4).removeClass().addClass(lg5);
    }*/
    //CLAUSURA LAST GAMES
-   for (var i = 0; i <= 12; i++) {
+   for (var i = 0; i <= 13; i++) {
       var lg1 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(0).attr("class");
       var lg2 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(1).attr("class");
       var lg3 = $('#table2').find('tr').eq(i).find('td').eq(10).find('i').eq(2).attr("class");
@@ -202,11 +202,8 @@ function TablaAcumulado(team){
    }
 }
 //Reducción de puntos
-document.getElementById("puntosTeam4").innerHTML = parseInt($("#puntosTeam4").text()) - 1;
-document.getElementById("puntosTeam8").innerHTML = parseInt($("#puntosTeam8").text()) - 2;
-document.getElementById("puntosTeam10").innerHTML = parseInt($("#puntosTeam10").text()) - 2;
-document.getElementById("puntosTeam13").innerHTML = parseInt($("#puntosTeam13").text()) - 2;
-document.getElementById("puntosTeam11").innerHTML = parseInt($("#puntosTeam11").text()) - 3;
+//document.getElementById("puntosTeam4").innerHTML = parseInt($("#puntosTeam4").text()) - 1;
+
 //Proceso de ordenamiento de la tabla
 //Apertura
 var table = $('#tablaApertura');
@@ -224,12 +221,12 @@ tbody.find('tr').sort(function(a, b) {
 
 var i = 0;
 var j = 1;
-while (i < 13) {
+while (i < 14) {
    if (i == 0) {
       tbody.find("tr").eq(i).find("div").attr("class", "winner");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
-   } else if (i >= 1 && i < 13) {
+   } else if (i >= 1 && i < 14) {
       tbody.find("tr").eq(i).find("div").attr("class", "");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
@@ -252,12 +249,12 @@ tbody.find('tr').sort(function(a, b) {
 
 var i = 0;
 var j = 1;
-while (i < 13) {
+while (i < 14) {
    if (i == 0) {
       tbody.find("tr").eq(i).find("div").attr("class", "winner");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
-   } else if (i >= 1 && i < 13) {
+   } else if (i >= 1 && i < 14) {
       tbody.find("tr").eq(i).find("div").attr("class", "");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
@@ -280,15 +277,15 @@ tbody.find('tr').sort(function(a, b) {
 
 var i = 0;
 var j = 1;
-while (i < 13) {
+while (i < 14) {
    if (i <= 1) {
       tbody.find("tr").eq(i).find("div").attr("class", "ascenso");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
-   } else if (i >= 2 && i < 12) {
+   } else if (i >= 2 && i < 13) {
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;
-   } else if (i == 12) {
+   } else if (i == 13) {
       tbody.find("tr").eq(i).find("div").attr("class", "descenso");
       tbody.find("tr").eq(i).find("th").eq(1).text(j + i);
       i++;

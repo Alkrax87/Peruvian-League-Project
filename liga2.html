@@ -38,21 +38,7 @@
                   <a href="index.html"><img src="images/logos/liga-logo.png" class="brand" alt="LIGA-logo"></a>
                </div>
                <div class="col-9 headerlogoseffect">
-                  <nav class="navbar navbar-light">
-                     <a class="nav-item" href="#"><img src="images/liga-2/auh.png" alt="AUH-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/alu.png" alt="ALU-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/aya.png" alt="AYA-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/cst.png" alt="CST-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/chk.png" alt="CHK-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/adc.png" alt="ADC-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/cou.png" alt="COU-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/coo.png" alt="COO-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/dll.png" alt="DLL-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/jua.png" alt="JUA-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/pir.png" alt="PIR-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/usm.png" alt="USM-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/san.png" alt="SAN-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-2/unh.png" alt="UNH-logo" class="logos-header"></a>
+                  <nav id="teams-header" class="navbar navbar-light">
                   </nav>
                </div>
                <div class="col">
@@ -69,10 +55,10 @@
                <div class="collapse navbar-collapse" id="nv-pj">
                   <ul class="navbar-nav">
                      <li class="nav-item px-3">
-                        <a href="liga-1.html" class="nav-link navitems">Liga 1</a>
+                        <a href="liga1.html" class="nav-link navitems">Liga 1</a>
                      </li>
                      <li class="nav-item px-3">
-                        <a href="liga-2.html" class="nav-link navitems">Liga 2</a>
+                        <a href="liga2.html" class="nav-link navitems">Liga 2</a>
                         <div class="text-center"><i class="fas fa-caret-up indicator"></i></div>
                      </li>
                      <li class="nav-item px-3">
@@ -94,17 +80,17 @@
                <div class="container-fluid">
                   <div class="row">
                      <div class="col-lg-1 col-md-2 pad0">
-                        <a class="navoptionstext" href="equipos-liga-2.html">
+                        <a class="navoptionstext" href="liga2-equipos.html">
                            <div class="navoptions">Clubes</div>
                         </a>
                         </div>
                         <div class="col-lg-1 col-md-2 pad0">
-                        <a class="navoptionstext" href="tabla-liga-2.html">
+                        <a class="navoptionstext" href="liga2-tabla.html">
                            <div class="navoptions">Tabla</div>
                         </a>
                         </div>
                         <div class="col-lg-1 col-md-2 pad0">
-                        <a class="navoptionstext" href="managers-liga-2.html">
+                        <a class="navoptionstext" href="liga2-tecnicos.html">
                            <div class="navoptions">Técnicos</div>
                         </a>
                      </div>
@@ -118,9 +104,9 @@
                      Liga 2
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                     <li><a class="dropdown-item text-center" href="equipos-liga-2.html">Clubes</a></li>
-                     <li><a class="dropdown-item text-center" href="tabla-liga-2.html">Tabla</a></li>
-                     <li><a class="dropdown-item text-center" href="managers-liga-2.html">Técnicos</a></li>
+                     <li><a class="dropdown-item text-center" href="liga2-equipos.html">Clubes</a></li>
+                     <li><a class="dropdown-item text-center" href="liga2-tabla.html">Tabla</a></li>
+                     <li><a class="dropdown-item text-center" href="liga2-tecnicos.html">Técnicos</a></li>
                   </ul>
                </div>
             </div>
@@ -184,11 +170,11 @@
                <div class="row">
                   <div class="col-3 text-center">
                      <p class="notes">Temporada</p>
-                     <p class="notes2"><b>2023</b></p>
+                     <p id="temporadaH" class="notes2"></p>
                   </div>
                   <div class="col-3 text-center">
                      <p class="notes">Equipos</p>
-                     <p class="notes2"><b>14</b></p>
+                     <p id="equiposH" class="notes2"></p>
                   </div>
                   <div class="col-3 text-center">
                      <p class="notes">Categoría</p>
@@ -204,11 +190,11 @@
                <div class="row">
                   <div class="col-4">
                      <p class="notes">Temporada</p>
-                     <p class="notes2"><b>2023</b></p>
+                     <p id="temporadaR" class="notes2"></p>
                   </div>
                   <div class="col-4">
                      <p class="notes">Equipos</p>
-                     <p class="notes2"><b>14</b></p>
+                     <p id="equiposR" class="notes2"></p>
                   </div>
                   <div class="col-4">
                      <p class="notes">Categoría</p>
@@ -231,21 +217,8 @@
                   <hr>
                   <p class="f-d">El número de equipos participantes de la <b>Liga 2 2023</b> es de 14 equipos:</p>
                   <center>
-                     <img src="images/liga-2/auh.png" alt="AUH-logo" class="img-team-info">
-                     <img src="images/liga-2/alu.png" alt="ALU-logo" class="img-team-info">
-                     <img src="images/liga-2/aya.png" alt="AYA-logo" class="img-team-info">
-                     <img src="images/liga-2/cst.png" alt="CST-logo" class="img-team-info">
-                     <img src="images/liga-2/chk.png" alt="CHK-logo" class="img-team-info">
-                     <img src="images/liga-2/adc.png" alt="ADC-logo" class="img-team-info">
-                     <img src="images/liga-2/cou.png" alt="COU-logo" class="img-team-info">
-                     <img src="images/liga-2/coo.png" alt="COO-logo" class="img-team-info">
-                     <img src="images/liga-2/dll.png" alt="DLL-logo" class="img-team-info">
-                     <img src="images/liga-2/jua.png" alt="JUA-logo" class="img-team-info">
-                     <img src="images/liga-2/pir.png" alt="PIR-logo" class="img-team-info">
-                     <img src="images/liga-2/usm.png" alt="USM-logo" class="img-team-info">
-                     <img src="images/liga-2/san.png" alt="SAN-logo" class="img-team-info">
-                     <img src="images/liga-2/unh.png" alt="UNH-logo" class="img-team-info">
-                     <hr>
+                     <div id="teams-list">
+                     </div>
                      <div id="Mapa-Teams">
                         <div class="info-card" style="width: 15rem;">
                            <div id="Title" class="text-center"></div>
@@ -351,7 +324,7 @@
                   <p class="f-d">El equipo ubicado en la última posición perderá la categoría y descenderá a la <b>Copa Perú</b>. Además en caso de igualdad de puntos se disputará un encuentro de definición.</p>
                </div>
                <div class="col-md-5">
-                  <img class="img-fluid shadow-lg" alt="liga-2" style="width: 550px; border-radius: 30px;" src="https://larepublica.pe/resizer/uLeyom18svWsU4SaA5_8mhWByII=/480x282/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/GFSOC5JOIFGP5B4RJYMXWFJOVY.jpg">
+                  <img class="img-fluid shadow-lg" alt="liga-2" style="width: 550px; border-radius: 30px;" src="https://peru21.pe/resizer/zcXqX3TfAEVP-YgJU-NmPRUyMPs=/580x330/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/SXJAVTH2WFHUNA73GV6LWWXPZQ.jpg">
                </div>
             </div>
          </div>
@@ -367,8 +340,8 @@
                      <h3>Competencias</h3>
                      <hr class="d-b">
                      <ul>
-                        <li><a href="liga-1.html">Liga 1</a></li>
-                        <li><a href="liga-2.html">Liga 2</a></li>
+                        <li><a href="liga1.html">Liga 1</a></li>
+                        <li><a href="liga2.html">Liga 2</a></li>
                         <li><a href="copa-peru.html">Copa Perú</a></li>
                         <li><a href="eliminatorias.html">Eliminatorias</a></li>
                      </ul>
@@ -397,7 +370,7 @@
                      <a href="https://twitter.com/LigaFutProf"><i class="fab fa-twitter"></i></a>
                   </div>
                   <div class="col-12 padtop text-center">
-                     <p><a href="#" class="copyright">MAVP Projects © 2022</a></p>
+                     <p><a href="#" class="copyright">MAVP Projects © 2023</a></p>
                   </div>
                </div>
             </div>
@@ -408,6 +381,8 @@
       <script>
          $('#Mapa-Teams').hide();
       </script>
+
+      <script src="./js/liga2.js"></script>
 
    </body>
 </html>

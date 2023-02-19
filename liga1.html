@@ -38,26 +38,7 @@
                   <a href="index.html"><img src="images/logos/liga-logo.png" class="brand" alt="LIGA-logo"></a>
                </div>
                <div class="col-9 headerlogoseffect">
-                  <nav class="navbar navbar-light">
-                     <a class="nav-item" href="#"><img src="images/liga-1/can.png" alt="CAN-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/adt.png" alt="ADT-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/aas.png" alt="AAS-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/ali.png" alt="ALI-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/atg.png" alt="ATG-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/bin.png" alt="BIN-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/cam.png" alt="CAM-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/ucv.png" alt="UCV-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/cie.png" alt="CIE-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/cus.png" alt="CUS-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/cdg.png" alt="CDG-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/mun.png" alt="MUN-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/mel.png" alt="MEL-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/sba.png" alt="SBA-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/hua.png" alt="HUA-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/cri.png" alt="CRI-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/uco.png" alt="UCO-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/uni.png" alt="UNI-logo" class="logos-header"></a>
-                     <a class="nav-item" href="#"><img src="images/liga-1/utc.png" alt="UTC-logo" class="logos-header"></a>
+                  <nav id="teams-header" class="navbar navbar-light">
                   </nav>
                </div>
                <div class="col">
@@ -74,11 +55,11 @@
                <div class="collapse navbar-collapse" id="nv-pj">
                   <ul class="navbar-nav">
                      <li class="nav-item px-3">
-                        <a href="liga-1.html" class="nav-link navitems">Liga 1</a>
+                        <a href="liga1.html" class="nav-link navitems">Liga 1</a>
                         <div class="text-center"><i class="fas fa-caret-up indicator"></i></div>
                      </li>
                      <li class="nav-item px-3">
-                        <a href="liga-2.html" class="nav-link navitems">Liga 2</a>
+                        <a href="liga2.html" class="nav-link navitems">Liga 2</a>
                      </li>
                      <li class="nav-item px-3">
                         <a href="copa-peru.html" class="nav-link navitems">Copa Perú</a>
@@ -99,17 +80,17 @@
                <div class="container-fluid">
                   <div class="row">
                      <div class="col-lg-1 col-md-2 pad0">
-                        <a class="navoptionstext" href="equipos-liga-1.html">
+                        <a class="navoptionstext" href="liga1-equipos.html">
                            <div class="navoptions">Clubes</div>
                         </a>
                      </div>
                      <div class="col-lg-1 col-md-2 pad0">
-                        <a class="navoptionstext" href="tabla-liga-1.html">
+                        <a class="navoptionstext" href="liga1-tabla.html">
                            <div class="navoptions">Tabla</div>
                         </a>
                      </div>
                      <div class="col-lg-1 col-md-2 pad0">
-                        <a class="navoptionstext" href="managers-liga-1.html">
+                        <a class="navoptionstext" href="liga1-tecnicos.html">
                            <div class="navoptions">Técnicos</div>
                         </a>
                      </div>
@@ -123,9 +104,9 @@
                      Liga 1
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                     <li><a class="dropdown-item text-center" href="equipos-liga-1.html">Clubes</a></li>
-                     <li><a class="dropdown-item text-center" href="tabla-liga-1.html">Tabla</a></li>
-                     <li><a class="dropdown-item text-center" href="managers-liga-1.html">Técnicos</a></li>
+                     <li><a class="dropdown-item text-center" href="liga1-equipos.html">Clubes</a></li>
+                     <li><a class="dropdown-item text-center" href="liga1-tabla.html">Tabla</a></li>
+                     <li><a class="dropdown-item text-center" href="liga1-tecnicos.html">Técnicos</a></li>
                   </ul>
                </div>
             </div>
@@ -183,11 +164,11 @@
                <div class="row">
                   <div class="col-3 text-center">
                      <p class="notes">Temporada</p>
-                     <p class="notes2"><b>2023</b></p>
+                     <p id="temporadaH" class="notes2"></p>
                   </div>
                   <div class="col-3 text-center">
                      <p class="notes">Equipos</p>
-                     <p class="notes2"><b>19</b></p>
+                     <p id="equiposH"  class="notes2"></p>
                   </div>
                   <div class="col-3 text-center">
                      <p class="notes">Categoría</p>
@@ -203,11 +184,11 @@
                <div class="row">
                   <div class="col-4">
                      <p class="notes">Temporada</p>
-                     <p class="notes2"><b>2023</b></p>
+                     <p id="temporadaR" class="notes2"></p>
                   </div>
                   <div class="col-4">
                      <p class="notes">Equipos</p>
-                     <p class="notes2"><b>19</b></p>
+                     <p id="equiposR" class="notes2"></p>
                   </div>
                   <div class="col-4">
                      <p class="notes">Categoría</p>
@@ -230,25 +211,8 @@
                   <hr>
                   <p class="f-d">El número de equipos participantes de la <b>Liga 1 2023</b> es de 19 equipos:</p>
                   <center>
-                     <img src="images/liga-1/can.png" alt="CAN-logo" class="img-team-info">
-                     <img src="images/liga-1/adt.png" alt="ADT-logo" class="img-team-info">
-                     <img src="images/liga-1/aas.png" alt="AAS-logo" class="img-team-info">
-                     <img src="images/liga-1/ali.png" alt="ALI-logo" class="img-team-info">
-                     <img src="images/liga-1/atg.png" alt="ATG-logo" class="img-team-info">
-                     <img src="images/liga-1/bin.png" alt="BIN-logo" class="img-team-info">
-                     <img src="images/liga-1/cam.png" alt="CAM-logo" class="img-team-info">
-                     <img src="images/liga-1/ucv.png" alt="UCV-logo" class="img-team-info">
-                     <img src="images/liga-1/cie.png" alt="CIE-logo" class="img-team-info">
-                     <img src="images/liga-1/cus.png" alt="CUS-logo" class="img-team-info">
-                     <img src="images/liga-1/cdg.png" alt="CDG-logo" class="img-team-info">
-                     <img src="images/liga-1/mun.png" alt="MUN-logo" class="img-team-info">
-                     <img src="images/liga-1/mel.png" alt="MEL-logo" class="img-team-info">
-                     <img src="images/liga-1/sba.png" alt="SBA-logo" class="img-team-info">
-                     <img src="images/liga-1/hua.png" alt="HUA-logo" class="img-team-info">
-                     <img src="images/liga-1/cri.png" alt="CRI-logo" class="img-team-info">
-                     <img src="images/liga-1/uco.png" alt="UCO-logo" class="img-team-info">
-                     <img src="images/liga-1/uni.png" alt="UNI-logo" class="img-team-info">
-                     <img src="images/liga-1/utc.png" alt="UTC-logo" class="img-team-info">
+                     <div id="teams-list">
+                     </div>
                      <hr>
                      <div id="Mapa-Teams">
                         <div class="info-card" style="width: 15rem;">
@@ -430,8 +394,8 @@
                      <h3>Competencias</h3>
                      <hr class="d-b">
                      <ul>
-                        <li><a href="liga-1.html">Liga 1</a></li>
-                        <li><a href="liga-2.html">Liga 2</a></li>
+                        <li><a href="liga1.html">Liga 1</a></li>
+                        <li><a href="liga2.html">Liga 2</a></li>
                         <li><a href="copa-peru.html">Copa Perú</a></li>
                         <li><a href="eliminatorias.html">Eliminatorias</a></li>
                      </ul>
@@ -460,7 +424,7 @@
                      <a href="https://twitter.com/LigaFutProf"><i class="fab fa-twitter"></i></a>
                   </div>
                   <div class="col-12 padtop text-center">
-                     <p><a href="#" class="copyright">MAVP Projects © 2022</a></p>
+                     <p><a href="#" class="copyright">MAVP Projects © 2023</a></p>
                   </div>
                </div>
             </div>
@@ -471,6 +435,8 @@
       <script>
          $('#Mapa-Teams').hide();
       </script>
+
+      <script src="./js/liga1.js"></script>
 
    </body>
 </html>
