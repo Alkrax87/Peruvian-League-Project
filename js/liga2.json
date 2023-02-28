@@ -128,9 +128,9 @@
          "color1": "#35026A",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Carlos Silvestri",
+               "country": "Perú",
+               "cod": "pe",
                "status" : "tecnico"
             }
          ]
@@ -218,9 +218,9 @@
          "color1": "#282782",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Dulio Cisneros",
+               "country": "Perú",
+               "cod": "pe",
                "status" : "tecnico"
             }
          ]
@@ -236,9 +236,9 @@
          "color1": "#325BA3",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "José Soto",
+               "country": "Perú",
+               "cod": "pe",
                "status" : "tecnico"
             }
          ]
@@ -254,9 +254,9 @@
          "color1": "#EB0803",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Adrián Taffarel",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             }
          ]

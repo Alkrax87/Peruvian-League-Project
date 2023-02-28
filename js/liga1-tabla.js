@@ -404,14 +404,15 @@ cargarDatos().then(datos => {
 	ocultarFixture("C");
    //Activar solo la fecha que se esta jugando
    //Mostrar fixture activo del torneo en curso
+   $(`#AFecha-${datos.Info.fechaApertura}`).show();
+   $(`#BAFecha-${datos.Info.fechaApertura}`).addClass("btn-Fixture-Active1");
+   $(`#CFecha-${datos.Info.fechaClausura}`).show();
+   $(`#BCFecha-${datos.Info.fechaClausura}`).addClass("btn-Fixture-Active1");
+
    if (datos.Info.torneo == "apertura") {
-      $(`#AFecha-${datos.Info.fechaApertura}`).show();
-      $(`#BAFecha-${datos.Info.fechaApertura}`).addClass("btn-Fixture-Active1");
       $('#FixtureApertura').show();
       FixtureSelector('apertura')
    } else if (datos.Info.torneo == "clausura") {
-      $(`#CFecha-${datos.Info.fechaClausura}`).show();
-      $(`#BCFecha-${datos.Info.fechaClausura}`).addClass("btn-Fixture-Active1");
       $('#FixtureClausura').show();
       FixtureSelector('clausura')
    }
