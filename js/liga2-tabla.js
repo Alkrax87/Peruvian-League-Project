@@ -324,9 +324,9 @@ cargarDatos().then(datos => {
 
       //Asignacion de iconos de ultmos 5 partidos
       var tabla;
-      if (datos.Info.torneo == "apertura") {
+      if (datos.Info.apertura) {
          tabla = $('#table1');
-      } else if (datos.Info.torneo == "clausura") {
+      } else if (datos.Info.clausura) {
          tabla = $('#table2');
       }
       for (var i = 0; i <= 13; i++) {
@@ -355,40 +355,27 @@ cargarDatos().then(datos => {
       }).appendTo(tbody);
       return tbody;
    }
-   function winner(tableBody){
-      var i = 0;
-      var j = 1;
-      while (i < 14) {
-         if (i == 0) {
-            tableBody.find("tr").eq(i).find("div").attr("class", "winner");
-            tableBody.find("tr").eq(i).find("th").eq(1).text(j + i);
-            i++;
-         } else if (i >= 1 && i < 14) {
-            tableBody.find("tr").eq(i).find("div").attr("class", "");
-            tableBody.find("tr").eq(i).find("th").eq(1).text(j + i);
-            i++;
-         }
-      }
-   }
    //Apertura
-   var bodyApertura = ordenarTabla('#tablaApertura');
-   winner(bodyApertura);
+   ordenarTabla('#tablaApertura');
    //Clausura
-   var bodyClausura = ordenarTabla('#tablaClausura');
-   winner(bodyClausura);
+   ordenarTabla('#tablaClausura');
    //Acumulado
    var bodyAcumulado = ordenarTabla('#tablaAcumulada');
    var i = 0;
    var j = 1;
    while (i < 14) {
-      if (i <= 1) {
+      if (i == 0) {
          bodyAcumulado.find("tr").eq(i).find("div").attr("class", "ascenso");
          bodyAcumulado.find("tr").eq(i).find("th").eq(1).text(j + i);
          i++;
-      } else if (i >= 2 && i < 12) {
+      } else if (i >= 1 && i < 7) {
+         bodyAcumulado.find("tr").eq(i).find("div").attr("class", "playoff");
          bodyAcumulado.find("tr").eq(i).find("th").eq(1).text(j + i);
          i++;
-      } else if (i >= 12 && i <= 13) {
+      } else if (i >= 7 && i < 13) {
+         bodyAcumulado.find("tr").eq(i).find("th").eq(1).text(j + i);
+         i++;
+      } else if (i == 13) {
          bodyAcumulado.find("tr").eq(i).find("div").attr("class", "descenso");
          bodyAcumulado.find("tr").eq(i).find("th").eq(1).text(j + i);
          i++;
@@ -405,10 +392,10 @@ cargarDatos().then(datos => {
    $(`#CFecha-${datos.Info.fechaClausura}`).show();
    $(`#BCFecha-${datos.Info.fechaClausura}`).addClass("btn-Fixture-Active1");
 
-   if (datos.Info.torneo == "apertura") {
+   if (datos.Info.apertura) {
       $('#FixtureApertura').show();
       FixtureSelector('apertura')
-   } else if (datos.Info.torneo == "clausura") {
+   } else if (datos.Info.clausura) {
       $('#FixtureClausura').show();
       FixtureSelector('clausura')
    }

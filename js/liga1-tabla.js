@@ -324,9 +324,9 @@ cargarDatos().then(datos => {
 
       //Asignacion de iconos de ultmos 5 partidos
       var tabla;
-      if (datos.Info.torneo == "apertura") {
+      if (datos.Info.apertura) {
          tabla = $('#table1');
-      } else if (datos.Info.torneo == "clausura") {
+      } else if (datos.Info.clausura) {
          tabla = $('#table2');
       }
       for (var i = 0; i <= 18; i++) {
@@ -409,10 +409,10 @@ cargarDatos().then(datos => {
    $(`#CFecha-${datos.Info.fechaClausura}`).show();
    $(`#BCFecha-${datos.Info.fechaClausura}`).addClass("btn-Fixture-Active1");
 
-   if (datos.Info.torneo == "apertura") {
+   if (datos.Info.apertura) {
       $('#FixtureApertura').show();
       FixtureSelector('apertura')
-   } else if (datos.Info.torneo == "clausura") {
+   } else if (datos.Info.clausura) {
       $('#FixtureClausura').show();
       FixtureSelector('clausura')
    }

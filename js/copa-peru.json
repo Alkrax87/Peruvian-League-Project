@@ -1,0 +1,685 @@
+{
+   "Info": {
+      "temporada": 2023,
+      "equipos": 50,
+      "nacional": true,
+      "t16avos": true,
+      "t8vos": true,
+      "t4tos": true,
+      "semifinal": true,
+      "final": true
+   },
+   "Departamentos": [
+      {
+         "name": "Amazonas",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Amazonas_bandera.png",
+         "alt": "AMA-logo"
+      },
+      {
+         "name": "Áncash",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Bandera_Ancash.png",
+         "alt": "ANC-logo"
+      },
+      {
+         "name": "Apurimac",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bandera_Regi%C3%B3n_Apurimac.svg",
+         "alt": "APU-logo"
+      },
+      {
+         "name": "Arequipa",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandera_de_Arequipa.svg",
+         "alt": "ARE-logo"
+      },
+      {
+         "name": "Ayacucho",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Flag_of_Ayacucho.svg",
+         "alt": "AYA-logo"
+      },
+      {
+         "name": "Cajamarca",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Bandera_de_Cajamarca.svg",
+         "alt": "CAJ-logo"
+      },
+      {
+         "name": "Callao",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bandera_del_Callao.svg",
+         "alt": "CAL-logo"
+      },
+      {
+         "name": "Cusco",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Bandera_de_Cusco.png",
+         "alt": "CUS-logo"
+      },
+      {
+         "name": "Huancavelica",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Flag_of_Huancavelica.svg",
+         "alt": "HUA-logo"
+      },
+      {
+         "name": "Huánuco",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Hu%C3%A1nuco.svg/1280px-Flag_of_Hu%C3%A1nuco.svg.png",
+         "alt": "HUA-logo"
+      },
+      {
+         "name": "Ica",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bandera_Regi%C3%B3n_Ica.png",
+         "alt": "ICA-logo"
+      },
+      {
+         "name": "Junín",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bandera_Jun%C3%ADn.png",
+         "alt": "JNN-logo"
+      },
+      {
+         "name": "La Libertad",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f1/La_Libertad_Flag%28PER%29.png",
+         "alt": "LBR-logo"
+      },
+      {
+         "name": "Lambayeque",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Lambayeque_Department.svg",
+         "alt": "LMB-logo"
+      },
+      {
+         "name": "Lima",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flag_of_Lima.svg",
+         "alt": "LIM-logo"
+      },
+      {
+         "name": "Loreto",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Bandera_Regi%C3%B3n_Loreto.png",
+         "alt": "LRT-logo"
+      },
+      {
+         "name": "Madre de Dios",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Madre_de_Dios_Department.svg",
+         "alt": "MDR-logo"
+      },
+      {
+         "name": "Moquegua",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_Moquegua.svg",
+         "alt": "MQG-logo"
+      },
+      {
+         "name": "Pasco",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Flag_of_Pasco_Department.svg",
+         "alt": "PSC-logo"
+      },
+      {
+         "name": "Piura",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_Region_Piura.png",
+         "alt": "PIU-logo"
+      },
+      {
+         "name": "Puno",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Puno_Region_Flag.png",
+         "alt": "PNO-logo"
+      },
+      {
+         "name": "San Martín",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bandera_Regi%C3%B3n_San_Mart%C3%ADn.png",
+         "alt": "SMT-logo"
+      },
+      {
+         "name": "Tacna",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/2/25/Flag_of_Tacna.svg",
+         "alt": "TCN-logo"
+      },
+      {
+         "name": "Tumbes",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/9/99/Bandera_de_Tumbes.svg",
+         "alt": "TMB-logo"
+      },
+      {
+         "name": "Ucayali",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ucayali_flag.png",
+         "alt": "UCY-logo"
+      }
+   ],
+   "Teams": [
+      {
+         "id": "Team1",
+         "name": "Por Definir1",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team2",
+         "name": "Por Definir2",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team3",
+         "name": "Por Definir3",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team4",
+         "name": "Por Definir4",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team5",
+         "name": "Por Definir5",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team6",
+         "name": "Por Definir6",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team7",
+         "name": "Por Definir7",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team8",
+         "name": "Por Definir8",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team9",
+         "name": "Por Definir9",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team10",
+         "name": "Por Definir10",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team11",
+         "name": "Por Definir11",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team12",
+         "name": "Por Definir12",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team13",
+         "name": "Por Definir13",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team14",
+         "name": "Por Definir14",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team15",
+         "name": "Por Definir15",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team16",
+         "name": "Por Definir16",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team17",
+         "name": "Por Definir17",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team18",
+         "name": "Por Definir18",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team19",
+         "name": "Por Definir19",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team20",
+         "name": "Por Definir20",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team21",
+         "name": "Por Definir21",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team22",
+         "name": "Por Definir22",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team23",
+         "name": "Por Definir23",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team24",
+         "name": "Por Definir24",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team25",
+         "name": "Por Definir25",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team26",
+         "name": "Por Definir26",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team27",
+         "name": "Por Definir27",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team28",
+         "name": "Por Definir28",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team29",
+         "name": "Por Definir29",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team30",
+         "name": "Por Definir30",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team31",
+         "name": "Por Definir31",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team32",
+         "name": "Por Definir32",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team33",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team34",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team35",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team36",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team37",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team38",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team39",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team40",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team41",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team42",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team43",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team44",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team45",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team46",
+         "name": "Por Definir",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team47",
+         "name": "Por Definir47",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team48",
+         "name": "Por Definir48",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team49",
+         "name": "Por Definir49",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      },
+      {
+         "id": "Team50",
+         "name": "Por Definir50",
+         "image": "images/copa-peru/cdg.png",
+         "alt": "-logo",
+         "provincia": ""
+      }
+   ],
+   "Dieciseisavos": [
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "3",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "4",
+         "idaB": "0",
+         "vueltaA": "2",
+         "vueltaB": "0"
+      },
+      {
+         "idaA": "5",
+         "idaB": "2",
+         "vueltaA": "1",
+         "vueltaB": "4"
+      },
+      {
+         "idaA": "6",
+         "idaB": "5",
+         "vueltaA": "3",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "1",
+         "vueltaB": "0"
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "1",
+         "vueltaB": "6"
+      },
+      {
+         "idaA": "5",
+         "idaB": "2",
+         "vueltaA": "1",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "1",
+         "idaB": "3",
+         "vueltaA": "2",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "5",
+         "idaB": "2",
+         "vueltaA": "3",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "1",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "1",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "1",
+         "idaB": "0",
+         "vueltaA": "2",
+         "vueltaB": "5"
+      },
+      {
+         "idaA": "0",
+         "idaB": "2",
+         "vueltaA": "0",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "1",
+         "idaB": "2",
+         "vueltaA": "2",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "1",
+         "idaB": "2",
+         "vueltaA": "1",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "1",
+         "idaB": "0",
+         "vueltaA": "5",
+         "vueltaB": "2"
+      }
+   ],
+   "Octavos": [
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "0",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "0",
+         "vueltaB": "4"
+      },
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "1",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "1",
+         "vueltaB": "5"
+      },
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "3",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "1",
+         "idaB": "3",
+         "vueltaA": "3",
+         "vueltaB": "1"
+      },
+      {
+         "idaA": "2",
+         "idaB": "1",
+         "vueltaA": "3",
+         "vueltaB": "6"
+      },
+      {
+         "idaA": "1",
+         "idaB": "1",
+         "vueltaA": "2",
+         "vueltaB": "2"
+      }
+   ],
+   "Cuartos": [
+      {
+         "idaA": "5",
+         "idaB": "0",
+         "vueltaA": "3",
+         "vueltaB": "4"
+      },
+      {
+         "idaA": "4",
+         "idaB": "1",
+         "vueltaA": "2",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "2",
+         "idaB": "6",
+         "vueltaA": "1",
+         "vueltaB": "3"
+      },
+      {
+         "idaA": "2",
+         "idaB": "8",
+         "vueltaA": "2",
+         "vueltaB": "2"
+      }
+   ],
+   "Semifinal": [
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "1",
+         "vueltaB": "2"
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "2",
+         "vueltaB": "3"
+      }
+   ],
+   "Final": {
+      "idaA": "1",
+      "idaB": "0",
+      "vueltaA": "0",
+      "vueltaB": "3"
+   }
+}

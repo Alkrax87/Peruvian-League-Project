@@ -2,7 +2,8 @@
    "Info": {
       "temporada": 2023,
       "equipos": 14,
-      "torneo": "apertura",
+      "apertura": true,
+      "clausura": false,
       "fechaApertura": "1",
       "fechaClausura": "1"
    },
@@ -67,16 +68,16 @@
          "name": "Carlos Stein",
          "image": "images/liga-2/cst.png",
          "alt": "CST-logo",
-         "banner": "images/liga-2/estadio-victor-montoya-segura.png",
+         "banner": "images/liga-2/estadio-carlos-samame-caceres.png",
          "url": "",
-         "stadium": "Estadio Víctor Montoya Segura",
+         "stadium": "Estadio Carlos Samamé Cáceres",
          "color1": "#FEFD00",
          "color2": "#333333",
          "dt": [
             {
-               "name": "Javier Arce",
-               "country": "Perú",
-               "cod": "pe",
+               "name": "Marcelo Vivas",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             }
          ]

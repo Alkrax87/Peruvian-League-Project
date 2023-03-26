@@ -110,7 +110,7 @@
       </header>
 
       <script>
-         //Switch Tablas Apertura / Clausura / Acumulado
+			//Switch Tablas Apertura / Clausura / Acumulado
 			function TableSelector(table) {
 				const tableConfig = {
 					apertura: {
@@ -147,7 +147,7 @@
 				$("#descripcion").toggle(config.showDescripcion);
 				$("#dbtable").text(config.dbtableText);
 			}
-         //Switch Fixture Apertura y Clausura
+			//Switch Fixture Apertura y Clausura
 			function FixtureSelector(option) {
 				const aperturaSelected = option === "apertura";
 				$("#btnFixtureApertura").toggleClass("btntableswitcheractive", aperturaSelected).toggleClass("btntableswitcherdisble", !aperturaSelected);
@@ -169,7 +169,7 @@
 				$(`#${prefijo}Fecha-${indice}`).show();
 				$(`#B${prefijo}Fecha-${indice}`).addClass("btn-Fixture-Active1");
 			}
-      </script>
+		</script>
 
       <main>
 
@@ -207,20 +207,20 @@
                   </div>
                   <div class="col-12">
                      <div class="dropdown">
-                        <button id="btnDropdown" class="btn btn-switch-dropdown bg-light dropdown-toggle" data-bs-toggle="dropdown" >
-                           Acumulado
-                        </button>
+                        <button id="dbtable" class="btn btn-switch-dropdown bg-light dropdown-toggle" data-bs-toggle="dropdown" >
+									Acumulado
+								</button>
                         <ul class="dropdown-menu list-dropdown">
-                           <li id="dbacumulado">
-                              <button class="btn w-100" onclick="TableSelector('acumulado')">Acumulado</button>
-                           </li>
-                           <li id="dbapertura">
-                              <button class="btn w-100" onclick="TableSelector('apertura')">Apertura</button>
-                           </li>
-                           <li id="dbclausura">
-                              <button class="btn w-100" onclick="TableSelector('clausura')">Clausura</button>
-                           </li>
-                        </ul>
+									<li id="dbacumulado">
+										<button class="btn w-100" onclick="TableSelector('acumulado')">Acumulado</button>
+									</li>
+									<li id="dbapertura">
+										<button class="btn w-100" onclick="TableSelector('apertura')">Apertura</button>
+									</li>
+									<li id="dbclausura">
+										<button class="btn w-100" onclick="TableSelector('clausura')">Clausura</button>
+									</li>
+								</ul>
                      </div>
                   </div>
                </div>
@@ -361,8 +361,12 @@
                      <div class="foottable separadorbottom">
                         <h6 class="text-start"><b>Ascenso / Descenso</b></h6>
                         <div class="text-start">
-                           <i class="fas fa-square square" style="color:#7ac029"></i>
-                           <span class="textdescription">Final</span>
+                           <i class="fas fa-square square" style="color:#27943C"></i>
+                           <span class="textdescription">Campeón</span>
+                        </div>
+                        <div class="text-start">
+                           <i class="fas fa-square square" style="color:#a1cb40"></i>
+                           <span class="textdescription">Play-Offs</span>
                         </div>
                         <div class="text-start">
                            <i class="fas fa-square square" style="color:#c1272d"></i>
@@ -922,7 +926,7 @@
                      <div id="AFecha-1" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 1</p>
+                           <p>Apertura Fecha 1</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1034,7 +1038,7 @@
                      <div id="AFecha-2" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 2</p>
+                           <p>Apertura Fecha 2</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1045,9 +1049,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
                            </div>
                         </div>
@@ -1060,9 +1064,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
                            </div>
                         </div>
@@ -1075,9 +1079,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
                            </div>
                         </div>
@@ -1090,9 +1094,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
                            </div>
                         </div>
@@ -1105,9 +1109,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
                            </div>
                         </div>
@@ -1120,9 +1124,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
                            </div>
                         </div>
@@ -1135,9 +1139,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF2"></span>
                               </div>
 									</div>
 								</div>
@@ -1146,7 +1150,7 @@
                      <div id="AFecha-3" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 3</p>
+                           <p>Apertura Fecha 3</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1157,9 +1161,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
                            </div>
                         </div>
@@ -1172,9 +1176,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
                            </div>
                         </div>
@@ -1187,9 +1191,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
                            </div>
                         </div>
@@ -1202,9 +1206,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
                            </div>
                         </div>
@@ -1217,9 +1221,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
                            </div>
                         </div>
@@ -1232,9 +1236,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
                            </div>
                         </div>
@@ -1247,9 +1251,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF3"></span>
                               </div>
 									</div>
 								</div>
@@ -1258,7 +1262,7 @@
                      <div id="AFecha-4" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 4</p>
+                           <p>Apertura Fecha 4</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1269,9 +1273,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
                            </div>
                         </div>
@@ -1284,9 +1288,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
                            </div>
                         </div>
@@ -1299,9 +1303,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
                            </div>
                         </div>
@@ -1314,9 +1318,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
                            </div>
                         </div>
@@ -1329,9 +1333,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
                            </div>
                         </div>
@@ -1344,9 +1348,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
                            </div>
                         </div>
@@ -1359,9 +1363,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF4"></span>
                               </div>
 									</div>
 								</div>
@@ -1370,7 +1374,7 @@
                      <div id="AFecha-5" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 5</p>
+                           <p>Apertura Fecha 5</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1381,9 +1385,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
                            </div>
                         </div>
@@ -1396,9 +1400,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
                            </div>
                         </div>
@@ -1411,9 +1415,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
                            </div>
                         </div>
@@ -1426,9 +1430,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
                            </div>
                         </div>
@@ -1441,9 +1445,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
                            </div>
                         </div>
@@ -1456,9 +1460,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
                            </div>
                         </div>
@@ -1471,9 +1475,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF5"></span>
                               </div>
 									</div>
 								</div>
@@ -1482,7 +1486,7 @@
                      <div id="AFecha-6" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 6</p>
+                           <p>Apertura Fecha 6</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1493,9 +1497,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
                            </div>
                         </div>
@@ -1508,9 +1512,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
                            </div>
                         </div>
@@ -1523,9 +1527,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
                            </div>
                         </div>
@@ -1538,9 +1542,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
                            </div>
                         </div>
@@ -1553,9 +1557,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
                            </div>
                         </div>
@@ -1568,9 +1572,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
                            </div>
                         </div>
@@ -1583,9 +1587,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF6"></span>
                               </div>
 									</div>
 								</div>
@@ -1594,7 +1598,7 @@
                      <div id="AFecha-7" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 7</p>
+                           <p>Apertura Fecha 7</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1605,9 +1609,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
                            </div>
                         </div>
@@ -1620,9 +1624,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
                            </div>
                         </div>
@@ -1635,9 +1639,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
                            </div>
                         </div>
@@ -1650,9 +1654,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
                            </div>
                         </div>
@@ -1665,9 +1669,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
                            </div>
                         </div>
@@ -1680,9 +1684,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
                            </div>
                         </div>
@@ -1695,9 +1699,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF7"></span>
                               </div>
 									</div>
 								</div>
@@ -1706,7 +1710,7 @@
                      <div id="AFecha-8" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 8</p>
+                           <p>Apertura Fecha 8</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1717,9 +1721,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
                            </div>
                         </div>
@@ -1732,9 +1736,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
                            </div>
                         </div>
@@ -1747,9 +1751,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
                            </div>
                         </div>
@@ -1762,9 +1766,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
                            </div>
                         </div>
@@ -1777,9 +1781,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
                            </div>
                         </div>
@@ -1792,9 +1796,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
                            </div>
                         </div>
@@ -1807,9 +1811,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF8"></span>
                               </div>
 									</div>
 								</div>
@@ -1818,7 +1822,7 @@
                      <div id="AFecha-9" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 9</p>
+                           <p>Apertura Fecha 9</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1829,9 +1833,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
                            </div>
                         </div>
@@ -1844,9 +1848,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
                            </div>
                         </div>
@@ -1859,9 +1863,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
                            </div>
                         </div>
@@ -1874,9 +1878,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
                            </div>
                         </div>
@@ -1889,9 +1893,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
                            </div>
                         </div>
@@ -1904,9 +1908,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
                            </div>
                         </div>
@@ -1919,9 +1923,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF9"></span>
                               </div>
 									</div>
 								</div>
@@ -1930,7 +1934,7 @@
                      <div id="AFecha-10" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 10</p>
+                           <p>Apertura Fecha 10</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -1941,9 +1945,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
                            </div>
                         </div>
@@ -1956,9 +1960,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
                            </div>
                         </div>
@@ -1971,9 +1975,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
                            </div>
                         </div>
@@ -1986,9 +1990,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
                            </div>
                         </div>
@@ -2001,9 +2005,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
                            </div>
                         </div>
@@ -2016,9 +2020,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
                            </div>
                         </div>
@@ -2031,9 +2035,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF10"></span>
                               </div>
 									</div>
 								</div>
@@ -2042,7 +2046,7 @@
                      <div id="AFecha-11" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 11</p>
+                           <p>Apertura Fecha 11</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2053,9 +2057,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
                            </div>
                         </div>
@@ -2068,9 +2072,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
                            </div>
                         </div>
@@ -2083,9 +2087,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
                            </div>
                         </div>
@@ -2098,9 +2102,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
                            </div>
                         </div>
@@ -2113,9 +2117,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
                            </div>
                         </div>
@@ -2128,9 +2132,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
                            </div>
                         </div>
@@ -2143,9 +2147,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF11"></span>
                               </div>
 									</div>
 								</div>
@@ -2154,7 +2158,7 @@
                      <div id="AFecha-12" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 12</p>
+                           <p>Apertura Fecha 12</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2165,9 +2169,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
                            </div>
                         </div>
@@ -2180,9 +2184,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
                            </div>
                         </div>
@@ -2195,9 +2199,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
                            </div>
                         </div>
@@ -2210,9 +2214,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
                            </div>
                         </div>
@@ -2225,9 +2229,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
                            </div>
                         </div>
@@ -2240,9 +2244,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
                            </div>
                         </div>
@@ -2255,9 +2259,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF12"></span>
                               </div>
 									</div>
 								</div>
@@ -2266,7 +2270,7 @@
                      <div id="AFecha-13" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 13</p>
+                           <p>Apertura Fecha 13</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2277,9 +2281,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
                            </div>
                         </div>
@@ -2292,9 +2296,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
                            </div>
                         </div>
@@ -2307,9 +2311,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
                            </div>
                         </div>
@@ -2322,9 +2326,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
                            </div>
                         </div>
@@ -2337,9 +2341,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
                            </div>
                         </div>
@@ -2352,9 +2356,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
                            </div>
                         </div>
@@ -2367,9 +2371,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-AF13"></span>
                               </div>
 									</div>
 								</div>
@@ -2405,7 +2409,7 @@
                      <div id="CFecha-1" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 1</p>
+                           <p>Clausura Fecha 1</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2416,9 +2420,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
                            </div>
                         </div>
@@ -2431,9 +2435,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
                            </div>
                         </div>
@@ -2446,9 +2450,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
                            </div>
                         </div>
@@ -2461,9 +2465,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
                            </div>
                         </div>
@@ -2476,9 +2480,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
                            </div>
                         </div>
@@ -2491,9 +2495,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
                            </div>
                         </div>
@@ -2506,9 +2510,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF1"></span>
                               </div>
 									</div>
 								</div>
@@ -2517,7 +2521,7 @@
                      <div id="CFecha-2" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 2</p>
+                           <p>Clausura Fecha 2</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2528,9 +2532,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
                            </div>
                         </div>
@@ -2543,9 +2547,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
                            </div>
                         </div>
@@ -2558,9 +2562,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
                            </div>
                         </div>
@@ -2573,9 +2577,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
                            </div>
                         </div>
@@ -2588,9 +2592,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
                            </div>
                         </div>
@@ -2603,9 +2607,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
                            </div>
                         </div>
@@ -2618,9 +2622,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF2"></span>
                               </div>
 									</div>
 								</div>
@@ -2629,7 +2633,7 @@
                      <div id="CFecha-3" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 3</p>
+                           <p>Clausura Fecha 3</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2640,9 +2644,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
                            </div>
                         </div>
@@ -2655,9 +2659,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
                            </div>
                         </div>
@@ -2670,9 +2674,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
                            </div>
                         </div>
@@ -2685,9 +2689,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
                            </div>
                         </div>
@@ -2700,9 +2704,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
                            </div>
                         </div>
@@ -2715,9 +2719,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
                            </div>
                         </div>
@@ -2730,9 +2734,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF3"></span>
                               </div>
 									</div>
 								</div>
@@ -2741,7 +2745,7 @@
                      <div id="CFecha-4" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 4</p>
+                           <p>Clausura Fecha 4</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2752,9 +2756,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
                            </div>
                         </div>
@@ -2767,9 +2771,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
                            </div>
                         </div>
@@ -2782,9 +2786,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
                            </div>
                         </div>
@@ -2797,9 +2801,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
                            </div>
                         </div>
@@ -2812,9 +2816,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
                            </div>
                         </div>
@@ -2827,9 +2831,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
                            </div>
                         </div>
@@ -2842,9 +2846,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF4"></span>
                               </div>
 									</div>
 								</div>
@@ -2853,7 +2857,7 @@
                      <div id="CFecha-5" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 5</p>
+                           <p>Clausura Fecha 5</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2864,9 +2868,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
                            </div>
                         </div>
@@ -2879,9 +2883,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
                            </div>
                         </div>
@@ -2894,9 +2898,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
                            </div>
                         </div>
@@ -2909,9 +2913,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
                            </div>
                         </div>
@@ -2924,9 +2928,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
                            </div>
                         </div>
@@ -2939,9 +2943,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
                            </div>
                         </div>
@@ -2954,9 +2958,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF5"></span>
                               </div>
 									</div>
 								</div>
@@ -2965,7 +2969,7 @@
                      <div id="CFecha-6" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 6</p>
+                           <p>Clausura Fecha 6</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -2976,9 +2980,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
                            </div>
                         </div>
@@ -2991,9 +2995,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
                            </div>
                         </div>
@@ -3006,9 +3010,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
                            </div>
                         </div>
@@ -3021,9 +3025,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
                            </div>
                         </div>
@@ -3036,9 +3040,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
                            </div>
                         </div>
@@ -3051,9 +3055,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
                            </div>
                         </div>
@@ -3066,9 +3070,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF6"></span>
                               </div>
 									</div>
 								</div>
@@ -3077,7 +3081,7 @@
                      <div id="CFecha-7" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 7</p>
+                           <p>Clausura Fecha 7</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3088,9 +3092,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
                            </div>
                         </div>
@@ -3103,9 +3107,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
                            </div>
                         </div>
@@ -3118,9 +3122,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
                            </div>
                         </div>
@@ -3133,9 +3137,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
                            </div>
                         </div>
@@ -3148,9 +3152,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
                            </div>
                         </div>
@@ -3163,9 +3167,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
                            </div>
                         </div>
@@ -3178,9 +3182,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF7"></span>
                               </div>
 									</div>
 								</div>
@@ -3189,7 +3193,7 @@
                      <div id="CFecha-8" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 8</p>
+                           <p>Clausura Fecha 8</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3200,9 +3204,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
                            </div>
                         </div>
@@ -3215,9 +3219,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
                            </div>
                         </div>
@@ -3230,9 +3234,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
                            </div>
                         </div>
@@ -3245,9 +3249,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
                            </div>
                         </div>
@@ -3260,9 +3264,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
                            </div>
                         </div>
@@ -3275,9 +3279,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
                            </div>
                         </div>
@@ -3290,9 +3294,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF8"></span>
                               </div>
 									</div>
 								</div>
@@ -3301,7 +3305,7 @@
                      <div id="CFecha-9" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 9</p>
+                           <p>Clausura Fecha 9</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3312,9 +3316,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
                            </div>
                         </div>
@@ -3327,9 +3331,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
                            </div>
                         </div>
@@ -3342,9 +3346,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
                            </div>
                         </div>
@@ -3357,9 +3361,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
                            </div>
                         </div>
@@ -3372,9 +3376,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
                            </div>
                         </div>
@@ -3387,9 +3391,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
                            </div>
                         </div>
@@ -3402,9 +3406,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF9"></span>
                               </div>
 									</div>
 								</div>
@@ -3413,7 +3417,7 @@
                      <div id="CFecha-10" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 10</p>
+                           <p>Clausura Fecha 10</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3424,9 +3428,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
                            </div>
                         </div>
@@ -3439,9 +3443,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
                            </div>
                         </div>
@@ -3454,9 +3458,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
                            </div>
                         </div>
@@ -3469,9 +3473,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
                            </div>
                         </div>
@@ -3484,9 +3488,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
                            </div>
                         </div>
@@ -3499,9 +3503,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
                            </div>
                         </div>
@@ -3514,9 +3518,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF10"></span>
                               </div>
 									</div>
 								</div>
@@ -3525,7 +3529,7 @@
                      <div id="CFecha-11" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 11</p>
+                           <p>Clausura Fecha 11</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3536,9 +3540,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
                            </div>
                         </div>
@@ -3551,9 +3555,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
                            </div>
                         </div>
@@ -3566,9 +3570,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
                            </div>
                         </div>
@@ -3581,9 +3585,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
                            </div>
                         </div>
@@ -3596,9 +3600,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
                            </div>
                         </div>
@@ -3611,9 +3615,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
                            </div>
                         </div>
@@ -3626,9 +3630,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF11"></span>
                               </div>
 									</div>
 								</div>
@@ -3637,7 +3641,7 @@
                      <div id="CFecha-12" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 12</p>
+                           <p>Clausura Fecha 12</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3648,9 +3652,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
                            </div>
                         </div>
@@ -3663,9 +3667,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
                            </div>
                         </div>
@@ -3678,9 +3682,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
                            </div>
                         </div>
@@ -3693,9 +3697,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
                            </div>
                         </div>
@@ -3708,9 +3712,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
                            </div>
                         </div>
@@ -3723,9 +3727,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
                            </div>
                         </div>
@@ -3738,9 +3742,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF12"></span>
                               </div>
 									</div>
 								</div>
@@ -3749,7 +3753,7 @@
                      <div id="CFecha-13" class="row separadorbottom">
                         <!-- Titulo -->
                         <div class="col-12 text-center fixture-title">
-                           <p>Fecha 13</p>
+                           <p>Clausura Fecha 13</p>
                         </div>
                         <!-- A -->
                         <div class="col-md-12 col-lg-6 text-start fixture fixture-sm">
@@ -3760,9 +3764,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
                            </div>
                         </div>
@@ -3775,9 +3779,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
                            </div>
                         </div>
@@ -3790,9 +3794,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
                            </div>
                         </div>
@@ -3805,9 +3809,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
                            </div>
                         </div>
@@ -3820,9 +3824,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
                            </div>
                         </div>
@@ -3835,9 +3839,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
                            </div>
                         </div>
@@ -3850,9 +3854,9 @@
                                  <i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
                               </div>
                               <div class="col fixture-divider" style="width: 20%;">
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                                  <div class="py-2"></div>
-                                 <span id="Team-AF1"></span>
+                                 <span id="Team-CF13"></span>
                               </div>
 									</div>
 								</div>

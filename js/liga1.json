@@ -2,14 +2,15 @@
    "Info": {
       "temporada": 2023,
       "equipos": 19,
-      "torneo": "apertura",
-      "fechaApertura": "6",
+      "apertura": true,
+      "clausura": false,
+      "fechaApertura": "1",
       "fechaClausura": "1"
    },
    "Teams": [
       {
          "id": "Team1",
-         "name": "Academia Cantolao",
+         "name": "AD Cantolao",
          "image": "images/liga-1/can.png",
          "alt": "CAN-logo",
          "banner": "images/liga-1/estadio-miguel-grau-del-callao.png",
@@ -111,10 +112,16 @@
          "color2": "#333333",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            },
+            {
                "name": "Wilmar Valencia",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : "destituido"
             }
          ]
       },
@@ -237,10 +244,16 @@
          "color1": "#8C0202",
          "dt": [
             {
-               "name": "Pablo Lavallén",
+               "name": "Mariano Soso",
                "country": "Argentina",
                "cod": "ar",
                "status" : "tecnico"
+            },
+            {
+               "name": "Pablo Lavallén",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "destituido"
             }
          ]
       },
@@ -330,9 +343,9 @@
          "color2": "#333333",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Jorge Fossati",
+               "country": "Uruguay",
+               "cod": "uy",
                "status" : "tecnico"
             },
             {
@@ -364,7 +377,7 @@
    ],
    "Apertura": {
       "F1": [
-         "","","","","","","","","","","","","","","","","","",""
+         "0","","","","","","","0","0","","","","","","2","2","","3",""
       ],
       "F2": [
          "","","","","","","","","","","","","","","","","","",""
@@ -382,13 +395,13 @@
          "2","3","4","","0","","2","","","3","2","0","","","2","","1","0","0"
       ],
       "F7": [
-         "","","","","","","","","","","","","","","","","","",""
+         "0","0","","1","","2","0","2","","2","3","0","0","2","4","0","1","1","0"
       ],
       "F8": [
-         "","","","","","","","","","","","","","","","","","",""
+         "1","1","","2","1","1","","","0","0","4","1","","0","0","4","2","2",""
       ],
       "F9": [
-         "","","","","","","","","","","","","","","","","","",""
+         "1","1","2","1","1","0","0","2","3","3","1","","0","2","2","2","1","3","0"
       ],
       "F10": [
          "","","","","","","","","","","","","","","","","","",""
