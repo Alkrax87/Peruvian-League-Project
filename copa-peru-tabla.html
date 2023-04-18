@@ -256,7 +256,8 @@
                               <th class="text-center" width="100px">Ida </th>
                               <th class="text-center" width="100px">Vuelta</th>
                               <th class="text-center" width="100px">Global</th>
-                              <th class="text-center" width="50%"></th>
+                              <th class="text-center" width="100px"></th>
+                              <th class="text-center" width="50%">Clasificados</th>
                            </tr>
                         </thead>
                         <tbody id="table2">
@@ -291,7 +292,8 @@
                               <th class="text-center" width="100px">Ida </th>
                               <th class="text-center" width="100px">Vuelta</th>
                               <th class="text-center" width="100px">Global</th>
-                              <th class="text-center" width="50%"></th>
+                              <th class="text-center" width="100px"></th>
+                              <th class="text-center" width="50%">Clasificados</th>
                            </tr>
                         </thead>
                         <tbody id="table3">
@@ -314,20 +316,20 @@
          <div class="container-fluid my-4">
             <div class="row">
                <div class="col"></div>
-               <div class="col-xl-7 col-lg-9 col-md-12 topcorners bottomcorners bglight shadow-lg">
+               <div class="col-xl-8 col-lg-9 col-md-12 topcorners bottomcorners bglight shadow-lg">
 
                   <div class="table-responsive">
                      <center>
                         <table class="my-3 bracket-height">
                            <!-- 1 -->
                            <tr>
-                              <td colspan="4" class="brackets nospace bracketstitle" style="min-width: 210px" width="250px">Cuartos de Final</td>
+                              <td colspan="5" class="brackets nospace bracketstitle" style="min-width: 210px" width="250px">Cuartos de Final</td>
                               <td style="min-width: 10px"></td>
                               <td style="min-width: 10px"></td>
-                              <td colspan="4" class="brackets nospace bracketstitle" style="min-width: 210px" width="250px">Semifinal</td>
+                              <td colspan="5" class="brackets nospace bracketstitle" style="min-width: 210px" width="250px">Semifinal</td>
                               <td style="min-width: 10px"></td>
                               <td style="min-width: 10px"></td>
-                              <td colspan="4" class="brackets nospace bracketstitle" style="min-width: 210px" width="250px">Final</td>
+                              <td colspan="5" class="brackets nospace bracketstitle" style="min-width: 210px" width="250px">Final</td>
                            </tr>
                             <!-- 2 -->
                            <tr>
@@ -336,123 +338,179 @@
                             <!-- 3 -->
                            <tr>
                               <td id="LLaveA" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir A</td>
-                              <td id="CF1TeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF1TeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF1TeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF1TeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF1TeamA-global" class="col fw-bold"></div>
+                                 <div id="CF1TeamA-penal" class="col"></div>
+                              </td>
                               <td class="linebottom"></td>
                            </tr>
                             <!-- 4 -->
                            <tr>
                               <td id="LLaveH" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir H</td>
-                              <td id="CF1TeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF1TeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF1TeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF1TeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF1TeamB-global" class="col fw-bold"></div>
+                                 <div id="CF1TeamB-penal" class="col"></div>
+                              </td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 5 -->
                            <tr>
-                              <td colspan="4"></td>
+                              <td colspan="5"></td>
                               <td class="lineright"></td>
                               <td class="linebottom"></td>
                               <td id="Semifinal1" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Semi Finalista 1</td>
-                              <td id="SF1TeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="SF1TeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="SF1TeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="SF1TeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="SF1TeamA-global" class="col fw-bold"></div>
+                                 <div id="SF1TeamA-penal" class="col"></div>
+                              </td>
                               <td class="linebottom"></td>
                            </tr>
                             <!-- 6 -->
                            <tr>
-                              <td colspan="4"></td>
+                              <td colspan="5"></td>
                               <td class="lineright"></td>
                               <td></td>
                               <td id="Semifinal2" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Semi Finalista 2</td>
-                              <td id="SF1TeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="SF1TeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="SF1TeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="SF1TeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="SF1TeamB-global" class="col fw-bold"></div>
+                                 <div id="SF1TeamB-penal" class="col"></div>
+                              </td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 7 -->
                            <tr>
                               <td id="LLaveB" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir B</td>
-                              <td id="CF2TeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF2TeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF2TeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF2TeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF2TeamA-global" class="col fw-bold"></div>
+                                 <div id="CF2TeamA-penal" class="col"></div>
+                              </td>
                               <td class="lineright"></td>
-                              <td colspan="5"></td>
+                              <td colspan="6"></td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 8 -->
                            <tr>
                               <td id="LLaveG" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir G</td>
-                              <td id="CF2TeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF2TeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF2TeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF2TeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF2TeamB-global" class="col fw-bold"></div>
+                                 <div id="CF2TeamB-penal" class="col"></div>
+                              </td>
                               <td class="linetop"></td>
-                              <td colspan="5"></td>
+                              <td colspan="6"></td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 9 -->
                            <tr>
-                              <td colspan="10"></td>
+                              <td colspan="12"></td>
                               <td class="lineright"></td>
                               <td></td>
                               <td id="Final1" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Finalista 1</td>
-                              <td id="FTeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="FTeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="FTeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="FTeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="FTeamA-global" class="col fw-bold"></div>
+                                 <div id="FTeamA-penal" class="col"></div>
+                              </td>
                            </tr>
                             <!-- 10 -->
                            <tr>
-                              <td colspan="10"></td>
+                              <td colspan="12"></td>
                               <td class="lineright"></td>
                               <td class="linetop"></td>
                               <td id="Final2" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Finalista 2</td>
-                              <td id="FTeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="FTeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="FTeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="FTeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="FTeamB-global" class="col fw-bold"></div>
+                                 <div id="FTeamB-penal" class="col"></div>
+                              </td>
                            </tr>
                             <!-- 11 -->
                            <tr>
                               <td id="LLaveC" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir C</td>
-                              <td id="CF3TeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF3TeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF3TeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF3TeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF3TeamA-global" class="col fw-bold"></div>
+                                 <div id="CF3TeamA-penal" class="col"></div>
+                              </td>
                               <td class="linebottom"></td>
-                              <td colspan="5"></td>
+                              <td colspan="6"></td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 12 -->
                            <tr>
                               <td id="LLaveF" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir F</td>
-                              <td id="CF3TeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF3TeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF3TeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF3TeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF3TeamB-global" class="col fw-bold"></div>
+                                 <div id="CF3TeamB-penal" class="col"></div>
+                              </td>
                               <td class="lineright"></td>
-                              <td colspan="5"></td>
+                              <td colspan="6"></td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 13 -->
                            <tr>
-                              <td colspan="4"></td>
+                              <td colspan="5"></td>
                               <td class="lineright"></td>
                               <td class="linebottom"></td>
                               <td id="Semifinal3" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Semi Finalista 3</td>
-                              <td id="SF2TeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="SF2TeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="SF2TeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="SF2TeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="SF2TeamA-global" class="col fw-bold"></div>
+                                 <div id="SF2TeamA-penal" class="col"></div>
+                              </td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 14 -->
                            <tr>
-                              <td colspan="4"></td>
+                              <td colspan="5"></td>
                               <td class="lineright"></td>
                               <td></td>
                               <td id="Semifinal4" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Semi Finalista 4</td>
-                              <td id="SF2TeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="SF2TeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="SF2TeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="SF2TeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="SF2TeamB-global" class="col fw-bold"></div>
+                                 <div id="SF2TeamB-penal" class="col"></div>
+                              </td>
                               <td class="linetop"></td>
                            </tr>
                             <!-- 15 -->
                            <tr>
                               <td id="LLaveD" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir D</td>
-                              <td id="CF4TeamA-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF4TeamA-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF4TeamA-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF4TeamA-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF4TeamA-global" class="col fw-bold"></div>
+                                 <div id="CF4TeamA-penal" class="col"></div>
+                              </td>
                               <td class="lineright"></td>
                            </tr>
                             <!-- 16 -->
                            <tr>
                               <td id="LLaveE" colspan="2" class="brackets nospace bracketscontent text-start" width="170px"><i class="fas fa-shield-alt nacional"></i> Por Definir E</td>
-                              <td id="CF4TeamB-ida" colspan="1" class="brackets nospace" width="30px"></td>
-                              <td id="CF4TeamB-vuelta" colspan="1" class="brackets nospace" width="30px"></td>
+                              <td id="CF4TeamB-ida" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td id="CF4TeamB-vuelta" colspan="1" class="brackets nospace text-center" width="30px"></td>
+                              <td colspan="1" class="brackets nospace text-center" width="30px">
+                                 <div id="CF4TeamB-global" class="col fw-bold"></div>
+                                 <div id="CF4TeamB-penal" class="col"></div>
+                              </td>
                               <td class="linetop"></td>
                            </tr>
                         </table>

@@ -602,15 +602,12 @@ th{
 }
 .bracketscontent{
   padding-left: 10px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .brackets{
   background-color: #f8f9fa;
   border-color: #dbdbdb;
   border-width: 1px;
-  border-style: solid;
-  text-align: center;
-  height: 50px;
 }
 
 /* ==================================HR */
@@ -777,6 +774,9 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+.ascenso-evol{
+  background-color: #b6e6bf;
+}
 .playoff{
   background-color: #a1cb40;
   height: 52px;
@@ -786,6 +786,9 @@ th{
   margin-left: -8px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.playoff-evol{
+  background-color: #dcecb5;
 }
 /* CopaPeru */
 .final{
@@ -861,7 +864,7 @@ th{
   border-bottom-right-radius: 15px;
 }
 .bracket-height td{
-  height: 40px;
+  height: 51px;
 }
 
 /* ==================================Circulos de partidos

@@ -20,8 +20,17 @@
 
 
 
-
-
-<a class="nav-item" href="#"><img src="images/liga-1/cus.png" alt="CUS-logo" class="logos-header"></a>
-<a class="nav-item" href="#"><img src="images/liga-1/cdg.png" alt="CDG-logo" class="logos-header"></a>
-<a class="nav-item" href="#"><img src="images/liga-1/uco.png" alt="UCO-logo" class="logos-header"></a>
+<img src="images/liga-2/auh.png" alt="AUH-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Alianza Universidad</span>
+<img src="images/liga-2/alu.png" alt="ALU-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Alfonso Ugarte</span>
+<img src="images/liga-2/aya.png" alt="AYA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Ayacucho</span>
+<img src="images/liga-2/cst.png" alt="CST-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Carlos Stein</span>
+<img src="images/liga-2/chk.png" alt="CHK-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Chankas CYC</span>
+<img src="images/liga-2/adc.png" alt="ADC-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Comerciantes FC</span>
+<img src="images/liga-2/cou.png" alt="COU-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Comerciantes Unidos</span>
+<img src="images/liga-2/coo.png" alt="COO-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Deportivo Coopsol</span>
+<img src="images/liga-2/dll.png" alt="DLL-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Deportivo Llacuabamba</span>
+<img src="images/liga-2/jua.png" alt="JUA-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Juan Aurich</span>
+<img src="images/liga-2/pir.png" alt="PIR-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Pirata FC</span>
+<img src="images/liga-2/usm.png" alt="USM-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp San Martín</span>
+<img src="images/liga-2/san.png" alt="SAN-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Santos FC</span>
+<img src="images/liga-2/unh.png" alt="UNH-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Unión Huaral</span>

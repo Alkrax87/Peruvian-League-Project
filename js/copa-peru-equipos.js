@@ -28,16 +28,15 @@ cargarDatos().then(datos => {
       teamsL.innerHTML += `
          <tr>
             <td class="nospace" rowspan="2"><span><img src="${datos.Departamentos[i].flag}" alt="${datos.Departamentos[i].alt}" width="50px"></span>&nbsp&nbsp ${datos.Departamentos[i].name}</td>
-            <td class="t-h">${datos.Teams[a].name}</td>
-            <td class="t-h">${datos.Teams[a].provincia}</td>
+            <td class="t-h nospace">${datos.Teams[a].name}</td>
+            <td class="t-h nospace">${datos.Teams[a].provincia}</td>
          </tr>
          <tr>
-            <td class="t-h">${datos.Teams[b].name}</td>
-            <td class="t-h">${datos.Teams[b].provincia}</td>
+            <td class="t-h nospace">${datos.Teams[b].name}</td>
+            <td class="t-h nospace">${datos.Teams[b].provincia}</td>
          </tr>
       `
       a=a+2
       b=b+2
    }
-
 });
