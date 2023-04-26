@@ -4,7 +4,7 @@
       "equipos": 19,
       "apertura": true,
       "clausura": false,
-      "fechaApertura": "12",
+      "fechaApertura": "13",
       "fechaClausura": "1"
    },
    "Teams": [
@@ -20,10 +20,16 @@
          "color2": "#333333",
          "dt": [
             {
+               "name": "Edgardo Malvestiti",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "tecnico"
+            },
+            {
                "name": "Matías Rosa",
                "country": "Uruguay",
                "cod": "uy",
-               "status" : "tecnico"
+               "status" : "destituido"
             }
          ]
       },
@@ -208,9 +214,9 @@
          "color1": "#009EED",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Jorge Celico",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             },
             {
@@ -312,10 +318,16 @@
          "color2": "#333333",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            },
+            {
                "name": "Tiago Nunes",
                "country": "Brazil",
                "cod": "br",
-               "status" : "tecnico"
+               "status" : "destituido"
             }
          ]
       },
@@ -389,7 +401,7 @@
    ],
    "Apertura": {
       "F1": [
-         "0","0","","2","1","","","0","0","","","2","0","","2","2","0","3",""
+         "0","0","1","2","1","","2","0","0","0","1","2","0","0","2","2","0","3","0"
       ],
       "F2": [
          "","","","","","","","","","","","","","","","","","",""
@@ -425,7 +437,7 @@
          "0","0","0","3","1","5","1","1","0","2","2","1","1","1","3","1","","2","2"
       ],
       "F13": [
-         "","","","","","","","","","","","","","","","","","",""
+         "0","3","3","3","1","1","2","1","1","2","1","1","3","","1","0","1","2","1"
       ],
       "F14": [
          "","","","","","","","","","","","","","","","","","",""
