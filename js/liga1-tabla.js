@@ -340,6 +340,9 @@ cargarDatos().then(datos => {
       }
    }
 
+   //Reduccion de puntos
+   document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 2;
+
    //Proceso de ordenamiento de la tabla
    function ordenarTabla(tableID){
       var table = $(tableID);

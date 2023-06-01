@@ -4,7 +4,7 @@
       "equipos": 19,
       "apertura": true,
       "clausura": false,
-      "fechaApertura": "16",
+      "fechaApertura": "17",
       "fechaClausura": "1"
    },
    "Teams": [
@@ -124,10 +124,16 @@
          "color2": "#333333",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : "tecnico"
+            },
+            {
                "name": "Dario Franco",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "tecnico"
+               "status" : "destituido"
             },
             {
                "name": "Wilmar Valencia",
@@ -184,16 +190,16 @@
          "color1": "#A40300",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Gerardo Ameli",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             },
             {
                "name": "Leonel Álvarez",
                "country": "Colombia",
                "cod": "co",
-               "status" : "tecnico"
+               "status" : "destituido"
             }
          ]
       },
@@ -293,9 +299,9 @@
          "color2": "#333333",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Fernando Gamboa",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             },
             {
@@ -360,16 +366,16 @@
          "color1": "#F70900",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Daniel Farias",
+               "country": "Venezuela",
+               "cod": "ve",
                "status" : "tecnico"
             },
             {
                "name": "Jaime De La Pava ",
                "country": "Colombia",
                "cod": "co",
-               "status" : "tecnico"
+               "status" : "destituido"
             },
             {
                "name": "Jesús Oropesa",
@@ -415,9 +421,9 @@
          "color1": "#8E1119",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Francisco Pizarro",
+               "country": "Perú",
+               "cod": "pe",
                "status" : "tecnico"
             },
             {
@@ -452,7 +458,7 @@
          "0","0","2","1","","2","0","2","5","2","3","0","0","2","4","0","1","1","0"
       ],
       "F8": [
-         "1","1","","2","1","1","0","","0","0","4","1","","0","0","4","2","2","1"
+         "1","1","","2","1","1","0","2","0","0","4","1","2","0","0","4","2","2","1"
       ],
       "F9": [
          "1","1","2","1","1","0","0","2","3","3","1","","0","2","2","2","1","3","0"
@@ -479,7 +485,7 @@
          "1","1","2","1","4","5","","0","0","2","3","1","2","3","2","3","0","4","2"
       ],
       "F17": [
-         "","","","","","","","","","","","","","","","","","",""
+         "1","3","3","6","2","1","1","","1","2","1","0","2","1","1","2","4","0","1"
       ],
       "F18": [
          "","","","","","","","","","","","","","","","","","",""
