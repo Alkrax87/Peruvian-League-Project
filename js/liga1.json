@@ -2,10 +2,10 @@
    "Info": {
       "temporada": 2023,
       "equipos": 19,
-      "apertura": true,
-      "clausura": false,
+      "apertura": false,
+      "clausura": true,
       "fechaApertura": "19",
-      "fechaClausura": "1"
+      "fechaClausura": "2"
    },
    "Teams": [
       {
@@ -20,10 +20,16 @@
          "color2": "#333333",
          "dt": [
             {
-               "name": "Edgardo Malvestiti",
+               "name": "Adrián Taffarel",
                "country": "Argentina",
                "cod": "ar",
                "status" : "tecnico"
+            },
+            {
+               "name": "Edgardo Malvestiti",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : "destituido"
             },
             {
                "name": "Matías Rosa",
@@ -63,9 +69,9 @@
          "color1": "#26267F",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Carlos Compagnucci",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             },
             {
@@ -124,9 +130,9 @@
          "color2": "#333333",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Juan Azconzabal",
+               "country": "Argentina",
+               "cod": "ar",
                "status" : "tecnico"
             },
             {
@@ -256,10 +262,16 @@
          "color1": "#003083",
          "dt": [
             {
+               "name": "Rafael Castillo",
+               "country": "Perú",
+               "cod": "pe",
+               "status" : "tecnico"
+            },
+            {
                "name": "Ángel Comizzo",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "tecnico"
+               "status" : "destituido"
             }
          ]
       },
@@ -496,10 +508,10 @@
    },
    "Clausura": {
       "F1": [
-         "","","","","","","","","","","","","","","","","","",""
+         "0","0","1","2","0","","0","0","1","2","1","3","4","2","2","2","1","1","1"
       ],
       "F2": [
-         "","","","","","","","","","","","","","","","","","",""
+         "","2","0","1","0","0","2","0","3","","2","0","2","","0","3","0","2","0"
       ],
       "F3": [
          "","","","","","","","","","","","","","","","","","",""
