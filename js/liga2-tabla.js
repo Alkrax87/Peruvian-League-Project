@@ -355,10 +355,27 @@ cargarDatos().then(datos => {
       }).appendTo(tbody);
       return tbody;
    }
+   function winner(tableBody){
+      var i = 0;
+      var j = 1;
+      while (i < 19) {
+         if (i == 0) {
+            tableBody.find("tr").eq(i).find("div").attr("class", "winner");
+            tableBody.find("tr").eq(i).find("th").eq(1).text(j + i);
+            i++;
+         } else if (i >= 1 && i < 19) {
+            tableBody.find("tr").eq(i).find("div").attr("class", "");
+            tableBody.find("tr").eq(i).find("th").eq(1).text(j + i);
+            i++;
+         }
+      }
+   }
    //Apertura
-   ordenarTabla('#tablaApertura');
+   var bodyApertura = ordenarTabla('#tablaApertura');
+   winner(bodyApertura);
    //Clausura
-   ordenarTabla('#tablaClausura');
+   var bodyClausura = ordenarTabla('#tablaClausura');
+   winner(bodyClausura);
    //Acumulado
    var bodyAcumulado = ordenarTabla('#tablaAcumulada');
    var i = 0;
