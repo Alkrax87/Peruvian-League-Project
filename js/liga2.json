@@ -5,7 +5,10 @@
       "apertura": false,
       "clausura": true,
       "fechaApertura": "13",
-      "fechaClausura": "2"
+      "fechaClausura": "2",
+      "t4tos": false,
+      "semifinal": false,
+      "final": false
    },
    "Teams": [
       {
@@ -22,7 +25,7 @@
                "name": "Paul Cominges",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -40,13 +43,13 @@
                "name": "Ronny Revollar",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             },
             {
                "name": "Gustavo Roverano",
                "country": "Perú",
                "cod": "pe",
-               "status" : "destituido"
+               "status" : false
             }
          ]
       },
@@ -65,7 +68,7 @@
                "name": "Oseias Messias de Souza",
                "country": "Brazil",
                "cod": "br",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -84,13 +87,13 @@
                "name": "Orlando Lavalle",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             },
             {
                "name": "Marcelo Vivas",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "destituido"
+               "status" : false
             }
          ]
       },
@@ -108,7 +111,7 @@
                "name": "Juan Bazalar",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -126,7 +129,7 @@
                "name": "Marcial Salazar",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -144,7 +147,7 @@
                "name": "Carlos Silvestri",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -162,13 +165,13 @@
                "name": "Víctor Rivera",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             },
             {
                "name": "Gustavo Onaindia",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "destituido"
+               "status" : false
             }
          ]
       },
@@ -186,7 +189,7 @@
                "name": "Fernando Nogara",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -204,13 +207,13 @@
                "name": "Jesús Oropesa",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             },
             {
                "name": "Jahir Butrón",
                "country": "Perú",
                "cod": "pe",
-               "status" : "destituido"
+               "status" : false
             }
          ]
       },
@@ -228,7 +231,7 @@
                "name": "Damián Castellanos",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -246,7 +249,7 @@
                "name": "Dulio Cisneros",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -264,7 +267,7 @@
                "name": "José Soto",
                "country": "Perú",
                "cod": "pe",
-               "status" : "tecnico"
+               "status" : true
             }
          ]
       },
@@ -282,13 +285,13 @@
                "name": "Pablo Olguín",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "tecnico"
+               "status" : true
             },
             {
                "name": "Adrián Taffarel",
                "country": "Argentina",
                "cod": "ar",
-               "status" : "destituido"
+               "status" : false
             }
          ]
       }
@@ -375,15 +378,64 @@
          "","","","","","","","","","","","","",""
       ]
    },
-   "Finalistas": {
-      "Apertura": "Por Definir",
-      "Clausura": "Por Definir",
-      "Acumulado": "",
-      "Resultado": [
-         {"ida": ""},
-         {"vuelta": ""},
-         {"global": ""}
-      ],
-      "Campeon": ""
+   "Campeon": {
+      "status": false,
+      "name": "",
+      "image": "",
+      "alt": ""
+   },
+   "Cuartos": [
+      {
+         "idaA": "",
+         "idaB": "",
+         "vueltaA": "",
+         "vueltaB": "",
+         "penal":{
+            "TeamA": "",
+            "TeamB": ""
+         }
+      },
+      {
+         "idaA": "",
+         "idaB": "",
+         "vueltaA": "",
+         "vueltaB": "",
+         "penal":{
+            "TeamA": "",
+            "TeamB": ""
+         }
+      }
+   ],
+   "Semifinal": [
+      {
+         "idaA": "",
+         "idaB": "",
+         "vueltaA": "",
+         "vueltaB": "",
+         "penal":{
+            "TeamA": "",
+            "TeamB": ""
+         }
+      },
+      {
+         "idaA": "",
+         "idaB": "",
+         "vueltaA": "",
+         "vueltaB": "",
+         "penal":{
+            "TeamA": "",
+            "TeamB": ""
+         }
+      }
+   ],
+   "Final": {
+      "idaA": "",
+      "idaB": "",
+      "vueltaA": "",
+      "vueltaB": "",
+      "penal":{
+         "TeamA": "",
+         "TeamB": ""
+      }
    }
 }

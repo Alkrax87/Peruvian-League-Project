@@ -350,7 +350,7 @@ cargarDatos().then(datos => {
          document.getElementById(llaves[i]).innerHTML = `<div data-identifier="${clasificados8[i]}"><img class="logos-sm" src="${datos.Teams[clasificados8[i]].image}" alt="${datos.Teams[clasificados8[i]].alt}">${datos.Teams[clasificados8[i]].name}</div>`;
       }
 
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 2; i++) {
          document.getElementById("CF"+(i+1)+"TeamA-ida").innerHTML = datos.Cuartos[i].idaA;
          document.getElementById("CF"+(i+1)+"TeamB-ida").innerHTML = datos.Cuartos[i].idaB;
          document.getElementById("CF"+(i+1)+"TeamA-vuelta").innerHTML = datos.Cuartos[i].vueltaA;

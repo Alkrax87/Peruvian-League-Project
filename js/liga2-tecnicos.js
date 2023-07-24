@@ -36,7 +36,7 @@ cargarDatos().then(datos => {
       if (ndt == 1){
          table.innerHTML += `
             <tr class="tableitem">
-               <td><div class="${item.dt[0].status}"></div></td>
+               <td><div class="tecnico"></div></td>
                <td class="nospace table-height"><i class="fas fa-user-tie dt"></i>&nbsp&nbsp ${item.dt[0].name}</td>
                <td class="nospace table-height"><img src="${item.image}" alt="${item.alt}" class="logos">&nbsp&nbsp ${item.name}</td>
                <td class="nospace table-height"><span class="flag-icon flag-icon-${item.dt[0].cod}" style="font-size: 25px;"></span>&nbsp&nbsp ${item.dt[0].country}</td>
@@ -44,14 +44,25 @@ cargarDatos().then(datos => {
          `
       } else {
          for(var i=0; i < ndt; i++){
-            table.innerHTML += `
-               <tr class="tableitem">
-                  <td><div class="${item.dt[i].status}"></div></td>
-                  <td class="nospace table-height"><i class="fas fa-user-tie dt"></i>&nbsp&nbsp ${item.dt[i].name}</td>
-                  <td class="nospace table-height"><img src="${item.image}" alt="${item.alt}" class="logos">&nbsp&nbsp ${item.name}</td>
-                  <td class="nospace table-height"><span class="flag-icon flag-icon-${item.dt[i].cod}" style="font-size: 25px;"></span>&nbsp&nbsp ${item.dt[i].country}</td>
-               </tr>
-            `
+            if (item.dt[i].status) {
+               table.innerHTML += `
+                  <tr class="tableitem">
+                     <td><div class="tecnico"></div></td>
+                     <td class="nospace table-height"><i class="fas fa-user-tie dt"></i>&nbsp&nbsp ${item.dt[i].name}</td>
+                     <td class="nospace table-height"><img src="${item.image}" alt="${item.alt}" class="logos">&nbsp&nbsp ${item.name}</td>
+                     <td class="nospace table-height"><span class="flag-icon flag-icon-${item.dt[i].cod}" style="font-size: 25px;"></span>&nbsp&nbsp ${item.dt[i].country}</td>
+                  </tr>
+               `
+            } else {
+               table.innerHTML += `
+                  <tr class="tableitem">
+                     <td><div class="destituido"></div></td>
+                     <td class="nospace table-height"><i class="fas fa-user-tie dt"></i>&nbsp&nbsp ${item.dt[i].name}</td>
+                     <td class="nospace table-height"><img src="${item.image}" alt="${item.alt}" class="logos">&nbsp&nbsp ${item.name}</td>
+                     <td class="nospace table-height"><span class="flag-icon flag-icon-${item.dt[i].cod}" style="font-size: 25px;"></span>&nbsp&nbsp ${item.dt[i].country}</td>
+                  </tr>
+               `
+            }
          }
       }
    }

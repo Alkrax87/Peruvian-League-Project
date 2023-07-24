@@ -420,8 +420,45 @@ cargarDatos().then(datos => {
       FixtureSelector('clausura')
    }
 
-   //Finalistas
-   document.getElementById("WApertura").innerHTML = "<b>"+datos.Finalistas.Apertura+"</b>";
-   document.getElementById("WClausura").innerHTML = "<b>"+datos.Finalistas.Clausura+"</b>";
+   //Seteo de Finalistas
+   if (datos.Finalistas[0].status) {
+      document.getElementById("WApertura").innerHTML = "<b>"+datos.Finalistas[0].name+"</b>";
+      document.querySelector('#FTeam1').innerHTML = `
+         <img src="${datos.Finalistas[0].image}" alt="${datos.Finalistas[0].alt}" class="finalist-team">
+         <p class="teamsfinal">${datos.Finalistas[0].name}</p>
+      `
+   }
+   if (datos.Finalistas[1].status) {
+      document.getElementById("WClausura").innerHTML = "<b>"+datos.Finalistas[1].name+"</b>";
+      document.querySelector('#FTeam2').innerHTML = `
+         <img src="${datos.Finalistas[1].image}" alt="${datos.Finalistas[1].alt}" class="finalist-team">
+         <p class="teamsfinal">${datos.Finalistas[1].name}</p>
+      `
+   }
 
+   //Seteo de Resultados
+   if (datos.Finalistas[2].status) {
+      document.getElementById("ITeam1").innerHTML = "<b>"+datos.Finalistas[2].ida.Team1+"</b>";
+      document.getElementById("ITeam2").innerHTML = "<b>"+datos.Finalistas[2].ida.Team2+"</b>";
+      document.getElementById("VTeam1").innerHTML = "<b>"+datos.Finalistas[2].vuelta.Team1+"</b>";
+      document.getElementById("VTeam2").innerHTML = "<b>"+datos.Finalistas[2].vuelta.Team2+"</b>";
+
+      if (datos.Finalistas[2].ida.Team1 && datos.Finalistas[2].ida.Team2 && datos.Finalistas[2].vuelta.Team1 && datos.Finalistas[2].vuelta.Team2){
+         var Team1, Team2;
+         Team1 = parseInt(datos.Finalistas[2].ida.Team1) + parseInt(datos.Finalistas[2].vuelta.Team1)
+         Team2 = parseInt(datos.Finalistas[2].ida.Team2) + parseInt(datos.Finalistas[2].vuelta.Team2)
+         document.querySelector('#Global').innerHTML = "("+ Team1 +" - "+ Team2 +")";
+         if (Team1 > Team2) {
+            document.querySelector('#Winner').innerHTML = `
+               <img src="${datos.Finalistas[0].image}" alt="${datos.Finalistas[0].alt}" class="finalist-team">
+               <p class="teamsfinal">${datos.Finalistas[0].name}</p>
+            `
+         } else if (Team1 < Team2){
+            document.querySelector('#Winner').innerHTML = `
+               <img src="${datos.Finalistas[1].image}" alt="${datos.Finalistas[1].alt}" class="finalist-team">
+               <p class="teamsfinal">${datos.Finalistas[1].name}</p>
+            `
+         }
+      }
+   }
 });

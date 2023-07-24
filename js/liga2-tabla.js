@@ -34,7 +34,6 @@ cargarDatos().then(datos => {
    var position = 1;
    for(let item of datos.Teams){
       teamsApertura.innerHTML += `
-         <tr class="tableitem">
             <th><div></div></th>
             <th>${position}</th>
             <td><img src="${item.image}" alt="${item.alt}" class="logos"></td>
@@ -81,11 +80,11 @@ cargarDatos().then(datos => {
    //Fill tabla Acumulada
    let teamsAcumulado = document.querySelector('#table3')
    teamsAcumulado.innerHTML = '';
-   var position = 1
+   var position = 1, identifier = 0;
    for(let item of datos.Teams){
       teamsAcumulado.innerHTML += `
          <tr class="tableitem">
-            <th><div></div></th>
+            <th><div data-identifier="${identifier}"></div></th>
             <th>${position}</th>
             <td><img src="${item.image}" alt="${item.alt}" class="logos"></td>
             <td class="text-start nospace"><a href="${item.url}" class="teamstext">${item.name}</a></td>
@@ -107,6 +106,7 @@ cargarDatos().then(datos => {
          </tr>
       `
       position++
+      identifier++
    }
 
    //Ocultar tablas
@@ -417,7 +417,172 @@ cargarDatos().then(datos => {
       FixtureSelector('clausura')
    }
 
-   //Finalistas
-   //document.getElementById("WApertura").innerHTML = "<b>"+datos.Finalistas.Apertura+"</b>";
-   //document.getElementById("WClausura").innerHTML = "<b>"+datos.Finalistas.Clausura+"</b>";
+   //Seteo de Finalistas
+   if (datos.Campeon.status) {
+      document.getElementById("Ascendido").innerHTML = "<b>"+datos.Campeon.name+"</b>";
+      document.querySelector('#Winner').innerHTML = `
+         <img src="${datos.Campeon.image}" alt="${datos.Campeon.alt}" class="finalist-team">
+         <p class="teamsfinal">${datos.Campeon.name}</p>
+      `
+   }
+
+   //================================================================================================
+   //PLAYOFFF
+   //================================================================================================
+   //================================================================================================
+   //Seteo 4vos de final
+   //================================================================================================
+   if (datos.Info.t4tos){
+
+       //Seteo de Clasificados
+      const clasificadosPlayOff = document.querySelectorAll('.playoff');
+      var clasificados = [];
+      for (let i = 0; i < 6; i++) {
+         clasificados[i] = clasificadosPlayOff[i].getAttribute('data-identifier');
+         const equipo = datos.Teams[clasificados[i]];
+         const equipoHTML = `<div data-identifier="${clasificados[i]}"><img class="logos-sm" src="${equipo.image}" alt="${equipo.alt}">${equipo.name}</div>`;
+         document.getElementById(`Pos${i + 2}`).innerHTML = equipoHTML;
+      }
+
+      for (let i = 0; i < 2; i++) {
+         document.getElementById("CF"+(i+1)+"TeamA-ida").innerHTML = datos.Cuartos[i].idaA;
+         document.getElementById("CF"+(i+1)+"TeamB-ida").innerHTML = datos.Cuartos[i].idaB;
+         document.getElementById("CF"+(i+1)+"TeamA-vuelta").innerHTML = datos.Cuartos[i].vueltaA;
+         document.getElementById("CF"+(i+1)+"TeamB-vuelta").innerHTML = datos.Cuartos[i].vueltaB;
+         document.getElementById("CF"+(i+1)+"TeamA-penal").innerHTML = datos.Cuartos[i].penal.TeamA;
+         document.getElementById("CF"+(i+1)+"TeamB-penal").innerHTML = datos.Cuartos[i].penal.TeamB;
+      }
+
+      //Calculo Global y seteo de clasificados
+      var clasificados4 = [];
+      for (let i = 0; i < 2; i++) {
+         if ($("#CF"+(i+1)+"TeamA-ida").text() && $("#CF"+(i+1)+"TeamA-vuelta").text() && $("#CF"+(i+1)+"TeamB-ida").text() && $("#CF"+(i+1)+"TeamB-vuelta").text()) {
+            const llavesA = ["Pos5","Pos4"]
+            const llavesB = ["Pos6","Pos7"]
+            document.getElementById("CF"+(i+1)+"TeamA-global").innerHTML = parseInt($("#CF"+(i+1)+"TeamA-ida").text()) + parseInt($("#CF"+(i+1)+"TeamA-vuelta").text())
+            document.getElementById("CF"+(i+1)+"TeamB-global").innerHTML = parseInt($("#CF"+(i+1)+"TeamB-ida").text()) + parseInt($("#CF"+(i+1)+"TeamB-vuelta").text())
+            var globalA = parseInt($("#CF"+(i+1)+"TeamA-global").text())
+            var globalB = parseInt($("#CF"+(i+1)+"TeamB-global").text())
+            if (globalA > globalB) {
+               var identifier = document.querySelector("#"+llavesA[i]+" div").getAttribute('data-identifier');
+               clasificados4.push(identifier)
+            } else if (globalB > globalA ) {
+               var identifier = document.querySelector("#"+llavesB[i]+" div").getAttribute('data-identifier');
+               clasificados4.push(identifier)
+            } else if ($("#CF"+(i+1)+"TeamA-penal").text() && $("#CF"+(i+1)+"TeamB-penal").text()){
+               var penalA = $("#CF"+(i+1)+"TeamA-penal").text()
+               var penalB = $("#CF"+(i+1)+"TeamB-penal").text()
+               var penalA = penalA.replace(/[^0-9]+/g,"");
+               var penalB = penalB.replace(/[^0-9]+/g,"");
+               if (penalA > penalB) {
+                  var identifier = document.querySelector("#"+llavesA[i]+" div").getAttribute('data-identifier');
+                  clasificados4.push(identifier)
+               } else {
+                  var identifier = document.querySelector("#"+llavesB[i]+" div").getAttribute('data-identifier');
+                  clasificados4.push(identifier)
+               }
+            }
+         }
+      }
+   }
+
+   //================================================================================================
+   //Seteo Semifinal
+   //================================================================================================
+   if(datos.Info.semifinal){
+      document.getElementById("ClasificadoA").innerHTML = `<div data-identifier="${clasificados4[0]}"><img class="logos-sm" src="${datos.Teams[clasificados4[0]].image}" alt="${datos.Teams[clasificados4[0]].alt}">${datos.Teams[clasificados4[0]].name}</div>`;;
+      document.getElementById("ClasificadoB").innerHTML = `<div data-identifier="${clasificados4[1]}"><img class="logos-sm" src="${datos.Teams[clasificados4[1]].image}" alt="${datos.Teams[clasificados4[1]].alt}">${datos.Teams[clasificados4[1]].name}</div>`;;
+
+      for (let i = 0; i < 2; i++) {
+         document.getElementById("SF"+(i+1)+"TeamA-ida").innerHTML = datos.Semifinal[i].idaA;
+         document.getElementById("SF"+(i+1)+"TeamB-ida").innerHTML = datos.Semifinal[i].idaB;
+         document.getElementById("SF"+(i+1)+"TeamA-vuelta").innerHTML = datos.Semifinal[i].vueltaA;
+         document.getElementById("SF"+(i+1)+"TeamB-vuelta").innerHTML = datos.Semifinal[i].vueltaB;
+         document.getElementById("SF"+(i+1)+"TeamA-penal").innerHTML = datos.Semifinal[i].penal.TeamA;
+         document.getElementById("SF"+(i+1)+"TeamB-penal").innerHTML = datos.Semifinal[i].penal.TeamB;
+      }
+
+      //Calculo Global y seteo de clasificados
+      var clasificados2 = [];
+      for (let i = 0; i < 2; i++) {
+         if ($("#SF"+(i+1)+"TeamA-ida").text() && $("#SF"+(i+1)+"TeamA-vuelta").text() && $("#SF"+(i+1)+"TeamB-ida").text() && $("#SF"+(i+1)+"TeamB-vuelta").text()) {
+            const S1 = ["Pos2","Pos3"]
+            const S2 = ["ClasificadoA","ClasificadoB"]
+            document.getElementById("SF"+(i+1)+"TeamA-global").innerHTML = parseInt($("#SF"+(i+1)+"TeamA-ida").text()) + parseInt($("#SF"+(i+1)+"TeamA-vuelta").text())
+            document.getElementById("SF"+(i+1)+"TeamB-global").innerHTML = parseInt($("#SF"+(i+1)+"TeamB-ida").text()) + parseInt($("#SF"+(i+1)+"TeamB-vuelta").text())
+            var globalA = parseInt($("#SF"+(i+1)+"TeamA-global").text())
+            var globalB = parseInt($("#SF"+(i+1)+"TeamB-global").text())
+            if (globalA > globalB) {
+               var identifier = document.querySelector("#"+S1[i]+" div").getAttribute('data-identifier');
+               clasificados2.push(identifier)
+            } else if (globalB > globalA ) {
+               var identifier = document.querySelector("#"+S2[i]+" div").getAttribute('data-identifier');
+               clasificados2.push(identifier)
+            } else if ($("#SF"+(i+1)+"TeamA-penal").text() && $("#SF"+(i+1)+"TeamB-penal").text()){
+               var penalA = $("#SF"+(i+1)+"TeamA-penal").text()
+               var penalB = $("#SF"+(i+1)+"TeamB-penal").text()
+               var penalA = penalA.replace(/[^0-9]+/g,"");
+               var penalB = penalB.replace(/[^0-9]+/g,"");
+               if (penalA > penalB) {
+                  var identifier = document.querySelector("#"+S1[i]+" div").getAttribute('data-identifier');
+                  clasificados2.push(identifier)
+               } else {
+                  var identifier = document.querySelector("#"+S2[i]+" div").getAttribute('data-identifier');
+                  clasificados2.push(identifier)
+               }
+            }
+         }
+      }
+   }
+
+   //================================================================================================
+   //Seteo Final
+   //================================================================================================
+   if (datos.Info.final){
+      document.getElementById("Final1").innerHTML = `<div data-identifier="${clasificados2[0]}"><img class="logos-sm" src="${datos.Teams[clasificados2[0]].image}" alt="${datos.Teams[clasificados2[0]].alt}">${datos.Teams[clasificados2[0]].name}</div>`;
+      document.getElementById("Final2").innerHTML = `<div data-identifier="${clasificados2[1]}"><img class="logos-sm" src="${datos.Teams[clasificados2[1]].image}" alt="${datos.Teams[clasificados2[1]].alt}">${datos.Teams[clasificados2[1]].name}</div>`;
+      document.getElementById("FTeamA-ida").innerHTML = datos.Final.idaA;
+      document.getElementById("FTeamB-ida").innerHTML = datos.Final.idaB;
+      document.getElementById("FTeamA-vuelta").innerHTML = datos.Final.vueltaA;
+      document.getElementById("FTeamB-vuelta").innerHTML = datos.Final.vueltaB;
+      document.getElementById("FTeamA-penal").innerHTML = datos.Final.penal.TeamA;
+      document.getElementById("FTeamB-penal").innerHTML = datos.Final.penal.TeamB;
+      if ($("#FTeamA-ida").text() && $("#FTeamA-vuelta").text() && $("#FTeamB-ida").text() && $("#FTeamB-vuelta").text()) {
+         document.getElementById("FTeamA-global").innerHTML = parseInt($("#FTeamA-ida").text()) + parseInt($("#FTeamA-vuelta").text())
+         document.getElementById("FTeamB-global").innerHTML = parseInt($("#FTeamB-ida").text()) + parseInt($("#FTeamB-vuelta").text())
+         var globalA = parseInt($("#FTeamA-global").text())
+         var globalB = parseInt($("#FTeamB-global").text())
+         if (globalA > globalB) {
+            document.getElementById("Subcampeon").innerHTML =`
+               <h3>¡SUBCAMPEÓN!</h3>
+               <img class="finalist-team" src="${datos.Teams[clasificados2[0]].image}" alt="${datos.Teams[clasificados2[0]].alt}">
+               <p class="teamsfinal">${datos.Teams[clasificados2[0]].name}</p>
+            `;
+         } else if (globalB > globalA ) {
+            document.getElementById("Subcampeon").innerHTML =`
+               <h3>¡SUBCAMPEÓN!</h3>
+               <img class="finalist-team" src="${datos.Teams[clasificados2[1]].image}" alt="${datos.Teams[clasificados2[1]].alt}">
+               <p class="teamsfinal">${datos.Teams[clasificados2[1]].name}</p>
+            `;
+         } else if ($("#FTeamA-penal").text() && $("#FTeamB-penal").text()){
+            var penalA = $("#FTeamA-penal").text()
+            var penalB = $("#FTeamB-penal").text()
+            var penalA = penalA.replace(/[^0-9]+/g,"");
+            var penalB = penalB.replace(/[^0-9]+/g,"");
+            if (penalA > penalB) {
+               document.getElementById("Subcampeon").innerHTML =`
+                  <h3>¡SUBCAMPEÓN!</h3>
+                  <img class="finalist-team" src="${datos.Teams[clasificados2[0]].image}" alt="${datos.Teams[clasificados2[0]].alt}">
+                  <p class="teamsfinal">${datos.Teams[clasificados2[0]].name}</p>
+               `;
+            } else {
+               document.getElementById("Subcampeon").innerHTML =`
+                  <h3>¡SUBCAMPEÓN!</h3>
+                  <img class="finalist-team" src="${datos.Teams[clasificados2[1]].image}" alt="${datos.Teams[clasificados2[1]].alt}">
+                  <p class="teamsfinal">${datos.Teams[clasificados2[1]].name}</p>
+               `;
+            }
+         }
+      }
+   }
 });

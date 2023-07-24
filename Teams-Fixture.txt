@@ -34,3 +34,6 @@
 <img src="images/liga-2/usm.png" alt="USM-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp San Martín</span>
 <img src="images/liga-2/san.png" alt="SAN-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Santos FC</span>
 <img src="images/liga-2/unh.png" alt="UNH-logo" class="logos-fixture"><span class="fixture-text nospace">&nbsp Unión Huaral</span>
+
+
+<i class="fas fa-shield-alt"></i><span class="fixture-text nospace">&nbsp Por Definir</span>
