@@ -5,7 +5,7 @@
       "apertura": false,
       "clausura": true,
       "fechaApertura": "19",
-      "fechaClausura": "5"
+      "fechaClausura": "6"
    },
    "Teams": [
       {
@@ -93,6 +93,12 @@
          "color1": "#001A48",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : true
+            },
+            {
                "name": "Guillermo Salas",
                "country": "Perú",
                "cod": "pe",
@@ -130,7 +136,7 @@
          "color2": "#333333",
          "dt": [
             {
-               "name": "Juan Azconzabal",
+               "name": "Juan Azconzábal",
                "country": "Argentina",
                "cod": "ar",
                "status" : true
@@ -378,10 +384,16 @@
          "color1": "#F70900",
          "dt": [
             {
+               "name": "Marcelo Vivas",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : true
+            },
+            {
                "name": "Daniel Farias",
                "country": "Venezuela",
                "cod": "ve",
-               "status" : true
+               "status" : false
             },
             {
                "name": "Jaime De La Pava ",
@@ -433,10 +445,16 @@
          "color1": "#8E1119",
          "dt": [
             {
+               "name": "Carlos Ramacciotti",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : true
+            },
+            {
                "name": "Francisco Pizarro",
                "country": "Perú",
                "cod": "pe",
-               "status" : true
+               "status" : false
             },
             {
                "name": "Marcelo Grioni",
@@ -452,7 +470,7 @@
          "0","0","1","2","1","","2","0","0","0","1","2","0","0","2","2","0","3","0"
       ],
       "F2": [
-         "0","0","3","2","0","1","1","1","1","","4","1","2","0","5","6","2","1","1"
+         "0","0","3","2","0","1","1","1","1","","4","1","2","0","5","6","1","1","1"
       ],
       "F3": [
          "0","","2","0","3","0","3","2","0","0","3","0","0","2","3","3","1","4","3"
@@ -523,7 +541,7 @@
          "2","1","2","0","0","4","0","4","1","0","","1","1","0","0","1","1","0","0"
       ],
       "F6": [
-         "","","","","","","","","","","","","","","","","","",""
+         "0","","","1","1","0","","1","","3","1","","","","","5","1","","1"
       ],
       "F7": [
          "","","","","","","","","","","","","","","","","","",""
