@@ -5,7 +5,7 @@
       "apertura": false,
       "clausura": true,
       "fechaApertura": "13",
-      "fechaClausura": "4",
+      "fechaClausura": "5",
       "t4tos": false,
       "semifinal": false,
       "final": false
@@ -125,6 +125,12 @@
          "stadium": "Estadio Max Augustín",
          "color1": "#00AF00",
          "dt": [
+            {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : true
+            },
             {
                "name": "Marcial Salazar",
                "country": "Perú",
