@@ -93,9 +93,9 @@
          "color1": "#001A48",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
+               "name": "Mauricio Larriera",
+               "country": "Uruguay",
+               "cod": "uy",
                "status" : true
             },
             {
@@ -117,10 +117,16 @@
          "color1": "#FF070C",
          "dt": [
             {
-               "name": "Daniel Ahmed",
+               "name": "Ángel Comizzo",
                "country": "Argentina",
                "cod": "ar",
                "status" : true
+            },
+            {
+               "name": "Daniel Ahmed",
+               "country": "Argentina",
+               "cod": "ar",
+               "status" : false
             }
          ]
       },
@@ -136,10 +142,16 @@
          "color2": "#333333",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : true
+            },
+            {
                "name": "Juan Azconzábal",
                "country": "Argentina",
                "cod": "ar",
-               "status" : true
+               "status" : false
             },
             {
                "name": "Dario Franco",
@@ -268,10 +280,16 @@
          "color1": "#003083",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : true
+            },
+            {
                "name": "Rafael Castillo",
                "country": "Perú",
                "cod": "pe",
-               "status" : true
+               "status" : false
             },
             {
                "name": "Ángel Comizzo",
@@ -541,7 +559,7 @@
          "2","1","2","0","0","4","0","4","1","0","","1","1","0","0","1","1","0","0"
       ],
       "F6": [
-         "0","2","0","1","1","0","0","1","","3","1","0","2","0","2","5","1","3","1"
+         "0","2","0","1","1","0","0","1","","3","1","1","2","0","2","5","1","3","1"
       ],
       "F7": [
          "","","","","","","","","","","","","","","","","","",""
