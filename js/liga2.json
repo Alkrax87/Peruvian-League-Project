@@ -5,7 +5,7 @@
       "apertura": false,
       "clausura": true,
       "fechaApertura": "13",
-      "fechaClausura": "5",
+      "fechaClausura": "6",
       "t4tos": false,
       "semifinal": false,
       "final": false
@@ -126,12 +126,6 @@
          "color1": "#00AF00",
          "dt": [
             {
-               "name": "Por Definir",
-               "country": "",
-               "cod": "",
-               "status" : true
-            },
-            {
                "name": "Marcial Salazar",
                "country": "Perú",
                "cod": "pe",
@@ -234,10 +228,16 @@
          "color1": "#007E00",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : true
+            },
+            {
                "name": "Damián Castellanos",
                "country": "Argentina",
                "cod": "ar",
-               "status" : true
+               "status" : false
             }
          ]
       },
@@ -288,10 +288,16 @@
          "color1": "#EB0803",
          "dt": [
             {
+               "name": "Por Definir",
+               "country": "",
+               "cod": "",
+               "status" : true
+            },
+            {
                "name": "Pablo Olguín",
                "country": "Argentina",
                "cod": "ar",
-               "status" : true
+               "status" : false
             },
             {
                "name": "Adrián Taffarel",
@@ -360,7 +366,7 @@
          "2","2","2","3","0","0","1","1","0","1","1","4","1","3"
       ],
       "F6": [
-         "","","","","","","","","","","","","",""
+         "3","0","2","2","5","2","1","0","0","1","2","0","0","1"
       ],
       "F7": [
          "","","","","","","","","","","","","",""
