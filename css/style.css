@@ -1,86 +1,114 @@
-body{
+body {
   background-color: #DBDBDB;
   font-family: 'Montserrat', sans-serif;
 }
-main{
+
+main {
   padding-top: 165px;
 }
-td{
+
+td {
   vertical-align: middle;
   height: 65px;
 }
-th{
+
+th {
   vertical-align: middle;
 }
+
 /* ==================================Fonts*/
-.f-d{
+.f-d {
   font-family: 'Open Sans', sans-serif;
 }
-.table-text{
+
+.table-text {
   font-size: 14px;
 }
-.table-height{
+
+.table-height {
   height: 55px;
 }
-.fixture-text{
+
+.fixture-text {
   font-size: 14px;
 }
+
 /* ==================================Background Colors */
-.bgdark{
+.bgdark {
   background-color: #1B1A17;
 }
-.bglight{
+
+.bglight {
   background-color: #fff;
 }
-.bgside{
+
+.bgside {
   background-color: #fff;
 }
 
 /* ==================================Nav Bar Style */
-.teamsnav{
+.teamsnav {
   height: 60px;
 }
-.btn-nav-options{
+
+.btn-nav-options {
   height: 50px;
 }
-.navoptionsbar{
+
+.navoptionsbar {
   height: 50px;
   padding: 0px 15px 0px 15px;
   box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
 }
-.navstyle{
+
+.navstyle {
   background-color: #1B1A17;
   font-size: 16px;
 }
-@media (min-width: 991px){
-  .navbar{
+
+@media (min-width: 991px) {
+  .navbar {
     height: 60px;
   }
 }
-.dropdown-menu{
+
+.dropdown-menu {
   transition: 0.3s;
 }
+
 /* HAMBURGUER MENU COLOR */
 .custom-toggler.navbar-toggler {
   border-color: #fff;
 }
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
 }
-.navitems{
+
+.navitems {
   color: #fff;
 }
-.navitems:hover{
+
+.navitems:hover {
   color: #fff;
   text-shadow: 0px 0px 10px #CECECE;
 }
-.navoptions{
+
+.navoptions {
   text-align: center;
   padding-top: 15px;
   width: 100%;
@@ -88,200 +116,242 @@ th{
   transition: border .1s ease-out;
   -webkit-transition: border .1s ease-out;
 }
-.navoptions:hover{
+
+.navoptions:hover {
   border-bottom: 5px solid #d8a928;
 }
-.btn-options-style{
+
+.btn-options-style {
   width: 100%;
   height: 50px;
   border-bottom: 5px solid #d8a928;
 }
-.dropdown-menu{
+
+.dropdown-menu {
   width: 100%;
 }
 
-.selected{
+.selected {
   text-align: center;
   padding-top: 15px;
   width: 100%;
   height: 50px;
   border-bottom: 5px solid #d8a928;
 }
-.navoptionstext{
+
+.navoptionstext {
   color: #646464;
   text-decoration: none;
   font-size: 14px;
 }
-.navoptionstext:hover{
+
+.navoptionstext:hover {
   color: #646464;
 }
 
 /* ==================================Table Style */
-.tableheader{
+.tableheader {
   background-color: #990202;
   height: 50px;
   vertical-align: middle;
   color: #fff;
 }
-.tableheader2{
+
+.tableheader2 {
   background-color: #007D7E;
   height: 50px;
   vertical-align: middle;
   color: #fff;
 }
-.left-table-header th{
+
+.left-table-header th {
   background-color: #007D7E;
   color: rgb(255, 255, 255);
 }
-.tableheader3{
+
+.tableheader3 {
   background-color: #55021C;
   height: 50px;
   vertical-align: middle;
   color: #fff;
 }
-.tableheaderN{
+
+.tableheaderN {
   background-color: #42a10a;
   vertical-align: middle;
   color: #fff;
 }
-.tableheaderC{
+
+.tableheaderC {
   background-color: #d4a41e;
   vertical-align: middle;
   color: #fff;
 }
-.tableheaderS{
+
+.tableheaderS {
   background-color: #a10a0a;
   vertical-align: middle;
   color: #fff;
 }
-.tableheaderL{
+
+.tableheaderL {
   background-color: #083268;
   vertical-align: middle;
   color: #fff;
 }
-.liga-table td{
+
+.liga-table td {
   padding-top: 6px;
   padding-bottom: 6px;
   height: 50px;
 }
-.copa-peru-table td{
+
+.copa-peru-table td {
   padding: 0px 8px;
   height: 40px;
 }
-.reserva-table-sm td{
+
+.reserva-table-sm td {
   padding: 0px 8px;
   height: 40px;
 }
-.reserva-table-sm th{
+
+.reserva-table-sm th {
   padding: 0px 8px;
   height: 40px;
 }
-.topcorners{
+
+.topcorners {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-.bottomcorners{
+
+.bottomcorners {
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
-.tableitem:hover{
+
+.tableitem:hover {
   background-color: #ededed;
 }
-.foottable{
+
+.foottable {
   background-color: #f8f9fa;
   padding: 10px 10px 10px 10px;
   border-color: #dbdbdb;
   border-width: 1px;
   border-style: solid;
 }
-.sizetable{
+
+.sizetable {
   margin: 15px, 15px, 15px, 15px;
   padding: 15px, 15px, 15px, 15px;
 }
-.t-h{
+
+.t-h {
   height: 20px;
   font-size: 12px;
 }
-.t-h2{
+
+.t-h2 {
   height: 20px;
   font-size: 12px;
 }
 
 /* ==================================Buttons */
-.btn:focus{
+.btn:focus {
   box-shadow: none;
 }
-.btnswitch{
+
+.btnswitch {
   background-color: #e6e6e6;
   margin-right: 7px;
   height: 44px;
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
 }
-#btnAcumulado{
+
+#btnAcumulado {
   width: 150px;
 }
-#btnApertura{
+
+#btnApertura {
   width: 120px;
 }
-#btnClausura{
+
+#btnClausura {
   width: 120px;
 }
-#btnFixtureApertura{
+
+#btnFixtureApertura {
   width: 120px;
 }
-#btnFixtureClausura{
+
+#btnFixtureClausura {
   width: 120px;
 }
-.btntableswitcheractive{
+
+.btntableswitcheractive {
   background-color: #fff;
 }
-.btntableswitcherdisble:hover{
+
+.btntableswitcherdisble:hover {
   background-color: #A3040E;
   color: #fff;
 }
-.btn-Fixture{
+
+.btn-Fixture {
   width: 38px;
   font-size: 13px;
   margin: 5px 2px 0px 2px;
 }
-.btn-Fixture-Switch{
+
+.btn-Fixture-Switch {
   background-color: #FFF;
   border-width: 1px;
   border-style: solid;
 }
-.btn-Fixture-Active1{
+
+.btn-Fixture-Active1 {
   background-color: #A3040E;
   color: #fff;
 }
-.btn-Fixture-Active1:hover{
+
+.btn-Fixture-Active1:hover {
   background-color: #A3040E;
   color: #fff;
 }
-.btn-Fixture-Disable1{
+
+.btn-Fixture-Disable1 {
   border-color: #A3040E;
 }
-.btn-Fixture-Disable1:hover{
+
+.btn-Fixture-Disable1:hover {
   background-color: #A3040E;
   color: #fff;
 }
-.btn-Fixture-Active3{
+
+.btn-Fixture-Active3 {
   background-color: #85072D;
   color: #fff;
 }
-.btn-Fixture-Active3:hover{
+
+.btn-Fixture-Active3:hover {
   background-color: #85072D;
   color: #fff;
 }
-.btn-Fixture-Disable3{
+
+.btn-Fixture-Disable3 {
   border-color: #85072D;
 }
-.btn-Fixture-Disable3:hover{
+
+.btn-Fixture-Disable3:hover {
   background-color: #85072D;
   color: #fff;
 }
-.btn-switch-dropdown{
-  color:black;
+
+.btn-switch-dropdown {
+  color: black;
   width: 50%;
   margin-top: -40px;
   border-style: solid;
@@ -289,12 +359,14 @@ th{
   border-width: 3px;
   border-radius: 15px;
 }
-.btn-switch-dropdown:hover{
-  color:black;
+
+.btn-switch-dropdown:hover {
+  color: black;
   width: 50%;
 }
-.list-dropdown{
-  color:black;
+
+.list-dropdown {
+  color: black;
   width: 50%;
   transition-duration: 0ms;
   border-style: solid;
@@ -307,90 +379,104 @@ th{
 .square {
   font-size: 20px;
 }
-.textdescription{
+
+.textdescription {
   margin-bottom: 50px;
   padding-bottom: 50px;
   margin-left: 10px;
   font-size: 15px;
 }
-.teamstext{
+
+.teamstext {
   color: #000;
   text-decoration: none;
 }
-.teamstext:hover{
+
+.teamstext:hover {
   color: #000;
   text-decoration: underline;
 }
+
 /* ==================================Divs */
-.divside{
+.divside {
   color: #1B1A17;
   padding-bottom: 20px;
 }
-.bgdivside{
+
+.bgdivside {
   background-color: rgb(250, 250, 250);
   border-radius: 20px;
 }
-.divtitle{
-  background: rgb(89,6,6);
-  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 30%, rgba(19,0,0,1) 98%);
+
+.divtitle {
+  background: rgb(89, 6, 6);
+  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
   height: 260px;
   padding-top: 80px;
   padding-left: 70px;
   font-size: 73px;
   color: #fff;
 }
+
 .divtitle h1 {
   margin-top: 10px;
   font-size: 73px;
 }
-.divtitle2{
-  background: rgb(1,33,51);
-  background: linear-gradient(90deg, rgba(1,33,51,1) 0%, rgba(0,128,128,1) 10%, rgba(0,180,162,1) 20%, rgba(0,153,150,1) 38%, rgba(1,33,51,1) 100%);
+
+.divtitle2 {
+  background: rgb(1, 33, 51);
+  background: linear-gradient(90deg, rgba(1, 33, 51, 1) 0%, rgba(0, 128, 128, 1) 10%, rgba(0, 180, 162, 1) 20%, rgba(0, 153, 150, 1) 38%, rgba(1, 33, 51, 1) 100%);
   height: 260px;
   padding-top: 80px;
   padding-left: 70px;
   font-size: 73px;
   color: #fff;
 }
+
 .divtitle2 h1 {
   margin-top: 10px;
   font-size: 73px;
 }
-.divtitle3{
-  background: rgb(85,2,28);
-  background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 30%, rgba(85,2,28,1) 98%);
+
+.divtitle3 {
+  background: rgb(85, 2, 28);
+  background: linear-gradient(90deg, rgba(85, 2, 28, 1) 7%, rgba(139, 9, 47, 1) 30%, rgba(85, 2, 28, 1) 98%);
   height: 260px;
   padding-top: 80px;
   padding-left: 70px;
   font-size: 73px;
   color: #fff;
 }
+
 .divtitle3 h1 {
   margin-top: 10px;
   font-size: 73px;
 }
-@media (max-width: 1075px){
-  .divtitlemain{
-  background: rgb(89,6,6);
-  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 30%, rgba(19,0,0,1) 98%);
-  height: 369px;
-  padding-top: 70px;
-  padding-left: 70px;
-  font-size: 73px;
-  color: #fff;
-  }
-  .divtitlemain2{
-    background: rgb(1,33,51);
-    background: linear-gradient(90deg, rgba(1,33,51,1) 0%, rgba(0,128,128,1) 10%, rgba(0,180,162,1) 20%, rgba(0,153,150,1) 38%, rgba(1,33,51,1) 100%);
+
+@media (max-width: 1075px) {
+  .divtitlemain {
+    background: rgb(89, 6, 6);
+    background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
     height: 369px;
     padding-top: 70px;
     padding-left: 70px;
     font-size: 73px;
     color: #fff;
   }
-  .divtitlemain3{
-    background: rgb(85,2,28);
-    background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 30%, rgba(85,2,28,1) 98%);
+
+  .divtitlemain2 {
+    background: rgb(1, 33, 51);
+    background: linear-gradient(90deg, rgba(1, 33, 51, 1) 0%, rgba(0, 128, 128, 1) 10%, rgba(0, 180, 162, 1) 20%, rgba(0, 153, 150, 1) 38%, rgba(1, 33, 51, 1) 100%);
+    height: 369px;
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: 73px;
+    color: #fff;
+  }
+
+  .divtitlemain3 {
+    background: rgb(85, 2, 28);
+    background: linear-gradient(90deg, rgba(85, 2, 28, 1) 7%, rgba(139, 9, 47, 1) 30%, rgba(85, 2, 28, 1) 98%);
     height: 369px;
     padding-top: 70px;
     padding-left: 70px;
@@ -398,142 +484,164 @@ th{
     color: #fff;
   }
 }
-.table-selector{
+
+.table-selector {
   font-size: 20px;
   padding-top: 26.5px;
 }
-.fixture-selector{
+
+.fixture-selector {
   font-size: 20px;
   padding-top: 30.5px;
 }
-.divcut{
+
+.divcut {
   height: 30px;
-  background: rgb(89,6,6);
-  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 30%, rgba(19,0,0,1) 98%);
+  background: rgb(89, 6, 6);
+  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 30%, rgba(19, 0, 0, 1) 98%);
 }
-.divcut2{
+
+.divcut2 {
   height: 30px;
-  background: rgb(1,33,51);
-  background: linear-gradient(90deg, rgba(1,33,51,1) 0%, rgba(0,128,128,1) 10%, rgba(0,180,162,1) 20%, rgba(0,153,150,1) 38%, rgba(1,33,51,1) 100%);  
+  background: rgb(1, 33, 51);
+  background: linear-gradient(90deg, rgba(1, 33, 51, 1) 0%, rgba(0, 128, 128, 1) 10%, rgba(0, 180, 162, 1) 20%, rgba(0, 153, 150, 1) 38%, rgba(1, 33, 51, 1) 100%);
 }
-.divcut3{
+
+.divcut3 {
   height: 30px;
-  background: rgb(85,2,28);
-  background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 30%, rgba(85,2,28,1) 98%);
+  background: rgb(85, 2, 28);
+  background: linear-gradient(90deg, rgba(85, 2, 28, 1) 7%, rgba(139, 9, 47, 1) 30%, rgba(85, 2, 28, 1) 98%);
 }
 
 /* ==================================Logos */
-.brand{
+.brand {
   padding-top: 5px;
   height: 55px;
   transition: 1s;
 }
-.brand:hover{
+
+.brand:hover {
   transform: scale(1.2);
 }
-.logos{
+
+.logos {
   width: 40px;
 }
-.logos-sm{
+
+.logos-sm {
   width: 30px;
 }
-.logos-evol{
+
+.logos-evol {
   width: 28px;
 }
-.logos-header{
+
+.logos-header {
   width: 40px;
   padding-top: 4px;
-  overflow:hidden;
+  overflow: hidden;
   transition: 0.2s;
 }
-.logos-header:hover{
-  transform:scale(1.2);
+
+.logos-header:hover {
+  transform: scale(1.2);
 }
+
 @media screen and (max-width: 1045px) {
-  .headerlogoseffect{
+  .headerlogoseffect {
     display: none;
   }
 }
-.dt{
+
+.dt {
   font-size: 30px;
   color: rgb(82, 82, 82);
 }
 
 /*===================================Fixture */
-.logos-fixture{
+.logos-fixture {
   width: 24px;
 }
-.fixture-title{
-  background: rgb(89,6,6);
-  background: linear-gradient(90deg, rgba(89,6,6,1) 7%, rgba(153,2,2,1) 50%, rgba(19,0,0,1) 100%);
+
+.fixture-title {
+  background: rgb(89, 6, 6);
+  background: linear-gradient(90deg, rgba(89, 6, 6, 1) 7%, rgba(153, 2, 2, 1) 50%, rgba(19, 0, 0, 1) 100%);
   color: #fff;
   padding-top: 3px;
   height: 30px;
 }
-.fixture-title2{
-  background: rgb(85,2,28);
-  background: linear-gradient(90deg, rgba(85,2,28,1) 7%, rgba(139,9,47,1) 50%, rgba(85,2,28,1) 100%);
+
+.fixture-title2 {
+  background: rgb(85, 2, 28);
+  background: linear-gradient(90deg, rgba(85, 2, 28, 1) 7%, rgba(139, 9, 47, 1) 50%, rgba(85, 2, 28, 1) 100%);
   color: #fff;
   padding-top: 3px;
   height: 30px;
 }
-.fixture{
+
+.fixture {
   padding-top: 12px;
-  border-color: #a8a8a8; 
-  border-width: 1px; 
+  border-color: #a8a8a8;
+  border-width: 1px;
   border-top-style: solid;
   border-left-style: solid;
   border-right-style: solid;
   height: 92px;
 }
-.fixture-r{
+
+.fixture-r {
   padding-top: 12px;
-  border-color: #a8a8a8; 
-  border-width: 1px; 
+  border-color: #a8a8a8;
+  border-width: 1px;
   border-top-style: solid;
   border-right-style: solid;
   height: 92px;
 }
-.fixture-r-2{
+
+.fixture-r-2 {
   padding-top: 12px;
-  border-color: #a8a8a8; 
-  border-width: 1px; 
+  border-color: #a8a8a8;
+  border-width: 1px;
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   height: 92px;
 }
-.fixture-b{
+
+.fixture-b {
   padding-top: 12px;
-  border-color: #a8a8a8; 
-  border-width: 1px; 
+  border-color: #a8a8a8;
+  border-width: 1px;
   border-left-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   height: 92px;
 }
-.fixture-pb{
+
+.fixture-pb {
   padding-top: 12px;
-  border-color: #a8a8a8; 
-  border-width: 1px; 
+  border-color: #a8a8a8;
+  border-width: 1px;
   border-top-style: solid;
   border-left-style: solid;
   border-bottom-style: solid;
   border-right-style: solid;
   height: 92px;
 }
-@media screen and (max-width: 991px){
-  .fixture-sm{
+
+@media screen and (max-width: 991px) {
+  .fixture-sm {
     padding-top: 12px;
     border-top-style: solid;
     border-left-style: solid;
     border-right-style: solid;
     border-bottom-style: none;
-    border-color: #a8a8a8; 
-    border-width: 1px; 
+    border-color: #a8a8a8;
+    border-width: 1px;
     height: 92px;
   }
-  .fixture-sm1{
+
+  .fixture-sm1 {
     padding-top: 12px;
     border-top-style: solid;
     border-left-style: solid;
@@ -544,79 +652,93 @@ th{
     height: 92px;
   }
 }
-.fixture-text{
+
+.fixture-text {
   font-size: 14px;
 }
-.fixture-divider{
+
+.fixture-divider {
   border-width: 1px;
   border-left-style: solid;
   border-color: #a8a8a8;
 }
 
 /* ==================================Final */
-.escudoteam{
+.escudoteam {
   font-size: 130px;
   /*<i class="fas fa-shield-alt escudoteam"></i>*/
 }
-.ascendido{
+
+.ascendido {
   font-size: 60px;
 }
-.ascendido-team{
+
+.ascendido-team {
   width: 60px;
 }
-.nacional{
+
+.nacional {
   font-size: 20px;
 }
-.finalist-team{
+
+.finalist-team {
   width: 130px;
 }
-.teamsfinal{
+
+.teamsfinal {
   font-size: 18px;
   font-weight: bold;
 }
-.marcador{
+
+.marcador {
   font-size: 50px;
   padding-top: 40px;
   font-weight: bold;
 }
-.headersfinal{
+
+.headersfinal {
   font-size: 15px;
   font-style: italic;
   margin-bottom: 0%;
 }
-.headersfinal2{
+
+.headersfinal2 {
   font-size: 12px;
   font-style: italic;
   margin-bottom: 0%;
   color: #4d4d4d;
 }
-.marcador2{
+
+.marcador2 {
   font-size: 30px;
   font-weight: bold;
 }
 
 /* ==================================Brackets */
-.bracketstitle{
+.bracketstitle {
   font-weight: bold;
   font-size: 20px;
 }
-.bracketscontent{
+
+.bracketscontent {
   padding-left: 10px;
   font-size: 13px;
 }
-.brackets{
+
+.brackets {
   background-color: #f8f9fa;
   border-color: #dbdbdb;
   border-width: 1px;
 }
 
 /* ==================================HR */
-.divider{
+.divider {
   margin: 50px 0px 50px 0px;
   border-style: dotted;
   border-width: 5px;
 }
-.dividertop{
+
+.dividertop {
   border-color: #000000;
   border-style: solid;
   border-width: 3px;
@@ -624,7 +746,8 @@ th{
   width: 100%;
   opacity: 100%;
 }
-.dividerbottom{
+
+.dividerbottom {
   border-color: white;
   border-style: solid;
   border-width: 3px;
@@ -634,59 +757,73 @@ th{
 }
 
 /* ==================================Separadores */
-.separadortop{
+.separadortop {
   margin-top: 15px;
 }
-.separadorbottom{
+
+.separadorbottom {
   margin-bottom: 15px;
 }
-.separadorright{
+
+.separadorright {
   margin-right: 15px;
 }
-.separadorleft{
+
+.separadorleft {
   margin-left: 15px;
 }
-.padtop{
+
+.padtop {
   padding-top: 30px;
 }
-.padtop2{
+
+.padtop2 {
   padding-top: 15px;
 }
-.padbottom{
+
+.padbottom {
   padding-bottom: 30px;
 }
-.padbottom2{
+
+.padbottom2 {
   padding-bottom: 4px;
 }
-.padright{
+
+.padright {
   padding-right: 20px;
 }
-.padleft{
+
+.padleft {
   padding-left: 20px;
 }
 
 /* ==================================Width */
-.w-5{
+.w-5 {
   width: 5%;
 }
-.w-10{
+
+.w-10 {
   width: 10%;
 }
-.w-30{
+
+.w-30 {
   width: 30%;
 }
-.w-35{
+
+.w-35 {
   width: 35%;
 }
-.w-1c{
+
+.w-1c {
   width: 100px;
 }
-.managerstablewidth{
+
+.managerstablewidth {
   width: 530px;
 }
 
 /* ==================================Posiciones */
-.winner{
+.winner {
   background-color: #D8A928;
   height: 52px;
   width: 15px;
@@ -696,7 +833,8 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.winner-sm{
+
+.winner-sm {
   background-color: #D8A928;
   height: 41px;
   width: 20px;
@@ -706,8 +844,9 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 /* Liga1Positions */
-.libertadores{
+.libertadores {
   background-color: #FBBC04;
   height: 52px;
   width: 15px;
@@ -717,10 +856,12 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.libertadores-evol{
+
+.libertadores-evol {
   background-color: #fff5d7;
 }
-.sudamericana{
+
+.sudamericana {
   background-color: #34A853;
   height: 52px;
   width: 15px;
@@ -730,10 +871,12 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.sudamericana-evol{
+
+.sudamericana-evol {
   background-color: #d4f7dd;
 }
-.revalidacion{
+
+.revalidacion {
   background-color: #f57316;
   height: 52px;
   width: 15px;
@@ -743,10 +886,12 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.revalidacion-evol{
+
+.revalidacion-evol {
   background-color: #fcddc7;
 }
-.descenso{
+
+.descenso {
   background-color: #c1272d;
   height: 52px;
   width: 15px;
@@ -756,15 +901,18 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.descenso-evol{
+
+.descenso-evol {
   background-color: #ffb8bb;
 }
-.t-modal-h td{
+
+.t-modal-h td {
   height: 20px;
   padding: 2px 2px;
 }
+
 /* Liga2Positions */
-.ascenso{
+.ascenso {
   background-color: #27943C;
   height: 52px;
   width: 15px;
@@ -774,10 +922,12 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.ascenso-evol{
+
+.ascenso-evol {
   background-color: #b6e6bf;
 }
-.playoff{
+
+.playoff {
   background-color: #a1cb40;
   height: 52px;
   width: 15px;
@@ -787,11 +937,13 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.playoff-evol{
+
+.playoff-evol {
   background-color: #dcecb5;
 }
+
 /* CopaPeru */
-.final{
+.final {
   background-color: #019290;
   height: 40px;
   width: 13px;
@@ -801,7 +953,8 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.ascensol1{
+
+.ascensol1 {
   background-color: #08a2bd;
   height: 40px;
   width: 13px;
@@ -811,7 +964,8 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.ascensol2{
+
+.ascensol2 {
   background-color: #01c4b3;
   height: 40px;
   width: 13px;
@@ -821,8 +975,9 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 /* Eliminatorias */
-.clasificacion{
+.clasificacion {
   background-color: #6A1A33;
   height: 52px;
   width: 15px;
@@ -832,7 +987,8 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.repechaje{
+
+.repechaje {
   background-color: #EED0A4;
   height: 52px;
   width: 15px;
@@ -842,8 +998,9 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 /* EXTRA */
-.tecnico{
+.tecnico {
   background-color: #d8b145;
   height: 52px;
   width: 15px;
@@ -853,7 +1010,8 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.destituido{
+
+.destituido {
   background-color: #2c2c2c;
   height: 52px;
   width: 15px;
@@ -863,7 +1021,8 @@ th{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
-.bracket-height td{
+
+.bracket-height td {
   height: 51px;
 }
 
@@ -873,42 +1032,47 @@ lose:    <i class="fas fa-times-circle lose"></i>
 draw:    <i class="fas fa-minus-circle draw"></i>
 circle:  <i class="fas fa-circle draw"></i>
 */
-.win{
+.win {
   margin-top: 10px;
   color: #3AA757;
   font-size: 18px;
 }
-.draw{
+
+.draw {
   margin-top: 10px;
   color: #9AA0A6;
   font-size: 18px;
 }
-.lose{
+
+.lose {
   margin-top: 10px;
   color: #EA4335;
   font-size: 18px;
 }
 
 /* ==================================Lineas */
-.linetop{
+.linetop {
   border-width: 0;
   border-color: black;
   border-style: solid;
   border-top-width: 2px;
 }
-.linebottom{
+
+.linebottom {
   border-width: 0;
   border-color: black;
   border-style: solid;
   border-bottom-width: 2px;
 }
-.lineright{
+
+.lineright {
   border-width: 0;
   border-color: black;
   border-style: solid;
   border-right-width: 2px;
 }
-.lineleft{
+
+.lineleft {
   border-width: 0;
   border-color: black;
   border-style: solid;
@@ -916,34 +1080,41 @@ circle:  <i class="fas fa-circle draw"></i>
 }
 
 /* ==================================Clubs */
-.clubCircle{
+.clubCircle {
   margin-top: -30px;
   position: relative;
   padding-top: 20px;
-  width:110px;
-  height:110px;
+  width: 110px;
+  height: 110px;
   background: #fff;
   border-radius: 50%;
-  top: 45%; /* Position Y halfway in */
-  left: 50%; /* Position X halfway in */
-  transform: translate(-50%,-50%); /* Move it halfway back(x,y) */
+  top: 45%;
+  /* Position Y halfway in */
+  left: 50%;
+  /* Position X halfway in */
+  transform: translate(-50%, -50%);
+  /* Move it halfway back(x,y) */
 }
-.clubSquareFoot{
+
+.clubSquareFoot {
   margin-top: -120px;
   padding-top: 80px;
   padding-bottom: 20px;
 }
-.clubSquareFoot2{
+
+.clubSquareFoot2 {
   margin-top: -120px;
   padding-top: 80px;
   padding-bottom: 20px;
   color: #333333;
 }
-.logosclubs{
+
+.logosclubs {
   height: 70px;
   width: 70px;
 }
-.club-divider{
+
+.club-divider {
   background: #fff;
   border-color: white;
   border-style: solid;
@@ -953,208 +1124,254 @@ circle:  <i class="fas fa-circle draw"></i>
   width: 80%;
   opacity: 100%;
 }
-.club-name{
+
+.club-name {
   font-size: 17px;
   margin-bottom: 3px;
 }
-.club-stadium{
+
+.club-stadium {
   font-size: 13px;
 }
-.perfil{
+
+.perfil {
   font-size: 14px;
 }
-.perfil:hover{
+
+.perfil:hover {
   text-decoration: underline;
 }
-.club-banner-top{
+
+.club-banner-top {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.club-banner-bottom{
+
+.club-banner-bottom {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 .club-animation:hover i {
-  animation: bounce 3s infinite  ease;
+  animation: bounce 3s infinite ease;
 }
+
 @keyframes bounce {
-	0% {transform: translateX(0%)}
-	50% {transform: translateX(100%)}
-	100% {transform: translateX(0%)}
+  0% {
+    transform: translateX(0%)
+  }
+
+  50% {
+    transform: translateX(100%)
+  }
+
+  100% {
+    transform: translateX(0%)
+  }
 }
-.club-animation .figure{
+
+.club-animation .figure {
   width: 100%;
   height: 200px;
   overflow: hidden;
   transition: all 2s ease;
 }
-.club-animation .figure img{
+
+.club-animation .figure img {
   width: 100%;
   height: 100%;
   transition: all 2s ease;
 }
-.club-animation:hover .figure img{
+
+.club-animation:hover .figure img {
   transform: scale(1.1);
 }
 
 /* ==================================Footer */
 .footer-clean {
-  padding:40px 0;
-  background-color:#1B1A17;
-  color:#ebebeb;
+  padding: 40px 0;
+  background-color: #1B1A17;
+  color: #ebebeb;
 }
+
 .footer-clean h3 {
-  margin-top:0;
-  margin-bottom:12px;
-  font-weight:bold;
-  font-size:16px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
 }
-.footer-clean .d-b{
+
+.footer-clean .d-b {
   width: 50%;
 }
+
 .footer-clean ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
 }
+
 .footer-clean ul a {
-  color:inherit;
-  text-decoration:none;
+  color: inherit;
+  text-decoration: none;
   white-space: nowrap;
-  opacity:0.7;
+  opacity: 0.7;
 }
+
 .footer-clean ul a:hover {
-  opacity:1;
+  opacity: 1;
 }
+
 @media (max-width:991px) {
   .footer-clean .item {
-    text-align:center;
-    padding-bottom:20px;
+    text-align: center;
+    padding-bottom: 20px;
   }
-  .footer-clean .d-b{
+
+  .footer-clean .d-b {
     margin-left: 20%;
     width: 60%;
   }
 }
-.footer-clean .item.social > a {
-  font-size:24px;
-  width:50px;
-  height:50px;
-  line-height:50px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:2px solid #ccc;
-  margin-left:10px;
-  color:inherit;
-  opacity:0.75;
+
+.footer-clean .item.social>a {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-left: 10px;
+  color: inherit;
+  opacity: 0.75;
 }
-.footer-clean .item.social > a:hover {
-  opacity:100;
-  transform:scale(1.1);
+
+.footer-clean .item.social>a:hover {
+  opacity: 100;
+  transform: scale(1.1);
 }
 
 @media (max-width:767px) {
-  .footer-clean .item.social > a {
-    margin-top:10px;
+  .footer-clean .item.social>a {
+    margin-top: 10px;
   }
 }
+
 .footer-clean .copyright {
-  margin-top:14px;
-  margin-bottom:0;
-  font-size:14px;
-  opacity:0.6;
+  margin-top: 14px;
+  margin-bottom: 0;
+  font-size: 14px;
+  opacity: 0.6;
   color: #8b8b8b;
   text-decoration: none;
 }
+
 .footer-clean .copyright:hover {
   text-decoration: underline;
 }
+
 @media (max-width: 991px) {
   .footer-clean .item.social {
-    text-align:center;
+    text-align: center;
   }
 
 }
 
 /* ==================================Tabla Copa Peru */
-.escudog{
+.escudog {
   font-size: 20px;
   margin-top: 5px;
 }
 
 /* ==================================Otros */
 /* Evitar el Salto de linea */
-.nospace{
+.nospace {
   white-space: nowrap;
 }
-.notes{
+
+.notes {
   padding-top: 20px;
   margin-bottom: 0px;
   font-size: 12px;
   font-style: italic;
 }
-.notes2{
+
+.notes2 {
   font-size: 16px;
 }
-.zerobottom{
+
+.zerobottom {
   margin-bottom: 0%;
 }
-.pad0{
+
+.pad0 {
   padding: 0px 0px 0px 0px;
 }
-.indicator{
+
+.indicator {
   color: rgb(255, 255, 255);
-    position: absolute;
-    font-size: 20px;
-    margin-top: -3px;
-    margin-left: -5px;
-    visibility: visible;
+  position: absolute;
+  font-size: 20px;
+  margin-top: -3px;
+  margin-left: -5px;
+  visibility: visible;
 }
 
 /* ==================================Otros */
 /* MODAL */
-#modal::backdrop{
+#modal::backdrop {
   background-color: rgba(0, 0, 0, 0.829);
 }
-dialog{
+
+dialog {
   border-color: #D8A928;
 }
-.modal-table button{
+
+.modal-table button {
   width: 150px;
 }
 
 /* ==================================Mapa */
-.map{
+.map {
   background-color: rgb(29, 29, 29);
   border-radius: 20px;
   width: 500px;
 }
-.info h4{
+
+.info h4 {
   margin-bottom: 0px;
 }
-.info hr{
+
+.info hr {
   margin-top: 0px;
 }
-.map-team{
+
+.map-team {
   fill: rgb(133, 17, 17);
   transition: 0.5s;
 }
-.map-team:hover{
+
+.map-team:hover {
   fill: #D8A928;
 }
-.map-info{
+
+.map-info {
   visibility: hidden;
 }
-.map-info2{
+
+.map-info2 {
   visibility: visible;
 }
-.img-team-info{
+
+.img-team-info {
   width: 40px;
 }
-.info-card{
+
+.info-card {
   background: #fafafa;
   border: #D8A928 solid;
   border-radius: 10px;
@@ -1163,219 +1380,278 @@ dialog{
   font-style: oblique;
   margin-bottom: 18px;
 }
+
 .info-card p {
   font-size: 14px;
   font-style: normal;
 }
+
 .info-card hr {
   margin: 5px 5px 5px 5px;
 }
-.map-norte{
+
+.map-norte {
   fill: #42a10a;
   transition: 0.5s;
 }
-.map-centro{
+
+.map-centro {
   fill: #d4a41e;
   transition: 0.5s;
 }
-.map-sur{
+
+.map-sur {
   fill: #a10a0a;
   transition: 0.5s;
 }
-.map-lima{
+
+.map-lima {
   fill: #083268;
   transition: 0.5s;
 }
 
 @media screen and (max-width: 991px) {
-  .indicator{
+  .indicator {
     display: none;
     visibility: hidden;
   }
 }
-.content{
+
+.content {
   background-color: #fff;
   border-radius: 20px;
   padding: 30px 80px 30px 80px;
 }
-.libertadores-logo{
+
+.libertadores-logo {
   border-color: #B47B33;
   border-width: 4px;
   border-style: dashed;
   width: 150px;
   height: 150px;
 }
-.sudamericana-logo{
-  border-color: rgb(4,22,110);
+
+.sudamericana-logo {
+  border-color: rgb(4, 22, 110);
   border-width: 4px;
   border-style: dashed;
   width: 150px;
   height: 150px;
 }
+
 @media screen and (max-width: 991px) {
-  .sudamericana-logo{
+  .sudamericana-logo {
     margin-top: 30px;
-    border-color: rgb(4,22,110);
+    border-color: rgb(4, 22, 110);
     border-width: 4px;
     border-style: dashed;
     width: 150px;
     height: 150px;
   }
 }
-.f-tbt{
+
+.f-tbt {
   font-size: 12px;
 }
-.table-cupos{
+
+.table-cupos {
   border-style: solid;
   border-width: 0.5px;
   border-color: #dfdfdf;
 }
-.table-cupos tr{
+
+.table-cupos tr {
   width: 80%;
 }
-.table-cupos td{
+
+.table-cupos td {
   border-style: solid;
   border-width: 0.5px;
   border-color: #dfdfdf;
   height: 36px;
 }
-.table-cupos td:nth-child(1){
+
+.table-cupos td:nth-child(1) {
   padding: 0px 12px 0px 12px;
 }
-.table-cupos td:nth-child(2){
+
+.table-cupos td:nth-child(2) {
   padding: 0px 12px 0px 12px;
   width: 100%;
 }
-.vc{
+
+.vc {
   display: flex;
   align-items: center;
 }
-.options-d{
+
+.options-d {
   display: block;
 }
-.options-p{
+
+.options-p {
   display: none;
 }
-.options-p a:hover{
+
+.options-p a:hover {
   background-color: #ebebeb;
   color: rgb(34, 34, 34);
 }
-@media screen and (max-width: 1060px){
-  .map{
+
+@media screen and (max-width: 1060px) {
+  .map {
     width: 400px;
   }
 }
-@media screen and (max-width: 840px){
-  .map{
+
+@media screen and (max-width: 840px) {
+  .map {
     width: 360px;
   }
-  .img-team-info{
+
+  .img-team-info {
     width: 30px;
   }
 }
-@media screen and (max-width: 767px){
-  .options-d{
+
+@media screen and (max-width: 767px) {
+  .options-d {
     display: none;
   }
-  .options-p{
+
+  .options-p {
     display: block;
   }
-  .map{
+
+  .map {
     width: 100%;
   }
 }
 
-.title-d{
+.title-d {
   display: block;
 }
-.title-p{
+
+.title-p {
   display: none;
 }
-@media screen and (max-width: 991px){
-  .title-d{
+
+@media screen and (max-width: 991px) {
+  .title-d {
     display: none;
   }
-  .title-p{
+
+  .title-p {
     display: block;
   }
-  .divtitle{
+
+  .divtitle {
     padding-left: 0px;
   }
-  .divtitle2{
+
+  .divtitle2 {
     padding-left: 0px;
   }
-  .title-efct{
+
+  .title-efct {
     text-align: center;
   }
-  .divtitle3{
+
+  .divtitle3 {
     padding-left: 12px;
   }
-  .e-n{
+
+  .e-n {
     text-align: center;
     font-size: 60px;
   }
-  .e-fe{
+
+  .e-fe {
     text-align: center;
     font-size: 55px;
   }
 }
-@media screen and (max-width: 525px){
-  .reval-title{
+
+@media screen and (max-width: 525px) {
+  .reval-title {
     font-size: 50px;
   }
-  .img-team-info{
+
+  .img-team-info {
     width: 40px;
   }
 }
-.description-d{
+
+.description-d {
   display: block;
 }
-.description-p{
+
+.description-p {
   display: none;
 }
+
 @media screen and (max-width: 778px) {
-  .description-d{
+  .description-d {
     display: none;
   }
-  .description-p{
+
+  .description-p {
     display: block;
   }
-  .notes{
+
+  .notes {
     padding-top: 20px;
     margin-bottom: 0px;
     font-size: 9px;
     font-style: italic;
   }
-  .notes2{
+
+  .notes2 {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 429px) {
-  .escudoteam{
+  .escudoteam {
     font-size: 80px;
   }
-  .finalist-team{
+
+  .finalist-team {
     width: 80px;
   }
-  .teamsfinal{
+
+  .teamsfinal {
     font-size: 15px;
   }
-  .headersfinal{
+
+  .headersfinal {
     font-size: 14px;
   }
-  .marcador2{
+
+  .marcador2 {
     font-size: 18px;
   }
-  .headersfinal2{
+
+  .headersfinal2 {
     font-size: 12px;
   }
-  .global{
+
+  .global {
     font-size: 12px;
   }
 }
 
+.CD {
+  border-radius: 6px;
+  background-color: #dba40b;
+  text-align: center;
+}
 
+.SD {
+  border-radius: 6px;
+  background-color: #d6d6d6;
+  text-align: center;
+}
 
 
 
@@ -1494,7 +1770,7 @@ dialog{
   color: #000;
   cursor: pointer;
   flex-shrink: 0;
-  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: 500;
   height: 4rem;
@@ -1516,6 +1792,3 @@ dialog{
     padding: 0 2.6rem;
   }
 }
-
-
-
