@@ -30,15 +30,15 @@ cargarDatos().then(datos => {
                <th><div data-identifier="${identifier}"></div></th>
                <th>${position}</th>
                <td class="nospace text-start t-h">${`<img src="${item.image}" alt="${item.alt}" class="logos">` + ' ' + item.name}</td>
-               <td class="text-center t-h" id="puntos${item.id}">0</td>
+               <td class="text-center t-h fw-bold" id="puntos${item.id}">0</td>
                <td class="t-h" id="pj${item.id}">0</td>
-               <td class="t-h" id="pg${item.id}">0</td>
-               <td class="t-h" id="pe${item.id}">0</td>
-               <td class="t-h" id="pp${item.id}">0</td>
-               <td class="t-h" id="gf${item.id}">0</td>
-               <td class="t-h" id="gc${item.id}">0</td>
+               <td class="t-h" id="pg${item.id}">${item.pg}</td>
+               <td class="t-h" id="pe${item.id}">${item.pe}</td>
+               <td class="t-h" id="pp${item.id}">${item.pp}</td>
+               <td class="t-h" id="gf${item.id}">${item.gf}</td>
+               <td class="t-h" id="gc${item.id}">${item.gc}</td>
                <td class="t-h" id="dg${item.id}">0</td>
-               <td class="t-h" id="pr${item.id}">0</td>
+               <td class="t-h" id="pr${item.id}">${item.pr}</td>
             </tr>
          `
          position++

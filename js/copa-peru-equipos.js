@@ -32,12 +32,10 @@ cargarDatos().then((datos) => {
       teamsL.innerHTML += `
          <tr>
             <td class="nospace" rowspan="2"><span><img src="${datos.Departamentos[i].flag}" alt="${datos.Departamentos[i].alt}" width="50px"></span>&nbsp&nbsp ${datos.Departamentos[i].name}</td>
-            <td class="t-h nospace"><div class="CD">C</div></td>
             <td class="t-h nospace">${logoA} ${datos.Teams[a].name}</td>
             <td class="t-h nospace">${datos.Teams[a].ciudad}</td>
          </tr>
          <tr>
-            <td class="t-h nospace"><div class="SD">SC</div></td>
             <td class="t-h nospace">${logoB} ${datos.Teams[b].name}</td>
             <td class="t-h nospace">${datos.Teams[b].ciudad}</td>
          </tr>
