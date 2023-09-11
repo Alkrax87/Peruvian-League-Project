@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 	<head>
-		<title>Eliminatorias</title>
+		<title>Eliminatorias Equipos</title>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,6 +22,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+		<!-- Flags -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.5/css/flag-icons.min.css">
 	</head>
 
 	<body>
@@ -88,7 +90,7 @@
 							</div>
 							<div class="col-lg-1 col-md-2 pad0">
 								<a class="navoptionstext" href="eliminatorias-tecnicos.html">
-									<div class="navoptions">Técnicos</div>
+									<div class="selected">Técnicos</div>
 								</a>
 							</div>
 						</div>
@@ -98,12 +100,11 @@
 				<div class="bg-light container-fluid btn-nav-options options-p">
 					<div class="dropdown">
 						<button class="btn btn-options-style dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-							Eliminatorias
+							Técnicos
 						</button>
 						<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 							<li><a class="dropdown-item text-center" href="eliminatorias-equipos.html">Equipos</a></li>
 							<li><a class="dropdown-item text-center" href="eliminatorias-tabla.html">Tabla</a></li>
-							<li><a class="dropdown-item text-center" href="eliminatorias-tecnicos.html">Técnicos</a></li>
 						</ul>
 					</div>
 				</div>
@@ -112,8 +113,22 @@
 
 		<main>
 
-			<!-- Banner -->
-			<img src="images/banners/eliminatoriasbanner.jpg" width="100%" alt="liga1banner">
+			<!-- Titulo -->
+				<!-- H -->
+				<div class="container-fluid divtitle3 title-d">
+					<div class="row">
+						<div class="col-8">
+							<h1><b>Técnicos</b></h1>
+						</div>
+						<div class="col-4 text-center">
+							<button class="btn button-36"><i class="fas fa-share-alt-square"></i>&nbsp Compartir</button>
+						</div>
+					</div>
+				</div>
+				<!-- R -->
+				<div class="container-fluid text-center divtitle3 title-p">
+					<h1 style="font-size: 70px;"><b>Técnicos</b></h1>
+				</div>
 			<!-- Descripción-->
 				<!-- H -->
 				<div class="container-fluid bglight description-d">
@@ -122,7 +137,7 @@
 							<p class="notes">Clasificación</p>
 							<p id="nombreH" class="notes2"></p>
 						</div>
-							<div class="col-3 text-center">
+						<div class="col-3 text-center">
 							<p class="notes">Equipos</p>
 							<p id="equiposH" class="notes2"></p>
 						</div>
@@ -157,24 +172,47 @@
 				</div>
 			<!-- Divisor -->
 			<div class="container-fluid bg-light divcut3 shadow-lg"></div>
-			<!-- Formato -->
-			<div class="container-fluid bglight my-5 py-5 px-5 shadow-lg">
-				<div class="row vc">
-					<div class="col-md-4 text-center">
-						<img class="img-fluid shadow-lg" alt="liga-1" style="width: 350px; border-radius: 30px;" src="https://us.123rf.com/450wm/fifg/fifg1805/fifg180500017/101711518-13-de-abril-de-2018-mosc%C3%BA-rusia-trofeo-de-la-copa-mundial-de-la-fifa-con-el-tel%C3%B3n-de-fondo-del-estad.jpg?ver=6">
-					</div>
-					<div class="col-md-8">
-						<br>
-						<h2 class="f-d">CLASIFICACIÓN CONMEBOL</h2>
-						<p class="f-d">La clasificación al mundial se realiza en 18 fechas, donde todas las selecciones participantes se enfrentan en un todos contra todos de local y de visita.</p>
-						<ul>
-						<li class="f-d">Los primeros 6 de la tabla clasifican directamente al mundial.</li>
-						<br>
-						<li class="f-d">El equipo ubicado en el 7° lugar tendrá que jugar el repechaje.</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			<!-- Tabla -->
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col"></div>
+               <div class="col-xl-9 col-lg-11 col-md-12 my-4 bglight table-text padtop2 topcorners bottomcorners shadow-lg">
+
+                  <div class="table-responsive">
+
+                     <!-- Tabla -->
+                     <table class="table liga-table">
+                        <thead>
+                           <tr class="tableheader3">
+                              <th scope="col"></th>
+                              <th scope="col" class="managerstablewidth">Director Técnico</th>
+                              <th scope="col" class="managerstablewidth">Club</th>
+                              <th scope="col" class="managerstablewidth">Nacionalidad</th>
+                           </tr>
+                        </thead>
+                        <tbody id="table">
+                        </tbody>
+                     </table>
+
+                  </div>
+
+                  <!-- Descripción -->
+                  <div class="foottable separadorbottom">
+                     <h6 class="text-start"><b>Estado del DT</b></h6>
+                     <div class="text-start">
+                        <i class="fas fa-square square" style="color:#d8b145"></i>
+                        <span class="textdescription">Actual</span>
+                     </div>
+                     <div class="text-start">
+                        <i class="fas fa-square square" style="color:#2c2c2c"></i>
+                        <span class="textdescription">Destituido</span>
+                     </div>
+                  </div>
+
+               </div>
+               <div class="col"></div>
+            </div>
+         </div>
 
 		</main>
 
@@ -225,7 +263,6 @@
 
 		</footer>
 
-		<script src="./js/eliminatorias.js"></script>
-
+		<script src="./js/eliminatorias-tecnicos.js"></script>
 	</body>
 </html>

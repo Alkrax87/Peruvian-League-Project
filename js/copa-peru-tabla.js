@@ -29,7 +29,7 @@ cargarDatos().then(datos => {
             <tr>
                <th><div data-identifier="${identifier}"></div></th>
                <th>${position}</th>
-               <td class="nospace text-start t-h">${`<img src="${item.image}" alt="${item.alt}" class="logos">` + ' ' + item.name}</td>
+               <td class="nospace text-start t-h">${`<img src="${item.image}" alt="${item.alt}" class="logos-sm">` + ' ' + item.name}</td>
                <td class="text-center t-h fw-bold" id="puntos${item.id}">0</td>
                <td class="t-h" id="pj${item.id}">0</td>
                <td class="t-h" id="pg${item.id}">${item.pg}</td>
