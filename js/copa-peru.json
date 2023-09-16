@@ -282,10 +282,10 @@
       },
       {
          "id": "Team12",
-         "name": "Asociación Deportiva Arteaga",
-         "image": "images/copa-peru/art.png",
-         "alt": "ART-logo",
-         "ciudad": "Cajabamba",
+         "name": "FC Cajamarca",
+         "image": "images/copa-peru/fcc.png",
+         "alt": "FCC-logo",
+         "ciudad": "Cajamarca",
          "pg": "0",
          "pe": "0",
          "pp": "0",
@@ -312,11 +312,11 @@
          "image": "images/copa-peru/cpo.png",
          "alt": "CPO-logo",
          "ciudad": "La Preña",
-         "pg": "0",
+         "pg": "1",
          "pe": "0",
          "pp": "0",
-         "gf": "0",
-         "gc": "0",
+         "gf": "2",
+         "gc": "1",
          "pr": "0"
       },
       {
@@ -418,9 +418,9 @@
          "ciudad": "Puquio",
          "pg": "0",
          "pe": "0",
-         "pp": "0",
-         "gf": "0",
-         "gc": "0",
+         "pp": "1",
+         "gf": "1",
+         "gc": "2",
          "pr": "0"
       },
       {

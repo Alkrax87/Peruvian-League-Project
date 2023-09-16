@@ -397,10 +397,10 @@
       ]
    },
    "Campeon": {
-      "status": false,
-      "name": "",
-      "image": "",
-      "alt": ""
+      "status": true,
+      "name": "Comerciantes Unidos",
+      "image": "images/liga-2/cou.png",
+      "alt": "COU-logo"
    },
    "Cuartos": [
       {

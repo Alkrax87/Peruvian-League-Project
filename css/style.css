@@ -619,6 +619,16 @@ background: linear-gradient(90deg, rgba(19,17,64,1) 0%, rgba(17,50,119,1) 23%, r
   height: 92px;
 }
 
+.fixture-b-2 {
+  padding-top: 12px;
+  border-color: #a8a8a8;
+  border-width: 1px;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  height: 92px;
+}
+
 .fixture-pb {
   padding-top: 12px;
   border-color: #a8a8a8;
@@ -650,6 +660,16 @@ background: linear-gradient(90deg, rgba(19,17,64,1) 0%, rgba(17,50,119,1) 23%, r
     border-bottom-style: solid;
     border-color: #a8a8a8;
     border-width: 1px;
+    height: 92px;
+  }
+
+  .fixture-b-2 {
+    padding-top: 12px;
+    border-color: #a8a8a8;
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
     height: 92px;
   }
 }
@@ -728,7 +748,7 @@ background: linear-gradient(90deg, rgba(19,17,64,1) 0%, rgba(17,50,119,1) 23%, r
 
 .brackets {
   background-color: #f8f9fa;
-  border-color: #dbdbdb;
+  border-color: #cccccc;
   border-width: 1px;
 }
 
