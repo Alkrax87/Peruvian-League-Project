@@ -5,8 +5,8 @@
       "apertura": false,
       "clausura": true,
       "fechaApertura": "13",
-      "fechaClausura": "12",
-      "t4tos": false,
+      "fechaClausura": "13",
+      "t4tos": true,
       "semifinal": false,
       "final": false
    },
@@ -393,7 +393,7 @@
          "1","0","1","0","3","3","4","2","5","3","1","0","1","2"
       ],
       "F13": [
-         "","","","","","","","","","","","","",""
+         "","0","","1","","2","1","4","","0","","0","3",""
       ]
    },
    "Campeon": {
