@@ -231,7 +231,12 @@ cargarDatos().then(datos => {
       document.getElementById("app".concat(team)).innerHTML = pp;
       document.getElementById("agf".concat(team)).innerHTML = gf;
       document.getElementById("agc".concat(team)).innerHTML = gc;
-      document.getElementById("adg".concat(team)).innerHTML = gf-gc;
+      var difga = gf-gc;
+      if (difga > 0) {
+         document.getElementById("adg".concat(team)).innerHTML = "+" + difga
+      } else {
+         document.getElementById("adg".concat(team)).innerHTML = difga
+      }
       document.getElementById("alg".concat(team)).innerHTML = lastGames.join(' ');
    }
    function FixtureProcessC(team){
@@ -309,7 +314,12 @@ cargarDatos().then(datos => {
       document.getElementById("cpp".concat(team)).innerHTML = pp;
       document.getElementById("cgf".concat(team)).innerHTML = gf;
       document.getElementById("cgc".concat(team)).innerHTML = gc;
-      document.getElementById("cdg".concat(team)).innerHTML = gf-gc;
+      var difgc = gf-gc;
+      if (difgc > 0) {
+         document.getElementById("cdg".concat(team)).innerHTML = "+" + difgc
+      } else {
+         document.getElementById("cdg".concat(team)).innerHTML = difgc
+      }
       document.getElementById("clg".concat(team)).innerHTML = lastGames.join(' ');
    }
    function TablaAcumulado(team){
@@ -320,7 +330,12 @@ cargarDatos().then(datos => {
       document.getElementById("pp".concat(team)).innerHTML = parseInt($("#app".concat(team)).text()) + parseInt($("#cpp".concat(team)).text());
       document.getElementById("gf".concat(team)).innerHTML = parseInt($("#agf".concat(team)).text()) + parseInt($("#cgf".concat(team)).text());
       document.getElementById("gc".concat(team)).innerHTML = parseInt($("#agc".concat(team)).text()) + parseInt($("#cgc".concat(team)).text());
-      document.getElementById("dg".concat(team)).innerHTML = parseInt($("#adg".concat(team)).text()) + parseInt($("#cdg".concat(team)).text());
+      var difg = parseInt($("#adg".concat(team)).text()) + parseInt($("#cdg".concat(team)).text());
+      if (difg > 0) {
+         document.getElementById("dg".concat(team)).innerHTML = "+" + difg
+      } else {
+         document.getElementById("dg".concat(team)).innerHTML = difg
+      }
 
       //Asignacion de iconos de ultmos 5 partidos
       var tabla;
@@ -341,7 +356,8 @@ cargarDatos().then(datos => {
    }
 
    //Reduccion de puntos
-   document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 6;
+   document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 5;
+   document.getElementById("puntosTeam11").innerHTML = parseInt($("#puntosTeam11").text()) - 1;
 
    //Proceso de ordenamiento de la tabla
    function ordenarTabla(tableID){
