@@ -3,7 +3,7 @@
       "temporada": 2023,
       "equipos": 50,
       "nacional": true,
-      "t16avos": false,
+      "t16avos": true,
       "t8vos": false,
       "t4tos": false,
       "semifinal": false,
@@ -143,12 +143,12 @@
          "image": "images/copa-peru/usd.png",
          "alt": "USD-logo",
          "ciudad": "Chachapoyas",
-         "pg": "3",
+         "pg": "4",
          "pe": "0",
          "pp": "2",
-         "gf": "9",
-         "gc": "9",
-         "pr": "24"
+         "gf": "11",
+         "gc": "10",
+         "pr": "30"
       },
       {
          "id": "Team2",
@@ -158,10 +158,10 @@
          "ciudad": "Jazán",
          "pg": "1",
          "pe": "0",
-         "pp": "4",
-         "gf": "5",
-         "gc": "10",
-         "pr": "21"
+         "pp": "5",
+         "gf": "6",
+         "gc": "12",
+         "pr": "30"
       },
       {
          "id": "Team3",
@@ -170,11 +170,11 @@
          "alt": "SAN-logo",
          "ciudad": "Huaraz",
          "pg": "2",
-         "pe": "1",
+         "pe": "2",
          "pp": "2",
-         "gf": "8",
-         "gc": "8",
-         "pr": "68"
+         "gf": "9",
+         "gc": "9",
+         "pr": "85"
       },
       {
          "id": "Team4",
@@ -183,11 +183,11 @@
          "alt": "SMA-logo",
          "ciudad": "San Marcos",
          "pg": "4",
-         "pe": "0",
+         "pe": "1",
          "pp": "1",
-         "gf": "14",
-         "gc": "5",
-         "pr": "48"
+         "gf": "16",
+         "gc": "7",
+         "pr": "64"
       },
       {
          "id": "Team5",
@@ -197,10 +197,10 @@
          "ciudad": "Abancay",
          "pg": "5",
          "pe": "0",
-         "pp": "0",
+         "pp": "1",
          "gf": "13",
-         "gc": "6",
-         "pr": "60"
+         "gc": "7",
+         "pr": "87"
       },
       {
          "id": "Team6",
@@ -210,9 +210,9 @@
          "ciudad": "Challhua",
          "pg": "0",
          "pe": "0",
-         "pp": "5",
-         "gf": "4",
-         "gc": "11",
+         "pp": "6",
+         "gf": "6",
+         "gc": "14",
          "pr": "0"
       },
       {
@@ -221,12 +221,12 @@
          "image": "images/copa-peru/aur.png",
          "alt": "AUR-logo",
          "ciudad": "Arequipa",
-         "pg": "2",
+         "pg": "3",
          "pe": "2",
          "pp": "1",
-         "gf": "10",
-         "gc": "5",
-         "pr": "63"
+         "gf": "12",
+         "gc": "6",
+         "pr": "90"
       },
       {
          "id": "Team8",
@@ -234,12 +234,12 @@
          "image": "images/copa-peru/ndm.png",
          "alt": "NDM-logo",
          "ciudad": "Mollendo",
-         "pg": "3",
+         "pg": "4",
          "pe": "0",
          "pp": "2",
-         "gf": "8",
-         "gc": "6",
-         "pr": "60"
+         "gf": "10",
+         "gc": "7",
+         "pr": "93"
       },
       {
          "id": "Team9",
@@ -247,12 +247,12 @@
          "image": "images/copa-peru/sca.png",
          "alt": "SCA-logo",
          "ciudad": "Jesús Nazareno",
-         "pg": "4",
+         "pg": "5",
          "pe": "0",
          "pp": "1",
-         "gf": "10",
-         "gc": "5",
-         "pr": "18"
+         "gf": "13",
+         "gc": "7",
+         "pr": "45"
       },
       {
          "id": "Team10",
@@ -260,12 +260,12 @@
          "image": "images/copa-peru/vfc.png",
          "alt": "VFC-logo",
          "ciudad": "Pichari",
-         "pg": "2",
+         "pg": "3",
          "pe": "0",
          "pp": "3",
-         "gf": "7",
+         "gf": "8",
          "gc": "8",
-         "pr": "63"
+         "pr": "126"
       },
       {
          "id": "Team11",
@@ -273,12 +273,12 @@
          "image": "images/copa-peru/ada.png",
          "alt": "ADA-logo",
          "ciudad": "Jaén",
-         "pg": "3",
+         "pg": "4",
          "pe": "1",
          "pp": "1",
-         "gf": "6",
-         "gc": "2",
-         "pr": "32"
+         "gf": "8",
+         "gc": "3",
+         "pr": "50"
       },
       {
          "id": "Team12",
@@ -288,10 +288,10 @@
          "ciudad": "Cajamarca",
          "pg": "0",
          "pe": "2",
-         "pp": "3",
-         "gf": "2",
-         "gc": "9",
-         "pr": "23"
+         "pp": "4",
+         "gf": "3",
+         "gc": "11",
+         "pr": "27"
       },
       {
          "id": "Team13",
@@ -300,11 +300,11 @@
          "alt": "JPA-logo",
          "ciudad": "Mi Perú",
          "pg": "2",
-         "pe": "1",
+         "pe": "2",
          "pp": "2",
-         "gf": "7",
-         "gc": "10",
-         "pr": "46"
+         "gf": "10",
+         "gc": "13",
+         "pr": "57"
       },
       {
          "id": "Team14",
@@ -314,10 +314,10 @@
          "ciudad": "La Preña",
          "pg": "1",
          "pe": "1",
-         "pp": "3",
-         "gf": "7",
-         "gc": "9",
-         "pr": "7"
+         "pp": "4",
+         "gf": "9",
+         "gc": "15",
+         "pr": "17"
       },
       {
          "id": "Team15",
@@ -325,10 +325,10 @@
          "image": "images/copa-peru/cdc.png",
          "alt": "CDC-logo",
          "ciudad": "Yauri",
-         "pg": "2",
+         "pg": "3",
          "pe": "1",
          "pp": "2",
-         "gf": "5",
+         "gf": "10",
          "gc": "6",
          "pr": "40"
       },
@@ -343,7 +343,7 @@
          "pp": "1",
          "gf": "5",
          "gc": "3",
-         "pr": "34"
+         "pr": "37"
       },
       {
          "id": "Team17",
@@ -351,12 +351,12 @@
          "image": "images/copa-peru/cdv.png",
          "alt": "CDV-logo",
          "ciudad": "Huancavelica",
-         "pg": "3",
+         "pg": "4",
          "pe": "0",
          "pp": "2",
-         "gf": "8",
-         "gc": "5",
-         "pr": "48"
+         "gf": "13",
+         "gc": "6",
+         "pr": "72"
       },
       {
          "id": "Team18",
@@ -364,12 +364,12 @@
          "image": "images/copa-peru/drh.png",
          "alt": "DRH-logo",
          "ciudad": "Huancavelica",
-         "pg": "2",
+         "pg": "3",
          "pe": "2",
          "pp": "1",
-         "gf": "6",
-         "gc": "5",
-         "pr": "57"
+         "gf": "8",
+         "gc": "6",
+         "pr": "96"
       },
       {
          "id": "Team19",
@@ -378,11 +378,11 @@
          "alt": "CFC-logo",
          "ciudad": "Tomay Kickwa",
          "pg": "2",
-         "pe": "1",
+         "pe": "2",
          "pp": "2",
-         "gf": "5",
-         "gc": "4",
-         "pr": "38"
+         "gf": "6",
+         "gc": "5",
+         "pr": "50"
       },
       {
          "id": "Team20",
@@ -392,10 +392,10 @@
          "ciudad": "Churubamba",
          "pg": "2",
          "pe": "2",
-         "pp": "1",
-         "gf": "6",
-         "gc": "7",
-         "pr": "53"
+         "pp": "2",
+         "gf": "7",
+         "gc": "11",
+         "pr": "67"
       },
       {
          "id": "Team21",
@@ -405,10 +405,10 @@
          "ciudad": "Pisco",
          "pg": "3",
          "pe": "1",
-         "pp": "1",
-         "gf": "6",
-         "gc": "2",
-         "pr": "29"
+         "pp": "2",
+         "gf": "7",
+         "gc": "4",
+         "pr": "53"
       },
       {
          "id": "Team22",
@@ -416,12 +416,12 @@
          "image": "images/copa-peru/lol.png",
          "alt": "LOL-logo",
          "ciudad": "Puquio",
-         "pg": "0",
+         "pg": "1",
          "pe": "0",
          "pp": "5",
-         "gf": "3",
-         "gc": "12",
-         "pr": "0"
+         "gf": "9",
+         "gc": "15",
+         "pr": "12"
       },
       {
          "id": "Team23",
@@ -431,10 +431,10 @@
          "ciudad": "San Agustin de Cajas",
          "pg": "1",
          "pe": "2",
-         "pp": "2",
+         "pp": "3",
          "gf": "6",
-         "gc": "7",
-         "pr": "16"
+         "gc": "10",
+         "pr": "19"
       },
       {
          "id": "Team24",
@@ -444,10 +444,10 @@
          "ciudad": "San Ramón",
          "pg": "0",
          "pe": "2",
-         "pp": "3",
-         "gf": "3",
-         "gc": "14",
-         "pr": "16"
+         "pp": "4",
+         "gf": "4",
+         "gc": "19",
+         "pr": "17"
       },
       {
          "id": "Team25",
@@ -456,11 +456,11 @@
          "alt": "DEP-logo",
          "ciudad": "El Porvenir",
          "pg": "4",
-         "pe": "1",
+         "pe": "2",
          "pp": "0",
-         "gf": "12",
-         "gc": "3",
-         "pr": "29"
+         "gf": "13",
+         "gc": "4",
+         "pr": "40"
       },
       {
          "id": "Team26",
@@ -470,9 +470,9 @@
          "ciudad": "Chiclín",
          "pg": "0",
          "pe": "0",
-         "pp": "5",
+         "pp": "6",
          "gf": "4",
-         "gc": "18",
+         "gc": "21",
          "pr": "0"
       },
       {
@@ -481,12 +481,12 @@
          "image": "images/copa-peru/dju.png",
          "alt": "DJU-logo",
          "ciudad": "Lambayeque",
-         "pg": "1",
+         "pg": "2",
          "pe": "2",
          "pp": "2",
-         "gf": "3",
+         "gf": "6",
          "gc": "5",
-         "pr": "49"
+         "pr": "89"
       },
       {
          "id": "Team28",
@@ -495,11 +495,11 @@
          "alt": "JUP-logo",
          "ciudad": "Chongoyape",
          "pg": "2",
-         "pe": "3",
+         "pe": "4",
          "pp": "0",
-         "gf": "6",
-         "gc": "4",
-         "pr": "44"
+         "gf": "8",
+         "gc": "6",
+         "pr": "66"
       },
       {
          "id": "Team29",
@@ -508,11 +508,11 @@
          "alt": "MHU-logo",
          "ciudad": "Huacho",
          "pg": "3",
-         "pe": "0",
+         "pe": "1",
          "pp": "2",
-         "gf": "9",
-         "gc": "8",
-         "pr": "54"
+         "gf": "11",
+         "gc": "10",
+         "pr": "70"
       },
       {
          "id": "Team30",
@@ -521,11 +521,11 @@
          "alt": "DHU-logo",
          "ciudad": "Santa Rosa de Quives",
          "pg": "3",
-         "pe": "1",
+         "pe": "2",
          "pp": "1",
-         "gf": "11",
-         "gc": "5",
-         "pr": "68"
+         "gf": "14",
+         "gc": "8",
+         "pr": "94"
       },
       {
          "id": "Team31",
@@ -533,12 +533,12 @@
          "image": "images/copa-peru/pcr.png",
          "alt": "PCR-logo",
          "ciudad": "Yurimaguas",
-         "pg": "1",
+         "pg": "2",
          "pe": "1",
          "pp": "3",
-         "gf": "5",
-         "gc": "7",
-         "pr": "23"
+         "gf": "11",
+         "gc": "8",
+         "pr": "41"
       },
       {
          "id": "Team32",
@@ -548,10 +548,10 @@
          "ciudad": "Contamana",
          "pg": "1",
          "pe": "2",
-         "pp": "2",
-         "gf": "8",
-         "gc": "10",
-         "pr": "29"
+         "pp": "3",
+         "gf": "9",
+         "gc": "20",
+         "pr": "44"
       },
       {
          "id": "Team33",
@@ -561,9 +561,9 @@
          "ciudad": "Huepetuhe",
          "pg": "0",
          "pe": "0",
-         "pp": "5",
+         "pp": "6",
          "gf": "2",
-         "gc": "11",
+         "gc": "16",
          "pr": "0"
       },
       {
@@ -587,10 +587,10 @@
          "ciudad": "El Algarrobal",
          "pg": "1",
          "pe": "2",
-         "pp": "2",
-         "gf": "6",
-         "gc": "7",
-         "pr": "39"
+         "pp": "3",
+         "gf": "7",
+         "gc": "10",
+         "pr": "51"
       },
       {
          "id": "Team36",
@@ -598,12 +598,12 @@
          "image": "images/copa-peru/ucv.png",
          "alt": "UCV-logo",
          "ciudad": "Moquegua",
-         "pg": "2",
+         "pg": "3",
          "pe": "1",
          "pp": "2",
-         "gf": "3",
-         "gc": "3",
-         "pr": "47"
+         "gf": "6",
+         "gc": "5",
+         "pr": "83"
       },
       {
          "id": "Team37",
@@ -612,11 +612,11 @@
          "alt": "ECS-logo",
          "ciudad": "Tinyahuarco",
          "pg": "3",
-         "pe": "2",
+         "pe": "3",
          "pp": "0",
-         "gf": "10",
-         "gc": "2",
-         "pr": "49"
+         "gf": "11",
+         "gc": "3",
+         "pr": "93"
       },
       {
          "id": "Team38",
@@ -624,12 +624,12 @@
          "image": "images/copa-peru/cti.png",
          "alt": "CTI-logo",
          "ciudad": "Tinyahuarco",
-         "pg": "1",
+         "pg": "2",
          "pe": "2",
          "pp": "2",
-         "gf": "3",
+         "gf": "6",
          "gc": "2",
-         "pr": "36"
+         "pr": "53"
       },
       {
          "id": "Team39",
@@ -637,12 +637,12 @@
          "image": "images/copa-peru/oli.png",
          "alt": "OLI-logo",
          "ciudad": "La Unión",
-         "pg": "2",
+         "pg": "3",
          "pe": "1",
          "pp": "2",
-         "gf": "10",
-         "gc": "8",
-         "pr": "30"
+         "gf": "12",
+         "gc": "9",
+         "pr": "42"
       },
       {
          "id": "Team40",
@@ -651,11 +651,11 @@
          "alt": "CRE-logo",
          "ciudad": "Negritos",
          "pg": "2",
-         "pe": "0",
+         "pe": "1",
          "pp": "3",
-         "gf": "7",
-         "gc": "11",
-         "pr": "51"
+         "gf": "9",
+         "gc": "13",
+         "pr": "70"
       },
       {
          "id": "Team41",
@@ -665,10 +665,10 @@
          "ciudad": "Pucará",
          "pg": "2",
          "pe": "0",
-         "pp": "3",
-         "gf": "8",
-         "gc": "9",
-         "pr": "54"
+         "pp": "4",
+         "gf": "9",
+         "gc": "11",
+         "pr": "63"
       },
       {
          "id": "Team42",
@@ -676,12 +676,12 @@
          "image": "images/copa-peru/dro.png",
          "alt": "DRO-logo",
          "ciudad": "Juliaca",
-         "pg": "3",
+         "pg": "4",
          "pe": "0",
          "pp": "2",
-         "gf": "9",
-         "gc": "3",
-         "pr": "18"
+         "gf": "12",
+         "gc": "4",
+         "pr": "33"
       },
       {
          "id": "Team43",
@@ -689,12 +689,12 @@
          "image": "images/copa-peru/adt.png",
          "alt": "ADT-logo",
          "ciudad": "Moyobamba",
-         "pg": "2",
+         "pg": "3",
          "pe": "2",
          "pp": "1",
-         "gf": "7",
+         "gf": "10",
          "gc": "3",
-         "pr": "27"
+         "pr": "30"
       },
       {
          "id": "Team44",
@@ -702,12 +702,12 @@
          "image": "images/copa-peru/uta.png",
          "alt": "UTA-logo",
          "ciudad": "Tarapoto",
-         "pg": "3",
+         "pg": "4",
          "pe": "2",
          "pp": "0",
-         "gf": "10",
-         "gc": "5",
-         "pr": "91"
+         "gf": "20",
+         "gc": "6",
+         "pr": "136"
       },
       {
          "id": "Team45",
@@ -717,9 +717,9 @@
          "ciudad": "Tacna",
          "pg": "1",
          "pe": "2",
-         "pp": "2",
-         "gf": "7",
-         "gc": "12",
+         "pp": "3",
+         "gf": "8",
+         "gc": "14",
          "pr": "29"
       },
       {
@@ -730,10 +730,10 @@
          "ciudad": "Alto de la Alianza",
          "pg": "2",
          "pe": "3",
-         "pp": "0",
-         "gf": "6",
-         "gc": "2",
-         "pr": "57"
+         "pp": "1",
+         "gf": "8",
+         "gc": "5",
+         "pr": "72"
       },
       {
          "id": "Team47",
@@ -743,10 +743,10 @@
          "ciudad": "Tumbes",
          "pg": "3",
          "pe": "1",
-         "pp": "1",
+         "pp": "2",
          "gf": "14",
-         "gc": "6",
-         "pr": "41"
+         "gc": "9",
+         "pr": "47"
       },
       {
          "id": "Team48",
@@ -756,10 +756,10 @@
          "ciudad": "Casitas",
          "pg": "0",
          "pe": "3",
-         "pp": "2",
-         "gf": "5",
-         "gc": "11",
-         "pr": "25"
+         "pp": "3",
+         "gf": "6",
+         "gc": "13",
+         "pr": "30"
       },
       {
          "id": "Team49",
@@ -769,10 +769,10 @@
          "ciudad": "Manantay",
          "pg": "1",
          "pe": "2",
-         "pp": "2",
-         "gf": "6",
-         "gc": "8",
-         "pr": "24"
+         "pp": "3",
+         "gf": "7",
+         "gc": "14",
+         "pr": "44"
       },
       {
          "id": "Team50",
@@ -780,12 +780,12 @@
          "image": "images/copa-peru/dmt.png",
          "alt": "DMT-logo",
          "ciudad": "Tournavista",
-         "pg": "1",
+         "pg": "2",
          "pe": "3",
          "pp": "1",
-         "gf": "9",
-         "gc": "8",
-         "pr": "30"
+         "gf": "13",
+         "gc": "9",
+         "pr": "54"
       }
    ],
    "Dieciseisavos": [

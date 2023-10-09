@@ -133,8 +133,8 @@ cargarDatos().then(datos => {
             <tr class="left-table-header">
                <th class="text-center">${position}</th>
                <td>
-                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados[a16]].image}" alt="${datos.Teams[clasificados[a16]].alt}">${datos.Teams[clasificados[a16]].name}</div>
-                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados[b16]].image}" alt="${datos.Teams[clasificados[b16]].alt}">${datos.Teams[clasificados[b16]].name}</div>
+                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados[a16]].image}" alt="${datos.Teams[clasificados[a16]].alt}"> ${datos.Teams[clasificados[a16]].name}</div>
+                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados[b16]].image}" alt="${datos.Teams[clasificados[b16]].alt}"> ${datos.Teams[clasificados[b16]].name}</div>
                </td>
                <td>
                   <div id="ida16A-${i+1}" class="col text-center">${datos.Dieciseisavos[i].idaA}</div>
@@ -246,8 +246,8 @@ cargarDatos().then(datos => {
             <tr class="left-table-header">
                <th class="text-center">${letras[i]}</th>
                <td>
-                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados16[a8]].image}" alt="${datos.Teams[clasificados16[a8]].alt}">${datos.Teams[clasificados16[a8]].name}</div>
-                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados16[b8]].image}" alt="${datos.Teams[clasificados16[b8]].alt}">${datos.Teams[clasificados16[b8]].name}</div>
+                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados16[a8]].image}" alt="${datos.Teams[clasificados16[a8]].alt}"> ${datos.Teams[clasificados16[a8]].name}</div>
+                  <div class="col nospace"><img class="logos-sm" src="${datos.Teams[clasificados16[b8]].image}" alt="${datos.Teams[clasificados16[b8]].alt}"> ${datos.Teams[clasificados16[b8]].name}</div>
                </td>
                <td>
                   <div id="ida8A-${i+1}" class="col text-center">${datos.Octavos[i].idaA}</div>
@@ -352,7 +352,7 @@ cargarDatos().then(datos => {
    if (datos.Info.t4tos){
       const llaves = ["LLaveA","LLaveB","LLaveC","LLaveD","LLaveE","LLaveF","LLaveG","LLaveH"]
       for (let i = 0; i < 8; i++) {
-         document.getElementById(llaves[i]).innerHTML = `<div data-identifier="${clasificados8[i]}"><img class="logos-sm" src="${datos.Teams[clasificados8[i]].image}" alt="${datos.Teams[clasificados8[i]].alt}">${datos.Teams[clasificados8[i]].name}</div>`;
+         document.getElementById(llaves[i]).innerHTML = `<div data-identifier="${clasificados8[i]}"><img class="logos-sm" src="${datos.Teams[clasificados8[i]].image}" alt="${datos.Teams[clasificados8[i]].alt}"> ${datos.Teams[clasificados8[i]].name}</div>`;
       }
 
       for (let i = 0; i < 2; i++) {
@@ -408,7 +408,7 @@ cargarDatos().then(datos => {
             <img class="ascendido-team" src="${datos.Teams[clasificados4[i]].image}" alt="${datos.Teams[clasificados4[i]].alt}">
             <p class="teamsfinal">${datos.Teams[clasificados4[i]].name}</p>
          `;
-         document.getElementById(llaves[i]).innerHTML = `<div data-identifier="${clasificados4[i]}"><img class="logos-sm" src="${datos.Teams[clasificados4[i]].image}" alt="${datos.Teams[clasificados4[i]].alt}">${datos.Teams[clasificados4[i]].name}</div>`;
+         document.getElementById(llaves[i]).innerHTML = `<div data-identifier="${clasificados4[i]}"><img class="logos-sm" src="${datos.Teams[clasificados4[i]].image}" alt="${datos.Teams[clasificados4[i]].alt}"> ${datos.Teams[clasificados4[i]].name}</div>`;
       }
 
       for (let i = 0; i < 2; i++) {
@@ -464,8 +464,8 @@ cargarDatos().then(datos => {
    //Seteo Final
    //================================================================================================
    if (datos.Info.final){
-      document.getElementById("Final1").innerHTML = `<div data-identifier="${clasificados2[0]}"><img class="logos-sm" src="${datos.Teams[clasificados2[0]].image}" alt="${datos.Teams[clasificados2[0]].alt}">${datos.Teams[clasificados2[0]].name}</div>`;
-      document.getElementById("Final2").innerHTML = `<div data-identifier="${clasificados2[1]}"><img class="logos-sm" src="${datos.Teams[clasificados2[1]].image}" alt="${datos.Teams[clasificados2[1]].alt}">${datos.Teams[clasificados2[1]].name}</div>`;
+      document.getElementById("Final1").innerHTML = `<div data-identifier="${clasificados2[0]}"><img class="logos-sm" src="${datos.Teams[clasificados2[0]].image}" alt="${datos.Teams[clasificados2[0]].alt}"> ${datos.Teams[clasificados2[0]].name}</div>`;
+      document.getElementById("Final2").innerHTML = `<div data-identifier="${clasificados2[1]}"><img class="logos-sm" src="${datos.Teams[clasificados2[1]].image}" alt="${datos.Teams[clasificados2[1]].alt}"> ${datos.Teams[clasificados2[1]].name}</div>`;
       document.getElementById("FTeamA-ida").innerHTML = datos.Final.idaA;
       document.getElementById("FTeamB-ida").innerHTML = datos.Final.idaB;
       document.getElementById("FTeamA-vuelta").innerHTML = datos.Final.vueltaA;
