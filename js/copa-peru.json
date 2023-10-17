@@ -330,7 +330,7 @@
          "pp": "2",
          "gf": "10",
          "gc": "6",
-         "pr": "40"
+         "pr": "52"
       },
       {
          "id": "Team16",
@@ -338,12 +338,12 @@
          "image": "images/copa-peru/aji.png",
          "alt": "AJI-logo",
          "ciudad": "Calca",
-         "pg": "3",
+         "pg": "4",
          "pe": "1",
          "pp": "1",
-         "gf": "5",
-         "gc": "3",
-         "pr": "37"
+         "gf": "7",
+         "gc": "4",
+         "pr": "64"
       },
       {
          "id": "Team17",
@@ -574,9 +574,9 @@
          "ciudad": "Huepetuhe",
          "pg": "3",
          "pe": "0",
-         "pp": "2",
-         "gf": "5",
-         "gc": "8",
+         "pp": "3",
+         "gf": "6",
+         "gc": "10",
          "pr": "18"
       },
       {
@@ -790,8 +790,8 @@
    ],
    "Dieciseisavos": [
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "3",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -800,8 +800,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "4",
+         "idaB": "1",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -810,8 +810,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "1",
+         "idaB": "2",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -820,8 +820,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "2",
+         "idaB": "3",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -830,8 +830,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "0",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -840,8 +840,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "2",
+         "idaB": "0",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -850,8 +850,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "2",
+         "idaB": "2",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -860,8 +860,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "2",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -870,8 +870,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "2",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -880,8 +880,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "1",
+         "idaB": "4",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -890,8 +890,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "6",
+         "idaB": "0",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -900,8 +900,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "1",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -910,8 +910,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "2",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -920,8 +920,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "3",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -930,8 +930,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "2",
+         "idaB": "1",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -940,8 +940,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "1",
+         "idaB": "1",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {

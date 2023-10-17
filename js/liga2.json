@@ -8,7 +8,7 @@
       "fechaClausura": "13",
       "t4tos": true,
       "semifinal": true,
-      "final": false
+      "final": true
    },
    "Teams": [
       {
@@ -426,20 +426,20 @@
    ],
    "Semifinal": [
       {
-         "idaA": "",
-         "idaB": "",
-         "vueltaA": "",
-         "vueltaB": "",
+         "idaA": "1",
+         "idaB": "1",
+         "vueltaA": "3",
+         "vueltaB": "0",
          "penal":{
             "TeamA": "",
             "TeamB": ""
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
-         "vueltaA": "",
-         "vueltaB": "",
+         "idaA": "3",
+         "idaB": "2",
+         "vueltaA": "3",
+         "vueltaB": "1",
          "penal":{
             "TeamA": "",
             "TeamB": ""
