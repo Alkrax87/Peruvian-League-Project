@@ -174,11 +174,11 @@ cargarDatos().then(datos => {
                if (globalB > globalA) {
                   var identifier = $("#global16B-" + i).attr("data-identifier");
                   clasificados16.push(identifier)
-                  document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                  document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                } else if (globalA > globalB){
                   var identifier = $("#global16A-" + i).attr("data-identifier");
                   clasificados16.push(identifier)
-                  document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                  document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                } else if ($("#penal16A-" + i).text() && $("#penal16B-" + i).text()){
                   var penalA = $("#penal16A-" + i).text()
                   var penalB = $("#penal16B-" + i).text()
@@ -187,11 +187,11 @@ cargarDatos().then(datos => {
                   if (penalA > penalB) {
                      var identifier = $("#global16A-" + i).attr("data-identifier");
                      clasificados16.push(identifier)
-                     document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                     document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                   } else {
                      var identifier = $("#global16B-" + i).attr("data-identifier");
                      clasificados16.push(identifier)
-                     document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                     document.getElementById("clasified16-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                   }
                }
             }
@@ -287,11 +287,11 @@ cargarDatos().then(datos => {
                if (globalB > globalA) {
                   var identifier = $("#global8B-" + i).attr("data-identifier");
                   clasificados8.push(identifier)
-                  document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                  document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                } else if (globalA > globalB) {
                   var identifier = $("#global8A-" + i).attr("data-identifier");
                   clasificados8.push(identifier)
-                  document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                  document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                } else if ($("#penal8A-" + i).text() && $("#penal8B-" + i).text()){
                   var penalA = $("#penal8A-" + i).text()
                   var penalB = $("#penal8B-" + i).text()
@@ -300,11 +300,11 @@ cargarDatos().then(datos => {
                   if (penalA > penalB) {
                      var identifier = $("#global8A-" + i).attr("data-identifier");
                      clasificados8.push(identifier)
-                     document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                     document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                   } else {
                      var identifier = $("#global8B-" + i).attr("data-identifier");
                      clasificados8.push(identifier)
-                     document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}">${datos.Teams[identifier].name} clasificado.`;
+                     document.getElementById("clasified8-" + i).innerHTML = `<img class="logos-sm" src="${datos.Teams[identifier].image}" alt="${datos.Teams[identifier].alt}"> ${datos.Teams[identifier].name} clasificado.`;
                   }
                }
             }
