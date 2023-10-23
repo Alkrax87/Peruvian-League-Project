@@ -4,7 +4,7 @@
       "equipos": 50,
       "nacional": true,
       "t16avos": true,
-      "t8vos": false,
+      "t8vos": true,
       "t4tos": false,
       "semifinal": false,
       "final": false
