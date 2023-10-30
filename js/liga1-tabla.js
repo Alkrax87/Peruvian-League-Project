@@ -358,6 +358,7 @@ cargarDatos().then(datos => {
    //Reduccion de puntos
    document.getElementById("puntosTeam12").innerHTML = parseInt($("#puntosTeam12").text()) - 5;
    document.getElementById("puntosTeam11").innerHTML = parseInt($("#puntosTeam11").text()) - 1;
+   document.getElementById("puntosTeam14").innerHTML = parseInt($("#puntosTeam14").text()) - 4;
 
    //Proceso de ordenamiento de la tabla
    function ordenarTabla(tableID){

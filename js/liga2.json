@@ -447,13 +447,13 @@
       }
    ],
    "Final": {
-      "idaA": "",
-      "idaB": "",
-      "vueltaA": "",
-      "vueltaB": "",
+      "idaA": "1",
+      "idaB": "3",
+      "vueltaA": "3",
+      "vueltaB": "1",
       "penal":{
-         "TeamA": "",
-         "TeamB": ""
+         "TeamA": "(3)",
+         "TeamB": "(2)"
       }
    }
 }
