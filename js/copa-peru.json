@@ -5,7 +5,7 @@
       "nacional": true,
       "t16avos": true,
       "t8vos": true,
-      "t4tos": false,
+      "t4tos": true,
       "semifinal": false,
       "final": false
    },
@@ -954,8 +954,8 @@
       {
          "idaA": "1",
          "idaB": "2",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "2",
+         "vueltaB": "0",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -964,18 +964,18 @@
       {
          "idaA": "0",
          "idaB": "3",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "3",
+         "vueltaB": "0",
          "penal": {
-            "TeamA": "",
-            "TeamB": ""
+            "TeamA": "(4)",
+            "TeamB": "(3)"
          }
       },
       {
          "idaA": "1",
          "idaB": "2",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "0",
+         "vueltaB": "0",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -984,8 +984,8 @@
       {
          "idaA": "2",
          "idaB": "6",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "9",
+         "vueltaB": "1",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -994,8 +994,8 @@
       {
          "idaA": "0",
          "idaB": "0",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "3",
+         "vueltaB": "1",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -1004,8 +1004,8 @@
       {
          "idaA": "1",
          "idaB": "1",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "0",
+         "vueltaB": "2",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -1014,8 +1014,8 @@
       {
          "idaA": "1",
          "idaB": "2",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "2",
+         "vueltaB": "0",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -1024,8 +1024,8 @@
       {
          "idaA": "0",
          "idaB": "3",
-         "vueltaA": "",
-         "vueltaB": "",
+         "vueltaA": "2",
+         "vueltaB": "2",
          "penal": {
             "TeamA": "",
             "TeamB": ""
