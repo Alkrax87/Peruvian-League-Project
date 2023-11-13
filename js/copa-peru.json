@@ -954,8 +954,8 @@
       {
          "idaA": "1",
          "idaB": "2",
-         "vueltaA": "2",
-         "vueltaB": "0",
+         "vueltaA": "0",
+         "vueltaB": "3",
          "penal": {
             "TeamA": "",
             "TeamB": ""

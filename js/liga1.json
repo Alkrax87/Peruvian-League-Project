@@ -645,14 +645,14 @@
          "alt": "UNI-logo"
       },
       {
-         "status": false,
+         "status": true,
          "ida": {
-            "Team1": "",
-            "Team2": ""
+            "Team1": "1",
+            "Team2": "1"
          },
          "vuelta": {
-            "Team1": "",
-            "Team2": ""
+            "Team1": "0",
+            "Team2": "2"
          }
       }
    ]
