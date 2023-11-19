@@ -6,7 +6,7 @@
       "t16avos": true,
       "t8vos": true,
       "t4tos": true,
-      "semifinal": false,
+      "semifinal": true,
       "final": false
    },
    "Departamentos": [
@@ -1034,40 +1034,40 @@
    ],
    "Cuartos": [
       {
-         "idaA": "",
-         "idaB": "",
-         "vueltaA": "",
-         "vueltaB": "",
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "0",
+         "vueltaB": "0",
+         "penal": {
+            "TeamA": "(4)",
+            "TeamB": "(1)"
+         }
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "2",
+         "vueltaB": "2",
+         "penal": {
+            "TeamA": "(2)",
+            "TeamB": "(3)"
+         }
+      },
+      {
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "2",
+         "vueltaB": "1",
          "penal": {
             "TeamA": "",
             "TeamB": ""
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
-         "vueltaA": "",
-         "vueltaB": "",
-         "penal": {
-            "TeamA": "",
-            "TeamB": ""
-         }
-      },
-      {
-         "idaA": "",
-         "idaB": "",
-         "vueltaA": "",
-         "vueltaB": "",
-         "penal": {
-            "TeamA": "",
-            "TeamB": ""
-         }
-      },
-      {
-         "idaA": "",
-         "idaB": "",
-         "vueltaA": "",
-         "vueltaB": "",
+         "idaA": "0",
+         "idaB": "0",
+         "vueltaA": "1",
+         "vueltaB": "2",
          "penal": {
             "TeamA": "",
             "TeamB": ""
@@ -1076,8 +1076,8 @@
    ],
    "Semifinal": [
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "0",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -1086,8 +1086,8 @@
          }
       },
       {
-         "idaA": "",
-         "idaB": "",
+         "idaA": "0",
+         "idaB": "0",
          "vueltaA": "",
          "vueltaB": "",
          "penal": {
@@ -1097,8 +1097,8 @@
       }
    ],
    "Final": {
-      "idaA": "",
-      "idaB": "",
+      "idaA": "0",
+      "idaB": "0",
       "vueltaA": "",
       "vueltaB": "",
       "penal": {
